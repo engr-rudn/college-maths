@@ -16,6 +16,8 @@ keypoints:
 - "Variables are created on demand whenever a value is assigned to them."
 - "Use `print(something)` to display the value of `something`."
 - "Built-in functions are always available to use."
+---
+
 <!-- Mathjax Support --> <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 # Real Analysis
 
