@@ -1,5 +1,5 @@
 ---
-title: Python Fundamentals
+title: Maths Courses
 teaching: 20
 exercises: 10
 questions:
@@ -18,12 +18,6 @@ keypoints:
 - "Built-in functions are always available to use."
 usemathjax: true
 use_math: true
-{% include mathjax.html %}
-{% if page.usemathjax %}
-<script type="text/javascript" async
- src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-{% end if %}
 ---
 
 $$
