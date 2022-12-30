@@ -4,9 +4,8 @@ title: "Using MathJax in Jekyll"
 date: 2018-07-10
 tags: [MathJax, Mathematic]
 mathjax: true
-<!-- Mathjax Support --> <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 ---
-
+<!-- Mathjax Support --> <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 $$|\psi\rangle$$
 
 $a^2 + b^2 = c^2$
