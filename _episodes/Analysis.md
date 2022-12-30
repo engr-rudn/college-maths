@@ -1,21 +1,15 @@
 ---
 title: Real Analysis
-teaching: 20
-exercises: 10
 questions:
-- "What basic data types can I work with in Python?"
-- "How can I create a new variable in Python?"
-- "How do I use a function?"
-- "Can I change the value associated with a variable after I create it?"
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
 - 
 objectives:
-- "Assign values to variables."
+- "???"
 keypoints:
-- "Basic data types in Python include integers, strings, and floating-point numbers."
-- "Use `variable = value` to assign a value to a variable in order to record it in memory."
-- "Variables are created on demand whenever a value is assigned to them."
-- "Use `print(something)` to display the value of `something`."
-- "Built-in functions are always available to use."
+- "???"
 ---
 
 <!-- Mathjax Support --> <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
