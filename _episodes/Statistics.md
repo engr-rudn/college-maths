@@ -55,9 +55,13 @@ $$Y_0\sim \hat{Y_0}\pm t_{\frac{\alpha}{2}}(n-p)\sqrt{S(\hat{Y_0})}$$.
 
 #### test $$H_0$$: conditions of $$\beta_i$$ hold
 
-$$F=\frac{SSE(R)-SSE(F)}{f_R-f_F}/\frac{SSE(F)}{f_F}\sim F(f_R-f_F, f_F)$$.
+$$
+F=\frac{SSE(R)-SSE(F)}{f_R-f_F}/\frac{SSE(F)}{f_F}\sim F(f_R-f_F, f_F)
+$$.
 
-$$SSR(B|A)=SSE(A)-SSE(A,B)$$.
+$$
+SSR(B|A)=SSE(A)-SSE(A,B)
+$$.
 
 ### programming
 
@@ -67,7 +71,11 @@ $$SSR(B|A)=SSE(A)-SSE(A,B)$$.
 
 ### error analysis
 
-MSE is est. of $$\sigma^2$$. $$\frac{e_i}{\sqrt{MSE}}\to N(0,1),n\to\infty$$.
+MSE is est. of $$
+\sigma^2
+$$. $$
+\frac{e_i}{\sqrt{MSE}}\to N(0,1),n\to\infty
+$$.
 
 $$(q_i,e_i)$$: normal prob graph.
 
@@ -77,18 +85,28 @@ $$(q_i,e_i)$$: normal prob graph.
 Select a subset $$\{X_{i_k}\}$$ from $$\{X_i\}$$
 
 #### $$R^2$$ & Adj. $$R^2$$
-$$R^2_p=\frac{SSR_p}{SST}=1-\frac{SSE_p}{SST}, R^2_p=1-\frac{n-1}{n-p}\frac{SSE_p}{SST}$$.
+$$
+R^2_p=\frac{SSR_p}{SST}=1-\frac{SSE_p}{SST}, R^2_p=1-\frac{n-1}{n-p}\frac{SSE_p}{SST}
+$$.
 
-* $$\max R_p$$, add $$X_i$$ until $$R_p$$ increases insignificantly
+* $$
+\max R_p
+$$, add $$X_i$$ until $$R_p$$ increases insignificantly
 * $$\max R_a$$
 
 #### Mallows' $$C_p$$
-$$C_p;=\frac{SSE_p}{MSE(\{X_{i_k}\})}-(n-2p), EC_p\sim p$$
+$$
+C_p;=\frac{SSE_p}{MSE(\{X_{i_k}\})}-(n-2p), EC_p\sim p
+$$
 
 #### Allen's $$PRESS_p$$
 
-$$PRESS_p=\sum_id_i^2$$,
-$$d_i=\frac{e_i}{1-h_{ii}}$$
+$$
+PRESS_p=\sum_id_i^2
+$$,
+$$
+d_i=\frac{e_i}{1-h_{ii}}
+$$
 
 
 
@@ -96,7 +114,11 @@ $$d_i=\frac{e_i}{1-h_{ii}}$$
 ## PCA
 
 ### pca of pop.
-cov matrix: $$\Sigma=Cov(X,X)\geq 0$$. $$\Gamma =e^T\Sigma e$$.
+cov matrix: $$
+\Sigma=Cov(X,X)\geq 0
+$$. $$
+\Gamma =e^T\Sigma e
+$$.
 
 ### Def of PC
 $$
@@ -109,17 +131,33 @@ $$i$$-PC $$Y_i=Xe_i$$. PCs $$Y=Xe$$.
 
 ### Def of contribution
 
-$$\lambda_i=Var(Y_i)=e_i^T\Sigma e_i$$
+$$
+\lambda_i=Var(Y_i)=e_i^T\Sigma e_i
+$$
 
-$$\frac{\lambda_k}{\sum_i\lambda_i},\frac{\sum_{i\leq m}\lambda_i}{\sum_i\lambda_i}$$.
+$$
+\frac{\lambda_k}{\sum_i\lambda_i},\frac{\sum_{i\leq m}\lambda_i}{\sum_i\lambda_i}
+$$.
 
 ### with corr
-cov matrix: $$\rho=corr(X,X)\geq 0$$. $$\rho =e^T\Sigma e$$.
-contribution: $$\frac{\lambda_i}{p},\frac{\sum_i\lambda_i}{p}$$.
+cov matrix: $$
+\rho=corr(X,X)\geq 0
+$$. $$
+\rho =e^T\Sigma e
+$$.
+contribution: $$
+\frac{\lambda_i}{p},\frac{\sum_i\lambda_i}{p}
+$$.
 
 ### pca of sample, estimate of Y
 
-$$\hat{Y}=X\hat{e}, \hat{S}=Cov(x,x)$$. $$\Gamma =\hat{e}^T \hat{S} \hat{e}$$. contribution: $$\frac{\hat{\lambda}_k}{\sum_i\hat{\lambda}_i},\frac{\sum_{i\leq m}\hat{\lambda}_i}{\sum_i\hat{\lambda}_i}$$.
+$$
+\hat{Y}=X\hat{e}, \hat{S}=Cov(x,x)
+$$. $$
+\Gamma =\hat{e}^T \hat{S} \hat{e}
+$$. contribution: $$
+\frac{\hat{\lambda}_k}{\sum_i\hat{\lambda}_i},\frac{\sum_{i\leq m}\hat{\lambda}_i}{\sum_i\hat{\lambda}_i}
+$$.
 
 ### programming
 
@@ -150,65 +188,111 @@ PC = data @ V.T
 ### canonical  corr of pop
 
 ### Theorem
-$$Cov(X)=\Sigma_{11},Cov(Y)=\Sigma_{22},Cov(X,Y)=\Sigma_{12},Cov(Y,X)=\Sigma_{21}$$.
+$$
+Cov(X)=\Sigma_{11},Cov(Y)=\Sigma_{22},Cov(X,Y)=\Sigma_{12},Cov(Y,X)=\Sigma_{21}
+$$.
 
-$$U_k=e_k^T\Sigma_{11}^{-\frac{1}{2}}X, V_k=f_k^T\Sigma_{22}^{-\frac{1}{2}}Y,$$
-and canonical corr: $$\rho_{U_k,V_k}=\rho_k$$, where $$\rho_k^2\in \sigma(A)$$ (wrt $$e_k$$), and $$f_k$$ is eigvec of $$B$$,
+$$
+U_k=e_k^T\Sigma_{11}^{-\frac{1}{2}}X, V_k=f_k^T\Sigma_{22}^{-\frac{1}{2}}Y,
+$$
+and canonical corr: $$
+\rho_{U_k,V_k}=\rho_k
+$$, where $$
+\rho_k^2\in \sigma(A)
+$$ (wrt $$e_k$$), and $$f_k$$ is eigvec of $$B$$,
 
-$$A=\Sigma_{11}^{-\frac{1}{2}}\Sigma_{12}\Sigma_{22}^{-1}\Sigma_{21}\Sigma_{11}^{-\frac{1}{2}},B=\Sigma_{22}^{-\frac{1}{2}}\Sigma_{21}\Sigma_{11}^{-1}\Sigma_{12}\Sigma_{22}^{-\frac{1}{2}}.$$
+$$
+A=\Sigma_{11}^{-\frac{1}{2}}\Sigma_{12}\Sigma_{22}^{-1}\Sigma_{21}\Sigma_{11}^{-\frac{1}{2}},B=\Sigma_{22}^{-\frac{1}{2}}\Sigma_{21}\Sigma_{11}^{-1}\Sigma_{12}\Sigma_{22}^{-\frac{1}{2}}.
+$$
 
 ### canonical corr (estimate)
 
 estimate $$\hat{e},\hat{f}$$ with cov of samples.
 
 ### Bartlett testing
-$$H_k:\rho_k=0$$, $$A_1\sim \chi^2((p-k+1)(q-k+1))$$
-$$W_1=\prod_{i=k}^p(1-\hat{\rho}_i^2),A_k=-(n-k-(p+q+1)/2)\ln W_1$$
+$$
+H_k:\rho_k=0$$, $$A_1\sim \chi^2((p-k+1)(q-k+1))$$
+$$W_1=\prod_{i=k}^p(1-\hat{\rho}_i^2),A_k=-(n-k-(p+q+1)/2)\ln W_1
+$$
 
 
 ## ANOVA
 
 ### principle
-$$TSS=FSS+ESS=\sum_{ij}(y_{ij}-\bar{y})^2, ESS=\sum_{ij}(y_{ij}-\bar{y}_j)^2, FSS=\sum_{j}N_j(\bar{y}_{j}-\bar{y})^2$$
+$$
+TSS=FSS+ESS=\sum_{ij}(y_{ij}-\bar{y})^2, ESS=\sum_{ij}(y_{ij}-\bar{y}_j)^2, FSS=\sum_{j}N_j(\bar{y}_{j}-\bar{y})^2
+$$
 
-$$H_0:\mu_j=\mu$$ then $$F=\frac{MSR}{MSE}\sim F(M-1,N-M)$$.
+$$
+H_0:\mu_j=\mu
+$$ then $$
+F=\frac{MSR}{MSE}\sim F(M-1,N-M)
+$$.
 
 ## Inference
 
 ### inference quantile (sign)
 
-* $$H_0:M_p=M_0$$, test: $$2P(K\leq k|n',p)\leq \alpha$$
-* $$H_0:M_p\leq M_0$$, test: $$P(S^-< k|n',p)\leq \alpha$$
-* $$H_0:M_p\geq M_0$$, test: $$P(S^+< k|n',p)\leq \alpha$$
+* $$
+H_0:M_p=M_0$$, test: $$2P(K\leq k|n',p)\leq \alpha
+$$
+* $$
+H_0:M_p\leq M_0$$, test: 
+$$
+P(S^-< k|n',p)\leq \alpha
+$$
+* $$
+H_0:M_p\geq M_0
+$$, test: $$
+P(S^+< k|n',p)\leq \alpha
+$$
 
 ### Cox-Staut test
 
-$$H_0$$: no trend, test: $$2P(K\leq k)\leq \alpha, K=\min\{S^+,S^-\}$$,
-$$S^{+(-)}=\sharp\{i,x_i>(<)x_{i+c}\}$$.
+$$
+H_0
+$$: no trend, test: 
+$$
+2P(K\leq k)\leq \alpha, K=\min\{S^+,S^-\}
+$$,
+$$
+S^{+(-)}=\sharp\{i,x_i>(<)x_{i+c}\}
+$$.
 
 ## Rank method
 
 ### Def. of Rank
 
-$$R_i=\sharp\{X_j \leq X_i, j=1,\cdots\}, \bar{R}_i =R_{i-1} +\frac{G_i+1}{2}$$.
+$$
+R_i=\sharp\{X_j \leq X_i, j=1,\cdots\}, \bar{R}_i =R_{i-1} +\frac{G_i+1}{2}
+$$.
 
-$$R_i^*=\sharp\{X_j< X_i, j=1,\cdots,\lor X_i=X_j, j\leq i\}$$.
+$$
+R_i^*=\sharp\{X_j< X_i, j=1,\cdots,\lor X_i=X_j, j\leq i\}
+$$.
 
-where $$G_i=\sharp \{X_j=X_{(\tau_j)}\}$$.
+where $$
+G_i=\sharp \{X_j=X_{(\tau_j)}\}
+$$.
 
 
 
 ### U stat.
 
-$$\theta - UE\to h(X_1,\cdots, X_k) - mean \to U(X_1,\cdots, X_n)$$
+$$
+\theta - UE\to h(X_1,\cdots, X_k) - mean \to U(X_1,\cdots, X_n)$$
 
 
 
 ### Wilcoxon rank test
 
-rank of 1th group: $$S_1<\cdots <S_n$$, rank of 2nd: $$R_1<\cdots <R_m$$, $$m+n=N$$. $$W=\sum_i S_i$$ (Wilcoxon's rank sum)
+rank of 1th group: $$S_1<\cdots <S_n$$, rank of 2nd: $$
+R_1<\cdots <R_m
+$$, $$m+n=N$$. $$W=\sum_i S_i$$ (Wilcoxon's rank sum)
 
-$$H_0: P(W=w)=\frac{\sharp\{W=w\}}{C_N^n}$$
+$$
+H_0: P(W=w)=\frac{\sharp\{W=w\}}{C_N^n}
+$$
 
 ### Brown-Mood test
 
