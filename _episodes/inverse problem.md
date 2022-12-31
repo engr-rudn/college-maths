@@ -45,7 +45,7 @@ For lin eq $Tx=y, T$ is $1-1$, $M$ is convex, $Y$ is strict convex, then ...
  * $R_\alpha(\cdot)$ defined on ($y_0$ locally);
  * $\forall \epsilon>0loc(y_0)y\in Y, d(R_{\alpha'}y, x_0)<\epsilon$.
 
-![regular](regular.jpg)
+![regular](../fig/regular.jpg)
 
 
 *Remark.* Generally $\forall U\in \mathcal{T}_{x_0}loc(y_0)y\in X (sml \alpha) , R_{\alpha}y \in U$.
@@ -79,7 +79,7 @@ where $R_\alpha$ is regular.
 
 *Proof.* $M:=\{z\in F| \Omega(z)\leq \beta_1(\alpha)+\Omega(x_0)\}$, $T:M\leftrightarrow T[M]$, $\rho(Tz_\alpha, y_\alpha)\leq\sqrt{\delta^2+\beta_2(\delta)\Omega(x_0)}$ (inv-ineq). $d(y, y_0)\leq d(y, Tx)+d(Tx, y_0), x=R_\alpha y$.
 
-![regular](regular2.jpg)
+![regular](../fig/regular2.jpg)
 
 
 ## Posterior Strategy
