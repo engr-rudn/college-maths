@@ -1,14 +1,4 @@
----
-title: ANN
-questions:
-- "What basic?"
-- "How can ?"
-- "How do ?"
-- "Can I ?"
-objectives:
-- "???"
-- "???"
----
+
 
 # ANN
 
