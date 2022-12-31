@@ -68,7 +68,9 @@ Suppose $$f\in C(X)$$ where $$X$$ is a compact (Hausdorff) space and Banach Indi
 
 ## Group
 
-$$S$$ is an Abel semigroup with 0. $$S_d=\{a\in S|\forall x, y\in S, x+a=y+a\to x=y\}$$ generate a group $$S_1$$.
+$$S$$ is an Abel semigroup with 0. $$
+S_d=\{a\in S|\forall x, y\in S, x+a=y+a\to x=y\}
+$$ generate a group $$S_1$$.
 
 #### Fact
 
