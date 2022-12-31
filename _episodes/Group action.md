@@ -73,7 +73,9 @@ $$ (Burnside Lemma)
 |G||Orb|=\sum_x|S(x)|=\sum_{x,a}\delta_{x,ax}=\sum_a|fix(a)|=|X|+\sum_{a\neq 1}|fix(a)|
 $$. (Burnside Thm)
 
-* $$G$$:$$p$$-Group then $$|X|=|fix(G)| (\mod p)$$
+* $$G$$:$$p$$-Group then $$
+|X|=|fix(G)| (\mod p)
+$$
 
   
 
