@@ -24,9 +24,16 @@ If $$X$$ is a compact metric space and $$\mathcal{U}$$ is an open covering, then
 
 ### Uniform Continuity
 
-$$f\in C(X)\iff f\in UC(X)$$ where $$X$$ is a compact uniform space.
+$$
+f\in C(X)\iff f\in UC(X)
+$$ where $$X$$ is a compact uniform space.
 
-*Proof.* construct $$W=\bigcap_kV_k$$, $$V_kV_k\subset U_k, V_k=V_k^{-1}$$ where $$\forall \epsilon \forall (x, y_k)\in U_k |f(x)-f(x_k)|<\epsilon$$.
+*Proof.* construct $$
+W=\bigcap_kV_k
+$$, $$
+V_kV_k\subset U_k, V_k=V_k^{-1}
+$$ where $$\forall \epsilon \forall (x, y_k)\in U_k |f(x)-f(x_k)|<\epsilon
+$$.
 
 *Remark.* It holds for $$C(X,Y)$$ where $$X,Y$$ are both uniform spaces.
 
@@ -39,7 +46,13 @@ $$M\leq N,N\leq M \to M=N$$.
 
 *Proof1.* construct "Berstein chain".
 
-*Proof2.* let $$\mathcal{A}=\{A\subset M| g[N\setminus f[A]]\subset M\setminus A\}$$ and $$F=\bigcup\mathcal{A}$$. $$\phi:A\mapsto M\setminus g[N\setminus f[A]]$$. We have $$\phi(F)=F$$.
+*Proof2.* let $$
+\mathcal{A}=\{A\subset M| g[N\setminus f[A]]\subset M\setminus A\}
+$$ and $$
+F=\bigcup\mathcal{A}
+$$. $$
+\phi:A\mapsto M\setminus g[N\setminus f[A]]
+$$. We have $$\phi(F)=F$$.
 
 ## Real Analysis
 
