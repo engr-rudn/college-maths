@@ -7,9 +7,9 @@ questions:
 - "Can I ?"
 objectives:
 - "???"
-keypoints:
 - "???"
 ---
+
 # ANN
 
 ## Perceptron
