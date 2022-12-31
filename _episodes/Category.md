@@ -14,7 +14,9 @@ objectives:
 
 ## Natural Transformation
 
-$$\tau: S\dot{\rightarrow}T, S, T: Fun(C, D)$$.
+$$
+\tau: S\dot{\rightarrow}T, S, T: Fun(C, D)
+$$.
 
 ```
 C:              D:
@@ -26,11 +28,19 @@ c'         Sc'------> r'
                 tc'
 ```
 
-Nat = morphism of Fun. $$Nat(C,D)=Hom(Fun(C,D))$$.
+Nat = morphism of Fun. $$
+Nat(C,D)=Hom(Fun(C,D))
+$$.
 
 #### Example
 
-$$\{a_i\},\{b_i\}$$ seq of $$C$$, $$\tau:a\dot\to b$$, $$\tau_i:a_i\to b_i$$
+$$
+\{a_i\},\{b_i\}
+$$ seq of $$C$$, $$
+\tau:a\dot\to b
+$$, $$
+\tau_i:a_i\to b_i
+$$
 
 ```
 C:
@@ -44,7 +54,9 @@ aj------> bj
 
 #### Def of cone
 
-$$\tau:\{a_i=c\}\to\{b_i\}, \{a_i\}\to \{b_i=c\},c\in C$$.
+$$
+\tau:\{a_i=c\}\to\{b_i\}, \{a_i\}\to \{b_i=c\},c\in C
+$$.
 
 
 
@@ -52,7 +64,13 @@ $$\tau:\{a_i=c\}\to\{b_i\}, \{a_i\}\to \{b_i=c\},c\in C$$.
 
 #### Definition
 
-$$S:D\to C, c\in C$$, $$(r,u),r\in D, u:c\to Sr$$ is the universal arrow (ua) if $$\forall (d,f),d\in D,f:c\to Sd, \exists! f':r\to d, Sf'\circ u=f$$.
+$$
+S:D\to C, c\in C
+$$, $$
+(r,u),r\in D, u:c\to Sr
+$$ is the universal arrow (ua) if $$
+\forall (d,f),d\in D,f:c\to Sd, \exists! f':r\to d, Sf'\circ u=f
+$$.
 
 ```
 C:           <----  D:  S
@@ -65,7 +83,14 @@ c  ----->  Sr       r
 
 #### Fact
 
-$$(r,u)$$ is the initial obj of $$c\downarrow S$$, namely, $$io(c\downarrow S)=ua(c, S)$$
+$$(r,u)$$ is the initial obj of 
+$$
+c\downarrow S
+$$
+, namely, 
+$$
+io(c\downarrow S)=ua(c, S)
+$$
 
 #### Example of ua $$u:c\to Sr$$
 

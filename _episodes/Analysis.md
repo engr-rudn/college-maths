@@ -19,7 +19,9 @@ $$r.c.(f)=\{x\in(a,b)|\exists x'\in(x,b),f(x)<f(x')\}$$.
 
 $$x\not\in r.c.(f) \iff \forall x'\in[x,b], f(x)\geq f(x')$$.
 
-$$l.c.(f)=\{x\in(a,b)|\exists x'\in(a,x),f(x)<f(x')\}$$.
+$$
+l.c.(f)=\{x\in(a,b)|\exists x'\in(a,x),f(x)<f(x')\}
+$$.
 
 #### Riesz Sunrise Lemma
 
@@ -75,7 +77,14 @@ Suppose $$f\in C[a,b], N(y)<\infty$$, $$N(y,E_k)\not\rightarrow 0$$. Then there 
 
 ### Method
 Investigate $$f$$ that (Dini derivative) $$|Df(x)|\leq M$$ on $$E$$.
-$$E_n:=\{x\in E| \forall y\in[a,b],|y-x|<\frac{1}{n}, |f(y)-f(x)|\leq (M+\epsilon)|y-x|\}\nearrow E$$. If $$|Df(x)|\geq M$$ on $$E$$. $$E_n:=\{x\in E| \forall y\in[a,b],|y-x|<\frac{1}{n}, |f(y)-f(x)|\geq (M-\epsilon)|y-x|\}\nearrow E$$.
+$$
+E_n:=\{x\in E| \forall y\in[a,b],|y-x|<\frac{1}{n}, |f(y)-f(x)|\leq (M+\epsilon)|y-x|\}\nearrow E
+$$. If $$
+|Df(x)|\geq M
+$$ on $$E$$. 
+$$
+E_n:=\{x\in E| \forall y\in[a,b],|y-x|<\frac{1}{n}, |f(y)-f(x)|\geq (M-\epsilon)|y-x|\}\nearrow E
+$$.
 
 
 
