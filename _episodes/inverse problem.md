@@ -1,3 +1,15 @@
+---
+title: Inverse Problem
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
+
 # Inverse Problem
 
 ## well-posedness (Hadamard, 1923)

@@ -1,3 +1,15 @@
+---
+title: Game Theory
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
+
 # Game Theory
 
 

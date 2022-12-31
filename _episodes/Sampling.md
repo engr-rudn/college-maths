@@ -1,3 +1,15 @@
+---
+title: Sampling Theory
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
+
 # Sampling Theory
 
 ## Assumption/Notations

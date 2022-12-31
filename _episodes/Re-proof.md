@@ -1,3 +1,15 @@
+---
+title: Re-proof
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
+
 # Re-proof
 
 ## Topology

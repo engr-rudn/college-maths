@@ -1,3 +1,15 @@
+---
+title: Functional Analysis
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
+
 # Functional Analysis
 
 ### Opial's Theorem

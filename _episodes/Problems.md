@@ -1,3 +1,14 @@
+---
+title: Problems
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
 
 # Problems
 

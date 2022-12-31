@@ -1,3 +1,15 @@
+---
+title: GAN
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
+
 # 遗传算法
 
 ## 介绍
