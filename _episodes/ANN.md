@@ -62,7 +62,7 @@ E(W,a,b)=\frac{1}{2}\sum_j\|t_j-y_j\|^2, y_{kj}=f(\sum_iW_{ki}x_{ij},a_k,b_k),
 $$
 
 其中$$\{(x_j,t_j),j=1,\cdots,N\}$$是样本$$y_j$$为$$x_j$$的输出, 变量第二个下标是样本编号, 第一个下标是变量分量, 根据这两个下标可以样本和输出写成矩阵的形式$$X=\{x_{ij}\},T=\{t_{ij}\},y=\{y_{ij}\}$$. 根据求导法则, 不难证明
-$$
+<!-- $$
 \begin{equation}\label{pd}
 \left\{\begin{array}{ll}
 {E}_{W}(W,a,b)&=-((T-Y)\circ Y_1)X^T,\\
@@ -82,3 +82,4 @@ $$
 \end{array}\right.
 \end{equation}
 $$
+ -->
