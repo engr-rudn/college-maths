@@ -10,7 +10,7 @@ objectives:
 - "???"
 ---
 
-{%hackmd KghC_AJ7Rui37eDW5PVl9Q %}
+
 
 
 # How to use MathJax & UML
