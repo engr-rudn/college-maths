@@ -38,11 +38,26 @@ $$T_k:H\leftrightarrow \mathscr{H}_k \iff \{k(z),z\in M\}$$: completed.
 
 ### Analytic principle
 
-$$k\in H(M,H)$$ iff $$k\in H_w(M,H)$$ iff $$\langle x_n, k(x)\rangle\in H(M)$$, $$\{x_n\}$$: s.o.b (of frame) and $$k$$ is bounded.
+$$
+k\in H(M,H)
+$$ iff $$
+k\in H_w(M,H)
+$$ iff $$
+\langle x_n, k(x)\rangle\in H(M)
+$$, $$
+\{x_n\}
+$$: s.o.b (of frame) and $$k$$ is bounded.
 
-$$k(z)=\sum a_n(z)x_n$$ unif. $$z\in M$$.
+$$
+k(z)=\sum a_n(z)x_n
+$$ unif. $$
+z\in M$$.
 
-*Proof* $$k(z)=\sum_n \langle k(z), y_n\rangle x_n$$, $$\|k(z)\|^2\sim \sum_n|\langle k(z), y_n\rangle|^2$$.
+*Proof* $$
+k(z)=\sum_n \langle k(z), y_n\rangle x_n
+$$, $$
+\|k(z)\|^2\sim \sum_n|\langle k(z), y_n\rangle|^2
+$$.
 
 
 
