@@ -1,16 +1,4 @@
----
-title: hackmd tutorials
-questions:
-- "What basic?"
-- "How can ?"
-- "How do ?"
-- "Can I ?"
-objectives:
-- "???"
-- "???"
----
-
-
+{%hackmd KghC_AJ7Rui37eDW5PVl9Q %}
 
 
 # How to use MathJax & UML
