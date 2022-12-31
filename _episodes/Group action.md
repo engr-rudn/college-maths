@@ -34,8 +34,12 @@ $$\phi(ab)=\phi(a)\phi(b):G\to  ran(\phi)=Inn(G)\triangleleft G_X$$.
 
 ### Concepts
 
-* Orbits: $$O(x)=\{ax: a\in S\},Orb(G)=\{O(x)\}, Orb^*(G)=\{O(x), |S(x)|>1\}$$
-* Stability: $$S(x)=\{a\in S: ax=x\}\leq S, ker(\phi)=\bigcap_xS(x)$$
+* Orbits: $$
+O(x)=\{ax: a\in S\},Orb(G)=\{O(x)\}, Orb^*(G)=\{O(x), |S(x)|>1\}
+$$
+* Stability: $$
+S(x)=\{a\in S: ax=x\}\leq S, ker(\phi)=\bigcap_xS(x)
+$$
 * tran: $$O(x)=X$$
 * feithful: $$\ker\phi=\{1\}$$
 
@@ -47,7 +51,9 @@ $$\phi(ab)=\phi(a)\phi(b):G\to  ran(\phi)=Inn(G)\triangleleft G_X$$.
 
 * $$ax=bx \iff a^{-1}b\in S(x) \iff a\sim_{S(x)} b$$
 
-* $$[G:S(x)]=|O(x)|, (|O(x)| \mid |G|<\infty)$$.
+* $$
+[G:S(x)]=|O(x)|, (|O(x)| \mid |G|<\infty)
+$$.
 
 * $$|X| = |fix(G)| + \sum_{O(x)\in Orb^*}|G|/|S(x)|$$
 
@@ -59,9 +65,13 @@ $$\phi(ab)=\phi(a)\phi(b):G\to  ran(\phi)=Inn(G)\triangleleft G_X$$.
 
 ### Theorems
 
-* $$\sum_{y\in O(x)}|S(y)|=|G|=|O(x)||S(x)|$$ (Burnside Lemma)
+* $$
+\sum_{y\in O(x)}|S(y)|=|G|=|O(x)||S(x)|
+$$ (Burnside Lemma)
 
-* $$|G||Orb|=\sum_x|S(x)|=\sum_{x,a}\delta_{x,ax}=\sum_a|fix(a)|=|X|+\sum_{a\neq 1}|fix(a)|$$. (Burnside Thm)
+* $$
+|G||Orb|=\sum_x|S(x)|=\sum_{x,a}\delta_{x,ax}=\sum_a|fix(a)|=|X|+\sum_{a\neq 1}|fix(a)|
+$$. (Burnside Thm)
 
 * $$G$$:$$p$$-Group then $$|X|=|fix(G)| (\mod p)$$
 
