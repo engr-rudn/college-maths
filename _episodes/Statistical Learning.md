@@ -45,12 +45,19 @@ $$
 E_P(f)=E_{\tilde{P}}(f)
 $$
 
-$$P_w(y|x)=\frac{1}{Z_w(x)}e^{\sum_iw_if_i(x,y)}$$ solution of max $$L(P, w)$$ Laplace function of (2).
+$$
+P_w(y|x)=\frac{1}{Z_w(x)}e^{\sum_iw_if_i(x,y)}
+$$ solution of max 
+$$
+L(P, w)$$ 
+Laplace function of (2).
 $$
 \max_w \Psi(w), \Psi(w)=L(P_w,w).
 $$
 
-*Remark*. $$\Psi(w)=L_{\tilde{P}(P_w)},L_{\tilde{P}(P)}=\ln \prod_{x,y}p(y|x)^{\tilde{p}(x,y)}$$.
+*Remark*. $$
+\Psi(w)=L_{\tilde{P}(P_w)},L_{\tilde{P}(P)}=\ln \prod_{x,y}p(y|x)^{\tilde{p}(x,y)}
+$$.
 
 
 
@@ -62,24 +69,45 @@ A special additive model.
 
 **Algorithm**
 
-input training data $$(x_j, y_j)$$, output classifier $$G(x):X\to \{-1,1\}$$
+input training data $$
+(x_j, y_j)$$, output classifier 
+$$
+(x):X\to \{-1,1\}
+$$
 
-1. weights of data $$D_1=(w_{11},\cdots , w_{1j}, \cdots)$$, $$w_{ij}=\frac{1}{N}$$
+1. weights of data $$
+D_1=(w_{11},\cdots , w_{1j}, \cdots)
+$$, $$
+w_{ij}=\frac{1}{N}
+$$
 
 2. * get $$G_m$$ according $$D_m$$
-   * $$e_m=P(G_m(x_j)\neq y_j)=\sum_{G_{m}(x_j)\neq y_j} w_{mj}$$
-   * coef of $$G_m(x)$$,  $$\alpha_m=\frac{1}{2}\ln \frac{1-e_m}{e_m}$$
-   * get $$D_{m+1}$$ where $$w_{m+1,j}=\frac{w_{mj}}{Z_m}e^{\alpha_my_iG_m(x_i)}$$
+   * $$
+   e_m=P(G_m(x_j)\neq y_j)=\sum_{G_{m}(x_j)\neq y_j} w_{mj}
+   $$
+   * coef of $$G_m(x)$$,  $$
+   \alpha_m=\frac{1}{2}\ln \frac{1-e_m}{e_m}
+   $$
+   * get $$
+   D_{m+1}$$ where $$
+   w_{m+1,j}=\frac{w_{mj}}{Z_m}e^{\alpha_my_iG_m(x_i)}
+   $$
 
-3. $$G(x)=sign(f(x))=sign(\sum_m \alpha_mG_m(x))$$
+3. $$
+G(x)=sign(f(x))=sign(\sum_m \alpha_mG_m(x))
+$$
 
-$$D_1\to G_1\to (e_1\to \alpha_1)\to D_2\to G_2\to\cdots G$$.
+$$
+D_1\to G_1\to (e_1\to \alpha_1)\to D_2\to G_2\to\cdots G
+$$.
 
 
 
 for 2-classes problem:
 
-$$Z_m=2\sqrt{e_m(1-e_m)}=\sum_jw_{mj}e^{\pm\alpha_m}$$
+$$
+Z_m=2\sqrt{e_m(1-e_m)}=\sum_jw_{mj}e^{\pm\alpha_m}
+$$
 
 #### Bound of Error
 
@@ -107,17 +135,19 @@ model with latent rv
 
 **Algorithm**
 
-input $$Y,Z$$ distribution $$P(Y,Z|\theta), P(Z|Y,\theta)$$, output $$\theta$$
+input $$Y,Z$$ distribution $$
+P(Y,Z|\theta), P(Z|Y,\theta)
+$$, output $$\theta$$
 
 1. set $$\theta_0$$
 
-2. E:
+2. E:$$
+   Q(\theta,\theta_i)=E_Z(logP(Y,Z|Y,\theta_0)|Y, \theta_0)
+   $$, $$Q$$-function
 
-   $$Q(\theta,\theta_i)=E_Z(logP(Y,Z|Y,\theta_0)|Y, \theta_0)$$, $$Q$$-function
-
-   M:
-
-   $$\theta_{i+1}=\arg\max_{\theta} Q(\theta,\theta_i)$$
+   M: $$
+   \theta_{i+1}=\arg\max_{\theta} Q(\theta,\theta_i)
+   $$
 
 3. repeat 2 until convergence
 
@@ -125,9 +155,18 @@ input $$Y,Z$$ distribution $$P(Y,Z|\theta), P(Z|Y,\theta)$$, output $$\theta$$
 
 **Theorem** in EM
 
-$$P(Y|\theta_i)\nearrow$$, $$L(\theta_i)\to L^*$$ if $$P(Y|\theta)$$ is ub; $$\theta_i\to \theta^*$$ stable point of $$L$$, in most cases.
+$$
+P(Y|\theta_i)\nearrow
+$$, $$
+L(\theta_i)\to L^*
+$$ if $$
+P(Y|\theta)$$ is ub; $$
+\theta_i\to \theta^*
+$$ stable point of $$L$$, in most cases.
 
-*proof*. $$\log P(Y|\theta_{i+1})-\log P(Y|\theta_i)=Q(\theta_{i+1}, \theta_i)-Q(\theta_i, \theta_i)+d$$ where $$d$$ is the [Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) of $$Y,Z|\theta$$ and  $$Y,Z|\theta_i$$.
+*proof*. $$
+\log P(Y|\theta_{i+1})-\log P(Y|\theta_i)=Q(\theta_{i+1}, \theta_i)-Q(\theta_i, \theta_i)+d
+$$ where $$d$$ is the [Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) of $$Y,Z|\theta$$ and  $$Y,Z|\theta_i$$.
 
 
 
@@ -149,7 +188,9 @@ $$
 
 **Definition(F function)**
 
-$$F(p,\theta)=E_Z(\ln P(Y, Z|\theta))+H(p)$$.
+$$
+F(p,\theta)=E_Z(\ln P(Y, Z|\theta))+H(p)
+$$.
 
 ## HMM
 
@@ -157,19 +198,27 @@ a time series version of EM model, $$\theta=(A,B,\pi)$$
 
 ### Assumption
 
-1. $$P(x_t|x_{t-1},y_{t-1},\cdots)=P(x_t|x_{t-1})$$
+1. $$
+P(x_t|x_{t-1},y_{t-1},\cdots)=P(x_t|x_{t-1})
+$$
 
-2. $$P(y_t|\cdots) = P(y_t|x_t)$$
+2. $$
+P(y_t|\cdots) = P(y_t|x_t)
+$$
 
 
 
-$$\gamma_t(i)=P(x_t=i|y, \theta),\xi_t(i,j)=P(x_t=i,x_{t+1}=j|y,\theta)$$
+$$
+\gamma_t(i)=P(x_t=i|y, \theta),\xi_t(i,j)=P(x_t=i,x_{t+1}=j|y,\theta)
+$$
 
 ### Algorithm
 
 **Definition(forward prob)**
 
-$$\alpha_t(x)=P(Y_1,\cdots,Y_t,X_t=x|\theta)$$
+$$
+\alpha_t(x)=P(Y_1,\cdots,Y_t,X_t=x|\theta)
+$$
 
 
 
@@ -185,13 +234,19 @@ output $$P(Y|\theta)$$
 
 **Definition(backward prob)**
 
-$$\beta_t(x) = P(Y_{t+1},\cdots,Y_T|X_t=x,\theta)$$
+$$
+\beta_t(x) = P(Y_{t+1},\cdots,Y_T|X_t=x,\theta)
+$$
 
 **Algorithm**
 
-input $$\theta, y$$
+input $$
+\theta, y
+$$
 
-output $$P(Y|\theta)$$
+output $$P
+(Y|\theta)
+$$
 
 1. $$\beta_T(i)=1$$
 2. $$\beta_{t}(i)=\sum_j\beta_{t+1}(j)a_{ij}p(y_{t+1}|x_j)$$
@@ -213,9 +268,13 @@ input: $$x$$, output: $$\theta$$
 
 ### Predict Algorithm
 
-$$\delta_t(i)=\max_{x_1,\cdots,x_{t-1}}P(x_t=i,x_{t-1},\cdots,x_1,y|\lambda)$$
+$$
+\delta_t(i)=\max_{x_1,\cdots,x_{t-1}}P(x_t=i,x_{t-1},\cdots,x_1,y|\lambda)
+$$
 
-$$\delta_{t+1}(i)=\max_j(\delta_t(j)a_{ji})p(y_{t+1}|x_i)$$
+$$
+\delta_{t+1}(i)=\max_j(\delta_t(j)a_{ji})p(y_{t+1}|x_i)
+$$
 
 **Viterbi Algorithm**
 

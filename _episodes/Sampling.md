@@ -77,7 +77,7 @@ Moreover, $$c\in \ell^2$$, then $$\exists f\in\mathscr{H}, f(z_n)=c_n$$.
 
 ## Examples
 
-####Whittaker-Shannon-Kotel'nikov Sampling Theorem
+#### Whittaker-Shannon-Kotel'nikov Sampling Theorem
 
 $$H=L^2[0,1], \mathscr{H}=PW[0,1]$$.
 
