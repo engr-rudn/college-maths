@@ -72,13 +72,4 @@ $$$$
 \end{equation}
 $$$$
 
-其中矩阵$$Y_1=\{{f}_{x}(x_{ij},a_i,b_i)\},Y_2=\{{f}_{a}(x_{ij},a_i,b_i)\},Y_3=\{{f}_{b}(x_{ij},a_i,b_i)\}$$. 这里$$\circ$$表示矩阵的点乘运算（矩阵的Hamadard积）. 有了(\ref{pd}), 我们就可以实现BP 算法了. 为了简化, 可令$$D=(T-Y)\circ Y_1$$, 则
-$$$$
-\begin{equation}\label{simple}
-\left\{\begin{array}{ll}
-{E}_{W}(W,a,b)&=-DX^T,\\
-{E}_{a}(W,a,b)&=-\frac{1}{b-a}\circ\sum_j(D\circ\{x_{ij}-b_i\})_j,\\
-{E}_{b}(W,a,b)&=-\frac{1}{b-a}\circ\sum_j(D\circ\{a_i-x_{ij}\})_j.
-\end{array}\right.
-\end{equation}
-$$$$
+
