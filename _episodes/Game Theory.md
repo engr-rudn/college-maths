@@ -21,7 +21,7 @@ Game Tree: node, branch, info set
 
 ### Promise & Nash Eq.
 
-$I=\{low, high\}, II=\{buy, not\}$
+$$I=\{low, high\}, II=\{buy, not\}$$
 
 game:
 
@@ -56,25 +56,25 @@ high | (0,0) | (1.5,2) | (0,0) | (1.5,2)
 
 ### agent-principal  problem
 
-* $A$: 代理人行为
-* $\theta$: 不受代理人控制的随机变量
-* $x(a,\theta)$: 可观测结果
-* $\pi(a,\theta)$: 货币收入，$a$-严格递增凹，$\theta$-递增
-* $s(x)$: 激励合同
-* $v(\pi-s(x))$: 委托人的期望效用
-* $u(s(x))-c(a)$: 代理人的期望效用 ，$c(a)$代理人努力成本
+* $$A$$: 代理人行为
+* $$\theta$$: 不受代理人控制的随机变量
+* $$x(a,\theta)$$: 可观测结果
+* $$\pi(a,\theta)$$: 货币收入，$$a$$-严格递增凹，$$\theta$$-递增
+* $$s(x)$$: 激励合同
+* $$v(\pi-s(x))$$: 委托人的期望效用
+* $$u(s(x))-c(a)$$: 代理人的期望效用 ，$$c(a)$$代理人努力成本
 
-其中$v'>0,v''\leq 0,u'>0,u''\leq 0, c',c''>0$.
+其中$$v'>0,v''\leq 0,u'>0,u''\leq 0, c',c''>0$$.
 
-冲突：委托人期望代理人多努力$\frac{\partial \pi}{\partial a}>0$，代理人期望少努力$c'>0$.
+冲突：委托人期望代理人多努力$$\frac{\partial \pi}{\partial a}>0$$，代理人期望少努力$$c'>0$$.
 
 
 
-期望效用函数(P) $P(a)=E(v(\pi(a,\theta)-s(x(a,\theta))))$
+期望效用函数(P) $$P(a)=E(v(\pi(a,\theta)-s(x(a,\theta))))$$
 
-参与约束/个人理性约束(IR) $R(a)=Eu(s(x(a,\theta)))-c(a)\geq \bar{u}$
+参与约束/个人理性约束(IR) $$R(a)=Eu(s(x(a,\theta)))-c(a)\geq \bar{u}$$
 
-激励相容约束(IC) $R(a)\geq R(a'),\forall a'\in A$.
+激励相容约束(IC) $$R(a)\geq R(a'),\forall a'\in A$$.
 
 委托人问题1
 
@@ -98,7 +98,7 @@ Schelling(1960): 利用某些被博弈模型抽象掉的信息，使局中人都
 
 #### 定义
 
-1. 参与者集合$\Gamma$
+1. 参与者集合$$\Gamma$$
 2. 参与者行动顺序
 3. 可选行动集合
 4. 行动前了解到的信息

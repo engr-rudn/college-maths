@@ -9,9 +9,9 @@
 
 ## MathJax
 
-You can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com](http://math.stackexchange.com/), except the space after the start `$` and the space before the end `$` are not allowed in the inline math:
+You can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com](http://math.stackexchange.com/), except the space after the start `$$` and the space before the end `$$` are not allowed in the inline math:
 
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+The *Gamma function* satisfying $$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$$ is via the Euler integral
 
 $$
 x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
@@ -49,7 +49,7 @@ $$
     ```js
     console.log('code block');
     ```
-- Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+- Katex - $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 ```
 
 ## UML Diagrams

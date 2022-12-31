@@ -117,7 +117,7 @@ See [reference](https://katex.org/docs/supported.html) & [examples](https://gith
 
 ### Math inline
 
-$ I = \frac V R $
+$$ I = \frac V R $$
 
 ### Math block
 

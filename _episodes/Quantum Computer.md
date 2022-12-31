@@ -16,12 +16,12 @@ objectives:
 
 | 量子                               | Hilbert 空间      |      |
 | ---------------------------------- | ----------------- | ---- |
-| $|\phi\rangle,|0\rangle,|1\rangle$ | （列）向量，基    |      |
-| $|0\rangle|1\rangle$               | 张量积            |      |
+| $$|\phi\rangle,|0\rangle,|1\rangle$$ | （列）向量，基    |      |
+| $$|0\rangle|1\rangle$$               | 张量积            |      |
 | 密度矩阵                           | 矩阵（Gram 矩阵） |      |
 | 量子系统                           | 向量族            |      |
 | （投影）测量系统                   | （投影）矩阵族    |      |
-| $\langle\psi|\phi\rangle$          | 内积              |      |
+| $$\langle\psi|\phi\rangle$$          | 内积              |      |
 
 
 
