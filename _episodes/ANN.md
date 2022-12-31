@@ -41,3 +41,17 @@ f(x,a,b)=\Phi(2\frac{x-a}{b-a}-1)=\frac{2}{b-a}\int_{a}^x\phi(t,a,b)d t.\\
 =\int_{-\infty}^x\phi(t,a,b)d t
 $$$$
 
+### 算法
+
+本节构造改进激活函数的BP算法, 关键是对误差函数求偏导. 网络结构由下面的公式给出
+$$$$
+y_k=f(\sum_iW_{ki}x_{i}, a_k,b_k),k=1,\cdots,m.
+$$$$
+注意到
+$$$$
+\left\{\begin{array}{ll}
+{f}_{x}(x,a,b)&=\frac{2}{b-a}\phi(x,a,b),\\
+{f}_{a}(x,a,b)&=2\frac{x-b}{(b-a)^2}\phi(x,a,b)=\frac{x-b}{b-a}{f}_{x}(x,a,b),\\
+{f}_{b}(x,a,b)&=2\frac{a-x}{(b-a)^2}\phi(x,a,b)=\frac{a-x}{b-a}{f}_{x}(x,a,b).
+\end{array}\right.
+$$$$
