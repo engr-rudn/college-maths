@@ -45,17 +45,14 @@ background: slategrey;
 * Images can be centered by adding 'imghcenter' in alt text & grown to page size with 'imgbig'
 * Example: `![text imghcenter imgbig text](a.jpg)`
 
-![imghcenter imgbig](file:///android_asset/img/flowerfield.jpg)
-
-
-
+![imghcenter imgbig](../mark_down_imgs/flowerfield.jpg)
 
 -----------------
 ## Page with gradient background
 * and a picture
 * configure background color/image with CSS .slide_p4 { } (4 = the slide page number)
 
-![pic](file:///android_asset/img/flowerfield.jpg)
+![pic](../mark_down_imgs/flowerfield.jpg)
 
 
 <style> .slide_p4 { background: linear-gradient(to bottom, #11998e, #38ef7d); } </style>
