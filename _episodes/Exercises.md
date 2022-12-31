@@ -1,4 +1,17 @@
-Exercises
+---
+title: Exercises
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+- 
+objectives:
+- "???"
+keypoints:file:///C:/Users/kebu/OneDrive - Российский Университет Дружбы Народов/github/college-maths/_episodes/ANN.md
+- "???"
+---
+# Exercises
 =========
 
 # Real analysis

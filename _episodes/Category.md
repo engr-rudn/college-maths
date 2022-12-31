@@ -1,4 +1,16 @@
-
+---
+title: Category Theory
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+- 
+objectives:
+- "???"
+keypoints:file:///C:/Users/kebu/OneDrive - Российский Университет Дружбы Народов/github/college-maths/_episodes/ANN.md
+- "???"
+---
 
 # Category Theory
 
@@ -71,7 +83,7 @@ $S:D\to C, c\in C$, $(r,e),r\in D, e:Sr$ is the universal element (ue) if
 
 #### Fact
 
-$(r,e)$ is the initial obj of $*\downarrow S$. $ue(S)=io(*\downarrow S)=ua(*,S)$, where $e=u*$ (we identifies $ e$ with $u$).
+$(r,e)$ is the initial obj of $*\downarrow S$. $ue(S)=io(*\downarrow S)=ua(*,S)$, where $e=u*$ (we identifies $ e$ with $u$).
 
 ### Yoneda Lemma
 
@@ -181,7 +193,7 @@ T  ========>  T^2 -----------> T
 If $T^2=I$ , and $\mu: I\dot\to T$, then $<T,\mu,\mu>$: monad.
 
 ```
- Haskell  采用的单子
+ Haskell  采用的单子
       f           
 x -----------> y
 |             |
