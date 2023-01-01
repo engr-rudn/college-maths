@@ -42,7 +42,10 @@ If $$f\in X^*,f\neq 0$$, then $$f$$ is open.
 
 ## Banach's Homomorphism Theorem
 
-We denote by $$S_r=\{|x|<r\},r>0$$ in a tvs, where $$|\cdot|$$ is a pseudo-norm.
+We denote by $$
+S_r=\{|x|<r\},r>0
+$$ in a tvs, where $$
+|\cdot|$$ is a pseudo-norm.
 
 ### Lemma 1
 Suppose $$X,Y$$ are pseudonorm spaces and $$X$$ is complete, $$T:X\to Y$$ is continuous and satisfies that
@@ -53,7 +56,9 @@ Then $$\overline{TS_r}\subset TS_t, t>r$$.
 *Proof.* Construct $$\sum_ir_i<t(r_1=r),\rho_n\to0$$ that
 $$y\in T[S_r+S_{r_2}+\cdots+S_{r_n}]+S_{\rho_n}.$$ And $$x_n\to x\in S_t, |y-Tx_n|<\rho_n$$.
 
-*Remark.* It holds if define $$S_r=\{|x|\leq r\}$$.
+*Remark.* It holds if define $$
+S_r=\{|x|\leq r\}
+$$.
 
 ### Corollary (Continue Lemma 1)
 If $$X, Y$$ are norm spaces (in Lemma 1), $$T:X\to Y$$ is continuous, then
