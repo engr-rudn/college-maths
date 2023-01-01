@@ -49,7 +49,9 @@ $$.
 \forall U\in \mathcal{T}_{f(x_0)}, \check{lrg}\lambda, f(x_\lambda)\in U$$
 )
 
-*Remark.* In (semi)normal space, we select $$|x_n-x|<2^{-n}$$.
+*Remark.* In (semi)normal space, we select $$
+|x_n-x|<2^{-n}
+$$.
 
 
 
@@ -81,7 +83,10 @@ $$ are such operators, then $$T^*S:X\to Y^*$$.
 \|T^*v\|=\sup_{f\in D} |T^*v(f)|\lesssim \sup_f |\langle vTf\rangle|\lesssim \|v\|
 $$...
 
-*Remark.* $$H$$ can be replaced by $$Y$$ a Banach space that $$Y\subset Y^*$$, $$|\tilde{v} (v)|=\|v\|^2$$.
+*Remark.* $$H$$ can be replaced by $$Y$$ a Banach space that $$
+Y\subset Y^*$$, $$
+|\tilde{v} (v)|=\|v\|^2
+$$.
 
 
 ## Hilbert space
