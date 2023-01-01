@@ -95,7 +95,9 @@ $$
     * In set notation this is $$D(f) = x \in \mathbb{R}$$
   * For all square root functions $$D(f) \geq 0$$ if $$f(x) = \sqrt{x}$$ 
     * But be careful! *Cube root* functions and all odd-numbered roots are different, their domain is that of all real numbers!
-  * In set notation, we use inequality notation to denote domain or range; for instance, a domain from -2 to 5 would be represented with $$D(f) = \{x | -2 \leq x \leq 5\}$$
+  * In set notation, we use inequality notation to denote domain or range; for instance, a domain from -2 to 5 would be represented with $$
+  D(f) = \{x | -2 \leq x \leq 5\}
+  $$
 * The **maximum** and **minimum** are highest points or lowest points in a region of the graph
   * The ***relative maximums*** and ***relative minimums*** are the "peaks" and "valleys" of the graph
   * The technical definitions are as follows:
@@ -157,8 +159,17 @@ In a given function $$f$$, the transformed version $$f'(x)= (x-h)^n + k$$ obeys 
 For instance:
 
 * $$y = (x)^2$$ shifted to the right +4 units would be $$y = (x+4)^2$$
-* $$y = (x^2 + 8x)$$ shifted up +4 units would be $$y = (x^2 + 8x) + 4$$
-* $$y = |x^2|$$ shifted by $$(h, k)$$ becomes $$y = |x-h| + k$$
+* $$
+y = (x^2 + 8x)
+$$ shifted up +4 units would be 
+$$y = (x^2 + 8x) + 4
+$$
+* $$
+y = |x^2|
+$$ shifted by $$(h, k)$$ becomes 
+$$
+y = |x-h| + k
+$$
 
 It might be sometimes hard to tell if the shift is a horizontal or vertical shift. To make it easier, consider the function $$f(x) = 3^x$$.
 
