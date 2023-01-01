@@ -88,7 +88,9 @@ $$P(X_n=x)=F^{(n)}(X)_x=\frac{f^n(x)p(x)}{\sum_xf^n(x)p_x}$$.
 
 #### 定理 1
 
-令$$P_0:=\{x\in P,p(x)>0\},P_1:=\{x\in P_0|f(x)=\max f(P_0)\}$$.
+令$$
+P_0:=\{x\in P,p(x)>0\},P_1:=\{x\in P_0|f(x)=\max f(P_0)\}
+$$.
 
 $$\bar{p}(x)=\lim_n P(X_n=x)=\begin{cases}\frac{p_x}{\sum_{x\in P_1}p_x}, &x\in P_1,\\ 0,&x\not\in P_1.\end{cases}$$
 $$\sum_x|P(X_n=x)-\bar{p}(x)|\leq c\lambda^{n}$$, 其中$$\lambda=\max\{f(x),x\not\in P_1\}/f^*$$（最优选择压）.
