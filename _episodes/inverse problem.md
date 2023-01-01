@@ -77,22 +77,43 @@ $$Ty_0=x_0$$, $$\forall \epsilon>0,\beta_1(\alpha),\beta_2(\alpha)\in C[0,0+]\ge
 $$d(z_\alpha,x_0)<\epsilon, z_\alpha=R_\alpha(y),$$
 where $$R_\alpha$$ is regular.
 
-*Proof.* $$M:=\{z\in F| \Omega(z)\leq \beta_1(\alpha)+\Omega(x_0)\}$$, $$T:M\leftrightarrow T[M]$$, $$\rho(Tz_\alpha, y_\alpha)\leq\sqrt{\delta^2+\beta_2(\delta)\Omega(x_0)}$$ (inv-ineq). $$d(y, y_0)\leq d(y, Tx)+d(Tx, y_0), x=R_\alpha y$$.
+*Proof.* $$
+M:=\{z\in F| \Omega(z)\leq \beta_1(\alpha)+\Omega(x_0)\}
+$$, $$
+T:M\leftrightarrow T[M]
+$$, $$
+\rho(Tz_\alpha, y_\alpha)\leq\sqrt{\delta^2+\beta_2(\delta)\Omega(x_0)}
+$$ (inv-ineq). $$
+d(y, y_0)\leq d(y, Tx)+d(Tx, y_0), x=R_\alpha y
+$$.
 
 ![regular](../fig/regular2.jpg)
 
 
 ## Posterior Strategy
 ### Lemma 1
-$$m(\alpha):=M(z_\alpha,y), \phi(\alpha):=d^2(Tz_\alpha)\nearrow,\psi(\alpha):=\Omega(z_\alpha)\searrow$$.
+$$
+m(\alpha):=M(z_\alpha,y), \phi(\alpha):=d^2(Tz_\alpha)\nearrow,\psi(\alpha):=\Omega(z_\alpha)\searrow
+$$.
 
 ### Lemma 2
-If $$\alpha_n\to \alpha>0$$ and $$z_{\alpha_n}\in S^{\alpha_n}$$ conv., then $$z_{\alpha_n}\to z_\alpha\in S^\alpha$$.
+If $$
+\alpha_n\to \alpha>0
+$$ and $$
+z_{\alpha_n}\in S^{\alpha_n}
+$$ conv., then $$
+z_{\alpha_n}\to z_\alpha\in S^\alpha
+$$.
 
-*Proof.*$$M^{\alpha_n}(z_{\alpha_n},y)\to M^{\alpha_0}(z,y)\leq M^{\alpha_n}(z_{\alpha_0},y)\to M^{\alpha_0}(z_{\alpha_0},y)$$
+*Proof.*$$
+M^{\alpha_n}(z_{\alpha_n},y)\to M^{\alpha_0}(z,y)\leq M^{\alpha_n}(z_{\alpha_0},y)\to M^{\alpha_0}(z_{\alpha_0},y)
+$$
 
 ### Lemma 3
-$$\phi(\alpha):lsc,\psi(\alpha):rsc$$. If $$\phi,\psi$$ has single value, they are cont.
+$$
+\phi(\alpha):lsc,\psi(\alpha):rsc
+$$. If $$
+\phi,\psi$$ has single value, they are cont.
 
 ### Lemma 4
 $$TX$$ is dense, $$m(0)=0$$, then $$m(\alpha)\to0$$, $$\lim_\alpha\phi(\alpha)=\phi(0)=0$$. 
