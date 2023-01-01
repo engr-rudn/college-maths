@@ -15,9 +15,11 @@ objectives:
 ## Right Control (Shadow) Points
 
 Suppose $$f\in C[a,b]$$,
-$$r.c.(f)=\{x\in(a,b)|\exists x'\in(x,b),f(x)<f(x')\}$$.
-
 $$
+r.c.(f)=\{x\in(a,b)|\exists x'\in(x,b),f(x)<f(x')\}
+$$.
+
+$$ 
 x\not\in r.c.(f) \iff \forall x'\in[x,b], f(x)\geq f(x')
 $$.
 
