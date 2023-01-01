@@ -120,7 +120,8 @@ $$\Theta$$ open interval family in $$[a,b]$$:
 
 #### Definition
 
-$$f$$: ap.c. at $$x_0\in I$$, =df $$E\subset I$$, $$d(E,x_0)=1$$ and $$f|_E$$: cont. at $$x_0$$.
+$$f$$: ap.c. at $$x_0\in I$$, =df $$E\subset I$$, $$d(E,x_0)=1$$ and $$
+f|_E$$: cont. at $$x_0$$.
 
 
 
