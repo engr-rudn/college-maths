@@ -23,7 +23,9 @@ $$
 x\not\in r.c.(f) \iff \forall x'\in[x,b], f(x)\geq f(x')
 $$.
 
-
+$$
+l.c.(f)=\{x\in(a,b)|\exists x'\in(a,x),f(x)<f(x')\}
+$$.
 
 #### Riesz Sunrise Lemma
 
