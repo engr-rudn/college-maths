@@ -41,9 +41,13 @@ In metric space $$X$$, $$T$$ is nonexpansive. $$(1-T)x_n\to h$$ then $$\liminf_n
 ### Continouity
 
 ## Lemma
-$$f\in C(X,Y)\iff \forall x_\lambda\to x \exists x_{\lambda_k}\to x,f(x_{\lambda_k})\to f(x)$$.
+$$
+f\in C(X,Y)\iff \forall x_\lambda\to x \exists x_{\lambda_k}\to x,f(x_{\lambda_k})\to f(x)
+$$.
 
-($$\forall U\in \mathcal{T}_{f(x_0)}, \check{lrg}\lambda, f(x_\lambda)\in U$$)
+($$
+\forall U\in \mathcal{T}_{f(x_0)}, \check{lrg}\lambda, f(x_\lambda)\in U$$
+)
 
 *Remark.* In (semi)normal space, we select $$|x_n-x|<2^{-n}$$.
 
@@ -54,18 +58,28 @@ $$f\in C(X,Y)\iff \forall x_\lambda\to x \exists x_{\lambda_k}\to x,f(x_{\lambda
 ### Basic thoerem
 Assume $$H$$: Hilbert space, $$X$$: Banach space, $$D\subset X$$ is dense.
 
-$$T\in L_a(D, H), T^*\in L_a(H, D_a^*)$$ where 
-$$ T^*v(f) =\langle v,Tf\rangle, f\in D, v\in H.$$
+$$
+T\in L_a(D, H), T^*\in L_a(H, D_a^*)
+$$ where 
+$$ 
+T^*v(f) =\langle v,Tf\rangle, f\in D, v\in H.
+$$
 
-$$\begin{align*}
+$$
+\begin{align*}
 \|Tf\|\lesssim \|f\|, f\in D \iff & ran T^*\subset X^*, \|T^*v\|\lesssim \|v\|, v\in H \\
 \iff& ran T^*T\subset X^*, \|T^*Tf\|\lesssim \|f\|, f\in D\\
 \Longrightarrow &T:X\to H, T^* T:X\to X^*.
-\end{align*}$$
+\end{align*}
+$$
 
-If $$T\in L_a(D, H),S\in L_a(F, H)$$ are such operators, then $$T^*S:X\to Y^*$$.
+If $$
+T\in L_a(D, H),S\in L_a(F, H)
+$$ are such operators, then $$T^*S:X\to Y^*$$.
 
-*Proof.* $$\|T^*v\|=\sup_{f\in D} |T^*v(f)|\lesssim \sup_f |\langle vTf\rangle|\lesssim \|v\|$$...
+*Proof.* $$
+\|T^*v\|=\sup_{f\in D} |T^*v(f)|\lesssim \sup_f |\langle vTf\rangle|\lesssim \|v\|
+$$...
 
 *Remark.* $$H$$ can be replaced by $$Y$$ a Banach space that $$Y\subset Y^*$$, $$|\tilde{v} (v)|=\|v\|^2$$.
 
@@ -73,5 +87,13 @@ If $$T\in L_a(D, H),S\in L_a(F, H)$$ are such operators, then $$T^*S:X\to Y^*$$.
 ## Hilbert space
 
 ### Tikhonov reg. lemma
-Suppose Hilbert space $$H_1\hookrightarrow H$$, let $$M(x)=\|Tx-y\|^2_H+\|x\|^2_{H_1}, T\in L(H_1,H)$$, if $$\{\|x\|_{H_1}\leq C\}$$ is compact in $$H$$ for all $$C>0$$, then there exists $$x_n\to x\in H_1, M(x_n)\searrow \inf_x M(x)$$.
+Suppose Hilbert space $$
+H_1\hookrightarrow H
+$$, let $$
+M(x)=\|Tx-y\|^2_H+\|x\|^2_{H_1}, T\in L(H_1,H)
+$$, if $$
+\{\|x\|_{H_1}\leq C\}
+$$ is compact in $$H$$ for all $$C>0$$, then there exists $$
+x_n\to x\in H_1, M(x_n)\searrow \inf_x M(x)
+$$.
 
