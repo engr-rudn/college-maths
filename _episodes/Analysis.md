@@ -24,10 +24,6 @@ x\not\in r.c.(f) \iff \forall x'\in[x,b], f(x)\geq f(x')
 $$.
 
 $$
-r.c.(f)=\{x\in(a,b)|\exists x'\in(x,b),f(x)<f(x')\}
-$$.
-
-$$
 l.c.(f)=\{x\in(a,b)|\exists x'\in(a,x),f(x)<f(x')\}
 $$.
 
@@ -40,11 +36,17 @@ $$rc(f)$$ is open.
 
 ## Right Control (Shadow) Points (General)
 Suppose $$f\in C[a,b]$$,
-$$r.c.(f)=\{x\in(a,b)|\exists x'\in(x,b),f(x), f(x-),f(x+)<f(x')\}$$.
+$$
+r.c.(f)=\{x\in(a,b)|\exists x'\in(x,b),f(x), f(x-),f(x+)<f(x')\}
+$$.
 
-$$x\not\in r.c.(f) \iff \forall x'\in[x,b], f(x)\geq f(x')$$.
+$$
+x\not\in r.c.(f) \iff \forall x'\in[x,b], f(x)\geq f(x')
+$$.
 
-$$l.c.(f)=\{x\in(a,b)|\exists x'\in(a,x),f(x),f(x-),f(x+)<f(x')\}$$.
+$$
+l.c.(f)=\{x\in(a,b)|\exists x'\in(a,x),f(x),f(x-),f(x+)<f(x')\}
+$$.
 
 #### Riesz Sunrise Lemma (General)
 
