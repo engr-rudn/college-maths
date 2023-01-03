@@ -633,17 +633,11 @@ Confusingly, they are represented with $$\cos^{-1}$$, $$\sin^{-1}$$, and $$\tan^
 
 
 ## Equations to remember
-$$
-\sin^2\theta+\cos^2\theta \equiv 1
-$$
+$$ \sin^2\theta+\cos^2\theta \equiv 1$$
 
-$$
-\tan^2\theta+1 \equiv \sec^2\theta
-$$
+$$\tan^2\theta+1 \equiv \sec^2\theta$$
 
-$$
-1+\cot^2\theta \equiv \mathrm{cosec} ^2\theta
-$$
+$$1+\cot^2\theta \equiv \mathrm{cosec} ^2\theta$$
 
 ## Solving trig equations
 ### The Cosecant and Secant Graph
