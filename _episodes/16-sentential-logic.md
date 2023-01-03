@@ -31,14 +31,15 @@ Proofs are central to mathematics. Deductive reasoning is foundation on how proo
 
 The form below allows us to focus on the logic of the argument/proof, as opposed to the content and definitions of the argument/proof.
 
+$$
 \begin{aligned}
 P &\text{ or } Q \\\
   &\text{not } Q \\\
   &\text{therefore } P \\\
 \end{aligned}
-
+$$
 Key words in arguments/proofs
-
+$$
 \begin{array}{c|c}
 \text{symbol} & \text{word}\\\
 \hline
@@ -46,7 +47,7 @@ Key words in arguments/proofs
 \vee & \text{or} \\\
 \neg & \text{not}
 \end{array}
-
+$$
 - **disjunction**: $$P \vee Q$$ is the disjunction of $$P \text{ and } Q$$
 - **conjunction**: $$P \wedge Q$$ is the conjunction of $$P \text{ and } Q$$
 - **formula**: a grammatical expression using symbols
@@ -63,7 +64,7 @@ Logical "words" can exist in mathematical statements as well - $$3 <= \pi$$, "3 
 - **truth tables** a tabular form to evaluate the **truth value** of a **formula**
 
 Example
-
+$$
 \begin{array}{c|c|c}
 P & Q & P \vee Q\\\
 \hline
@@ -72,7 +73,7 @@ P & Q & P \vee Q\\\
 \mathrm{F} & \mathrm{T} & \mathrm{T} \\\
 \mathrm{F} & \mathrm{F} & \mathrm{F} \\\
 \end{array}
-
+$$
 - **inclusive**: includes possibility of both statements being true
 - **exclusive**: excludes the possibility of both statements being true
 
@@ -83,14 +84,16 @@ Mathematics, "or" is **inclusive**
 
 #### Valid argument
 A **valid argument** is one in which where all premises are true, the conclusion is also true.
-
+$$
 \begin{aligned}
 P & \vee Q \\\
 & \neg Q \\\
 \hline
 & \therefore P
 \end{aligned}
+$$
 
+$$
 \begin{array}{c|c|c|c|c}
 P & Q & P \vee Q & \neg Q & P\\\
 \hline
@@ -99,7 +102,7 @@ P & Q & P \vee Q & \neg Q & P\\\
 \mathrm{F} & \mathrm{T} & \mathrm{T} & \mathrm{F} & \mathrm{F}\\\
 \mathrm{F} & \mathrm{F} & \mathrm{F} & \mathrm{T} & \mathrm{F}\\\
 \end{array}
-
+$$
 This is a **valid argument** because where all premises are true (second row in bold) the conclusion is true
 
 #### Equivalent Formulas
@@ -108,6 +111,7 @@ This is a **valid argument** because where all premises are true (second row in 
 Need to know equivalences that come up often
 
 **DeMorgan's laws**
+$$
 \begin{aligned}
 \neg(P \wedge Q) &\text{ is equivalent to } \neg P \vee \neg Q \\\
 \neg(P \vee Q) &\text{ is equivalent to } \neg P \wedge \neg Q \\\
@@ -118,35 +122,46 @@ Need to know equivalences that come up often
 P \wedge Q &\text{ is equivalent to } Q \wedge P \\\
 P \vee Q &\text{ is equivalent to } Q \vee P \\\
 \end{aligned}
+$$
 
 **Associative laws**
+$$
 \begin{aligned}
 P \wedge (Q \wedge R) &\text{ is equivalent to } (P \wedge Q) \wedge R \\\
 P \vee (Q \vee R) &\text{ is equivalent to } (P \vee Q) \vee R \\\
 \end{aligned}
+$$
 
 **Idempotent laws**
+$$
 \begin{aligned}
 P \wedge P &\text{ is equivalent to } P \\\
 P \vee P &\text{ is equivalent to } P  \\\
 \end{aligned}
+$$
 
 **Distributive laws**
+$$
 \begin{aligned}
 P \wedge (Q \vee R) &\text{ is equivalent to } (P \wedge Q) \vee (P \wedge R) \\\
 P \vee (Q \wedge R) &\text{ is equivalent to } (P \vee Q) \wedge (P \vee R) \\\
 \end{aligned}
+$$
 
 **Absoprtion laws**
+$$
 \begin{aligned}
 P \vee (P \wedge Q) &\text{ is equivalent to } P \\\
 P \wedge (P \vee Q) &\text{ is equivalent to } P\\\
 \end{aligned}
+$$
 
 **Double Negation law**
+$$
 \begin{aligned}
 \neg \neg P &\text{ is equivalent to } P \\\
 \end{aligned}
+$$
 
 #### Tautalogies and Contradictions
 - **tautalogy** a formula that is always true - $$\top$$
@@ -155,19 +170,22 @@ P \wedge (P \vee Q) &\text{ is equivalent to } P\\\
 These can help simplify more complex formulas
 
 **Tautology laws**
+$$
 \begin{aligned}
 P \wedge \top &\text{ is equivalent to } P \\\
 P \vee \top &\text{ is a } \top \\\
 \neg \top &\text{ is a } \perp \\\
 \end{aligned}
+$$
 
 **Contradiction laws**
+$$
 \begin{aligned}
 P \wedge \perp &\text{ is a } \perp \\\
 P \vee \perp &\text{ is equivalent to } P \\\
 \neg \perp &\text{ is a } \top \\\
 \end{aligned}
-
+$$
 
 ## 1.3 Variables and Sets
 ## 1.4 Operations on Sets
