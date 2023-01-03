@@ -30,11 +30,23 @@ Proving a statement through simplification and the application of well known mat
 #### Example:
 
 **Using completion of the square, prove that $$n^2-6n+10$$ is positive for all values of $$n$$**
->$$n^2-6n+10 > 0$$
->$$n^2-6n > -10$$
->$$n^2-6n+9 > -1$$
->$$(n-3)^2 > -1$$
->Because n is always squared, now value of n will result in $$(n-3)^2$$ being $$\leq -1$$
+>$$
+n^2-6n+10 > 0
+$$
+>$$
+n^2-6n > -10
+$$
+>$$
+n^2-6n+9 > -1
+$$
+>$$
+(n-3)^2 > -1
+$$
+>Because n is always squared, now value of n will result in $$
+(n-3)^2
+$$ being $$
+\leq -1
+$$
 
 ### Proof by exhaustion 
 Proving a statement by exhaustion involes trying every possibility to validate a proof. This is only possible on functions with a countable domain and can be very inefficient for functions with a large domain.
@@ -56,10 +68,18 @@ Proving a statement to be false by applying basic mathematical principles.
 **Show that the statement "$$n^2-n+1$$ is a prime number for all values of $$n$$" is untrue.**
 *Method 1:*
 
-$$n = 5$$
-$$5^2-5+1 = 25-5+1 = 21$$
-$$21$$ is not prime because $$3*7 = 21$$
+$$
+n = 5
+$$
+$$
+5^2-5+1 = 25-5+1 = 21
+$$
+$$21$$ is not prime because $$
+3*7 = 21
+$$
 
 *Method 2:*
 
-$$n^2-n+1 = n(n - 1) + 1
+$$
+n^2-n+1 = n(n - 1) + 1
+$$
