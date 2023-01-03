@@ -159,7 +159,7 @@ $$
 ### Paradoxes
 
 * Russel's paradox: Let $$
-R = \{$$x$$ \midx\notin $$x$$\}
+R = \{$$x$$ \mid x\notin $$x$$\}
 $$, then $$
 R\in R \Leftrightarrow R\notin R
 $$

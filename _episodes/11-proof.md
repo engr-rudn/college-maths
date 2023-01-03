@@ -71,10 +71,13 @@ Proving a statement to be false by applying basic mathematical principles.
 $$
 n = 5
 $$
+
 $$
 5^2-5+1 = 25-5+1 = 21
 $$
-$$21$$ is not prime because $$
+
+$$21$$ is not prime because 
+$$
 3*7 = 21
 $$
 

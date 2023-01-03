@@ -44,9 +44,11 @@ An equation to find the number of roots of a function
 >$$
 b^2-4ac > 0,
 $$ The roots are real and unequal (curve crosses the x axis twice at different points)
+
 >$$
 b^2-4ac = 0,
 $$ The roots are real and equal (curve crosses x axis once at the turning point) 
+
 >$$
 b^2-4ac < 0,
 $$ The roots are non real (curve never crosses x axis)
@@ -74,18 +76,23 @@ Solve :
 $$
 y=2x+3, y=x^2-4x+8
 $$
+
 >$$
 2x+3 = x^2-4x+8
 $$
+
 >$$
 x^2-6x+5 = 0
 $$
+
 >$$
 (x-5)(x-1) = 0
 $$
+
 >$$
 \text{Therefore}
 $$
+
 >$$
 x = 5, x = 1
 $$
@@ -95,9 +102,11 @@ Must be able to solve and interpret inequalities, e.g.
 $$
 ax+b > cx+d
 $$
+
 $$
 px^2+qx+r \ge 0
 $$
+
 $$
 px^2+qx+r < ax+b
 $$
@@ -131,16 +140,21 @@ f(x) = x^2+2x-3,\; x \ge 0
 $$
 >**Step 1: Complete the square**
 >Using [the above formula](#completing-the-square):
+
 >$$
 f(x) = (x+1)^2-4
 $$
+
 >**Step 2: Rearrange for x**
+
 >$$
 y = (x+1)^2-4
 $$
+
 >$$
 y+4 = (x+1)^2
 $$
+
 >$$
 \sqrt{y+4}-1=x,\; y \ge -4
 $$
