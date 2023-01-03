@@ -26,7 +26,5 @@ objectives:
  $$ and 
  
  > $$
- \forall a,b \in X, 
- 
- (|x-y| < \delta \implies |f(x)-f(y)| < \epsilon)
+ \forall a,b \in X, (|x-y| < \delta \implies |f(x)-f(y)| < \epsilon)
  $$.
