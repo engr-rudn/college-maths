@@ -31,29 +31,13 @@ Proofs are central to mathematics. Deductive reasoning is foundation on how proo
 
 The form below allows us to focus on the logic of the argument/proof, as opposed to the content and definitions of the argument/proof.
 
-\begin{align}
-a_1 &= \beta_0 \\
-b_1 &= \beta_1 \\
-c_1 &= \beta_2 \\
-d_1 &= \beta_3
-\end{align}
 
 \begin{align}
 P &\text{ or } Q \\
-  &\text{not } Q \\
-  &\text{therefore } P 
+  &\text{not } Q  \\
+  &\text{ therefore } P 
 \end{align}
 
-$$
-\left(\begin{array}{cc} 
-0.8944272 & 0.4472136\\
--0.4472136 & -0.8944272
-\end{array}\right)
-\left(\begin{array}{cc} 
-10 & 0\\ 
-0 & 5
-\end{array}\right)
-$$
 
 Key words in arguments/proofs
 $$
@@ -105,10 +89,9 @@ A **valid argument** is one in which where all premises are true, the conclusion
 \begin{align}
 P & \vee Q \\
 & \neg Q \\
-\hline
-& \therefore P
+\hline \\
+& \therefore P 
 \end{align}
-
 
 $$
 \begin{array}{ccccc}
