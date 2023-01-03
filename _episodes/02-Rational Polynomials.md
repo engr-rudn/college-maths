@@ -158,7 +158,8 @@ The x-coordinate of the hole is found using the **common factor**. In our case, 
 The y-coordinate of the hole is found by "plugging in" the hole's x-coordinate into the _remainder function_. Let's find our remainder function first. To do this, cross out the factor from the original function:
 
 $$
-f(x) = \frac{\cancel{(x+1)}(x-1)}{\cancel{x+1}} $$ 
+f(x) = \frac{\cancel{(x+1)}(x-1)}{\cancel{x+1}} 
+$$ 
 
 This leaves us with the function $$f_{rem.}(x) = x-1$$, which is our **remainder function**. If we plug our x-coordinate $$x = -1$$ into $$f_{rem.}(x)$$, then we get $$y = -2$$. This is our y-coordinate. So, we now have the complete set of coordinates for the hole, and we know that the hole was located at $$(-1, -2)$$.
 
