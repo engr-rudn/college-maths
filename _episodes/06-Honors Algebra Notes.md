@@ -502,7 +502,7 @@ If we put an **ellipse** in the vertex form of $$\frac{(x-h)^2}{a^2} + \frac{(y-
 | Then, factor out the terms                                                                                                                                                                                                                                                                          | $$4(x^2 -12x) + 9(y^2 + 8y) = -144$$                               |
 | Then, divide by the factor 4                                                                                                                                                                                                                                                                        | $$(x^2 - 12x) - \frac{9}{4}(y^2 + 8y) = -36$$                      |
 | Then, divide by the factor 9                                                                                                                                                                                                                                                                        | $$\frac{1}{9}(x^2 - 12x) - \frac{1}{4}(y^2 + 8y) = -4$$            |
-| Take half of the coefficients of the first-degree terms (and don't forget their signs!), square them, and add the squares into the appropriate spaces on both sides of the equation $$(\frac{b^2}{2})$$. Carry over the added squares to the other side of the equation, together with their factors. | ![Image](https://www.purplemath.com/modules/square/ellips06.gif) |
+| Take half of the coefficients of the first-degree terms (and don't forget their signs!), square them, and add the squares into the appropriate spaces on both sides of the equation $$(\frac{b^2}{2})$$. Carry over the added squares to the other side of the equation, together with their factors. | ![Image](../fig/ellips06.gif) |
 | Simplify on the right, and convert to squared form on the left.                                                                                                                                                                                                                                     | $$\frac{(x-6)^2}{9} + \frac{(y+4)^2}{4} = -4 + 4 + 4$$             |
 | Divide by 4 (or whatever value you have on the right hand side)                                                                                                                                                                                                                                     | $$\frac{(x-6)^2}{36} + \frac{(y+4)^2}{16} = 1$$                    |
 
@@ -731,7 +731,11 @@ $$
 | 1           | 4                                              |
 
 * Last, we need to find the sum of the squares we just found, and plug the values into the standard deviation formula
-* The sum $$\Sigma | x-\mu |^2$$ in our case is $$9 + 1 + 0 + 4 = 14$$
+* The sum $$
+\Sigma | x-\mu |^2
+$$ in our case is $$
+9 + 1 + 0 + 4 = 14
+$$
 * There are 4 values of the data set, so $$N=4$$
 * Using the equation, we can find that $$S_d = \sqrt{\frac{14}{4}}$$ and that $$S_d \approx 1.87 \dots$$
 
