@@ -71,7 +71,8 @@ $$ dimensional?
 
 # Real Numbers
 
-### $$
+### 
+$$
 x^y=y^x
 $$ with $$x<y$$
 
