@@ -1,3 +1,14 @@
+---
+title: Algebra
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
 # Algebra
 
 * Field automorphisms. $$
