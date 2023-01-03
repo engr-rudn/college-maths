@@ -33,7 +33,7 @@ $$.
 
 # Linear Algebra
 
-# # # Google page ranking
+### Google page ranking
 
 Suppose you have a very large stochastic matrix $$M$$. So large you can't decompose it, but you can multiply it against a vector easily. There is a theorem that says there is a one dimensional eigenspace with eigenvalue $$1$$ and the rest have eigenvalues $$
 |\lambda_i|<1
@@ -47,15 +47,15 @@ $$ for all except the one with norm $$1$$. So after a while this will be very cl
 
 # Geometry
 
-# # # n-Balls
+### n-Balls
 
 * generalize "volume" to $$n$$-dimensions.
 
 * Can compute "volume" of $$n$$-ball, turns out $$5$$-dim is largest! ([link](http://en.wikipedia.org/wiki/Deriving_the_volume_of_an_n-ball))
 
-# # # Dimension
+### Dimension
 
-# # # # # Fractional Dimension
+##### Fractional Dimension
 
 * Double a line, get double length, i.e. new length is $$2^1$$ times. Then $$1$$ dimensional
 
@@ -71,7 +71,7 @@ $$ dimensional?
 
 # Real Numbers
 
-# # # $$
+### $$
 x^y=y^x
 $$ with $$x<y$$
 
@@ -81,7 +81,7 @@ $$. Proof: calculus + guess and check.
 
 * Question: is there rational solutions?
 
-# # # Density of Rationals/Irrationals
+### Density of Rationals/Irrationals
 
 * Question: Is there rational between every two real numbers?
 
@@ -89,7 +89,7 @@ $$. Proof: calculus + guess and check.
 
 * Easier/starting point: how about rational between 2 rationals. Solution: average is rational
 
-# # # Archimedes Principle
+### Archimedes Principle
 
 * axiom: there is an $$
 N\in\mathbb{N}
@@ -117,7 +117,7 @@ $$ which we showed was irrational. Done!
 
 # Cardinality
 
-# # # Infinity
+### Infinity
 
 * infinite number of primes
 
@@ -125,11 +125,11 @@ $$ which we showed was irrational. Done!
 
 * even numbers same size all numbers
 
-# # # Hilbert's Hotel
+### Hilbert's Hotel
 
 * Countable is large
 
-# # # Reals Are Large
+### Reals Are Large
 
 * alphabet finite (countable) $$
 \Rightarrow
@@ -141,13 +141,13 @@ $$ all language ever has or will be countable
 
 # Infinite Sums
 
-# # # Zeno's Paradox
+### Zeno's Paradox
 
 * $$
 \sum_{i\geq 1}\frac{1}{2^i} = 1
 $$
 
-# # #  $$\zeta$$
+###  $$\zeta$$
 
 * $$
 \zeta(2) = \frac{\pi^2}{6}$$
@@ -158,15 +158,15 @@ $$
 
 # Logic
 
-# # # Paradoxes
+### Paradoxes
 
 * Russel's paradox: Let $$
-R = \{x \midx\notin x\}
+R = \{$$x$$ \midx\notin $$x$$\}
 $$, then $$
 R\in R \Leftrightarrow R\notin R
 $$
 
-# # # Puzzles
+### Puzzles
 
 * prisoners and hats, etc.
 
@@ -182,7 +182,7 @@ TODO: examples?
 
 * Principal Curvature constantly 0
 
-# # # Cylinders are Flat
+### Cylinders are Flat
 
 * A 2d being living on a cylinder can't distuingish it from a plane
 
@@ -190,21 +190,21 @@ TODO: examples?
 
 # Stats
 
-# # # Estimating units
+### Estimating units
 
 * [Tanks](http://en.wikipedia.org/wiki/German_tank_problem)
 
-# # # Estimating Pi
+### Estimating Pi
 
 * Buffon's needle/noodle
 
 * Bouncing blocks: [link](http://math.stackexchange.com/questions/138289/intuitive-reasoning-behind-pis-appearance-in-bouncing-balls)
 
-# # # Benfords Law
+### Benfords Law
 
 *  the number 1 is the leading digit 30% of the time
 
-# # # Fermi Approximations
+### Fermi Approximations
 
 * Estimation from 0 knowledge, more convoluted more accurate
 
@@ -214,7 +214,7 @@ TODO: examples?
 
 # Combinatorics
 
-# # # Euler Characteristic
+### Euler Characteristic
 
 * $$
 v-e+f = 2
@@ -226,11 +226,11 @@ $$ <-- for planar graphs
 
 * algebraic/topological invariant used to distinguish spaces
 
-# # # Aztec Diamonds
+### Aztec Diamonds
 
 * Random patterns/circle/things
 
-# # # Dominoes
+### Dominoes
 
 * Get grid. Take off two corners. Can cover with 2x1's? Soultion: no bcs color"
 
@@ -238,13 +238,13 @@ $$ <-- for planar graphs
 
 # Number Theory
 
-# # # Probability
+### Probability
 
 * Probability that an integer $$n$$ is square free is $$
 \frac{6}{\pi^2}
 $$ (see [mathworld](http://mathworld.wolfram.com/Squarefree.html)).
 
-# # # Golden Ratio
+### Golden Ratio
 
 * [Conway Solider](http://en.wikipedia.org/wiki/Conway's_Soldiers)
 
@@ -252,13 +252,13 @@ $$ (see [mathworld](http://mathworld.wolfram.com/Squarefree.html)).
 
 * Nice continued fraction
 
-# # # Pi
+### Pi
 
 * Everything.
 
 * All finite strings of numbers appear in pi. Extrapolate using any encoding for arbitrary text.
 
-# # # Riemann Zeta function
+### Riemann Zeta function
 
 * Million dollar prize for hypothesis? [link](http://en.wikipedia.org/wiki/Riemann_hypothesis)
 
