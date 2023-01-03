@@ -1,5 +1,5 @@
 ---
-title: Algebra
+title: General
 questions:
 - "What basic?"
 - "How can ?"
