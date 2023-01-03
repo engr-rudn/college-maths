@@ -23,8 +23,8 @@ objectives:
  
  > $$
  \forall f \in \mathcal{F}
- $$ and 
+ $$ and $$ \forall a,b \in X, $$
  
- > $$
- \forall a,b \in X, (|x-y| < \delta \implies |f(x)-f(y)| < \epsilon)
+ $$
+ (|x-y| < \delta \implies |f(x)-f(y)| < \epsilon)
  $$.
