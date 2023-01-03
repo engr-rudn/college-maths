@@ -186,6 +186,37 @@ P \vee \perp &\text{ is equivalent to } P \\\
 \neg \perp &\text{ is a } \top \\\
 \end{align}
 
+$$
+\left(\begin{array}
+0.8944272 & 0.4472136\\
+-0.4472136 & -0.8944272
+\end{array}\right\)
+
+\left(\begin{array}
+10 & 0\\
+0 & 5
+\end{array}\right)
+$$
+
+$$
+\left(\begin{array}{cc} 
+0.8944272 & 0.4472136\\
+-0.4472136 & -0.8944272
+\end{array}\right)
+\left(\begin{array}{cc} 
+10 & 0\\ 
+0 & 5
+\end{array}\right)
+$$
+
+
+\begin{align}
+a_1 &= \beta_0 \\
+b_1 &= \beta_1 \\
+c_1 &= \beta_2 \\
+d_1 &= \beta_3
+\end{align}
+
 
 ## 1.3 Variables and Sets
 ## 1.4 Operations on Sets
