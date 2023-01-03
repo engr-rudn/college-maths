@@ -71,10 +71,7 @@ $$ dimensional?
 
 # Real Numbers
 
-### 
-$$
-x^y=y^x
-$$ with $$x<y$$
+### $$ x^y=y^x $$ with $$x<y$$
 
 * The only integer solution with is $$
 x=2, y=4
