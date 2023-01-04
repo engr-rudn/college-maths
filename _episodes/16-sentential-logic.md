@@ -88,7 +88,9 @@ A **valid argument** is one in which where all premises are true, the conclusion
 
 \begin{align}
 P & \vee Q \\
+\addlinespace
 & \neg Q \\
+\addlinespace
 \hline
 & \therefore P 
 \end{align}
