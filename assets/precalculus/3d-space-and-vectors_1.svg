@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="661.296" height="552.551" viewBox="0 0 661.296 552.551" overflow="visible" enable-background="new 0 0 661.296 552.551" xml:space="preserve">
+<symbol id="Org._Chart_-_Connector" viewBox="-5.694 -17.641 11.389 35.281">
+	<path d="M0.999,17.641V-8.502c1.848,1.26,3.053,1.887,4.696,1.951C2.862-9.416,1.388-13.141,0-17.641   c-1.328,4.5-2.949,8.061-5.695,11.09c1.785-0.193,2.863-0.715,4.828-1.99v26.182H0.999z"/>
+</symbol>
+<g id="Layer_2">
+	<line fill="#F69261" x1="381.083" y1="449.752" x2="500.083" y2="330.752"/>
+	<line stroke="#ED2024" stroke-width="4" x1="381.083" y1="449.752" x2="500.083" y2="330.752"/>
+</g>
+<g id="Layer_3">
+	<line fill="none" stroke="#3953A4" stroke-width="4" x1="90.083" y1="449.752" x2="381.083" y2="449.752"/>
+</g>
+<g id="Layer_1">
+	
+		<use xlink:href="#Org._Chart_-_Connector" width="11.389" height="35.281" x="-5.694" y="-17.641" transform="matrix(0 -2.1875 -1.6802 0 596.2861 330.8354)"/>
+	
+		<use xlink:href="#Org._Chart_-_Connector" width="11.389" height="35.281" x="-5.694" y="-17.641" transform="matrix(1.5468 1.5468 1.1881 -1.1881 49.6035 490.2505)"/>
+	
+		<use xlink:href="#Org._Chart_-_Connector" width="11.389" height="35.281" x="-5.694" y="-17.641" transform="matrix(-2.1875 0 0 1.6802 209.3325 82.4775)"/>
+	<line fill="none" stroke="#000000" stroke-width="4" x1="209.083" y1="330.752" x2="45.617" y2="494.219"/>
+	<line fill="none" stroke="#000000" stroke-width="4" x1="209.083" y1="330.752" x2="586.082" y2="330.752"/>
+	<line fill="none" stroke="#000000" stroke-width="4" x1="209.25" y1="330.752" x2="209.25" y2="72.419"/>
+	<text transform="matrix(1 0 0 1 0.4155 538.7524)" stroke="#000000" font-family="'TimesNewRomanPSMT'" font-size="45">x</text>
+	<text transform="matrix(1 0 0 1 199.4165 37.4175)" stroke="#000000" font-family="'TimesNewRomanPSMT'" font-size="45">z</text>
+	<text transform="matrix(1 0 0 1 638.082 337.4194)" stroke="#000000" font-family="'TimesNewRomanPSMT'" font-size="45">y</text>
+</g>
+<g id="Layer_4">
+	<line fill="none" stroke="#69BD45" stroke-width="4" x1="381.083" y1="449.752" x2="381.083" y2="250.419"/>
+</g>
+<g id="Layer_5">
+	<text transform="matrix(1 0 0 1 486.833 396.5024)"><tspan x="0" y="0" fill="#ED2024" stroke="#ED2024" font-family="'TimesNewRomanPS-ItalicMT'" font-size="45">x</tspan><tspan x="19.973" y="0" fill="#ED2024" stroke="#ED2024" font-family="'TimesNewRomanPS-ItalicMT'" font-size="30">-coordinate</tspan></text>
+</g>
+<g id="Layer_6">
+	<text transform="matrix(1 0 0 1 154.083 482.2524)"><tspan x="0" y="0" fill="#3953A4" stroke="#3953A4" font-family="'TimesNewRomanPS-ItalicMT'" font-size="45">y</tspan><tspan x="19.973" y="0" fill="#3953A4" stroke="#3953A4" font-family="'TimesNewRomanPS-ItalicMT'" font-size="30">-coordinate</tspan></text>
+</g>
+<g id="Layer_7">
+	<text transform="matrix(1 0 0 1 394.083 303.7524)"><tspan x="0" y="0" fill="#69BD45" stroke="#69BD45" font-family="'TimesNewRomanPS-ItalicMT'" font-size="45">z</tspan><tspan x="17.512" y="0" fill="#69BD45" stroke="#69BD45" font-family="'TimesNewRomanPS-ItalicMT'" font-size="30">-coordinate</tspan></text>
+</g>
+<g id="Layer_8">
+	<g>
+		<g>
+			<path fill="none" d="M381.083,250.419"/>
+			<path d="M381.083,257.919c9.673,0,9.673-15,0-15S371.41,257.919,381.083,257.919L381.083,257.919z"/>
+		</g>
+	</g>
+</g>
+</svg>
