@@ -62,7 +62,7 @@ Note: Technically, the theorem is based on a real number, $$L$$, but we include 
 
 
 ### Graphical Example
-![Graphical Example](../assets/calculus/2-0-limits_3.jpg)
+![Graphical Example](../assets/calculus/2-0-limits_3.png)
 
 ### Numerical Example
 ![Numerical Example](../assets/calculus/2-0-limits_4.jpg )
