@@ -58,16 +58,16 @@ $$\lim_{x\to a} f(x) = L\quad iff\quad \lim_{x\to a^-} f(x) = L = \lim_{x \to a^
 
 Note: Technically, the theorem is based on a real number, $$L$$, but we include infinity as a possible answer.
 
-![Input x approaches a](../assets/calculus/2-0-limits_2.jpg)
-
-
 ### Graphical Example
-![Graphical Example](../assets/calculus/2-0-limits_3.png)
+![Input x approaches a](../assets/calculus/2-0-limits_2.jpg)
 
 ### Numerical Example
 ![Numerical Example](../assets/calculus/2-0-limits_4.jpg )
 
 Numerically, we will have a limit _if it is clear we are approaching one output value_ as we look at values from inputs smaller and larger than $$\alpha$$.
+
+### Graphical and Numerical Example
+![Graphical Example](../assets/calculus/2-0-limits_3.png)
 
 ### Analytic / Algebraic Example
 $$\lim_{x\to 1}\frac{x^2-1}{x-1}$$
