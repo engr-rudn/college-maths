@@ -6,6 +6,7 @@ questions:
 - "How can ?"
 - "How do ?"
 - "Can I ?"
+
 objectives:
 - "To be able to evaluate limits graphically, numerically, and algebraically."
 ---
