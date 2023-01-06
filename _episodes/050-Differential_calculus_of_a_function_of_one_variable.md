@@ -6,11 +6,10 @@ questions:
 - "When is a function differentiable?"
 - "How calculate numerical derivative?"
 - "Can I ?"
+
 objectives:
 -"Understand the meaning of the derivative
 - "Calculate stops and derivatives using the definition"
-- "Graph $$\'f$$ from $$f$$ and graph $$f$$ from $$\'f$$"
-- "Determine where a function is not differentiable and distinguish between the different types (corners, discontinuities, and vertical tangents)"
 - "Calculate the numerical derivative (symmetric difference quotient)"
 ---
 
