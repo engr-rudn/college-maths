@@ -48,7 +48,7 @@ objectives:
 ## Concepts / Definitions
 
 ### Informal definition of a limit
-If $$f(x)$$ becomes arbitratily close to a single number $$L$$ as $$x$$ approaches a number $$a$$ from _either_ side, the limit of $$f(x)$$ as $$x$$ approaches $$ is $$L$$.
+If $$f(x)$$ becomes arbitratily close to a single number $$L$$ as $$x$$ approaches a number $$a$$ from _either_ side, the limit of $$f(x)$$ as $$x$$ approaches $$a$$ is $$L$$.
 
 ![Limit Definition](../assets/calculus/2-0-limits_1.png)
 
