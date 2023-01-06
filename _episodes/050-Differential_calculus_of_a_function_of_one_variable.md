@@ -1,16 +1,14 @@
 ---
 title:  Differential calculus of a function of one variable
- 
-questions:
-- "What is derivative?"
-- "When is a function differentiable?"
-- "How calculate numerical derivative?"
-- "Can I ?"
 
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
 objectives:
--"Understand the meaning of the derivative
-- "Calculate stops and derivatives using the definition"
-- "Calculate the numerical derivative (symmetric difference quotient)"
+- "???"
+- "???"
 ---
 
 # Differential calculus of a function of one variable
