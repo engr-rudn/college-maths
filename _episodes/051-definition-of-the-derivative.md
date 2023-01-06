@@ -1,4 +1,16 @@
 ---
+title:  Differential calculus of a function of one variable
+
+questions:
+- "What basic?"
+- "How can ?"
+- "How do ?"
+- "Can I ?"
+objectives:
+- "???"
+- "???"
+---
+---
 title:  Definition of the Derivative and Differentiability
  
 questions:
