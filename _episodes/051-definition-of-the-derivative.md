@@ -1,55 +1,94 @@
 ---
-title:  Differential calculus of a function of one variable
+title:  Definition of the Derivative and Differentiability
  
 questions:
 - "What is derivative?"
 - "When is a function differentiable?"
-- "How calculate numerical derivative?"
-- "Can I ?"
+- "How to calculate numerical derivative?"
+
 objectives:
--"Understand the meaning of the derivative
+-"Understand the meaning of the derivative"
 - "Calculate stops and derivatives using the definition"
 - "Graph $$'f$$ from $$f$$ and graph $$f$$ from $$'f$$"
-- "Determine where a function is not differentiable and distinguish between the different types (corners, discontinuities, and vertical tangents)"
+- "Determine where a function is not differentiable and distinguish between the different types (corners,discontinuities, and vertical tangents)"
 - "Calculate the numerical derivative (symmetric difference quotient)"
 ---
 
-# Differential calculus of a function of one variable
-- 5.1. Function differential
-- 5.2. Theorem on the connection between the derivative and the differential
-- 5.3. The geometric meaning of the differential
-- 5.4. Rules for working with differentials (differential of sum, difference, product, quotie
-- 5.5. The invariance of the form of writing the fi differential
-- 5.6. Approximate calculations using Differentia
-- 5.7. Higher-order differentials, no invariance
-- 5.8. Basic theorems of differential calculus (Fermat, Rolle, Cauchy, Lagrange) and their geometric meaning
-- 5.9. Bernoulli-L’Hopital theorem and expansio type uncertainties [0/0]
-- 5.10. Bernoulli-L’Hopital theorem and expansion type uncertainties [∞/∞] (no proof)
-- 5.11. Comparison of growth orders of the logarithmic, power and exponential functions at infinity
-- 5.12. Disclosure of Type Uncertainties [0. ∞], [∞∞], [00], [1∞], [∞0]
-- 5.13. Taylor formula for polynomials
-- 5.14. Taylor polynomial for arbitrary functions
-- 5.15. Taylor formula with remainder term in the form Peano
-- 5.16. Theorem on the uniqueness of the expansion of a function by Taylor’s formula with remainder term in Peano form
-- 5.17. Taylor formula with remainder term in general form
-- 5.18. Consequences: the remainder term is in Cauchy form and in Lagrange form.
-- 5.19. Maclaurin formula
-- 5.20. Decomposition of basic elementary functions according to the Maclaurin formula (y=ex,y=sin x,y=cos x,y=ln(1+x),〖y=(1+x)^α ).
-- 5.21. Using expansions for expansion uncertainties
-- 5.22. Approximate calculations using Taylor formulas
-- 5.23. Application of differential calculus to study functions and build their graphs
-- 5.24. Relation between derivative and monotonicity
-- 5.25. Necessary and sufficient conditions monotony. Local extremum of the function
-- 5.26. A necessary condition for existence local extremum of a differentiable function
-- 5.27. Sufficient conditions for existence extremum in the first derivative, in the second derivative, with respect to the nth derivative
-- 5.28. The concept of convexity up (down) of a function
-- 5.29. The geometric meaning of the definition convexity of the function - the relative position of the graph functions and chords
-- 5.30. Lemma on the convexity of a function and its geometric meaning
-- 5.31. Necessary and sufficient condition convexity in the first derivative
-- 5.32. Consequences: Necessary and Sufficient Condition convexity of a doubly differentiable function, a sufficient condition for the strict convexity of a doubly differentiable function
-- 5.33. Connection of the direction of the convexity of the function graph with the position of the tangent
-- 5.34. Function plot inflection points
-- 5.35. Necessary and sufficient conditions for the existence of an inflection point of a doubly differentiable function
-- 5.36. Function graph asymptotes: vertical, horizontal, inclined
-- 5.37. Oblique asymptote theorem
-- 5.38. General scheme for studying functions and constructing their graphs
+# Definition of the Derivative and Differentiability
+
+
+## Concepts / Definitions
+
+### Slope of a Curve at a Point
+
+The slope of the curve $$y = f(x)$$ at the point $$P(a,f(a))$$ is the number
+$$m = \lim_{h\to 0} \frac{f(a+h)-f(a)}{h}$$
+provided the limit exists.
+
+![Slope of a Curve at a point](../assets/calculus/3-1-2-definition-of-the-derivative_1.jpg)
+
+### Derivative at a Point
+
+The derivative of the function $$f$$ at the point $$x = a$$ is
+$$f'(a) = \lim_{x\to a} \frac{f(x)-f(a)}{x-a}$$
+provided the limit exists.
+
+### The Derivative Function
+
+What if we wanted to find the slope at any point, a functions of slopes, rather than slope at a particular point?
+
+The derivative of the function $$f$$ with respect to the variable $$x$$ is the function $$f'$$ whose value at $$x$$ is<br>
+$$f'(x) = \lim_{h\to 0} \frac{f(x+h)-f(x)}{h}$$
+provided the limit exists.
+
+![The Derivative Function](../assets/calculus/3-1-2-definition-of-the-derivative_2.jpg)
+
+#### Other Notations for derivatives of $$y = f(x)$$
+$$\frac{d}{dx}f(x) = \frac{df}{dx} = f'(x) = \frac{d}{dx}y = \frac{dy}{dx} = y'$$
+
+### How $$f'(a)$$ fails to exist
+
+#### Left derivative not equal to right derivative (a corner)
+![A Corner](../assets/calculus/3-1-2-definition-of-the-derivative_3.jpg)
+
+#### A point where the function is discontinuous (discontinuity)
+![Discontinuity](../assets/calculus/3-1-2-definition-of-the-derivative_4.jpg)
+
+#### Left and right slopes approach opposite $$\infty$$ (a cusp)
+![A Cusp](../assets/calculus/3-1-2-definition-of-the-derivative_5.gif)
+
+### Note: (todo)
+
+Despite limits dealing with _numbers_, and $$\infty$$ not considered as one, mathmatical standard is to write the slope as $$\infty$$ in order to give more detail to the answer.
+
+NOTE: Remember that for a derivative to exist at a point, the derivative (in other words, the limit of difference quotient) must exist as a number, and from the left and from the right must be the same.
+
+![Infinity](../assets/calculus/3-1-2-definition-of-the-derivative_6.gif)
+
+The limits for graphs II and III are $$-\infty$$ and $$\infty$$, respectively. It doesn't exist for I and IV.
+
+### Working Definitions
+
+#### Differentiability Implies Continuity
+If $$f$$ has a derivative at $$x = a$$, then $$f$$ is continuous at $$x = a$$.
+
+#### Differentiability Implies Local Linearity
+A differentiable function resembles its own tangent close (zoomed in) to some input value $$a$$.
+
+#### Numerical Derivative
+The numerical derivative of $$f$$ at $$a$$, which we will denote $$nDeriv(f(x),a)$$ is the number
+$$\frac{f(a+0.001)-f(a-0.001)}{0.002}$$
+
+Then average the two below. Both must be really close to each other!
+$$f'(a) = \lim_{h\to 0} \frac{f(a+h)-f(a)}{h}$$
+$$f'(a) = \lim_{h\to 0} \frac{f(a)=f(a-h)}{h}$$
+
+### Graphing $$f'$$ from a graph of $$f$$
+
+![f' from f](../assets/calculus/3-1-2-definition-of-the-derivative_7.gif)
+
+### Determine $$f$$, $$f'$$, and $$\frac{d}{dx}f'$$
+
+![Determine f, f', and f''](../assets/calculus/3-1-2-definition-of-the-derivative_8.gif)
+
+[==>](3-3-differentiation-rules.md)
