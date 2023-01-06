@@ -12,7 +12,6 @@ objectives:
 ---
 # Differential calculus of a function of one variable
 
-
 - 5.1. Function differential
 - 5.2. Theorem on the connection between the derivative and the differential
 - 5.3. The geometric meaning of the differential
