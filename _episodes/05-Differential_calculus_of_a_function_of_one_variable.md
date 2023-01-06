@@ -23,8 +23,7 @@ objectives:
 - 5.9. Bernoulli-L'Hopital theorem and expansio type uncertainties [0/0]
 - 5.10. Bernoulli-L'Hopital theorem and expansion type uncertainties [∞/∞] (no proof)
 - 5.11. Comparison of growth orders of the logarithmic, power and exponential functions at infinity
-- 5.12. Disclosure of Type Uncertainties [0. ∞], [∞-
-- ∞], [00], [1∞], [∞0]
+- 5.12. Disclosure of Type Uncertainties [0. ∞], [∞∞], [00], [1∞], [∞0]
 - 5.13. Taylor formula for polynomials
 - 5.14. Taylor polynomial for arbitrary functions
 - 5.15. Taylor formula with remainder term in the form Peano
