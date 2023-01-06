@@ -30,8 +30,7 @@ objectives:
 - 1.17. Neighborhoods of end point and infinity 
 - 1.18. The principle of nested segments (Cauchy-Cantor) 1.19. Bounded and unbounded sets in R 
 - 1.20. Exact upper and lower bounds of the set
-- 1.21. Principle of Archimedes and
-- consequences from it
+- 1.21. Principle of Archimedes and consequences from it
 - 1.22. Display and function
 - 1.23. Function Graph
 - 1.24.Types of mappings: surjective injective, bijective
