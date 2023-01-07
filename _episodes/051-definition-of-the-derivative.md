@@ -1,11 +1,11 @@
 ---
-title:  Differential calculus of a function of one variable
+title:  Definition of the Derivative and Differentiability
 
 questions:
-- "What basic?"
-- "How can ?"
-- "How do ?"
-- "Can I ?"
+- - "What is derivative?"
+- "When is a function differentiable?"
+- "How to calculate numerical derivative?"
+
 objectives:
 - "???"
 - "???"
