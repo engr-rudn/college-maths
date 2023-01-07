@@ -2,13 +2,16 @@
 title:  Definition of the Derivative and Differentiability
 
 questions:
-- - "What is derivative?"
+- "What is derivative?"
 - "When is a function differentiable?"
 - "How to calculate numerical derivative?"
 
 objectives:
-- "???"
-- "???"
+- "Understand the meaning of the derivative"
+- "Calculate stops and derivatives using the definition"
+- "Graph $$'f$$ from $$f$$ and graph $$f$$ from $$'f$$"
+- "Determine where a function is not differentiable and distinguish between the different types (corners,discontinuities, and vertical tangents)"
+- "Calculate the numerical derivative (symmetric difference quotient)"
 ---
 ---
 title:  Definition of the Derivative and Differentiability
