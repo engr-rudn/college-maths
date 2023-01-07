@@ -54,7 +54,8 @@ $$
 
 #### Definition
 If $$u$$ and $$v$$ are differentiable functions of $$x$$, then their sum and difference are differentiable at every point where $$u$$ and $$v$$ are differentiable. At such points,
-$$\frac{d}{dx} (u \pm v) = \frac{du}{dx} \pm \frac{dv}{dx}$$
+$$
+\frac{d}{dx} (u \pm v) = \frac{du}{dx} \pm \frac{dv}{dx}$$
 
 ### Power Rule for Derivatives
 
@@ -85,35 +86,54 @@ g'(x) | 3 || 0 || 3 || 12 || 27
 
 $$g'(x) = 3x^2$$
 
-<!-- See a pattern yet? If not, know that the derivative of $$x^4$$ is $$4x^3$$. You should be able to write a general rule for this. However, it's not enough yet - we need to prove these observations _algebraically_.-->
+#### Have you see a pattern yet? If not, know that the derivative of $$x^4$$ is $$4x^3$$. You should be able to write a general rule for this. However, it's not enough yet - we need to prove these observations _algebraically_.
 
 ![Power Rule](../assets/calculus/3-3-differentiation-rules_1.png)
 
 #### Definition
 If $$f(x) = x^n$$ is a power function, with non-zero real number $$n$$, then
-$$\frac{d}{dx}f(x) = nx^{n-1}$$
+
+$$
+\frac{d}{dx}f(x) = nx^{n-1}
+$$
 
 ### The Product Rule
 
 #### Solving
 
-$$f'(x) = \lim_{h\to 0} \frac{(x+h)^n - x^n}{h}$$
-$$f'(x) = \lim_{h\to 0} \frac{(_nC_0x^nh^0 + _nC_1x^{n-1}h^1 + _nC_2x^{n-2}h^2 + ... + _nC_{n-1}x^1h^{n-1} + _nC_nx^0h^n) - x^n}{h}$$
-$$f'(x) = \lim_{h\to 0} \frac{(x^n + nx^{n-1}h^1 + _nC_2x^{n-2}h^2 + ... + nx^1h^{n-1} + h^n) - x^n}{h}$$
-$$f'(x) = \lim_{h\to 0} \frac{h(nx^{n-1} + _nC_2x^{n-2}h^1 + ... + nx^1h^{n-2} + h^{n-1})}{h}$$
-$$f'(x) = \lim_{h\to 0} (nx^{n-1} + _nC_2x^{n-2}h^1 + ... + nx^1h^{n-2} + h^{n-1})$$
-$$$$
+$$
+f'(x) = \lim_{h\to 0} \frac{(x+h)^n - x^n}{h}
+$$
+$$
+f'(x) = \lim_{h\to 0} \frac{(_nC_0x^nh^0 + _nC_1x^{n-1}h^1 + _nC_2x^{n-2}h^2 + ... + _nC_{n-1}x^1h^{n-1} + _nC_nx^0h^n) - x^n}{h}
+$$
+$$
+f'(x) = \lim_{h\to 0} \frac{(x^n + nx^{n-1}h^1 + _nC_2x^{n-2}h^2 + ... + nx^1h^{n-1} + h^n) - x^n}{h}
+$$
+$$
+f'(x) = \lim_{h\to 0} \frac{h(nx^{n-1} + _nC_2x^{n-2}h^1 + ... + nx^1h^{n-2} + h^{n-1})}{h}
+$$
+$$
+f'(x) = \lim_{h\to 0} (nx^{n-1} + _nC_2x^{n-2}h^1 + ... + nx^1h^{n-2} + h^{n-1})
+$$
+
 
 #### Definition
 The product of two differentiable functions $$u$$ and $$v$$ is differentiable, and
-$$\frac{d}{dx}(uv) = \frac{du}{dx}v+u\frac{dv}{dx}$$
+
+$$
+\frac{d}{dx}(uv) = \frac{du}{dx}v+u\frac{dv}{dx}
+$$
 
 
 ### The Quotient Rule
 
 #### Definition
 At a point where $$v \neq 0$$, the quotient $$y = \frac uv$$ of two differentiable functions is differentiable, and
-$$\frac{d}{dx}(\frac uv) = \frac{\frac{du}{dx}v - u\frac{dv}{dx}}{v^2}$$
+
+$$
+\frac{d}{dx}(\frac uv) = \frac{\frac{du}{dx}v - u\frac{dv}{dx}}{v^2}
+$$
 
 In words, derivative of the numerator times the denominator minus the numerator times derivative of the denominator, all divided by the denominator squared.
 
@@ -138,12 +158,29 @@ $$y^{(n)} = \frac{d}{dx}y^{n-1} = \frac{d^ny}{dx^n}$$
 
 Find an equation of the line tangent to the curve $$y = \frac{x^2 - 1}{x^2 + 1}$$ at $$x = -2$$
 
-$$\frac{dy}{dx} = \frac{4x}{(x^2+1)^2}$$
-$$\frac{dy}{dx}\rvert_{x = -2} = \frac{4(-2)}{((-2)^2 + 1)^2}$$
-$$\frac{dy}{dx}\rvert_{x = -2} = -\frac{8}{25}$$
-$$y = \frac{(-2)^2-1}{(-2)^2+1}$$
-$$y = \frac 35$$
-$$z = -\frac{8}{25}(x+2) + \frac 35$$
+$$
+\frac{dy}{dx} = \frac{4x}{(x^2+1)^2}
+$$
+
+$$
+\frac{dy}{dx}\rvert_{x = -2} = \frac{4(-2)}{((-2)^2 + 1)^2}
+$$
+
+$$
+\frac{dy}{dx}\rvert_{x = -2} = -\frac{8}{25}
+$$
+
+$$
+y = \frac{(-2)^2-1}{(-2)^2+1}
+$$
+
+$$
+y = \frac 35
+$$
+
+$$
+z = -\frac{8}{25}(x+2) + \frac 35
+$$
 
 [==>](053-rates-of-change.md)
 
