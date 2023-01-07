@@ -41,7 +41,7 @@ The derivative of the function $$f$$ with respect to the variable $$x$$ is the f
 $$f'(x) = \lim_{h\to 0} \frac{f(x+h)-f(x)}{h}$$
 provided the limit exists.
 
-![The Derivative Function](../assets/calculus/3-1-2-definition-of-the-derivative_2.gif)
+![The Derivative Function](../assets/calculus/3-1-2-definition-of-the-derivative_2.jpg)
 
 #### Other Notations for derivatives of $$y = f(x)$$
 $$\frac{d}{dx}f(x) = \frac{df}{dx} = f'(x) = \frac{d}{dx}y = \frac{dy}{dx} = y'$$
