@@ -41,7 +41,7 @@ The derivative of the function $$f$$ with respect to the variable $$x$$ is the f
 $$f'(x) = \lim_{h\to 0} \frac{f(x+h)-f(x)}{h}$$
 provided the limit exists.
 
-![The Derivative Function](../assets/calculus/3-1-2-definition-of-the-derivative_2.jpg)
+![The Derivative Function](../assets/calculus/3-1-2-definition-of-the-derivative_2.gif)
 
 #### Other Notations for derivatives of $$y = f(x)$$
 $$\frac{d}{dx}f(x) = \frac{df}{dx} = f'(x) = \frac{d}{dx}y = \frac{dy}{dx} = y'$$
@@ -49,10 +49,10 @@ $$\frac{d}{dx}f(x) = \frac{df}{dx} = f'(x) = \frac{d}{dx}y = \frac{dy}{dx} = y'$
 ### How $$f'(a)$$ fails to exist
 
 #### Left derivative not equal to right derivative (a corner)
-![A Corner](../assets/calculus/3-1-2-definition-of-the-derivative_3.jpg)
+![A Corner](../assets/calculus/3-1-2-definition-of-the-derivative_3.gif)
 
 #### A point where the function is discontinuous (discontinuity)
-![Discontinuity](../assets/calculus/3-1-2-definition-of-the-derivative_4.jpg)
+![Discontinuity](../assets/calculus/3-1-2-definition-of-the-derivative_4.gif)
 
 #### Left and right slopes approach opposite $$\infty$$ (a cusp)
 ![A Cusp](../assets/calculus/3-1-2-definition-of-the-derivative_5.gif)
