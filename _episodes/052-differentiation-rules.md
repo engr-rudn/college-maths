@@ -104,15 +104,19 @@ $$
 $$
 f'(x) = \lim_{h\to 0} \frac{(x+h)^n - x^n}{h}
 $$
+
 $$
 f'(x) = \lim_{h\to 0} \frac{(_nC_0x^nh^0 + _nC_1x^{n-1}h^1 + _nC_2x^{n-2}h^2 + ... + _nC_{n-1}x^1h^{n-1} + _nC_nx^0h^n) - x^n}{h}
 $$
+
 $$
 f'(x) = \lim_{h\to 0} \frac{(x^n + nx^{n-1}h^1 + _nC_2x^{n-2}h^2 + ... + nx^1h^{n-1} + h^n) - x^n}{h}
 $$
+
 $$
 f'(x) = \lim_{h\to 0} \frac{h(nx^{n-1} + _nC_2x^{n-2}h^1 + ... + nx^1h^{n-2} + h^{n-1})}{h}
 $$
+
 $$
 f'(x) = \lim_{h\to 0} (nx^{n-1} + _nC_2x^{n-2}h^1 + ... + nx^1h^{n-2} + h^{n-1})
 $$
