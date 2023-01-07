@@ -42,12 +42,15 @@ If $$u$$ and $$v$$ are differentiable functions of $$x$$, then their sum and dif
 $$
 y' = \lim_{h\to 0} \frac{u(x+h)+v(x+h)-(ux+vx)}{h}
 $$
+
 $$
 y' = \lim_{h\to 0} \frac{u(x+h)-ux+v(x+h)-vx}{h}
 $$
+
 $$
 y' = \lim_{h\to 0} \frac{u(x+h)-ux}{h} + \lim_{h\to 0} \frac{v(x+h)-vx}{h}
 $$
+
 $$
 y' = u'(x) + v'(x)
 $$
