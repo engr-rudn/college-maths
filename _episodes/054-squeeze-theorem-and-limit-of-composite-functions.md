@@ -44,7 +44,7 @@ We know by comparing rates and / or looking at the graph that $$\lim_{\theta \to
 If $$f(x) \leq h(x) \leq g(x)$$ for all $$x\neq c$$ in some interval about $$c$$, and $$\lim_{x\to c}g(x) = \lim_{x\to c}f(x) = L$$ then
 $$\lim_{x\to c}h(x) = L$$
 
-![Image](../assets/calculus/squeeze-theorem-and-limit-of-composition-function.md)
+![Image](../assets/calculus/squeeze-theorem-and-limit-of-composition-function.jpg)
 
 ## Examples
 
