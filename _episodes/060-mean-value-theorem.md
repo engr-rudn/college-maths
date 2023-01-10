@@ -8,12 +8,8 @@ objectives:
 - "Apply the Mean Value Theorem and find the intervale on which a function is increasing or decreasing"
 ---
 
-# 4-2 Mean Value Theorem
+# Mean Value Theorem
 
-## Learning Targets
-
-You will be able to
-- [ ] 
 
 ## Concepts / Definitions
 

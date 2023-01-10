@@ -9,7 +9,7 @@ objectives:
 - "Find absolute/global and local/relative extreme values"
 ---
 
-# 4-1 Extreme Values of Functions
+# Extreme Values of Functions
 
 ## Concepts / Definitions
 
@@ -28,7 +28,7 @@ Let $$f$$ be a function with domain $$D$$. Then $$f(c)$$ is the
 ### The Extreme Value Theorem (existance)
 If $$f$$ is continuous on a closed interval $$(a,b)$$, then $$f$$ has both a maximum value and a minimum value on the interval.
 
-![Image]()
+![The Extreme Value Theorem](../assets/calculus/extreme-value-theorem.jpg)
 
 ### Definition of Local (relative) Extreme Values (how to find)
 Let $$c$$ be an interior point of the domain of the function $$f$$. Then $$f(c)$$ is a
@@ -43,7 +43,6 @@ A function $$f$$ has a local maximum or local minimum at an endpoint if the appr
 
 ![Maxima and Minima](../assets/calculus/4-1-extreme-values-of-functions_4.jpg)
 
-![Absolute Value Hole]()
 No relative or absolute max here.<br>
 Absolute min when $$x=0$$.<br>
 Local min when $$x=3$$.
@@ -67,12 +66,19 @@ A min/max value of \_\_\_\_\_ at/when x = \_\_\_\_\_
 Identify the critical numbers and determine the absolute maximum and minimum values of $$f(x) = x^{2/3}$$ on $$[-2,3]$$.
 
 $$f'(x) = \frac 23 x^{-1/3}$$
+
 $$f'(x) = \frac{2}{3\sqrt[3]{x}}$$
+
 Critical number is $$c=0$$ because the derivative is undefined when $$x=0$$.
+
 $$f(0) = 0$$
+
 $$f(-2) = \sqrt[3]{4}$$
+
 $$f(3) = \sqrt[3]{9}$$
+
 Absolute Min value is 0<br>
+
 Absolute Max value is $$\sqrt[3]{9}$$.
 
 [==>](060-mean-value-theorem.md)

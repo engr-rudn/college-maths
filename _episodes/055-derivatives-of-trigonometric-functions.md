@@ -8,11 +8,11 @@ objectives:
 - "Use rules for differentiating the six trig functions"
 ---
 
-# 3-5 Derivatives of Trigonometric Functions
+# Derivatives of Trigonometric Functions
 
 ### Concepts / Definitions
 
-$$$\frac{d}{dx}\sin(x) = \cos(x)$$
+$$\frac{d}{dx}\sin(x) = \cos(x)$$
 
 $$\frac{d}{dx}\cos(x) = -\sin(x)$$
 

@@ -8,7 +8,7 @@ objectives:
 - "Solve application problems involving multiple rates"
 ---
 
-# 4-6 Related Rates
+# Related Rates
 
 ## Concepts / Definitions
 
@@ -27,10 +27,29 @@ No, it doesn't. It slides slower at first, then faster at the bottom.
 A 50 foot ladder is placed against a building. The base of the ladder is resting on an oil spill, and it slips at a constant rate of 3 feet per second. Find how fast the top of the ladder is sliding down at the _instant_ when the base of the ladder is 30 feet from the base of the building.
 
 Our one constant value is the length of the ladder, always staying at 50. Knowing this and knowing that the ladder forms a right triangle with the wall, we can establish the equation $$x^2 + y^2 = 50^2$$.<br>
-From this, we can take the derivative with respect to time ($$\frac{d}{dt}) of the whole equation. $$\frac{d}{dt}[x^2 + y^2 = 50^2] \to 2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 0 \to x\frac{dx}{dt} + y\frac{dy}{dt} = 0$$.<br>
-At this point, we have four undefined variables - $$x,\ \frac{dx}{dt},\ y,$$ and $$\frac{dy}{dt}$$. We know that $$x = 30$$, and $$\frac{dx}{dt}$$ is equivalent to distance over time. Our distance over time is 3ft/sec.<br>
-It's easy enough to find $$y$$ from the original Pythagorean equation - $$y^2 = 50^2 - 30^2$$, and from that $$y = 40$$.<br>
-All that's left to find is $$\frac{dy}{dt}$$, or the instantaneous speed of the ladder at x = 30 feet. $$x\frac{dx}{dt} + y\frac{dy}{dt} = 0 \to (30)(3) + (40)\frac{dy}{dt} = 0 \to \frac{dy}{dt} = -\frac{(30)(3)}{40} = -\frac 94$$
+From this, we can take the derivative with respect to time ($$\frac{d}{dt}$$) of the whole equation. 
+$$
+\frac{d}{dt}[x^2 + y^2 = 50^2] \to 2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 0 \to x\frac{dx}{dt} + y\frac{dy}{dt} = 0
+$$.<br>
+
+At this point, we have four undefined variables - 
+$$
+x,\ \frac{dx}{dt},\ y,
+$$ and 
+$$
+\frac{dy}{dt}$$. We know that $$x = 30$$, and 
+$$
+\frac{dx}{dt}$$ is equivalent to distance over time. Our distance over time is 3ft/sec.<br>
+
+It's easy enough to find $$y$$ from the original Pythagorean equation - 
+$$
+y^2 = 50^2 - 30^2
+$$, and from that $$y = 40$$.<br>
+
+All that's left to find is $$\frac{dy}{dt}$$, or the instantaneous speed of the ladder at x = 30 feet. 
+$$
+x\frac{dx}{dt} + y\frac{dy}{dt} = 0 \to (30)(3) + (40)\frac{dy}{dt} = 0 \to \frac{dy}{dt} = -\frac{(30)(3)}{40} = -\frac 94
+$$
 
 The top of the ladder is sliding at $$-\frac 94 \frac{ft}{sec}$$.
 
@@ -45,6 +64,8 @@ A trough has a triangular cross section. The trough is 6ft across the top, 3ft d
 
 ![Trough problem](../assets/calculus/4-6-related-rates_1.jpg)
 
-$$V = \frac 12 xyz \to V = \frac 12 xy(10) \to V = 5xy$$
+$$
+V = \frac 12 xyz \to V = \frac 12 xy(10) \to V = 5xy
+$$
 
 [==>](063-estimating-with-finite-sums.md)

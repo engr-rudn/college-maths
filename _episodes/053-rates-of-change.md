@@ -9,7 +9,7 @@ objectives:
 - "Use derivatives to solve problems involving other rates of change like marginal cosr and marginal revenue"
 ---
 
-# 3-4 Rates of Change
+# Rates of Change
 
 ## Concepts / Definitions
 

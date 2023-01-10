@@ -9,7 +9,7 @@ objectives:
 - "Use first and second derivatives to analyze and graph functions"
 ---
 
-# 4-3 Using Derivatives to Analyze Graphs of Functions
+# Using Derivatives to Analyze Graphs of Functions
 
 ## Concepts / Definitions
 
@@ -35,7 +35,8 @@ A point where the graph of a function has a tangent line (is differentiable) and
 ![Concavity and Inflection](../assets/calculus/4-3-using-derivatives-to-analyze-graphs-of-functions_1.jpg)
 
 ### Second Derivative Test for Local Extrema
- 1. If $$f'(c) = 0$$ and $$f''(c) < 0$$$$, then $$f$$ has a local maximum at $$x = c$$.
- 2. If $$f'(c) = 0$$ and $$f''(c) > 0$$$$, then $$f$$ has a local minimum at $$x = c$$.
+ 1. If $$f'(c) = 0$$ and $$f''(c) < 0$$, then $$f$$ has a local maximum at $$x = c$$.
+ 
+ 2. If $$f'(c) = 0$$ and $$f''(c) > 0$$, then $$f$$ has a local minimum at $$x = c$$.
 
 [==>](062-related-rates.md)

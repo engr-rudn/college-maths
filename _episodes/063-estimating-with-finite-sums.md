@@ -8,7 +8,7 @@ objectives:
 - "Approximate the area under curves by using rectangular accumulation methods"
 ---
 
-# 5-1 Estimating with Finite Sums
+# Estimating with Finite Sums
 
 ![Left and Right Hand Sums](../assets/calculus/5-1-estimating-with-finite-sums_1.jpg)
 

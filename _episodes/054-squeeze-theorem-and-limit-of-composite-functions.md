@@ -9,7 +9,7 @@ objectives:
 - "Use Squeeze Theorem to find limits"
 ---
 
-# 3-5-5 Squeeze Theorem and Limit of Composite Functions
+# Squeeze Theorem and Limit of Composite Functions
 
 ## Concepts / Definitions
 
@@ -51,14 +51,33 @@ $$\lim_{x\to c}h(x) = L$$
 ### Example 1
 Show the following analytically
 $$\lim_{x\to 0}(x^2 \sin(1/x)) = 0$$
+
 We know the following, $$-x^2 \leq x^2 \sin(\frac 1x) \leq x^2$$<br>
-_and_ $$\lim_{x\to 0}-x^2 \leq \lim_{x\to 0}(x^2\sin(\frac 1x)) \leq \lim_{x\to 0}x^2$$<br>
-$$\lim_{x\to 0}-x^2 = 0$$ _and_ $$\lim_{x\to 0}x^2 = 0$$, so by Squeeze Theorem<br>
-$$\lim_{x\to 0}(x^2\sin\frac 1x) = 0$$
+
+_and_ 
+$$
+\lim_{x\to 0}-x^2 \leq \lim_{x\to 0}(x^2\sin(\frac 1x)) \leq \lim_{x\to 0}x^
+2$$<br>
+
+$$
+\lim_{x\to 0}-x^2 = 0$$
+ _and_ 
+$$
+\lim_{x\to 0}x^2 = 0
+$$, so by Squeeze Theorem<br>
+
+$$
+\lim_{x\to 0}(x^2\sin\frac 1x) = 0
+$$
 
 ### Example 2
-$$\lim_{\theta\to 0}\frac{1}{\cos\theta}\geq\lim_{\theta\to 0}\frac{\sin\theta}{\theta}\geq\lim_{\theta\to 0}\cos\theta$$
-$$1 \geq\ ? \geq 1$$
+$$
+\lim_{\theta\to 0}\frac{1}{\cos\theta}\geq\lim_{\theta\to 0}\frac{\sin\theta}{\theta}\geq\lim_{\theta\to 0}\cos\theta
+$$
+
+$$
+1 \geq\ ? \geq 1
+$$
 
 ## Exercises
 
@@ -67,7 +86,20 @@ $$1 \geq\ ? \geq 1$$
   3. Evaluate $$\lim_{x\to 0}\frac{(x+2)^4}{x}$$
   4. Show analytically that $$\lim_{x\to\infty}\frac{\sin x}{x} = 0$$
   5. For the graphs below, <!--TODO-->
-  6. Functions $$f$$, $$g$$, and $$h$$ are twice-differentiable functions with $$g(2) = h(2) = 4$$. The line $$y = 4 + \frac 23 (x-2)$$ is tangent to both the graph of $$g$$ at $$x=2$$ and the graph of $$h$$ at $$x=2$$.<br>
-   It is known that $$g(x) \leq h(x)$$ for $$1 < x < 3$$. Let $$k$$ be a function satisfying $$g(x)\leq k(x)\leq h(x)$$ for $$1 < x < 3$$. Is $$k$$ continuous at $$x=2$$? Justify your answer.
+  6. Functions $$f$$, $$g$$, and $$h$$ are twice-differentiable functions with $$g(2) = h(2) = 4$$. 
+The line 
+$$y = 4 + \frac 23 (x-2)$$ 
+is tangent to both the graph of 
+$$g$$ at $$x=2$$ and the graph of $$h$$ at $$x=2$$.<br>
+
+It is known that $$
+g(x) \leq h(x)
+$$ for 
+$$
+1 < x < 3$$. 
+Let $$k$$ be a function satisfying $$
+g(x)\leq k(x)\leq h(x)
+$$ for $$1 < x < 3$$. 
+Is $$k$$ continuous at $$x=2$$? Justify your answer.
 
 [==>](055-chain-rule.md)
