@@ -129,4 +129,4 @@ $$\frac{dy}{dx} = y(\cos x \ln x + \sin x \frac{1}{x})$$
 
 $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 
-[==>](059-extreme-values-of-functions.md)
+[==>](../059-extreme-values-of-functions)

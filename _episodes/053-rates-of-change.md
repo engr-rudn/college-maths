@@ -47,4 +47,4 @@ A particle moves along a line so that its position at any time $$t \geq 0$$ is g
   5. Find the distance travelled during the first 5 seconds.
   6. When is the particle speeding up?
 
-[==>](054-derivatives-of-trigonometric-functions.md)
+[==>](../054-derivatives-of-trigonometric-functions)

@@ -102,4 +102,4 @@ g(x)\leq k(x)\leq h(x)
 $$ for $$1 < x < 3$$. 
 Is $$k$$ continuous at $$x=2$$? Justify your answer.
 
-[==>](055-chain-rule.md)
+[==>](../055-chain-rule)

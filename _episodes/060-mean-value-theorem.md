@@ -36,4 +36,4 @@ If $$f'(x) = g'(x)$$ at each point on an interval $$I$$, then there is a constan
 ### Antiderivative
 A function $$F(x)$$ is an antiderivative of a function $$f(x)$$ if $$F'(x) = f(x)$$ for all $$x$$ in the domain of $$f$$. The process is called antidifferentiation.
 
-[==>](061-using-derivatives-to-analyze-graphs-of-functions.md)
+[==>](../061-using-derivatives-to-analyze-graphs-of-functions)

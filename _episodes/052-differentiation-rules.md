@@ -189,6 +189,6 @@ $$
 z = -\frac{8}{25}(x+2) + \frac 35
 $$
 
-[==>](053-rates-of-change.md)
+[==>](../053-rates-of-change)
 
 

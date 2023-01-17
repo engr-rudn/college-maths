@@ -39,4 +39,4 @@ A point where the graph of a function has a tangent line (is differentiable) and
  
  2. If $$f'(c) = 0$$ and $$f''(c) > 0$$, then $$f$$ has a local minimum at $$x = c$$.
 
-[==>](062-related-rates.md)
+[==>](../062-related-rates)
