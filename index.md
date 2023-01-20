@@ -15,31 +15,18 @@ Calculus A includes
 - Applications of the Above
 
 ### Limits
-
 ### Limits Involving Infinity
-
 ### Continuity
-
 ### Types of Discontinuity
-
 ### The Definition of the Derivative
-
 ### Differentiablity
-
 ### Differentiation Techniques
-
 #### The Addition Rule
-
 #### The Power Rule
-
 #### The Product and Quotient Rules
-
 #### The Chain Rule
-
 #### Trigonometric Functions
-
 ### Concavity and the Double Derivative
-
 **Concave Down**
 
 ## Calculus B
@@ -49,37 +36,21 @@ Calculus A includes
 - Arc Length
 - Surfaces of Revolutions
 - Applications of the Above
-
 ### Fundamental Theorem of Calculus
-
 ### Integrals
-
 #### Operations of Integrals
-
 ### Integration
-
 #### By Substitution
-
 #### By Parts
-
 #### Trigonometric
-
 ### L'Hopital's Rule
-
 ### Concavity
-
 ### Length of an Arc
-
 ### Work and Force
-
 #### Work Done by a Force
-
 #### Hooke's Law
-
 #### Work Done Lifting
-
 #### Work Done Pumping
-
 
 ## Calculus C
 Calculus C includes
