@@ -103,4 +103,4 @@ $$ for $$1 < x < 3$$.
 Is $$k$$ continuous at $$x=2$$? Justify your answer.
 
 
-[==>](../0505-chain-rule)
+[==>](../0505-derivatives-of-trigonometric-functions)
