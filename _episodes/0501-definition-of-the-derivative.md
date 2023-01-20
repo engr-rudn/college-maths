@@ -91,8 +91,5 @@ $$f'(a) = \lim_{h\to 0} \frac{f(a)=f(a-h)}{h}$$
 
 ![Determine f, f', and f''](../assets/calculus/3-1-2-definition-of-the-derivative_8.gif)
 
-<<<<<<< HEAD:_episodes/0501-definition-of-the-derivative.md
 [==>](../0502-differentiation-rules)
-=======
-[==>](../052-differentiation-rules)
->>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/051-definition-of-the-derivative.md
+
