@@ -24,5 +24,5 @@ $$
 ### Proof of Inverse Sine
 
 
-[==>](../058-derivatives-of-exponential-and-logarithmic-functions)
+[==>](../0508-derivatives-of-exponential-and-logarithmic-functions)
 

@@ -76,4 +76,4 @@ $$f(\theta) = \cos^2 2\theta$$
 $$F(x) = (3x - 1)^4(2x + 1)^{-1}$$
 
 
-[==>](../057-derivatives-of-inverse-functions)
+[==>](../0507-derivatives-of-inverse-functions)

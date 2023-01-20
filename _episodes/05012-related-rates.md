@@ -69,4 +69,4 @@ V = \frac 12 xyz \to V = \frac 12 xy(10) \to V = 5xy
 $$
 
 
-[==>](../063-estimating-with-finite-sums)
+[==>](../05013-estimating-with-finite-sums)

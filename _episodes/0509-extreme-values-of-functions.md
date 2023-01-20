@@ -82,4 +82,4 @@ Absolute Min value is 0<br>
 Absolute Max value is $$\sqrt[3]{9}$$.
 
 
-[==>](../060-mean-value-theorem)
+[==>](../05010-mean-value-theorem)
