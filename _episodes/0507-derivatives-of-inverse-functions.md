@@ -23,8 +23,6 @@ $$
 
 ### Proof of Inverse Sine
 
-<<<<<<< HEAD:_episodes/0507-derivatives-of-inverse-functions.md
-[==>](../0508-derivatives-of-exponential-and-logarithmic-functions)
-=======
+
 [==>](../058-derivatives-of-exponential-and-logarithmic-functions)
->>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/057-derivatives-of-inverse-functions.md
+

@@ -102,8 +102,5 @@ g(x)\leq k(x)\leq h(x)
 $$ for $$1 < x < 3$$. 
 Is $$k$$ continuous at $$x=2$$? Justify your answer.
 
-<<<<<<< HEAD:_episodes/0504-squeeze-theorem-and-limit-of-composite-functions.md
-[==>](../0505-chain-rule)
-=======
+
 [==>](../055-chain-rule)
->>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/054-squeeze-theorem-and-limit-of-composite-functions.md

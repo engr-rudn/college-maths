@@ -81,8 +81,5 @@ Absolute Min value is 0<br>
 
 Absolute Max value is $$\sqrt[3]{9}$$.
 
-<<<<<<< HEAD:_episodes/0509-extreme-values-of-functions.md
-[==>](../05010-mean-value-theorem)
-=======
+
 [==>](../060-mean-value-theorem)
->>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/059-extreme-values-of-functions.md
