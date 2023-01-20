@@ -34,4 +34,4 @@ $$f'(x) = \lim_{h\to 0} \frac{\sin x (\cos h -1)}{h} + \lim_{h\to 0}\frac{\cos x
 
 $$f'(x) = \cos x$$
 
-[==>](../0506-squeeze-theorem-and-limit-of-composite-functions)
+[==>](../0506-chain-rule)

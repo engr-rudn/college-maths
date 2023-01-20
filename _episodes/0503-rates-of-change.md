@@ -48,4 +48,4 @@ A particle moves along a line so that its position at any time $$t \geq 0$$ is g
   6. When is the particle speeding up?
 
 
-[==>](../0504-derivatives-of-trigonometric-functions)
+[==>](../0504-squeeze-theorem-and-limit-of-composite-functions)
