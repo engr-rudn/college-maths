@@ -12,25 +12,37 @@ objectives:
 ---
 
 # Differential calculus of functions of several variables
--7.1. Examples of problems leading to a definite integral
-- 7.2. Definite integral as limit of integral sums
-- 7.3. Darboux sums and integrals
-- 7.4. Criterion for the existence of a definite integral
-- 7.5. Basic properties of a definite integral
-- 7.6. Theorems on the evaluation of a definite integral and on the mean value of the integrand
-- 7.7. Derivative of the integral with respect to the upper limit
-- 7.8. Newton-Leibniz formula
-- 7.9. Calculation of a definite integral by integration by parts and by changing the variable (substitution)
-- 7.10. Integration of even and odd functions on a segment symmetric with respect to the origin
-- 7.11. Improper integrals of continuous functions over an infinite interval
-- 7.12. Improper integrals of unbounded functions on an interval
-- 7.13. Signs of convergence and divergence improper integral
-- 7.14. Absolute and conditional convergence of improper integrals
-- 7.15. Area of a flat figure
-- 7.16. Calculating the area of a flat figure in rectangular and polar coordinates
-- 7.17. body volume
-- 7.18. Calculation of body volume by areas parallel sections, calculation of the volume of a body of revolution
-- 7.19. Curve arc length
-7.20. Calculating the arc length of a planar curve, given in rectangular and polar coordinates and given parametrically
-7.21. Surface area
-7.22. Calculating the surface area of revolution
+- 8.1. FNP as display
+- 8.2. Scalar and vector functions
+- 8.3. FNP schedule
+- 8.4. Examples of FNP and their geometric performance
+- 8.5. Level lines and surfaces
+- 8.6. Neighborhoods, open and closed sets in
+- 8.7. Path-connected sets, regions
+- 8.8. Limit and continuity of FNP
+- 8.9. Properties of functions continuous on bounded closed set in Rn
+- 8.10. Partial derivatives of the scalar FNP and their geometric interpretation
+- 8.11. Function differentiability
+- 8.12. Necessary and sufficient conditions differentiability
+- 8.13. Full differential
+- 8.14. Differentiability of a complex function
+- 8.15. Form invariance of the first differential
+- 8.16. Partial derivatives and differentiability vector function, its total differential and matrix Jacobi
+- 8.17. Directional derivative of a scalar FNP 
+- 8.18. Gradient function and its properties
+- 8.19. Equations of the tangent plane and the normal to level surfaces for FNP
+- 8.20. Partial derivatives and differentials of higher orders of a scalar function
+- 8.21. Hessian matrix
+- 8.22. Theorem on the independence of the mixed derivative from the differentiation sequence
+- 8.23. Taylor's formula for a function of n variables 
+- 8.24. Implicit Functions
+- 8.25. The existence theorem and differentiability of an implicitly given function, its generalization for scalar and vector FNP
+- 8.26. The existence theorem and differentiability of the inverse to a vector function
+- 8.27. Local extremum of the scalar FNP
+- 8.28. A necessary condition for a local extremum of a continuously differentiable function
+- 8.29. A sufficient condition for a local extremum of a twice continuously differentiable function
+- 8.30. Examples for a function of two variables 
+- 8.31. Conditional extremum of the scalar FNP
+- 8.32. Lagrange function
+- 8.33. Necessary and sufficient conditions the existence of a conditional extremum
+- 8.34. Finding the largest and smallest ys of a function of two variables in a closed region
