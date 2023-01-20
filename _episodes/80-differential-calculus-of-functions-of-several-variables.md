@@ -1,5 +1,5 @@
 ---
-title:  Integration
+title:  Differential calculus of functions of several variables
 
 questions:
 - "What basic?"
@@ -11,7 +11,7 @@ objectives:
 - "???"
 ---
 
-# Definite Integrals
+# Differential calculus of functions of several variables
 -7.1. Examples of problems leading to a definite integral
 - 7.2. Definite integral as limit of integral sums
 - 7.3. Darboux sums and integrals

@@ -1,5 +1,5 @@
 ---
-title:  Integration
+title:  Definite Integrals
 
 questions:
 - "What basic?"
