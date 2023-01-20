@@ -68,4 +68,8 @@ $$
 V = \frac 12 xyz \to V = \frac 12 xy(10) \to V = 5xy
 $$
 
+<<<<<<< HEAD:_episodes/05012-related-rates.md
+[==>](../05013-estimating-with-finite-sums)
+=======
 [==>](../063-estimating-with-finite-sums)
+>>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/062-related-rates.md

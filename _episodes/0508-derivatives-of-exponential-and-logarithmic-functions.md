@@ -129,4 +129,8 @@ $$\frac{dy}{dx} = y(\cos x \ln x + \sin x \frac{1}{x})$$
 
 $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 
+<<<<<<< HEAD:_episodes/0508-derivatives-of-exponential-and-logarithmic-functions.md
+[==>](../0509-extreme-values-of-functions)
+=======
 [==>](../059-extreme-values-of-functions)
+>>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/058-derivatives-of-exponential-and-logarithmic-functions.md

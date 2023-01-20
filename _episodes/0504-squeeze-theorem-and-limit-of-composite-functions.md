@@ -1,8 +1,8 @@
 ---
-title:  Rates of Change
+title:  Squeeze Theorem and Limit of Composite Functions
 
 questions:
-- "What are some applications of derivatives?"
+- "How to use squeeze Theorem to evaluate limits of composition functions?"
 
 objectives:
 - "Evaluate limits of composition functions"
@@ -102,4 +102,8 @@ g(x)\leq k(x)\leq h(x)
 $$ for $$1 < x < 3$$. 
 Is $$k$$ continuous at $$x=2$$? Justify your answer.
 
+<<<<<<< HEAD:_episodes/0504-squeeze-theorem-and-limit-of-composite-functions.md
+[==>](../0505-chain-rule)
+=======
 [==>](../055-chain-rule)
+>>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/054-squeeze-theorem-and-limit-of-composite-functions.md

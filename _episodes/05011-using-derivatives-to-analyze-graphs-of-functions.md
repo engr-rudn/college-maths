@@ -39,4 +39,8 @@ A point where the graph of a function has a tangent line (is differentiable) and
  
  2. If $$f'(c) = 0$$ and $$f''(c) > 0$$, then $$f$$ has a local minimum at $$x = c$$.
 
+<<<<<<< HEAD:_episodes/05011-using-derivatives-to-analyze-graphs-of-functions.md
+[==>](../05012-related-rates)
+=======
 [==>](../062-related-rates)
+>>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/061-using-derivatives-to-analyze-graphs-of-functions.md

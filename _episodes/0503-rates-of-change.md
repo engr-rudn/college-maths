@@ -47,4 +47,12 @@ A particle moves along a line so that its position at any time $$t \geq 0$$ is g
   5. Find the distance travelled during the first 5 seconds.
   6. When is the particle speeding up?
 
+<<<<<<< HEAD:_episodes/0503-rates-of-change.md
+<<<<<<< HEAD:_episodes/0503-rates-of-change.md
+[==>](../0504-derivatives-of-trigonometric-functions)
+=======
 [==>](../054-squeeze-theorem-and-limit-of-composite-functions)
+>>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/053-rates-of-change.md
+=======
+[==>](../054-squeeze-theorem-and-limit-of-composite-functions)
+>>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/053-rates-of-change.md

@@ -75,4 +75,8 @@ $$f(\theta) = \cos^2 2\theta$$
 
 $$F(x) = (3x - 1)^4(2x + 1)^{-1}$$
 
+<<<<<<< HEAD:_episodes/0506-chain-rule.md
+[==>](../0507-derivatives-of-inverse-functions)
+=======
 [==>](../057-derivatives-of-inverse-functions)
+>>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/056-chain-rule.md

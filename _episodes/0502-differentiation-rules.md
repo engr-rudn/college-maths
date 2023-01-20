@@ -189,6 +189,10 @@ $$
 z = -\frac{8}{25}(x+2) + \frac 35
 $$
 
+<<<<<<< HEAD:_episodes/0502-differentiation-rules.md
+[==>](../0503-rates-of-change)
+=======
 [==>](../053-rates-of-change)
+>>>>>>> c57a79c715d4fefb2e2d43490bf64fdafd31a28b:_episodes/052-differentiation-rules.md
 
 
