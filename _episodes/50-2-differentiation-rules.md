@@ -190,6 +190,6 @@ z = -\frac{8}{25}(x+2) + \frac 35
 $$
 
 
-[==>](../0503-rates-of-change)
+[==>](../50-3-rates-of-change)
 
 
