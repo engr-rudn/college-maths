@@ -15,7 +15,7 @@ How do we solve these algebraically?
 
 $$\int \sqrt{4 - x^2} dx$$
 
-let $x = 2\sin\theta$, $\frac{dx}{d\theta} = 2\cos\theta$, $dx = 2\cos\theta d\theta$
+let $$x = 2\sin\theta$$, $$\frac{dx}{d\theta} = 2\cos\theta$$, $$dx = 2\cos\theta d\theta$$
 
 $$\int \sqrt{4-4\sin^2\theta} 2\cos\theta d\theta$$
 

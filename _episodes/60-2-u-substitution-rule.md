@@ -17,12 +17,12 @@ objectives:
 
 $$\int f(x)dx$$
 
-read: "The indefinite integral of $f$ with respect to $x$".<br>
-means: To find the set of all antiderivatives of $f$
+read: "The indefinite integral of $$f$$ with respect to $$x$$".<br>
+means: To find the set of all antiderivatives of $$f$$
 
 ![Image](../assets/calculus/6-2-u-substitution-rule_1.jpg)
 
-Don't forget the $+ C$!
+Don't forget the $$+ C$$!
 
 ### Formulas and Properties
 
@@ -58,14 +58,14 @@ $$\int 2x\cos x^2 dx = \sin x^2 + C$$
 
 ### Integration by Substitution Strategy
 
-Use a _change of variables_, usually $u = $ something, to find an indefinite integral.
+Use a _change of variables_, usually $$u = $$ something, to find an indefinite integral.
 
-1. Choose a substitution $u = g(x)$, usually the inner part of a composite function;
+1. Choose a substitution $$u = g(x)$$, usually the inner part of a composite function;
    1. The quantity under a root or raised to a power
    2. The exponent
    3. The quantity in a denominator
-2. Compute the derivative of $u$, put the derivative equation in terms of the differential, $dx = \frac{du}{g(x)}$ and _do the integral in terms of the new variable $u$_.
-3. For indefinite integral, put the antiderivative back in terms of $x$.
+2. Compute the derivative of $$u$$, put the derivative equation in terms of the differential, $$dx = \frac{du}{g(x)}$$ and _do the integral in terms of the new variable $$u$$_.
+3. For indefinite integral, put the antiderivative back in terms of $$x$$.
 
 ## Examples
 

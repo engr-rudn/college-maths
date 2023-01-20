@@ -24,30 +24,30 @@ Riemann sums are summing areas of rectangles under a curve in a systematic manne
 
 ![LRAM Left Rectangle](../assets/calculus/5-1-estimating-with-finite-sums_3.svg)
 
-Calculate the area, for $$f(x)$$, for the interval $$[0,2]$$ with 4 four rectangles ($$n=4$$), using LRAM.
+Calculate the area, for $$$$f(x)$$$$, for the interval $$$$[0,2]$$$$ with 4 four rectangles ($$$$n=4$$$$), using LRAM.
 The area is approximated with the sum of the four rectangles.
 
-$$LRAM = wh_1 + wh_2 + wh_3 + wh_4$$
-$$Area \approx \Delta xf(x_1) + \Delta xf(x_2) + \Delta xf(x_3) + \Delta xf(x_4)$$
-$$\approx \Delta x [f(x_1) + f(x_2) + f(x_3) + f(x_4)]$$
+$$$$LRAM = wh_1 + wh_2 + wh_3 + wh_4$$$$
+$$$$Area \approx \Delta xf(x_1) + \Delta xf(x_2) + \Delta xf(x_3) + \Delta xf(x_4)$$$$
+$$$$\approx \Delta x [f(x_1) + f(x_2) + f(x_3) + f(x_4)]$$$$
 
 ### RRAM Right Rectangle approximation
 
 ![RRAM Right Rectangle](../assets/calculus/5-1-estimating-with-finite-sums_4.svg)
 
-Calculate the area, for $$f(x)$$, for the interval $$[0,2]$$ with 4 four rectangles ($$n=4$$), using RRAM.
+Calculate the area, for $$$$f(x)$$$$, for the interval $$$$[0,2]$$$$ with 4 four rectangles ($$$$n=4$$$$), using RRAM.
 The area is approximated with the sum of the four rectangles.
 
 ### Sigma Notation
 
-$$A = \sum_{i=1}^n\Delta x\ f(x_i)$$
+$$$$A = \sum_{i=1}^n\Delta x\ f(x_i)$$$$
 
 ![Sigma Notation](../assets/calculus/5-1-estimating-with-finite-sums_5.png)
 
-Write long hand form $$\Delta x (f(x_1) + f(x_2) + f(x_3) + ... + f(x_n))$$
+Write long hand form $$$$\Delta x (f(x_1) + f(x_2) + f(x_3) + ... + f(x_n))$$$$
 
 Formula to use on calculator for adding many areas
-$$sum(seq(f(x), x, x_1, x_n, \Delta x) \bullet \Delta x)$$
+$$$$sum(seq(f(x), x, x_1, x_n, \Delta x) \bullet \Delta x)$$$$
 
 ### Ways to make estimates better
 

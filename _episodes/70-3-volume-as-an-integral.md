@@ -1,15 +1,16 @@
 ---
-layout: default
+title:  Volume as an Integral
+
+questions:
+- "How to find the volume of a solid of revolution?"
+objectives:
+- Apply the disc and washer methods
+- Apply the shell method
+- Find the volume of a solid of revolution
 ---
 
-# 7-3 Volume as an Integral
+# Volume as an Integral
 
-## Learning Targets
-
-You will be able to
-- [ ] Apply the disc and washer methods
-- [ ] Apply the shell method
-- [ ] Find the volume of a solid of revolution
 
 ## Concepts / Definitions
 
@@ -21,11 +22,11 @@ A **solid of revolution** is a solid that is formed by revolving a bounded regio
 Similar to Riemann sums, the idea is to cut the solid into many pieces, then add them up.
 
 ### The Disc Method
-The disc method is a summation of **the volume of all infinitely thin ($dx$) cylinders with radius $f(x)$ on an interval ($\int_a^b$)**.
+The disc method is a summation of **the volume of all infinitely thin ($$dx$$) cylinders with radius $$f(x)$$ on an interval ($$\int_a^b$$)**.
 
 $$Volume = \int_a^b\pi r^2 dx = \int_a^b\pi f(x)^2 dx$$
 
-Note that you must account for different axes of rotation, whether it be $x = 3$ or $y = 0$, and calculate the radius (and width, as $dy$ could be used) appropriately.
+Note that you must account for different axes of rotation, whether it be $$x = 3$$ or $$y = 0$$, and calculate the radius (and width, as $$dy$$ could be used) appropriately.
 
 ![Horizontal Disc Method](../assets/calculus/7-3_disc-method-horizontal.png)
 

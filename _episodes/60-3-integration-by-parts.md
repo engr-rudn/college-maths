@@ -13,7 +13,7 @@ objectives:
 
 ### Integration by Parts for Indefinite Integrals
 
-If $u$ and $v$ are functions of $x$ and have continuous derivatives, then
+If $$u$$ and $$v$$ are functions of $$x$$ and have continuous derivatives, then
 
 $$\int udv = uv - \int vdu$$
 
@@ -21,10 +21,10 @@ $$\int f(x)g'(x)dx = f(x)g(x) = \int g(x)f'(x)dx$$
 
 ### Strategy
 
-$u = \ln x$ as a first choice, then an algebraic type;
-$dv = $ the functions where the derivative repeats ($dv = $ exponential or $dv = $ trig function)
+$$u = \ln x$$ as a first choice, then an algebraic type;
+$$dv = $$ the functions where the derivative repeats ($$dv = $$ exponential or $$dv = $$ trig function)
 
-As a general rule, when doing parts, $\int udv$ should be more complicated than $\int vdu$.
+As a general rule, when doing parts, $$\int udv$$ should be more complicated than $$\int vdu$$.
 
 ### Order
 
