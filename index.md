@@ -50,7 +50,7 @@ Calculus C includes
 
 <b><i>Other Important Materials of Mathematics  Links</i></b>
 
-<a href="https://www.desmos.com/calculator" target="_blank" > Tool for drawing Graphs of equations  </a>
+- <a href="https://www.desmos.com/calculator" target="_blank" > Tool for drawing Graphs of equations  </a>
 
 
 
