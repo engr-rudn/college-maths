@@ -100,21 +100,7 @@ Calculus C includes
 - Taylor and Maclaurin Series Convergence
 - Applications of the Above
 
-```
-### Graphs of equations
-<a href="https://www.desmos.com/calculator" target="_blank" > Tool for drawing graphs from equations </a>
-
-## some sources
-
-### LaTeX Syntax
-- https://www.overleaf.com/learn/latex/Spacing_in_math_mode
-- https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces
-- https://www.overleaf.com/learn/latex/Fractions_and_Binomials
-- https://www.overleaf.com/learn/latex/Mathematical_expressions
-- https://www.overleaf.com/learn/latex/Integrals,_sums_and_limits
-- https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols#Arrows
-
-
+<table><tr> <td colspan="12" style="border-bottom: 2px solid #8A2BE2;"></td></tr></table>
 
 ### Images 
 - https://en.wikipedia.org/wiki/Cross_product
@@ -123,7 +109,7 @@ Calculus C includes
 - https://en.wikipedia.org/wiki/Three-dimensional_space
 - https://en.wikipedia.org/wiki/Polar_coordinate_system
 - https://commons.wikimedia.org/wiki/Polar_coordinate_system
-- https://commons.wikimedia.org/w/index.php?title=Special:Search&limit=500&offset=0&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1&search=vector+force&advancedSearch-current={}
+- 
 
 ### Other helpful links
 - https://courses.lumenlearning.com/precalctwo/chapter/finding-limits-numerical-and-graphical-approaches/
@@ -139,8 +125,17 @@ Calculus C includes
 - https://philschatz.com/us-history-book/contents/m49968.html
 - https://opentextbc.ca/calculusv1openstax/chapter/continuity/
 - https://philschatz.com/precalculus-book/contents/m49452.html
-- https://cnx.org/contents/\_VPq4foj@11.10:vEOnJry_@5/Introduction-to-Functions
+- https://openstax.org/subjects/math
 - https://cnx.org/contents/i4nRcikn@6.47:H2TLb2-S@4/Introduction
 - https://cnx.org/contents/HTmjSAcf@5.21:rrzms6rP@6/Introduction
 - https://cnx.org/contents/oxzXkyFi@5.30:72YaCFgv@5/Introduction
 - https://philschatz.com/precalculus-book/contents/m49452.html
+
+###  LaTeX Syntax
+
+- https://www.overleaf.com/learn/latex/Spacing_in_math_mode
+- https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces
+- https://www.overleaf.com/learn/latex/Fractions_and_Binomials
+- https://www.overleaf.com/learn/latex/Mathematical_expressions
+- https://www.overleaf.com/learn/latex/Integrals,_sums_and_limits
+- https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols#Arrows
