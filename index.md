@@ -31,10 +31,9 @@ Calculus C includes
 
 
 
-Some important external links:
+## Some important external links:
 
-### Graphs of equations
-<a href="https://www.desmos.com/calculator" targe="_blank" > Tool for drawing graphs from equations </a>
+<a href="https://www.desmos.com/calculator" targe="_blank" >Tool for drawing Graphs of equations </a>
 
 
 
