@@ -36,8 +36,8 @@ Calculus C includes
 <b><i>Youtube Links</i></b>
 
 - <a href="https://www.youtube.com/watch?v=riXcZT2ICjA" target="_blank">Introduction to limits</a>
-
 - <a href="https://www.youtube.com/watch?v=HfACrKJ_Y2w" target="_blank">Calculus 1 - Full College Course</a>
+
 - <a href="https://www.youtube.com/watch?v=rAof9Ld5sOg" target="_blank">Calculus: Derivatives 1 - Taking derivatives - Differential Calculus - Khan Academy</a>
 - <a href="https://www.youtube.com/watch?v=grnP3mduZkM" target="_blank">Algebra Introduction - Basic Overview</a>
 - <a href="https://www.youtube.com/watch?v=kvGsIo1TmsM" target="_blank">What is a function? -Functions and their graphs -Algebra II-Khan Academy</a>
