@@ -102,7 +102,7 @@ Calculus C includes
 
 ```
 ### Graphs of equations
-<a href="https://www.desmos.com/calculator" targe="_blank" > Tool for drawing graphs from equations </a>
+<a href="https://www.desmos.com/calculator" target="_blank" > Tool for drawing graphs from equations </a>
 
 ## some sources
 
