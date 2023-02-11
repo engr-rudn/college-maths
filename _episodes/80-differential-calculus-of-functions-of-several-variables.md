@@ -1,14 +1,7 @@
 ---
 title:  Differential calculus of functions of several variables
 
-questions:
-- "What basic?"
-- "How can ?"
-- "How do ?"
-- "Can I ?"
-objectives:
-- "???"
-- "???"
+
 ---
 
 # Differential calculus of functions of several variables
