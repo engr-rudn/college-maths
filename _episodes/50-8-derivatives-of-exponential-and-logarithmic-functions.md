@@ -132,12 +132,14 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 
 
 > ## Challenge - Find a formula for the derivative $$ \frac{d}{dx} \log_a(x)$$. 
-> The solution is:
 > > ## Solution
 > > The formula for the derivative of log base a of x, denoted as log_a(x), is:
 > > $$ \log_a(x) $$
+> > 
 > > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
+> > 
 > > $$ \frac{d}{dx} \ln(x) = \frac{1}{x} $$
+> > 
 > > $$ y = \log_a(x) $$
 > > $$ \ln(a^y) = y \ln(a) $$
 > > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dx} (y \ln(a)) $$
