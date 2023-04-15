@@ -136,7 +136,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > >
 > > The formula for the derivative of log base a of x, denoted as log_a(x), is:
 > > $$ \log_a(x) $$
-> > </br>
+> > \
 > > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
 > > </br>
 > > $$ \frac{d}{dx} \ln(x) = \frac{1}{x} $$
@@ -155,8 +155,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > </br>
 > > $$ \frac{dy}{dx} = \frac{1}{x \ln(a)} $$
 > > </br>
-> > $$ y = \log_a(x) $$
-> > </br>
+> > $$ y = \log_a(x) $$\
 > > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
 > > 
 > {: .solution}
