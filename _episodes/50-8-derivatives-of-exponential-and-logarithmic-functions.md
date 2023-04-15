@@ -159,11 +159,13 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > 
 > > ## Solution
 > >
-> > \begin{align*}
-\lim_{x\to\pi} \frac{\sin(mx)}{\sin(x)} &= \lim_{x\to\pi} \frac{m\cos(mx)}{\cos(x)} && \text{(applying L'Hopital's rule)} \
-&= \frac{m\cos(m\pi)}{\cos(\pi)} && \text{(since $\cos(\pi)=-1$ and $\cos(m\pi)=(-1)^m$ for odd $m$)} \
-&= -m
-\end{align*}
+> > We can use L'Hopital's rule to find the limit of this expression:\
+
+> > lim x->pi sin(mx)/sin(x) = lim x->pi m*cos(mx)/cos(x) [applying L'Hopital's rule]\
+
+> > = m*cos(m*pi)/cos(pi) [since cos(pi) = -1 and cos(m*pi) = cos(pi) = -1 for odd values of m] = -m
+
+> > Therefore, the limit of sin(mx)/sin(x) as x approaches pi is -m.
 > > 
 > {: .solution}
 {: .challenge}
