@@ -130,28 +130,23 @@ $$\frac{dy}{dx} = y(\cos x \ln x + \sin x \frac{1}{x})$$
 $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 
 
+
+> ## Challenge - Find a formula for the derivative $$ \frac{d}{dx} \log_a(x)$$. 
+> > The formula for the derivative of log base a of x, denoted as log_a(x), is:
+> > $$ \log_a(x) $$
+> > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
+> > $$ \frac{d}{dx} \ln(x) = \frac{1}{x} $$
+> > $$ y = \log_a(x) $$
+> > $$ \ln(a^y) = y \ln(a) $$
+> > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dx} (y \ln(a)) $$
+> > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dy} \ln(a^y) \cdot \frac{dy}{dx} = \frac{1}{a^y} \cdot \frac{dy}{dx} $$
+> > $$ \frac{d}{dx} (y \ln(a)) = \ln(a) \cdot \frac{dy}{dx} $$
+> > $$ \frac{1}{a^y} \cdot \frac{dy}{dx} = \ln(a) \cdot \frac{dy}{dx} $$
+> > $$ \frac{dy}{dx} = \frac{1}{x \ln(a)} $$
+> > $$ y = \log_a(x) $$
+> > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
+> {: .solution}
+{: .challenge}
+
+
 [==>](../50-9-extreme-values-of-functions)
-
-$$ \log_a(x) $$
-
-$$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
-
-$$ \frac{d}{dx} \ln(x) = \frac{1}{x} $$
-
-$$ y = \log_a(x) $$
-
-$$ \ln(a^y) = y \ln(a) $$
-
-$$ \frac{d}{dx} \ln(a^y) = \frac{d}{dx} (y \ln(a)) $$
-
-$$ \frac{d}{dx} \ln(a^y) = \frac{d}{dy} \ln(a^y) \cdot \frac{dy}{dx} = \frac{1}{a^y} \cdot \frac{dy}{dx} $$
-
-$$ \frac{d}{dx} (y \ln(a)) = \ln(a) \cdot \frac{dy}{dx} $$
-
-$$ \frac{1}{a^y} \cdot \frac{dy}{dx} = \ln(a) \cdot \frac{dy}{dx} $$
-
-$$ \frac{dy}{dx} = \frac{1}{x \ln(a)} $$
-
-$$ y = \log_a(x) $$
-
-$$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
