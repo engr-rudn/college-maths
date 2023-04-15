@@ -142,7 +142,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > $$ \ln(a^y) = y \ln(a) $$\
 > > Taking the derivative of both sides with respect to $$x$$, we get:\
 > > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dx} (y \ln(a)) $$\
-> > Using the chain rule, we have:
+> > Using the chain rule, we have:\
 > > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dy} \ln(a^y) \cdot \frac{dy}{dx} = \frac{1}{a^y} \cdot \frac{dy}{dx} $$\
 > > $$ \frac{d}{dx} (y \ln(a)) = \ln(a) \cdot \frac{dy}{dx} $$\
 > > Substituting these expressions back into the original equation, we get:\
