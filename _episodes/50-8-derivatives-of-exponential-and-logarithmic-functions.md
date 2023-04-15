@@ -131,7 +131,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 
 
 
-> ## Challenge - Find a formula for the derivative $$ \frac{d}{dx} \log_a(x)$$. 
+> ## Challenge 1 - Find a formula for the derivative $$ \frac{d}{dx} \log_a(x)$$. 
 > > ## Solution
 > >
 > > The formula for the derivative of log base a of x, denoted as $$ \log_a(x) $$, is:\
@@ -154,5 +154,19 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > 
 > {: .solution}
 {: .challenge}
+
+> ## Challenge 2 - Calculate the following limits (including proofs that they exist):. 
+> 
+> > ## Solution
+> >
+> > \begin{align*}
+\lim_{x\to\pi} \frac{\sin(mx)}{\sin(x)} &= \lim_{x\to\pi} \frac{m\cos(mx)}{\cos(x)} && \text{(applying L'Hopital's rule)} \
+&= \frac{m\cos(m\pi)}{\cos(\pi)} && \text{(since $\cos(\pi)=-1$ and $\cos(m\pi)=(-1)^m$ for odd $m$)} \
+&= -m
+\end{align*}
+> > 
+> {: .solution}
+{: .challenge}
+
 
 [==>](../50-9-extreme-values-of-functions)
