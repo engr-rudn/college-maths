@@ -155,5 +155,4 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > {: .solution}
 {: .challenge}
 
-
 [==>](../50-9-extreme-values-of-functions)
