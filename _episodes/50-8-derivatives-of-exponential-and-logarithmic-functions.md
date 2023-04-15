@@ -137,24 +137,15 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > The formula for the derivative of log base a of x, denoted as log_a(x), is:
 > > $$ \log_a(x) $$
 > > \
-> > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
-> > </br>
-> > $$ \frac{d}{dx} \ln(x) = \frac{1}{x} $$
-> > </br>
-> > $$ y = \log_a(x) $$
-> > </br>
-> > $$ \ln(a^y) = y \ln(a) $$
-> > </br>
-> > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dx} (y \ln(a)) $$
-> > </br>
-> > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dy} \ln(a^y) \cdot \frac{dy}{dx} = \frac{1}{a^y} \cdot \frac{dy}{dx} $$
-> > </br>
-> > $$ \frac{d}{dx} (y \ln(a)) = \ln(a) \cdot \frac{dy}{dx} $$
-> > </br>
-> > $$ \frac{1}{a^y} \cdot \frac{dy}{dx} = \ln(a) \cdot \frac{dy}{dx} $$
-> > </br>
-> > $$ \frac{dy}{dx} = \frac{1}{x \ln(a)} $$
-> > </br>
+> > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$\
+> > $$ \frac{d}{dx} \ln(x) = \frac{1}{x} $$\
+> > $$ y = \log_a(x) $$\
+> > $$ \ln(a^y) = y \ln(a) $$\
+> > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dx} (y \ln(a)) $$\
+> > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dy} \ln(a^y) \cdot \frac{dy}{dx} = \frac{1}{a^y} \cdot \frac{dy}{dx} $$\
+> > $$ \frac{d}{dx} (y \ln(a)) = \ln(a) \cdot \frac{dy}{dx} $$\
+> > $$ \frac{1}{a^y} \cdot \frac{dy}{dx} = \ln(a) \cdot \frac{dy}{dx} $$\
+> > $$ \frac{dy}{dx} = \frac{1}{x \ln(a)} $$\
 > > $$ y = \log_a(x) $$\
 > > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$
 > > 
