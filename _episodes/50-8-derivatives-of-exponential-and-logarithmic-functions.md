@@ -150,7 +150,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > Solving for (dy/dx), we obtain:\
 > > $$ \frac{dy}{dx} = \frac{1}{x \ln(a)} $$\
 > > Substituting $$ y = \log_a(x) $$, we arrive at the desired formula:\
-> > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x*\ln(a)} $$
+> > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x\cdot\ln(a)} $$
 > > 
 > {: .solution}
 {: .challenge}
