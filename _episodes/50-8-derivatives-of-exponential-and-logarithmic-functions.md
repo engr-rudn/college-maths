@@ -138,16 +138,16 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x \ln(a)} $$\
 > > where $$ \ln(a)$$ is the natural logarithm of a. We can derive this formula using the chain rule of differentiation and the formula for the derivative of the natural logarithm:\
 > > $$ \frac{d}{dx} \ln(x) = \frac{1}{x} $$\
-> > Let $$ y = \log_a(x) $$. Then, we can rewrite this equation as:
+> > Let $$ y = \log_a(x) $$. Then, we can rewrite this equation as:\
 > > $$ \ln(a^y) = y \ln(a) $$\
-> > Taking the derivative of both sides with respect to $$x$$, we get:
+> > Taking the derivative of both sides with respect to $$x$$, we get:\
 > > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dx} (y \ln(a)) $$\
 > > Using the chain rule, we have:
 > > $$ \frac{d}{dx} \ln(a^y) = \frac{d}{dy} \ln(a^y) \cdot \frac{dy}{dx} = \frac{1}{a^y} \cdot \frac{dy}{dx} $$\
 > > $$ \frac{d}{dx} (y \ln(a)) = \ln(a) \cdot \frac{dy}{dx} $$\
-> > Substituting these expressions back into the original equation, we get:
+> > Substituting these expressions back into the original equation, we get:\
 > > $$ \frac{1}{a^y} \cdot \frac{dy}{dx} = \ln(a) \cdot \frac{dy}{dx} $$\
-> > Solving for (dy/dx), we obtain:
+> > Solving for (dy/dx), we obtain:\
 > > $$ \frac{dy}{dx} = \frac{1}{x \ln(a)} $$\
 > > Substituting $$ y = \log_a(x) $$, we arrive at the desired formula:\
 > > $$ \frac{d}{dx} \log_a(x) = \frac{1}{x*\ln(a)} $$
