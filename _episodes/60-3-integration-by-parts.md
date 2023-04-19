@@ -67,8 +67,8 @@ $$\int e^{2x} \sin x dx$$
 > > ## Solution
 > >
 > > The Mean Value Theorem for Integrals states that if $$g(x)$$ is a non-negative continuous function on the interval $$[a,b]$$, then there exists a number $$c \in [a,b]$$ such that $$\int_a^b g(x)dx = g(c)(b-a)$$. If we relax the assumption that $$g(x)$$ is non-negative, the conclusion may not hold.
-> > Here is an example to illustrate this point. Consider the function $$g(x) = x - \frac{1}{2}$$ > > > on the interval $$[0,1]$$. 
-> > 0.5 & \text{if } 0 \leq x < \frac{1}{2} \\
+> > Here is an example to illustrate this point. Consider the function $$g(x) = x - \frac{1}{2}$$ on the interval $$[0,1]$$. 
+> >$$ 0.5 & \text{if } 0 \leq x < \frac{1}{2} \\
 > > -0.5 & \text{if } \frac{1}{2} < x \leq 1 \\
 > > \end{cases}$$
 > > This function takes positive values on the interval $(0, \frac{1}{2})$, negative values on the > > interval $(\frac{1}{2},1)$, and has a zero at $x=\frac{1}{2}$.
