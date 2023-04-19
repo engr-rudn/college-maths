@@ -66,17 +66,14 @@ $$\int e^{2x} \sin x dx$$
 > 
 > > ## Solution
 > >
-> > The Mean Value Theorem for Integrals states that if $$g(x)$$ is a non-negative continuous function on the interval $$[a,b]$$, then there exists a number $$c \in [a,b]$$ such that $$\int_a^b g(x)dx = g(c)(b-a)$$. If we relax the assumption that $$g(x)$$ is non-negative, the conclusion may not hold.
-> > Here is an example to illustrate this point. Consider the function $$g(x) = x - \frac{1}{2}$$ on the interval $$[0,1]$$. 
-> >$$ 0.5 & \text{if } 0 \leq x < \frac{1}{2} \\
-> > -0.5 & \text{if } \frac{1}{2} < x \leq 1 \\
-> > \end{cases}$$
-> > This function takes positive values on the interval $(0, \frac{1}{2})$, negative values on the > > interval $(\frac{1}{2},1)$, and has a zero at $x=\frac{1}{2}$.
-> > We can compute the definite integral of $$g(x)$$ on $$[0,1]$$ as follows:
-> > $$\int_0^1 g(x) dx = \int_0^{1/2} g(x) dx + \int_{1/2}^1 g(x) dx$$
-> > $$= \left[\frac{x^2}{2} - \frac{x}{2}\right]0^{1/2} + \left[\frac{x^2}{2} - \frac{x}{2}\right]{1/2}^1$$
+> > The Mean Value Theorem for Integrals states that if $$g(x)$$ is a non-negative continuous function on the interval $$[a,b]$$, then there exists a number $$c \in [a,b]$$ such that $$\int_a^b g(x)dx = g(c)(b-a)$$. If we relax the assumption that $$g(x)$$ is non-negative, the conclusion may not hold.\
+> > Here is an example to illustrate this point. Consider the function $$g(x) = x - \frac{1}{2}$$ on the interval $$[0,1]$$.\ 
+> > This function takes positive values on the interval $$(0, \frac{1}{2})$$, negative values on the interval $$(\frac{1}{2},1)$$, and has a zero at $$x=\frac{1}{2}$$.\
+> > We can compute the definite integral of $$g(x)$$ on $$[0,1]$$ as follows:\
+> > $$\int_0^1 g(x) dx = \int_0^{1/2} g(x) dx + \int_{1/2}^1 g(x) dx$$\
+> > $$= \left[\frac{x^2}{2} - \frac{x}{2}\right]0^{1/2} + \left[\frac{x^2}{2} - \frac{x}{2}\right]{1/2}^1$$\
 > > $$= \left(\frac{1}{8} - \frac{1}{4}\right) + \left(\frac{1}{2} - \frac{1}{2}\right)$$
-> > $$= -\frac{1}{8}$$
+> > $$= -\frac{1}{8}$$\
 > > Note that $$g(x)$$ takes on the value $$g(\frac{1}{2}) = 0$$ at the midpoint of the interval $$[0,1]$$. However, we cannot apply the Mean Value Theorem for Integrals to conclude that there exists a point $$c \in [0,1]$$ such that $$g(c)(1-0) = -\frac{1}{8}$$, because $$g(x)$$ is not non-negative on the entire interval $$[0,1]$$. In fact, $$g(x)$$ takes on negative values on the interval $$[0,\frac{1}{2})$$ and positive values on the interval $$(\frac{1}{2},1]$$, so there is no point $$c$$ in $$[0,1]$$ where $$g(c) = \frac{-1}{8(1-0)} = -\frac{1}{8}$$. Therefore, the conclusion of the Mean Value Theorem for Integrals does not hold for this function when it takes both positive and negative values.
 > > 
 > {: .solution}
