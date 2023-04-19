@@ -95,3 +95,32 @@ $$\int e^{2x} \sin x dx$$
 > > 
 > {: .solution}
 {: .challenge}
+
+> ## 6.5.2 Exercise 1 - Let $f$ be a continuous function on an open interval $A$. For every choice of $a$ in $A$, the function $F(x) = \int_a^x f(t) , dt$ is an antiderivative for $f$. However, it is possible for $f$ to have antiderivatives that cannot be expressed in this form. Provide an example of such a function. 
+> > ## Solution
+> >
+> > One example of a function that has antiderivatives that cannot be expressed in the form of the given integral is:\
+> > $$f(x) = \frac{\sin x}{x}, \text{ where } x \neq 0 \text{ and } f(0) = 1$$\
+> > To see that this function has antiderivatives that cannot be expressed in the given form, suppose that there exists a function $$F(x)$$ such that $$F'(x) = f(x)$$ for all $$x$$ in some open interval $$A$$. Then, we have:\
+> > $$F'(x) = f(x) = \frac{\sin x}{x}$$
+> > Integrating both sides with respect to $$x$$, we get:
+> > $$F(x) = \int \frac{\sin x}{x} dx + C$$
+> > where $$C$$ is a constant of integration.
+> > However, it can be shown that the integral $$\int \frac{\sin x}{x} dx$$ does not have an elementary antiderivative, i.e., an antiderivative that can be expressed in terms of elementary functions (such as polynomials, exponentials, logarithms, trigonometric functions, etc.). Therefore, the function $$F(x)$$ cannot be expressed in the given form for this choice of $$f(x)$$.
+> > 
+> {: .solution}
+{: .challenge}
+
+> ## 6.5.2 Exercise 3 - Give an example to show that Proposition 6.19 does not hold if the requirement that $$F$$ is continuous is omitted. 
+> > ## Solution
+> >
+> > Let $$f(x) = \begin{cases} 1 & \text{if } 0 \leq x \leq 1 \ -1 & \text{if } 1 < x \leq 2 \end{cases}$$\
+> >  be a piecewise continuous function on the interval $$[0, 2]$$.\
+> >  Let $$F(x) = \begin{cases} x & \text{if } 0 \leq x \leq 1 \ x-2 & \text{if } 1 < x \leq 2 \end{cases}$$\
+> >  be a function that is continuous on $$[0,2]$$, differentiable everywhere except at $$x=1$$, and satisfies $$F'(x) = f(x)$$ for all $$x$$ except $$x=1$$.\
+> > Note that $$\int_0^2 f(x) , dx = \int_0^1 1 , dx + \int_1^2 -1 , dx = 0$$. However, we have:\
+> > $$F(2) - F(0) = (2-2) - (0-0) = 0$$\
+> > So, $$F$$ is a primitive of $$f$$ on $$[0,2]$$. However, $$F$$ is not differentiable at $$x=1$$, so the conclusion of the proposition fails if we do not require $$F$$ to be continuous.
+> > 
+> {: .solution}
+{: .challenge}
