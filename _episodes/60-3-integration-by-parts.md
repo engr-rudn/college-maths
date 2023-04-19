@@ -114,9 +114,9 @@ $$\int e^{2x} \sin x dx$$
 > ## 6.5.2 Exercise 3 - Give an example to show that Proposition 6.19 does not hold if the requirement that $$F$$ is continuous is omitted. 
 > > ## Solution
 > >
-> > $$ f(x) = \begin{cases} 1 & \text{if } 0 \leq x \leq 1 \\ -1 & \text{if } 1 < x \leq 2 \end{cases} $$\
+> > Let $$ f(x) = \begin{cases} 1 & \text{if } 0 \leq x \leq 1 \\ -1 & \text{if } 1 < x \leq 2 \end{cases} $$\
 > >  be a piecewise continuous function on the interval $$[0, 2]$$.\
-> >  Let $$F(x) = \begin{cases} x & \text{if } 0 \leq x \leq 1 \ x-2 & \text{if } 1 < x \leq 2 \end{cases}$$\
+> >  Let $$F(x) = \begin{cases} x & \text{if } 0 \leq x \leq 1 \\ x-2 & \text{if } 1 < x \leq 2 \end{cases}$$\
 > >  be a function that is continuous on $$[0,2]$$, differentiable everywhere except at $$x=1$$, and satisfies $$F'(x) = f(x)$$ for all $$x$$ except $$x=1$$.\
 > > Note that $$\int_0^2 f(x) , dx = \int_0^1 1 , dx + \int_1^2 -1 , dx = 0$$. However, we have:\
 > > $$F(2) - F(0) = (2-2) - (0-0) = 0$$\
@@ -124,3 +124,4 @@ $$\int e^{2x} \sin x dx$$
 > > 
 > {: .solution}
 {: .challenge}
+
