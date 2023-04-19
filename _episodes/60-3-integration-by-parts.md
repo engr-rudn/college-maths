@@ -52,10 +52,11 @@ $$\int e^{2x} \sin x dx$$
 > > $$|fg(x)| = |f(x)g(x)| \leq |f(x)| |g(x)| \leq M_1 M_2$$
 > > This shows that $$fg$$ is also bounded, with $$|fg(x)| \leq M_1 M_2$$ for all $$x$$ in $$[a,b]$$.
 > > Next, we can use the Cauchy-Schwarz inequality to show that $$fg$$ is integrable. The Cauchy-> > > > Schwarz inequality states that for any integrable functions $$f$$ and $$g$$ on $$[a,b]$$,
-> > $$|\int_a^b f(x)g(x) dx| \leq \int_a^b |f(x)||g(x)| dx$$
-> > Since we know that $$|f(x)| \leq M_1$$ and $$|g(x)| \leq M_2$$ for all $$x$$ in $$[a,b]$$, we have:
-> > $$|\int_a^b f(x)g(x) dx| \leq \int_a^b |f(x)||g(x)| dx \leq M_1 M_2 (b-a)$$
-> > Since $$M_1 M_2$$ is a constant, this shows that $$fg$$ is integrable on $$[a,b]$$ with integral $$|\int_a^b fg(x) dx| \leq M_1 M_2 (b-a)$$.
+> > $$|\int_a^b f(x)g(x) dx| \leq \int_a^b |f(x)||g(x)| dx$$\
+> > Since we know that $$|f(x)| \leq M_1$$ and $$|g(x)| \leq M_2$$\
+> > for all $$x$$ in $$[a,b]$$, we have:
+> > $$|\int_a^b f(x)g(x) dx| \leq \int_a^b |f(x)||g(x)| dx \leq M_1 M_2 (b-a)$$\
+> > Since $$M_1 M_2$$ is a constant, this shows that $$fg$$ is integrable on $$[a,b]$$ with integral $$|\int_a^b fg(x) dx| \leq M_1 M_2 (b-a)$$.\
 > > Therefore, we have shown that if $$f$$ and $$g$$ are bounded and integrable on $$[a,b]$$, then $$fg$$ is also integrable on $$[a,b]$$.
 > > 
 > {: .solution}
