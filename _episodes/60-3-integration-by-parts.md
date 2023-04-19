@@ -78,7 +78,7 @@ $$\int e^{2x} \sin x dx$$
 > > 
 > {: .solution}
 {: .challenge}
-> ## 6.4.5 Exercise 4 - The integral of $$f(x)$$ over the interval $$[a,b]$$ can be approximated by the Riemann sum $$\sum_{i=1}^n f(x_i^)\Delta x_i$$, where $$x_i^$$ is any point in the $$i_{th}$$ subinterval $$[x_{i-1}, x_i]$$ and $$\Delta x_i = x_i - x_{i-1}$$ is the width of the $$i_{th}$$ subinterval. As the number of subintervals $$n$$ increases and the width of each subinterval $$\Delta x_i$$ approaches zero, the Riemann sum converges to the definite integral $$\int_a^b f(x) dx$$. 
+> ## 6.4.5 Exercise 4 - Suppose that $$f$$ is integrable on the interval $$[a, b]$$ and that there exists $$\alpha>0$$ such that $$f(x) > \alpha$$ for all $$x$$ in $$[a, b]$$. Show that $$\sqrt{f}$$ is integrable on $$[a, b]$$. Compare the oscillation of $$\sqrt{f}$$ on an interval with that of $$f$$. Try using the identity $$\sqrt{x} - \sqrt{y} = \frac{x-y}{\sqrt{x} + \sqrt{y}}$$. 
 > 
 > > ## Solution
 > >
