@@ -118,7 +118,7 @@ $$\int e^{2x} \sin x dx$$
 > >  be a piecewise continuous function on the interval $$[0, 2]$$.\
 > >  Let $$F(x) = \begin{cases} x & \text{if } 0 \leq x \leq 1 \\ x-2 & \text{if } 1 < x \leq 2 \end{cases}$$\
 > >  be a function that is continuous on $$[0,2]$$, differentiable everywhere except at $$x=1$$, and satisfies $$F'(x) = f(x)$$ for all $$x$$ except $$x=1$$.\
-> > Note that $$\int_0^2 f(x) , dx = \int_0^1 1 , dx + \int_1^2 -1 , dx = 0$$. However, we have:\
+> > Note that $$\int_0^2 f(x)dx = \int_0^1 1 dx + \int_1^2 -1 dx = 0$$. However, we have:\
 > > $$F(2) - F(0) = (2-2) - (0-0) = 0$$\
 > > So, $$F$$ is a primitive of $$f$$ on $$[0,2]$$. However, $$F$$ is not differentiable at $$x=1$$, so the conclusion of the proposition fails if we do not require $$F$$ to be continuous.
 > > 
