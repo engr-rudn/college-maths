@@ -47,16 +47,16 @@ $$\int e^{2x} \sin x dx$$
 > ## 6.4.5 Exercise 1 - show that if $$f$$ and $$g$$ are bounded functions, both integrable on the interval [a,b], then so is $$fg$$. 
 > > ## Solution
 > >
-> > To show that the product of two bounded and integrable functions is also integrable, we need to show that the product function $fg$ satisfies the conditions for integrability.
-> > First, since $f$ and $g$ are bounded functions, there exist real numbers $M_1$ and $M_2$ such that $|f(x)| \leq M_1$ and $|g(x)| \leq M_2$ for all $x$ in $[a,b]$. Then, we have:
-> > $|fg(x)| = |f(x)g(x)| \leq |f(x)| |g(x)| \leq M_1 M_2$
-> > This shows that $fg$ is also bounded, with $|fg(x)| \leq M_1 M_2$ for all $x$ in $[a,b]$.
-> > Next, we can use the Cauchy-Schwarz inequality to show that $fg$ is integrable. The Cauchy-> > > > Schwarz inequality states that for any integrable functions $f$ and $g$ on $[a,b]$,
-> > $|\int_a^b f(x)g(x) dx| \leq \int_a^b |f(x)||g(x)| dx$
-> > Since we know that $|f(x)| \leq M_1$ and $|g(x)| \leq M_2$ for all $x$ in $[a,b]$, we have:
-> > $|\int_a^b f(x)g(x) dx| \leq \int_a^b |f(x)||g(x)| dx \leq M_1 M_2 (b-a)$
-> > Since $M_1 M_2$ is a constant, this shows that $fg$ is integrable on $[a,b]$ with integral $|\int_a^b fg(x) dx| \leq M_1 M_2 (b-a)$.
-> > Therefore, we have shown that if $f$ and $g$ are bounded and integrable on $[a,b]$, then $fg$ is also integrable on $[a,b]$.
+> > To show that the product of two bounded and integrable functions is also integrable, we need to show that the product function $$fg$$ satisfies the conditions for integrability.
+> > First, since $$f$$ and $$g$$ are bounded functions, there exist real numbers $$M_1$$ and $$M_2$$ such that $$|f(x)| \leq M_1$$ and $$|g(x)| \leq M_2$$ for all $$x$$ in $$[a,b]$$. Then, we have:
+> > $$|fg(x)| = |f(x)g(x)| \leq |f(x)| |g(x)| \leq M_1 M_2$$
+> > This shows that $$fg$$ is also bounded, with $$|fg(x)| \leq M_1 M_2$$ for all $$x$$ in $$[a,b]$$.
+> > Next, we can use the Cauchy-Schwarz inequality to show that $$fg$$ is integrable. The Cauchy-> > > > Schwarz inequality states that for any integrable functions $$f$$ and $$g$$ on $$[a,b]$$,
+> > $$|\int_a^b f(x)g(x) dx| \leq \int_a^b |f(x)||g(x)| dx$$
+> > Since we know that $$|f(x)| \leq M_1$$ and $$|g(x)| \leq M_2$$ for all $$x$$ in $$[a,b]$$, we have:
+> > $$|\int_a^b f(x)g(x) dx| \leq \int_a^b |f(x)||g(x)| dx \leq M_1 M_2 (b-a)$$
+> > Since $$M_1 M_2$$ is a constant, this shows that $$fg$$ is integrable on $$[a,b]$$ with integral $$|\int_a^b fg(x) dx| \leq M_1 M_2 (b-a)$$.
+> > Therefore, we have shown that if $$f$$ and $$g$$ are bounded and integrable on $$[a,b]$$, then $$fg$$ is also integrable on $$[a,b]$$.
 > > 
 > {: .solution}
 {: .challenge}
@@ -65,8 +65,8 @@ $$\int e^{2x} \sin x dx$$
 > 
 > > ## Solution
 > >
-> > The Mean Value Theorem for Integrals states that if $g(x)$ is a non-negative continuous function on the interval $[a,b]$, then there exists a number $c \in [a,b]$ such that $\int_a^b g(x)dx = g(c)(b-a)$. If we relax the assumption that $g(x)$ is non-negative, the conclusion may not hold.
-> > Here is an example to illustrate this point. Consider the function $g(x) = x - \frac{1}{2}$ on the interval $[0,1]$. This function takes both positive and negative values, as shown in the following graph:
+> > The Mean Value Theorem for Integrals states that if $$g(x)$$ is a non-negative continuous function on the interval $$[a,b]$$, then there exists a number $$c \in [a,b]$$ such that $$\int_a^b g(x)dx = g(c)(b-a)$$. If we relax the assumption that $$g(x)$$ is non-negative, the conclusion may not hold.
+> > Here is an example to illustrate this point. Consider the function $$g(x) = x - \frac{1}{2}$$ on the interval $$[0,1]$$. This function takes both positive and negative values, as shown in the following graph:
     |
   1 |- - - - - - - - - - - - - - - - - -
     |
@@ -77,12 +77,12 @@ $$\int e^{2x} \sin x dx$$
  -1 |- - - - - - - - - - - - - - - - - -
     |
       0     1/2   1
-We can compute the definite integral of $g(x)$ on $[0,1]$ as follows:
-> > $\int_0^1 g(x) dx = \int_0^{1/2} g(x) dx + \int_{1/2}^1 g(x) dx$
-> > $= \left[\frac{x^2}{2} - \frac{x}{2}\right]0^{1/2} + \left[\frac{x^2}{2} - \frac{x}{2}\right]{1/2}^1$
-> > $= \left(\frac{1}{8} - \frac{1}{4}\right) + \left(\frac{1}{2} - \frac{1}{2}\right)$
-> > $= -\frac{1}{8}$
-> > Note that $g(x)$ takes on the value $g(\frac{1}{2}) = 0$ at the midpoint of the interval $[0,1]$. However, we cannot apply the Mean Value Theorem for Integrals to conclude that there exists a point $c \in [0,1]$ such that $g(c)(1-0) = -\frac{1}{8}$, because $g(x)$ is not non-negative on the entire interval $[0,1]$. In fact, $g(x)$ takes on negative values on the interval $[0,\frac{1}{2})$ and positive values on the interval $(\frac{1}{2},1]$, so there is no point $c$ in $[0,1]$ where $g(c) = \frac{-1}{8(1-0)} = -\frac{1}{8}$. Therefore, the conclusion of the Mean Value Theorem for Integrals does not hold for this function when it takes both positive and negative values.
+We can compute the definite integral of $$g(x)$$ on $$[0,1]$$ as follows:
+> > $$\int_0^1 g(x) dx = \int_0^{1/2} g(x) dx + \int_{1/2}^1 g(x) dx$$
+> > $$= \left[\frac{x^2}{2} - \frac{x}{2}\right]0^{1/2} + \left[\frac{x^2}{2} - \frac{x}{2}\right]{1/2}^1$$
+> > $$= \left(\frac{1}{8} - \frac{1}{4}\right) + \left(\frac{1}{2} - \frac{1}{2}\right)$$
+> > $$= -\frac{1}{8}$$
+> > Note that $$g(x)$$ takes on the value $$g(\frac{1}{2}) = 0$$ at the midpoint of the interval $$[0,1]$$. However, we cannot apply the Mean Value Theorem for Integrals to conclude that there exists a point $$c \in [0,1]$$ such that $$g(c)(1-0) = -\frac{1}{8}$$, because $$g(x)$$ is not non-negative on the entire interval $$[0,1]$$. In fact, $$g(x)$$ takes on negative values on the interval $$[0,\frac{1}{2})$$ and positive values on the interval $$(\frac{1}{2},1]$$, so there is no point $$c$$ in $$[0,1]$$ where $$g(c) = \frac{-1}{8(1-0)} = -\frac{1}{8}$$. Therefore, the conclusion of the Mean Value Theorem for Integrals does not hold for this function when it takes both positive and negative values.
 > > 
 > {: .solution}
 {: .challenge}
