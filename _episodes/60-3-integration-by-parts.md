@@ -96,7 +96,7 @@ $$\int e^{2x} \sin x dx$$
 > {: .solution}
 {: .challenge}
 
-> ## 6.5.2 Exercise 1 - Let $f$ be a continuous function on an open interval $A$. For every choice of $a$ in $A$, the function $F(x) = \int_a^x f(t) , dt$ is an antiderivative for $f$. However, it is possible for $f$ to have antiderivatives that cannot be expressed in this form. Provide an example of such a function. 
+> ## 6.5.2 Exercise 1 - Let $$f$$ be a continuous function on an open interval $$A$$. For every choice of $$a$$ in $$A$$, the function $$F(x) = \int_a^x f(t) , dt$$ is an antiderivative for $$f$$. However, it is possible for $$f$$ to have antiderivatives that cannot be expressed in this form. Provide an example of such a function. 
 > > ## Solution
 > >
 > > One example of a function that has antiderivatives that cannot be expressed in the form of the given integral is:\
