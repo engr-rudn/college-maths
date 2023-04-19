@@ -78,17 +78,19 @@ $$\int e^{2x} \sin x dx$$
 > > 
 > {: .solution}
 {: .challenge}
-> ## 6.4.5 Exercise 4 - Suppose that $$f$$ is integrable on the interval $$[a, b]$$ and that there exists $$\alpha>0$$ such that $$f(x) > \alpha$$ for all $$x$$ in $$[a, b]$$. Show that $$\sqrt{f}$$ is integrable on $$[a, b]$$. Compare the oscillation of $$\sqrt{f}$$ on an interval with that of $$f$$. Try using the identity $$\sqrt{x} - \sqrt{y} = \frac{x-y}{\sqrt{x} + \sqrt{y}}$$. 
+> ## 6.4.5 Exercise 4 - Suppose that $$f$$ is integrable on the interval $$[a, b]$$ and that there exists $$\alpha>0$$ such that $$f(x) > \alpha$$ for all $$x$$ in $$[a, b]$$. Show that $$\sqrt{f}$$ is integrable on $$[a, b]$$. Compare the oscillation of $$\sqrt{f}$$ on an interval with that of $$f$$. Hint: try using the identity $$\sqrt{x} - \sqrt{y} = \frac{x-y}{\sqrt{x} + \sqrt{y}}$$. 
 > 
 > > ## Solution
 > >
-> > To show that $$\sqrt{f}$$ is integrable on $$[a,b]$$, we need to show that $$\int_a^b \sqrt{f(x)} dx$$ exists and is finite.
-> > We can use the inequality $$\sqrt{f(x)} > \sqrt{\alpha}$$ for all $$x \in [a,b]$$ to obtain:
-$$\int_a^b \sqrt{f(x)} dx \geq \int_a^b \sqrt{\alpha} dx = \sqrt{\alpha} \int_a^b dx = \sqrt{\alpha}(b-a)$$
-Since $$\sqrt{\alpha}(b-a)$$ is a finite number, it follows that $$\sqrt{f}$$ is integrable on $$[a,b]$$.
-> > To compare the oscillation of $$\sqrt{f}$$ on an interval with that of $$f$$, we can use the identity $$\sqrt{x} - \sqrt{y} = \frac{x-y}{\sqrt{x}+\sqrt{y}}$$ for $$x,y>0$$. Then, for any $$x,y \in [a,b]$$ with $$x \neq y$$, we have:
-$$\sqrt{f(x)} - \sqrt{f(y)} = \frac{f(x)-f(y)}{\sqrt{f(x)}+\sqrt{f(y)}} < \frac{f(x)-f(y)}{\sqrt{\alpha}+\sqrt{\alpha}} = \frac{1}{\sqrt{2\alpha}} |f(x)-f(y)|$$
-Thus, the oscillation of $$\sqrt{f}$$ on an interval is smaller than that of $$f$$ by a factor of $$\frac{1}{\sqrt{2\alpha}}$$.
+> > To show that $$\sqrt{f}$$ is integrable on $$[a,b]$$, we need to show that $$\int_a^b \sqrt{f(x)} dx$$ exists and is finite.\
+> > We can use the inequality $$\sqrt{f(x)} > \sqrt{\alpha}$$ for all $$x \in [a,b]$$ to obtain:\
+> > $$\int_a^b \sqrt{f(x)} dx \geq \int_a^b \sqrt{\alpha} dx = \sqrt{\alpha} \int_a^b dx = \sqrt{\alpha}(b-a)$$\
+> > Since $$\sqrt{\alpha}(b-a)$$ is a finite number, it follows that $$\sqrt{f}$$ is integrable on $$[a,b]$$.
+> > To compare the oscillation of $$\sqrt{f}$$ on an interval with that of $$f$$, we can use the identity\
+> > $$\sqrt{x} - \sqrt{y} = \frac{x-y}{\sqrt{x}+\sqrt{y}}$$ for $$x,y>0$$. \
+> > Then, for any $$x,y \in [a,b]$$ with $$x \neq y$$, we have:\
+> > $$\sqrt{f(x)} - \sqrt{f(y)} = \frac{f(x)-f(y)}{\sqrt{f(x)}+\sqrt{f(y)}} < \frac{f(x)-f(y)}{\sqrt{\alpha}+\sqrt{\alpha}} = \frac{1}{\sqrt{2\alpha}} |f(x)-f(y)|$$\
+> > Thus, the oscillation of $$\sqrt{f}$$ on an interval is smaller than that of $$f$$ by a factor of $$\frac{1}{\sqrt{2\alpha}}$$.
 > > 
 > {: .solution}
 {: .challenge}
