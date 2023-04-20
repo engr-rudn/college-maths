@@ -109,3 +109,17 @@ Therefore, we have:\
 > > $$\lim_{n\to\infty} \sum_{k=1}^n \frac{n}{n^2 + k^2} = \frac{\pi}{4}$$
 > {: .solution}
 {: .challenge}
+> ## (e) $$lim_{n->\infty} \sum_{k=1}^n 1/\sqrt(n^2 + k^2)$$ 
+> > 
+> > ## Solution
+> > To compute this limit by interpreting it as a Riemann sum, we can approximate the given sum by a definite integral.
+> > First, note that the sum can be written as:\
+> > $$\sum_{k=1}^n \frac{1}{\sqrt{n^2 + k^2}}$$\
+> > Now, we can interpret this sum as a Riemann sum for the function f(x) = 1/sqrt(1+x^2) over the interval [0,1] by partitioning the interval into n equal subintervals, each of length 1/n. We choose the sample points to be the right endpoints of each subinterval. Then, the Riemann sum is:\
+> > $$\sum_{k=1}^n f(k/n) * (1/n) = \sum_{k=1}^n \frac{1}{\sqrt{n^2 + k^2}} \cdot \frac{1}{n}$$\
+> > Using this interpretation, we can approximate the sum as the area of rectangles with base length 1/n and height 1/sqrt(n^2+k^2). Then, the limit we are trying to compute is:\
+> > $$\lim_{n\to\infty} \frac{1}{n} \sum_{k=1}^n \frac{1}{\sqrt{n^2 + k^2}} = \int_0^1 \frac{dx}{\sqrt{1+x^2}} = \sinh^{-1}(1) = \ln(1 + \sqrt{2})$$\
+> > Therefore, we have:\
+> > $$\lim_{n\to\infty} \sum_{k=1}^n \frac{1}{\sqrt{n^2 + k^2}} = \ln(1+\sqrt{2})$$\
+> {: .solution}
+{: .challenge}
