@@ -74,21 +74,21 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > $$\int_{0}^{c} \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx = \int_{0}^{c} \sqrt{1 + \frac{x^2}{1-x^2}} dx$$\
 > > 
 > {: .solution}
-> ## 6.7.2 Exercise 2 - Compute the following limits by interpreting them as Riemann sums:
-> ## (a) $$\lim_{n->\infty} (1/n^2) * \sum_{k=1}^n k$$
+> ## 6.7.2 Exercise 2 - The upper arc of the ellipse $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$, with semi-major axis $$a$$ and semi-minor axis $$b$$ is the curve $$y=\frac{b}{a}\sqrt{a^2-x^2}$$, $$-a< x < a$$. It is often convenient to express properties of the ellipse in terms of $$a$$, and the eccentricity $$e$$, defined as $$e=\sqrt{1-\frac{b^2}{a^2}}$$. Given $$c$$ such that $$0<c<a$$, express the integral for the arc length of the ellipse, from $$x=0$$ to $$x=c$$, in terms of $$a$$, $$e$$ and $$c$$.
 > > 
 > > ## Solution
 > >
-> > To compute this limit by interpreting it as a Riemann sum, we can approximate the given sum by a definite integral.\
-> > First, note that the sum can be written as:\
-$$(1/n^2) * \sum_{k=1}^n k = (1/n^2) * (n(n+1))/2 = (n+1)/(2n)$$\
-> > Now, we can interpret this sum as a Riemann sum for the function $$f(x) = x $$ over the interval $$[0,1]$$ by partitioning the interval into n equal subintervals, each of length $$1/n$$. We choose the sample points to be the right endpoints of each subinterval. Then, the Riemann sum is:\
-> > $$\sum_{k=1}^n f(k/n) * (1/n) = \sum_{k=1}^n k/n^2$$\
-which is exactly the sum we started with.\
-> > Using this interpretation, we can approximate the sum as the area of rectangles with base length $$1/n$$ and height $$k/n$$.\ 
-> > Then, the limit we are trying to compute is:\
-$$lim_{n->\infty} (n+1)/(2n) = 1/2$$\
-> > Therefore, we have:\
-> > $$lim_{n->\infty} (1/n^2) * \sum_{k=1}^n k = 1/2$$
+> > The arc length formula for a curve $$y=f(x)$$ over the interval $$[a,b]$$ is given by:\
+> > $$L = ∫[a,b] √(1+(f'(x))^2) dx$$\
+> > For the upper arc of the ellipse, we have $$f(x)=(b/a)\sqrt{a^2-x^2}$ and $f'(x)=-(b/a^2)x/\sqrt{a^2-x^2}$$, so $$(f'(x))^2 = (a^2/(4b^2))x^2/(a^2-x^2)$$ Hence,\
+> > $$1+(f'(x))^2 = a^2/(a^2-x^2)$$\
+> > The integral for the arc length of the ellipse from $$x = 0$$ to $$x=c$$ is therefore\
+> > $$L = ∫[0,c] √(a^2/(a^2-x^2)) dx$$\
+> > To simplify this integral, we use the substitution $$x=ac\sin\theta$$, so $$dx = ac\cos\theta\ d\theta$$ and\
+> > $$L = ∫[0,sin^-1(c/a)] a√(1-e^2 sin^2θ) dθ$$\
+> > Using the substitution $$u=\sin\theta$$, we get\
+> > $$L = a ∫[0,c/a] √(1-e^2 u^2)/(1-u^2) du$$\
+> > This last integral is an elliptic integral of the second kind, denoted by $$E(\phi,e)$$, where $$\phi=\sin^{-1}(c/a)$$, so the arc length is given by\
+> > $$L = a E(sin^-1(c/a), e)$$\
 > > 
 > {: .solution}
