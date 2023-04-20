@@ -65,7 +65,6 @@ $$dA = 2\pi\ f(x) \sqrt{1+(\frac{dy}{dx})^2} = 2\pi\ x\ \sqrt{1+(\frac{dx}{dy})^
 
 When using the surface area formula, don't forget to add the area of the bottom and top bases, if necessary.
 
-
 > ## 6.7.2 Exercise 1 - The upper unit semicircle is the curve $$y=\sqrt(1-x^2)$$ for $$-1< x < 1$$. Write the integral for the arc length from $$x = 0$$ to $$x = c$$, where $$0 < c < 1$$.
 > > 
 > > ## Solution
@@ -78,6 +77,7 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > $$\int_{0}^{c} \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx = \int_{0}^{c} \sqrt{1 + \frac{x^2}{1-x^2}} dx$$\
 > > 
 > {: .solution}
+{: .challenge}
 > ## 6.7.2 Exercise 2 - The upper arc of the ellipse $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$, with semi-major axis $$a$$ and semi-minor axis $$b$$ is the curve $$y=\frac{b}{a}\sqrt{a^2-x^2}$$, $$-a< x < a$$. It is often convenient to express properties of the ellipse in terms of $$a$$, and the eccentricity $$e$$, defined as $$e=\sqrt{1-\frac{b^2}{a^2}}$$. Given $$c$$ such that $$0<c<a$$, express the integral for the arc length of the ellipse, from $$x=0$$ to $$x=c$$, in terms of $$a$$, $$e$$ and $$c$$.
 > > 
 > > ## Solution
@@ -96,5 +96,4 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > $$L = a E(sin^-1(c/a), e)$$\
 > > 
 > {: .solution}
-
-{% include links.md %}
+{: .challenge}
