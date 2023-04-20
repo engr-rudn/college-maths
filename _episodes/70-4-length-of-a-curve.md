@@ -95,7 +95,7 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > $$ L = \int_{0}^{c} \sqrt{1 + \frac{c^2x^2}{a^4(1-\frac{x^2}{a^2})(1-e^2)}} \, dx $$\
 > > We can then simplify the denominator as follows:\
 > > $$ L = \int_{0}^{c} \sqrt{1 + \frac{c^2}{a^2} \cdot \frac{x^2}{a^2-x^2} \cdot \frac{1}{1-e^2}} \, dx $$\
-> > Next, we use the substitution $x = a\sin\theta$ to obtain:\
+> > Next, we use the substitution $$x = a\sin\theta$$ to obtain:\
 > > $$ L = \int_{0}^{\arcsin(c/a)} \sqrt{1 - e^2\sin^2\theta} \, d\theta $$\
 > > This is the formula for the arc length of the ellipse from $$x=0$$ to $$x=c$$, expressed in terms of $$a$$, $$e$$, and $$c$$.
 > {: .solution}
