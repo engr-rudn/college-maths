@@ -66,9 +66,9 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > 
 > > ## Solution
 > >
-> > The integral for the arc length from x = 0 to x=c, where 0 < c < 1 is:\
+> > The integral for the arc length from $$x = 0$$ to $$ x = c$$, where $$0 < c < 1$$ is:\
 > > $$\int_{0}^{c} \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx$$\
-> > where \frac{dy}{dx} is the derivative of the upper unit semicircle, given by:\
+> > where $$\frac{dy}{dx}$$ is the derivative of the upper unit semicircle, given by:\
 > > $$\frac{dy}{dx} = -\frac{x}{\sqrt{1-x^2}}$$\
 > > Therefore, the integral becomes:\
 > > $$\int_{0}^{c} \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx = \int_{0}^{c} \sqrt{1 + \frac{x^2}{1-x^2}} dx$$\
