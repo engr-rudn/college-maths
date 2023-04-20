@@ -95,3 +95,15 @@ Therefore, we have:\
 > > $$\lim_{n->∞} ((1/n)^{p+1}) * \sum_{k=1}^n k^p = 1/(p+1)$$
 > {: .solution}
 {: .challenge}
+> ## (d) $$lim_{n->\infty} \sum_{k=1}^n n/(n^2 + k^2)$$ 
+> > 
+> > ## Solution
+> > We can write the sum as:\
+> > $$((1/n)^{p+1}) * \sum_{k=1}^n k^p = (1/n) * \sum_{k=1}^n (k/n)^p$$\
+> >  This can be interpreted as a Riemann sum for the function $$f(x) = x^p$$ over the interval $$[0,1]$$ with n subintervals of equal length $$1/n$$, evaluated at the right endpoint of each subinterval. Then, we have:\
+> > $$\lim_{n->∞} ((1/n)^{p+1}) * \sum_{k=1}^n k^p = \lim_{n->∞} (1/n) * \sum_{k=1}^n\
+> > (k/n)^p = ∫_0^1 x^p dx = 1/(p+1)$$\
+Therefore, we have:\
+> > $$\lim_{n->∞} ((1/n)^{p+1}) * \sum_{k=1}^n k^p = 1/(p+1)$$
+> {: .solution}
+{: .challenge}
