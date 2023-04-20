@@ -62,6 +62,37 @@ $$dA = 2\pi\ f(x) \sqrt{1+(\frac{dy}{dx})^2} = 2\pi\ x\ \sqrt{1+(\frac{dx}{dy})^
 
 When using the surface area formula, don't forget to add the area of the bottom and top bases, if necessary.
 
+> ## Slicing Strings
+>
+> A section of an array is called a [slice]({{ page.root }}/reference.html#slice).
+> We can take slices of character strings as well:
+>
+> ~~~
+> element = 'oxygen'
+> print(f'first three characters: {element[0:3]}')
+> print(f'last three characters: {element[3:6]}')
+> ~~~
+> {: .language-python}
+>
+> ~~~
+> first three characters: oxy
+> last three characters: gen
+> ~~~
+> {: .output}
+>
+> What is the value of `element[:4]`?
+> What about `element[4:]`?
+> Or `element[:]`?
+>
+> > ## Solution
+> > ~~~
+> > oxyg
+> > en
+> > oxygen
+> > ~~~
+> > {: .output}
+> {: .solution}
+
 > ## 6.7.2 Exercise 1 - The upper unit semicircle is the curve $$y=\sqrt(1-x^2)$$ for $$-1< x < 1$$. Write the integral for the arc length from $$x = 0$$ to $$x = c$$, where $$0 < c < 1$$.
 > > 
 > > ## Solution
