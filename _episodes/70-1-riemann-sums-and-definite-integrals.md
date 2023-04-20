@@ -68,7 +68,6 @@ $$lim_{n->\infty} (n+1)/(2n) = 1/2$$\
 > > $$lim_{n->\infty} (1/n^2) * \sum_{k=1}^n k = 1/2$$
 > > 
 > {: .solution}
-> >
 > ## (b)
 > > $$lim_{n->\infty} (1/n^3) * \sum_{k=1}^n k^2$$
 > > 
