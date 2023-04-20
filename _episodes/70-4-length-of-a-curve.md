@@ -113,5 +113,19 @@ $$\
 > > Substituting $$e = \sqrt{1-\frac{b^2}{a^2}}$$ and simplifying, we obtain the final result:\
 > > $$L = a E\left(\sin^{-1}\frac{c}{a}, e^2\right)$$\
 > > Therefore, the integral for the arc length of the ellipse from $$x=0$$ to $$x=c$$ is $$a E\left(\sin^{-1}\frac{c}{a}, e^2\right)$$, where $$e = \sqrt{1-\frac{b^2}{a^2}}$$ and $$c$$ is given. 
+> > The upper arc of the ellipse $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$, with semi-major axis $$a$$ and semi-minor axis $$b$$ is the curve $$y=\frac{b}{a}\sqrt{a^2-x^2}$$, $$-a< x < a$$. It is often convenient to express properties of the ellipse in terms of $$a$$, and the eccentricity $$e$$, defined as $$e=\sqrt{1-\frac{b^2}{a^2}}$$. Given $$c$$ such that $$0<c<a$$, express the integral for the arc length of the ellipse, from $$x=0$$ to $$x=c$$, in terms of $$a$$, $$e$$ and $$c$$.
+> > The formula for the arc length of a curve given by $$y=f(x)$$ over the interval $$[a,b]$$ is:\
+> > $$ L = \int_{a}^{b} \sqrt{1 + (f'(x))^2} \, dx $$\
+> > For the ellipse, we have $$f(x) = \frac{b}{a}\sqrt{a^2-x^2}$$, so $$f'(x) = -\frac{bx}{a^2\sqrt{a^2-x^2}}$$. Therefore, the integral for the arc length from $$x=0$$ to $$x=c$$ is:\
+> > $$ L = \int_{0}^{c} \sqrt{1 + \left(-\frac{bx}{a^2\sqrt{a^2-x^2}}\right)^2} \, dx $$\
+> > Substituting the value of $$b$$ in terms of $$a$$ and $$e$$, we get:\
+> > $$ L = \int_{0}^{c} \sqrt{1 + \left(-\frac{cx}{a^2\sqrt{a^2-x^2}\sqrt{1-e^2}}\right)^2} \, dx $$\
+> > Simplifying the expression inside the square root, we get:\
+> > $$ L = \int_{0}^{c} \sqrt{1 + \frac{c^2x^2}{a^4(1-\frac{x^2}{a^2})(1-e^2)}} \, dx $$\
+> > We can then simplify the denominator as follows:\
+> > $$ L = \int_{0}^{c} \sqrt{1 + \frac{c^2}{a^2} \cdot \frac{x^2}{a^2-x^2} \cdot \frac{1}{1-e^2}} \, dx $$\
+> > Next, we use the substitution $x = a\sin\theta$ to obtain:\
+> > $$ L = \int_{0}^{\arcsin(c/a)} \sqrt{1 - e^2\sin^2\theta} \, d\theta $$\
+> > This is the formula for the arc length of the ellipse from $$x=0$$ to $$x=c$$, expressed in terms of $$a$$, $$e$$, and $$c$$.
 > {: .solution}
 {: .challenge}
