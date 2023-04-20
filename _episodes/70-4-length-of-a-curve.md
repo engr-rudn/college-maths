@@ -83,7 +83,7 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > ## Solution
 > >
 > > The arc length formula for a curve $$y=f(x)$$ over the interval $$[a,b]$$ is given by:\
-> > $$L = \(\int_{a}^{b} \sqrt(1+(f'(x))^2) dx$$\
+> > $$L = (\int_{a}^{b} \sqrt(1+(f'(x))^2) dx$$\
 > > For the upper arc of the ellipse, we have $$f(x)=(b/a)\sqrt{a^2-x^2}$ and $f'(x)=-(b/a^2)x/\sqrt{a^2-x^2}$$, so $$(f'(x))^2 = (a^2/(4b^2))x^2/(a^2-x^2)$$ Hence,\
 > > $$1+(f'(x))^2 = a^2/(a^2-x^2)$$\
 > > The integral for the arc length of the ellipse from $$x = 0$$ to $$x=c$$ is therefore\
