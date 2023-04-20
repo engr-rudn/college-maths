@@ -68,9 +68,9 @@ $$lim_{n->\infty} (n+1)/(2n) = 1/2$$\
 > > $$lim_{n->\infty} (1/n^2) * \sum_{k=1}^n k = 1/2$$
 > > 
 > {: .solution}
-> ## (b)
-> > $$lim_{n->\infty} (1/n^3) * \sum_{k=1}^n k^2$$
+> ## (b) $$lim_{n->\infty} (1/n^3) * \sum_{k=1}^n k^2$$
 > > 
+> > ## Solution
 > > To compute this limit by interpreting it as a Riemann sum, we can approximate the given sum by a definite integral.
 > > First, note that the sum can be written as:
 > > $$(1/n^3) * sum_{k=1}^n k^2 = ((n+1)(2n+1))/(6n^2)$$
