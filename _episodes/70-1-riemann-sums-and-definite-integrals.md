@@ -51,7 +51,7 @@ $$Displacement\ = \int_a^b (velocity)\ dt$$
 $$Distance\ = \int_a^b \lvert\ velocity\ \rvert\ dt$$
 
 > ## 6.6.2 Exercise 1 - Compute the following limits by interpreting them as Riemann sums:
-> (a) $$\lim_{n->\infty} (1/n^2) * \sum_{k=1}^n k$$
+> ## (a) $$\lim_{n->\infty} (1/n^2) * \sum_{k=1}^n k$$
 > > 
 > > ## Solution
 > >
