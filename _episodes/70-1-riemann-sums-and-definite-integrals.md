@@ -83,7 +83,7 @@ Therefore, we have:\
 > > $$\lim_{n->∞} (1/n^3) * sum_{k=1}^n k^2 = 1/3$$
 > {: .solution}
 {: .challenge}
-> ## (c) $$\lim_{n->\infty} ((1/n)^((p+1))) * \sum_{k=1}^n k^p$$ where $$p > 0$$
+> ## (c) $$\lim_{n->\infty} ((1/n)^{p+1}) * \sum_{k=1}^n k^p$$ where $$p > 0$$
 > > 
 > > ## Solution
 > > We can write the sum as:\
