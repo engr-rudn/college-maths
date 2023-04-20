@@ -51,8 +51,8 @@ $$Displacement\ = \int_a^b (velocity)\ dt$$
 $$Distance\ = \int_a^b \lvert\ velocity\ \rvert\ dt$$
 
 > ## 6.6.2 Exercise 1 - Compute the following limits by interpreting them as Riemann sums:
-> > 
 > > $$\lim_{n->\infty} (1/n^2) * \sum_{k=1}^n k = 1/2$$
+> > 
 > > ## Solution
 > >
 > > To compute this limit by interpreting it as a Riemann sum, we can approximate the given sum by a definite integral.\
