@@ -83,36 +83,6 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > 
 > > ## Solution
 > >
-> > The arc length formula for a curve $$y=f(x)$$ over the interval $$[a,b]$$ is given by:\
-> > $$L = (\int_{a}^{b} \sqrt{1+(f'(x))^2} dx$$\
-> > For the upper arc of the ellipse, we have $$f(x)=(b/a)\sqrt{a^2-x^2}$ and $f'(x)=-(b/a^2)x/\sqrt{a^2-x^2}$$, so $$(f'(x))^2 = (a^2/(4b^2))x^2/(a^2-x^2)$$ Hence,\
-> > $$1+(f'(x))^2 = a^2/(a^2-x^2)$$\
-> > The integral for the arc length of the ellipse from $$x = 0$$ to $$x=c$$ is therefore\
-> > $$L = (\int_{0}^{c}\sqrt{a^2/(a^2-x^2)}dx$$\
-> > To simplify this integral, we use the substitution $$x=ac\sin\theta$$, so $$dx = ac\cos\theta\ d\theta$$ and\
-> > $$L = (\int_{0}^{sin^-1(c/a)} a\sqrt{1-e^2 sin^2θ} dθ$$\
-> > Using the substitution $$u=\sin\theta$$, we get\
-> > $$L = a(\int_{0}^{c/a}\sqrt{1-e^2 u^2}/(1-u^2) du$$\
-> > This last integral is an elliptic integral of the second kind, denoted by $$E(\phi,e)$$, where $$\phi=\sin^{-1}(c/a)$$, so the arc length is given by\
-> > $$L = a E(sin^-1(c/a), e)$$\
-> > 
-> > The upper arc of the ellipse $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$, with semi-major axis $a$ and semi-minor axis $b$ is the curve $y=\frac{b}{a}\sqrt{a^2-x^2}$, $-a< x < a$. The eccentricity $e$ is defined as $e=\sqrt{1-\frac{b^2}{a^2}}$.\
-> > To find the arc length from $x=0$ to $x=c$, we use the formula for arc length:\
-> > $$L = \int_{x_1}^{x_2} \sqrt{1 + \left(\frac{dy}{dx}\right)^2}dx$$\
-> > where $x_1 = 0$, $x_2 = c$, and $\frac{dy}{dx}$ is the derivative of $y$ with respect to $x$. We have:\
-> > $$\frac{dy}{dx} = \frac{b}{a}\frac{-x}{\sqrt{a^2-x^2}}$$\
-> > and therefore\
-> > $$\left(\frac{dy}{dx}\right)^2 = \frac{b^2}{a^2}\frac{x^2}{a^2-x^2}$$\
-> > Substituting into the formula for arc length, we obtain:\
-> > $$L = \int_0^c \sqrt{1 + \frac{b^2}{a^2}\frac{x^2}{a^2-x^2}}dx$$\
-> > We can simplify this expression using the substitution $$x = ac\sin\theta$$, $$dx = ac\cos\theta d\theta$$, which gives:
-> > $$L = \int_0^{\sin^{-1}\frac{c}{a}} \sqrt{a^2\cos^2\theta + b^2\sin^2\theta} d\theta
-$$\
-> > We recognize this as the complete elliptic integral of the second kind, $$E(\phi, m)$$, with $$\phi = \sin^{-1}\frac{c}{a}$$ and $$m = \frac{b^2}{a^2}$$, so we have:\
-> > $$L = a E\left(\sin^{-1}\frac{c}{a}, \frac{b^2}{a^2}\right)$$\
-> > Substituting $$e = \sqrt{1-\frac{b^2}{a^2}}$$ and simplifying, we obtain the final result:\
-> > $$L = a E\left(\sin^{-1}\frac{c}{a}, e^2\right)$$\
-> > Therefore, the integral for the arc length of the ellipse from $$x=0$$ to $$x=c$$ is $$a E\left(\sin^{-1}\frac{c}{a}, e^2\right)$$, where $$e = \sqrt{1-\frac{b^2}{a^2}}$$ and $$c$$ is given. 
 > > The upper arc of the ellipse $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$, with semi-major axis $$a$$ and semi-minor axis $$b$$ is the curve $$y=\frac{b}{a}\sqrt{a^2-x^2}$$, $$-a< x < a$$. It is often convenient to express properties of the ellipse in terms of $$a$$, and the eccentricity $$e$$, defined as $$e=\sqrt{1-\frac{b^2}{a^2}}$$. Given $$c$$ such that $$0<c<a$$, express the integral for the arc length of the ellipse, from $$x=0$$ to $$x=c$$, in terms of $$a$$, $$e$$ and $$c$$.
 > > The formula for the arc length of a curve given by $$y=f(x)$$ over the interval $$[a,b]$$ is:\
 > > $$ L = \int_{a}^{b} \sqrt{1 + (f'(x))^2} \, dx $$\
