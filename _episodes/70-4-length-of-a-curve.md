@@ -61,6 +61,7 @@ Again, the surface area can be integrated in terms of $$x$$ or $$y$$, depending 
 $$dA = 2\pi\ f(x) \sqrt{1+(\frac{dy}{dx})^2} = 2\pi\ x\ \sqrt{1+(\frac{dx}{dy})^2}$$
 
 When using the surface area formula, don't forget to add the area of the bottom and top bases, if necessary.
+
 > ## 6.7.2 Exercise 1 - The upper unit semicircle is the curve $$y=\sqrt(1-x^2)$$ for $$-1< x < 1$$. Write the integral for the arc length from $$x = 0$$ to $$x = c$$, where $$0 < c < 1$$.
 > > 
 > > ## Solution
