@@ -87,11 +87,11 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > For the upper arc of the ellipse, we have $$f(x)=(b/a)\sqrt{a^2-x^2}$ and $f'(x)=-(b/a^2)x/\sqrt{a^2-x^2}$$, so $$(f'(x))^2 = (a^2/(4b^2))x^2/(a^2-x^2)$$ Hence,\
 > > $$1+(f'(x))^2 = a^2/(a^2-x^2)$$\
 > > The integral for the arc length of the ellipse from $$x = 0$$ to $$x=c$$ is therefore\
-> > $$L = \(\int_{0}^{c}\sqrt(a^2/(a^2-x^2))dx$$\
+> > $$L = (\int_{0}^{c}\sqrt(a^2/(a^2-x^2))dx$$\
 > > To simplify this integral, we use the substitution $$x=ac\sin\theta$$, so $$dx = ac\cos\theta\ d\theta$$ and\
-> > $$L = \(\int_{0}^{sin^-1(c/a)} a\sqrt(1-e^2 sin^2θ) dθ$$\
+> > $$L = (\int_{0}^{sin^-1(c/a)} a\sqrt(1-e^2 sin^2θ) dθ$$\
 > > Using the substitution $$u=\sin\theta$$, we get\
-> > $$L = a\(\int_{0}^{c/a}\sqrt(1-e^2 u^2)/(1-u^2) du$$\
+> > $$L = a(\int_{0}^{c/a}\sqrt(1-e^2 u^2)/(1-u^2) du$$\
 > > This last integral is an elliptic integral of the second kind, denoted by $$E(\phi,e)$$, where $$\phi=\sin^{-1}(c/a)$$, so the arc length is given by\
 > > $$L = a E(sin^-1(c/a), e)$$\
 > > 
