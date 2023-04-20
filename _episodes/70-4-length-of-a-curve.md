@@ -83,7 +83,8 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > 
 > > ## Solution
 > >
-> > The upper arc of the ellipse $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$, with semi-major axis $$a$$ and semi-minor axis $$b$$ is the curve $$y=\frac{b}{a}\sqrt{a^2-x^2}$$, $$-a< x < a$$. It is often convenient to express properties of the ellipse in terms of $$a$$, and the eccentricity $$e$$, defined as $$e=\sqrt{1-\frac{b^2}{a^2}}$$. Given $$c$$ such that $$0<c<a$$, express the integral for the arc length of the ellipse, from $$x=0$$ to $$x=c$$, in terms of $$a$$, $$e$$ and $$c$$.
+> > The upper arc of the ellipse $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$, with semi-major axis $$a$$ and semi-minor axis $$b$$ is the curve $$y=\frac{b}{a}\sqrt{a^2-x^2}$$, $$-a< x < a$$. It is often convenient to express properties of the ellipse in terms of $$a$$, and the eccentricity $$e$$, defined as $$e=\sqrt{1-\frac{b^2}{a^2}}$$.\
+> > Given $$c$$ such that $$0<c<a$$, express the integral for the arc length of the ellipse, from $$x=0$$ to $$x=c$$, in terms of $$a$$, $$e$$ and $$c$$.\
 > > The formula for the arc length of a curve given by $$y=f(x)$$ over the interval $$[a,b]$$ is:\
 > > $$ L = \int_{a}^{b} \sqrt{1 + (f'(x))^2} \, dx $$\
 > > For the ellipse, we have $$f(x) = \frac{b}{a}\sqrt{a^2-x^2}$$, so $$f'(x) = -\frac{bx}{a^2\sqrt{a^2-x^2}}$$. Therefore, the integral for the arc length from $$x=0$$ to $$x=c$$ is:\
