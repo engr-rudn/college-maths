@@ -71,18 +71,18 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > >
 > > For the upper unit semicircle, we have $$y=\sqrt{1-x^2}$$, so $$\frac{dy}{dx}=-\frac{x}{\sqrt{1-x^2}}$$.\
 > > Thus,
-\begin{align*}
+$$\begin{align*}
 \left(\frac{dy}{dx}\right)^2 &= \frac{x^2}{1-x^2}\
 1+\left(\frac{dy}{dx}\right)^2 &= \frac{1}{1-x^2}\
 \sqrt{1+\left(\frac{dy}{dx}\right)^2} &= \frac{1}{\sqrt{1-x^2}}
-\end{align*}
+\end{align*}$$
 > > Therefore, the integral for the arc length of the upper unit semicircle from $$x=0$$ to $$x=c$$ is:
-\begin{align*}
+$$\begin{align*}
 L &= \int_0^c \sqrt{1+\left(\frac{dy}{dx}\right)^2} \ dx \
 &= \int_0^c \frac{1}{\sqrt{1-x^2}} \ dx \
 &= \arcsin(c)
-\end{align*}
-> > where $0 < c < 1$.
+\end{align*}$$
+> > where $$0 < c < 1$$.
 <!-- > > The integral for the arc length from $$x = 0$$ to $$ x = c$$, where $$0 < c < 1$$ is:\
 > > $$L = \int_{0}^{c} \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx$$\
 > > where $$\frac{dy}{dx}$$ is the derivative of the upper unit semicircle, given by:\
