@@ -98,12 +98,14 @@ Therefore, we have:\
 > ## (d) $$lim_{n->\infty} \sum_{k=1}^n n/(n^2 + k^2)$$ 
 > > 
 > > ## Solution
-> > We can write the sum as:\
-> > $$((1/n)^{p+1}) * \sum_{k=1}^n k^p = (1/n) * \sum_{k=1}^n (k/n)^p$$\
-> >  This can be interpreted as a Riemann sum for the function $$f(x) = x^p$$ over the interval $$[0,1]$$ with n subintervals of equal length $$1/n$$, evaluated at the right endpoint of each subinterval. Then, we have:\
-> > $$\lim_{n->∞} ((1/n)^{p+1}) * \sum_{k=1}^n k^p = \lim_{n->∞} (1/n) * \sum_{k=1}^n\
-> > (k/n)^p = ∫_0^1 x^p dx = 1/(p+1)$$\
-Therefore, we have:\
-> > $$\lim_{n->∞} ((1/n)^{p+1}) * \sum_{k=1}^n k^p = 1/(p+1)$$
+> > To compute this limit by interpreting it as a Riemann sum, we can approximate the given sum by a definite integral.\
+> > First, note that the sum can be written as:\
+> > $$\sum_{k=1}^n \frac{n}{n^2 + k^2} = \frac{1}{n} \sum_{k=1}^n \frac{1}{1 + (k/n)^2}$$\
+> > Now, we can interpret this sum as a Riemann sum for the function $$f(x) = 1/(1+x^2)$$ over the interval $$[0,1]$$ by partitioning the interval into n equal subintervals, each of length $$1/n$$. We choose the sample points to be the right endpoints of each subinterval. Then, the Riemann sum is:\
+> > $$\sum_{k=1}^n f(k/n) * (1/n) = \sum_{k=1}^n \frac{1}{1 + (k/n)^2} \cdot \frac{1}{n}$$\
+> > Using this interpretation, we can approximate the sum as the area of rectangles with base length 1/n and height 1/(1+(k/n)^2). Then, the limit we are trying to compute is:\
+> > $$\lim_{n\to\infty} \frac{1}{n} \sum_{k=1}^n \frac{1}{1 + (k/n)^2} = \int_0^1 \frac{dx}{1+x^2} = \tan^{-1}(1) = \frac{\pi}{4}$$\
+> > Therefore, we have:\
+> > $$\lim_{n\to\infty} \sum_{k=1}^n \frac{n}{n^2 + k^2} = \frac{\pi}{4}$$
 > {: .solution}
 {: .challenge}
