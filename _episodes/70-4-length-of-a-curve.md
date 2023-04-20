@@ -76,9 +76,9 @@ $$\begin{align*}
 1+\left(\frac{dy}{dx}\right)^2\\ &= \frac{1}{1-x^2}\
 \sqrt{1+\left(\frac{dy}{dx}\right)^2} &= \frac{1}{\sqrt{1-x^2}}
 \end{align*}$$\
-> > Therefore, the integral for the arc length of the upper unit semicircle from $$x=0$$ to $$x=c$$ is:
+> > Therefore, the integral for the arc length of the upper unit semicircle from $$x=0$$ to $$x=c$$ is:\
 $$\begin{align*}
-L &= \int_0^c \sqrt{1+\left(\frac{dy}{dx}\right)^2} \ dx \
+L &= \int_0^c \sqrt{1+\left(\frac{dy}{dx}\right)^2} \ dx \\
 &= \int_0^c \frac{1}{\sqrt{1-x^2}} \ dx \
 &= \arcsin(c)
 \end{align*}$$
