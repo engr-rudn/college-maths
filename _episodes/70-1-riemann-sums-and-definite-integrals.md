@@ -93,6 +93,6 @@ Therefore, we have:\
 > > $$\lim_{n->∞} (1/n^(p+1)) * \sum_{k=1}^n k^p = \lim_{n->∞} (1/n) * \sum_{k=1}^n\
 > > (k/n)^p = ∫_0^1 x^p dx = 1/(p+1)$$\
 Therefore, we have:\
-> > $$\lim_{n->∞} ((1/n)^(p+1)) * sum_{k=1}^n k^p = 1/(p+1)$$
+> > $$\lim_{n->∞} ((1/n)^(p+1)) * \sum_{k=1}^n k^p = 1/(p+1)$$
 > {: .solution}
 {: .challenge}
