@@ -96,3 +96,5 @@ When using the surface area formula, don't forget to add the area of the bottom 
 > > $$L = a E(sin^-1(c/a), e)$$\
 > > 
 > {: .solution}
+
+{% include links.md %}
