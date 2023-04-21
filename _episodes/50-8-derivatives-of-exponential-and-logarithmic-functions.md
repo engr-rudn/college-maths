@@ -181,6 +181,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 {: .challenge}
 > ## 7.2.9 Exercises 7 - Calculate the following limits (including proofs that they exist):
 >  (a) $$\lim_{x \to 0^+} x^x$$
+> > ## Solution
 > > To evaluate the limit $$\lim_{x \to 0^+} x^x$$, we first rewrote\
 > >  $$x^x$$ as $$e^{x \ln x}$$\
 > >  using the property $$a^b = e^{b \ln a}$$\
@@ -193,6 +194,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > {: .solution}
 {: .challenge}
 >  (b) $$\lim_{x \to \pi/2} (\pi/2)(\cos^2 x)/(x-(\pi/2))^2$$
+> > ## Solution
 > > The limit $$\lim_{x \to \pi/2} (\pi/2)(\cos^2 x)/(x-(\pi/2))^2$$\
 > >  was evaluated using L'Hopital's rule twice. First, we applied the rule to obtain\
 > >  $$\lim_{x \to \pi/2} (-\cos x \sin x)/(x-\pi/2)$$.\
@@ -202,6 +204,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > {: .solution}
 {: .challenge}
 >  (c) $$\lim_{x \to \pi} \sin(mx)/\sin(x)$$
+> > ## Solution
 > > The limit $$\lim_{x \to \pi} \sin(mx)/\sin(x)$$ was evaluated using the property\
 > > $$\sin a/\sin b = (\sin a/a)/( \sin b/b)$$ for $a,b \neq 0$.\
 > > The expression was then rewritten as $$\lim_{x \to \pi} (mx/\sin(mx)) \cdot (\sin(mx)/(mx)) \cdot (x/\sin(x))$$.\
@@ -213,6 +216,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > {: .solution}
 {: .challenge}
 >  (f) $$\lim_{x \to \infty} (x+1)^s - x^s)/(x^{s+1}(s+1))$$
+> > ## Solution
 > > The limit $$\lim_{x \to \infty} (x+1)^s - x^s)/(x^{s+1}(s+1))$$\
 > >  was evaluated using L'Hopital's rule twice. After the first application of the rule, the expression was simplified to \
 > > $$\lim_{x \to \infty} s[(x+1)^{s-1} - x^{s-1}]/[(s+1)x^s]$$.\
