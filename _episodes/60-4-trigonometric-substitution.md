@@ -111,7 +111,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > Therefore, we have proven the identity $$1 + \tan^2(x/2) = \sec^2(x/2)$$.
 > {: .solution}
 {: .challenge}
-> >### (b) $$ \sin(2x) = 2\sin(x)\cos(x)$$
+> ### (b) $$ \sin(2x) = 2\sin(x)\cos(x)$$
 > > ## Solution
 > >
 > > To prove the double angle formula $$\sin(2x) = 2\sin(x)cos(x)$$, we can use the angle addition formula for sine:\
@@ -122,7 +122,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > Therefore, we have proven the double angle formula $$\sin(2x) = 2\sin(x)\cos(x).$$\
 > {: .solution}
 {: .challenge}
-> >### (c) $$ \cos(2x) = \cos^2(x) - \sin^2(x)$$
+> ### (c) $$ \cos(2x) = \cos^2(x) - \sin^2(x)$$
 > > ## Solution
 > >
 > > To prove the double angle formula $$\cos(2x) = \cos^2(x) - \sin^2(x)$$, we can use the angle addition formula for cosine:\
@@ -134,7 +134,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > This relates the cosine and sine functions of twice an angle to the cosine and sine functions of the angle itself.
 > {: .solution}
 {: .challenge}
-> >### (d) $$ \cos(2x) = 2\cos^2(x) - 1$$
+> ### (d) $$ \cos(2x) = 2\cos^2(x) - 1$$
 > > ## Solution
 > >
 > > To prove the double angle formula cos(2x) = 2cos^2(x) - 1, we can use the angle addition formula for cosine:
@@ -149,7 +149,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > >        $$  = 2cos^2(x) - 1$$\
 > {: .solution}
 {: .challenge}
-> >### (e) $$ \cos(2x) = 1 - 2\sin^2(x)$$
+> ### (e) $$ \cos(2x) = 1 - 2\sin^2(x)$$
 > > ## Solution
 > >
 > > To prove the double angle formula $$\cos(2x) = 1 - 2\sin^2(x)$$, we can use the angle addition formula for cosine:\
@@ -165,7 +165,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > Therefore, we have proven the double angle formula $$\cos(2x) = 1 - 2\sin^2(x)$$.\
 > {: .solution}
 {: .challenge}
-> >### (f) $$ \cos(3x) = 4\cos^3(x) - 3\cos(x)$$
+> ### (f) $$ \cos(3x) = 4\cos^3(x) - 3\cos(x)$$
 > > ## Solution
 > >
 > > To prove the triple angle formula for cosine $$\cos(3x) = 4\cos^3(x) - 3\cos(x)$$, we can use the angle addition formula for cosine to derive a formula for $$\cos(3x)$$ in terms of $$\cos(x)$$ and $$\sin(x)$$:\
@@ -180,7 +180,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > Therefore, we have proven the triple angle formula for cosine $$\cos(3x) = 4\cos^3(x) - 3\cos(x)$$.
 > {: .solution}
 {: .challenge}
-> >### (g) $$ \sin(3x) = 3\sin(x) - 4\sin^3(x)$$
+> ### (g) $$ \sin(3x) = 3\sin(x) - 4\sin^3(x)$$
 > > ## Solution
 > >
 > > To prove the triple angle formula for sine $$\sin(3x) = 3\sin(x) - 4\sin^3(x)$$, we can use the angle addition formula for sine to derive a formula for $$\sin(3x)$$ in terms of $$sin(x)$$ and $$cos(x)$$:\
