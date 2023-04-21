@@ -86,7 +86,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > {: .solution}
 {: .challenge}
 > ## 7.1.10 Exercise 5 - Prove the following formulas, no doubt familiar to you from school mathematics. They are important tools for integration.
-> >### (a) $$ 1 + \tan^2(x/2) =\ sec^2(x/2)$$\
+> >### (a) $$ 1 + \tan^2(x/2) =\ sec^2(x/2)$$
 > > ## Solution
 > >
 > > To prove the identity $$1 + \tan^2(x/2) = \sec^2(x/2)$$, we can start with the definition of tangent and secant:\
@@ -111,7 +111,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > Therefore, we have proven the identity $$1 + \tan^2(x/2) = \sec^2(x/2)$$.
 > {: .solution}
 {: .challenge}
-> >### (b) $$ \sin(2x) = 2\sin(x)\cos(x)$$\
+> >### (b) $$ \sin(2x) = 2\sin(x)\cos(x)$$
 > > ## Solution
 > >
 > > To prove the double angle formula $$\sin(2x) = 2\sin(x)cos(x)$$, we can use the angle addition formula for sine:\
@@ -120,5 +120,79 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > $$\sin(2x) = \sin(x + x) = \sin(x)\cos(x) + \cos(x)\sin(x)$$\
 > >         $$ = 2sin(x)cos(x) $$\
 > > Therefore, we have proven the double angle formula $$\sin(2x) = 2\sin(x)\cos(x).$$\
+> {: .solution}
+{: .challenge}
+> >### (c) $$ \cos(2x) = \cos^2(x) - \sin^2(x)$$
+> > ## Solution
+> >
+> > To prove the double angle formula $$\cos(2x) = \cos^2(x) - \sin^2(x)$$, we can use the angle addition formula for cosine:\
+> > $$\cos(a + b) = \cos(a)\cos(b) - \sin(a)\sin(b)$$\
+> > Setting $$a = b = x$$, we get:\
+> > $$\cos(2x) = \cos(x + x) = \cos(x)\cos(x) - \sin(x)\sin(x)$$\
+> >         $$ = cos^2(x) - sin^2(x)$$\
+> > Therefore, we have proven the double angle formula $$\cos(2x) = \cos^2(x) - \sin^2(x)$$.\
+> > This relates the cosine and sine functions of twice an angle to the cosine and sine functions of the angle itself.
+> {: .solution}
+{: .challenge}
+> >### (d) $$ \cos(2x) = 2\cos^2(x) - 1$$
+> > ## Solution
+> >
+> > To prove the double angle formula cos(2x) = 2cos^2(x) - 1, we can use the angle addition formula for cosine:
+> > $$\cos(a + b) = \cos(a)\cos(b) - \sin(a)\sin(b)$$\
+> > Setting $$a = b = x$$, we get:\
+> > $$\cos(2x) = \cos(x + x) = \cos(x)\cos(x) - \sin(x)\sin(x)$$\
+> >        $$  = \cos^2(x) - \sin^2(x)$$\
+> > Now, using the Pythagorean identity $$\cos^2(x) + \sin^2(x) = 1$$, we can express $$\sin^2(x)$$ in terms of $$\cos^2(x)$$:\
+> > $$\sin^2(x) = 1 - \cos^2(x)$$\
+> > Substituting this into the previous equation, we get:\
+> > $$\cos(2x) = \cos^2(x) - (1 - \cos^2(x))$$\
+> >        $$  = 2cos^2(x) - 1$$\
+> {: .solution}
+{: .challenge}
+> >### (e) $$ \cos(2x) = 1 - 2\sin^2(x)$$
+> > ## Solution
+> >
+> > To prove the double angle formula $$\cos(2x) = 1 - 2\sin^2(x)$$, we can use the angle addition formula for cosine:\
+> > $$\cos(a + b) = \cos(a)\cos(b) - \sin(a)\sin(b)$$\
+> > Setting $$a = b = x$$, we get:\
+> > $$\cos(2x) = \cos(x + x) = \cos(x)\cos(x) - \sin(x)\sin(x)$$\
+> >         $$ = cos^2(x) - sin^2(x)$$\
+> > Now, using the Pythagorean identity $$\cos^2(x) + \sin^2(x) = 1$$, we can express $$\cos^2(x)$$ in terms of $$\sin^2(x)$$:\
+> > $$\cos^2(x) = 1 - \sin^2(x)$$\
+> > Substituting this into the previous equation, we get:\
+> > $$\cos(2x) = (1 - \sin^2(x)) - \sin^2(x)$$\
+> >         $$ = 1 - 2sin^2(x)$$\
+> > Therefore, we have proven the double angle formula $$\cos(2x) = 1 - 2\sin^2(x)$$.\
+> {: .solution}
+{: .challenge}
+> >### (f) $$ \cos(3x) = 4\cos^3(x) - 3\cos(x)$$
+> > ## Solution
+> >
+> > To prove the triple angle formula for cosine $$\cos(3x) = 4\cos^3(x) - 3\cos(x)$$, we can use the angle addition formula for cosine to derive a formula for $$\cos(3x)$$ in terms of $$\cos(x)$$ and $$\sin(x)$$:\
+> > $$\cos(3x) = \cos(2x + x) = \cos(2x)\cos(x) - \sin(2x)\sin(x)$$\
+> > Using the double angle formula $$\cos(2x) = 2\cos^2(x) - 1$$ and the angle addition formula for sine\
+> > $$\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$$, we can simplify the above equation as follows:\
+> > $$\cos(3x) = (2\cos^2(x) - 1)\cos(x) - 2\sin(x)\cos(x)\sin(x)$$\
+> > $$         = 2\cos^3(x) - \cos(x) - 2\sin^2(x)\cos(x)$$\
+> > $$         = 2\cos^3(x) - \cos(x) - 2(1 - \cos^2(x))\cos(x)$$\
+> > $$         = 2\cos^3(x) - \cos(x) - 2\cos(x) + 2\cos^3(x)$$\
+> > $$         = 4\cos^3(x) - 3\cos(x)$$\
+> > Therefore, we have proven the triple angle formula for cosine $$\cos(3x) = 4\cos^3(x) - 3\cos(x)$$.
+> {: .solution}
+{: .challenge}
+> >### (g) $$ \sin(3x) = 3\sin(x) - 4\sin^3(x)$$
+> > ## Solution
+> >
+> > To prove the triple angle formula for sine $$\sin(3x) = 3\sin(x) - 4\sin^3(x)$$, we can use the angle addition formula for sine to derive a formula for $$\sin(3x)$$ in terms of $$sin(x)$$ and $$cos(x)$$:\
+> > $$\sin(3x) = \sin(2x + x) = \sin(2x)\cos(x) + \cos(2x)\sin(x)$$\
+> > Using the double angle formula for sine $$\sin(2x) = 2\sin(x)\cos(x)$$ and the double angle formula for cosine\
+> > $$\cos(2x) = 2\cos^2(x) - 1$$, we can simplify the above equation as follows:\
+> > $$\sin(3x) = 2\sin(x)\cos^2(x) + (2\cos^2(x) - 1)\sin(x)$$\
+> > $$        = 2\sin(x)\cos^2(x) + 2\cos^2(x)\sin(x) - \sin(x)$$\
+> > $$        = \sin(x)(4\cos^2(x) - 1)$$\
+> > $$        = \sin(x)(2 - (2\sin^2(x)))$$\
+> > $$        = 3\sin(x) - 4\sin^3(x)$$\
+> > Therefore, we have proven the triple angle formula for sine:\
+> > $$\sin(3x) = 3\sin(x) - 4\sin^3(x)$$
 > {: .solution}
 {: .challenge}
