@@ -124,11 +124,11 @@ $$\int e^{2x} \sin x dx$$
 > > 
 > {: .solution}
 {: .challenge}
-> ## 7.3.1 Exercise 2 - For each natural number $$n$$ we define the function $$f_n(x) = (e^x^2)\frac{d^n}{dx^n}(e^-x^2)$$. 
+> ## 7.3.1 Exercise 2 - For each natural number $$n$$ we define the function $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$. 
 > ### (a) Show that $$f_n$$ is a polynomial of degree $$n$$, and is moreover an even function when $$n$$ is even and an odd function when $$n$$ is odd 
 > > ## Solution
 > >
-> > $$f_n(x) = (e^x^2)\frac{d^n}{dx^n}(e^-x^2)$$.WE have to show that $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$ by using the derivative of $$e^{-x^2}$$ to write $$f_n(x)$$ in terms of a polynomial multiplied by $$e^{x^2}$$.
+> > We have to show that $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$ by using the derivative of $$e^{-x^2}$$ to write $$f_n(x)$$ in terms of a polynomial multiplied by $$e^{x^2}$$.
 > > Prove that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd by using the behavior of the derivatives of $$e^{-x^2}$$ to show that $$f_n(x)$$ has the same parity as $$n$$ for all $$n$$. Specifically, they should show that:\
 > > $$f_1(x)$$ is odd because the first derivative of $$e^{-x^2}$$ introduces a factor of $$-2x$$.
 > > $$f_2(x)$$ is even because the second derivative of $$e^{-x^2}$$ introduces a factor of $$4x^2-2$$.
