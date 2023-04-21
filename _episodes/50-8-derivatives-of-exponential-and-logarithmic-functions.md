@@ -174,7 +174,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > Using the chain rule, we can differentiate $$\log_{a}(x)$$ with respect to $$x$$ as follows:\
 > > $$(\frac{d}{dx})\log_{a}(x) = (\frac{d}{dx})(\frac{\ln(x)}{(ln(a)}) = \frac{1}{\ln(a)}.(\frac{d}{dx}\ln(x))$$\
 > > Since $$\ln(x)$$ is the natural logarithm of $$x$$ (i.e., the logarithm with base $$e$$), its derivative is simply $$1/x$$. Thus, we have:\
-> > $$(\frac{d}{dx})\log_{a}(x) = \frac{1}{x\ln(a)}\
+> > $$(\frac{d}{dx})\log_{a}(x) = \frac{1}{x\ln(a)}$$\
 > > Therefore , the formula for the derivative of $$\log_{a}(x)$$ with respect to $$x$$ is $$\frac{1}{x\ln(a)}$$.
 > > 
 > {: .solution}
