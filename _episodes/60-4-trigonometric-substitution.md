@@ -86,7 +86,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > {: .solution}
 {: .challenge}
 > ## 7.1.10 Exercise 5 - Prove the following formulas, no doubt familiar to you from school mathematics. They are important tools for integration.
-> >### (a) $$ 1 + \tan^2(x/2) =\ sec^2(x/2)$$
+> ### (a) $$ 1 + \tan^2(x/2) =\ sec^2(x/2)$$
 > > ## Solution
 > >
 > > To prove the identity $$1 + \tan^2(x/2) = \sec^2(x/2)$$, we can start with the definition of tangent and secant:\
@@ -102,8 +102,8 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > $$\tan^2(x/2) = \sin^2(x/2) / \cos^2(x/2)$$\
 > >            $$ = (\sin(x/2)/\cos(x/2))^2$$\
 > >            $$ = \tan^2(x/2)$$\
-> > Substituting this into the original expression for sec^2(x/2), we get:\
-> > $$\1 + \tan^2(x/2) = 1 + sin^2(x/2) / cos^2(x/2)$$\
+> > Substituting this into the original expression for $$\sec^2(x/2)$$, we get:\
+> > $$1 + \tan^2(x/2) = 1 + sin^2(x/2) / cos^2(x/2)$$\
 > >                $$  = cos^2(x/2) / cos^2(x/2) + sin^2(x/2) / cos^2(x/2)$$\
 > >                $$  = (sin^2(x/2) + cos^2(x/2)) / cos^2(x/2)$$\
 > >                $$  = 1 / cos^2(x/2)$$\
