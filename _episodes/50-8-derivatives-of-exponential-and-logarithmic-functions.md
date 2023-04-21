@@ -166,7 +166,7 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > 
 > {: .solution}
 {: .challenge}
-> ## 7.2.9 Exercises -2 - Find a formula for the derivative $$(\frac{d}{dx})\log_{a}(x)$$. 
+> ## 7.2.9 Exercises 2 - Find a formula for the derivative $$(\frac{d}{dx})\log_{a}(x)$$. 
 > 
 > > ## Solution
 > >
@@ -179,5 +179,51 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > 
 > {: .solution}
 {: .challenge}
+> ## 7.2.9 Exercises 7 - Calculate the following limits (including proofs that they exist):
+> > (a) $$\lim_{x \to 0^+} x^x$$
+> > To evaluate the limit $$\lim_{x \to 0^+} x^x$$, we first rewrote\
+> >  $$x^x$$ as $$e^{x \ln x}$$\
+> >  using the property $$a^b = e^{b \ln a}$$\
+> >  for all positive real numbers $$a$$ and $$b$$.\ 
+> > Then, we applied L'Hopital's rule to evaluate $$\lim_{x \to 0^+} x \ln x$$,\
+> >  which resulted in $$0$$. Therefore, the original limit became\
+> >  $$\lim_{x \to 0^+} e^{x \ln x}$$, which evaluates to\
+> >  $$e^0 = 1$$. Hence, the limit of $x^x$ as $x$ approaches $0$ from the right is $1$.
+> > 
+> {: .solution}
+{: .challenge}
+> > (b) $$\lim_{x \to \pi/2} (\pi/2)(\cos^2 x)/(x-(\pi/2))^2$$
+> > The limit $$\lim_{x \to \pi/2} (\pi/2)(\cos^2 x)/(x-(\pi/2))^2$$\
+> >  was evaluated using L'Hopital's rule twice. First, we applied the rule to obtain\
+> >  $$\lim_{x \to \pi/2} (-\cos x \sin x)/(x-\pi/2)$$.\
+> >  Then, we applied the rule again to obtain $$\lim_{x \to \pi/2} (-\cos^2 x + \sin^2 x)/1$$,\
+> >  which evaluates to $$-1$$. Therefore, the original limit evaluates to $$-1$$.
+> > 
+> {: .solution}
+{: .challenge}
+> > (c) $$\lim_{x \to \pi} \sin(mx)/\sin(x)$$
+> > The limit $$\lim_{x \to \pi} \sin(mx)/\sin(x)$$ was evaluated using the property\
+> > $$\sin a/\sin b = (\sin a/a)/( \sin b/b)$$ for $a,b \neq 0$.\
+> > The expression was then rewritten as $$\lim_{x \to \pi} (mx/\sin(mx)) \cdot (\sin(mx)/(mx)) \cdot (x/\sin(x))$$.\
+> > Since $$\lim_{x \to \pi} (mx/\sin(mx)) = 1$$ and $$\lim_{x \to \pi} (x/\sin(x)) = 1$$, 
+> > the limit simplifies to \
+> > $$\lim_{x \to \pi} \sin(mx)/(mx)$$.\
+> > Finally, this expression evaluates to $$m$$ because $$\lim_{x \to \pi} \sin(mx)/(mx) = m$$.\ > > Therefore, the original limit evaluates to $$m$$, where $$m$$ is an integer.
+> > 
+> {: .solution}
+{: .challenge}
+> > (f) $$\lim_{x \to \infty} (x+1)^s - x^s)/(x^{s+1}(s+1))$$
+> > The limit $$\lim_{x \to \infty} (x+1)^s - x^s)/(x^{s+1}(s+1))$$\
+> >  was evaluated using L'Hopital's rule twice. After the first application of the rule, the expression was simplified to \
+> > $$\lim_{x \to \infty} s[(x+1)^{s-1} - x^{s-1}]/[(s+1)x^s]$$.\
+> >  After the second application of the rule, the expression was simplified to\
+> >  $$\lim_{x \to \infty} s(s-1)(x+1)^{s-2}/[(s+1)x^{s-1}]$$.\
+> >  Taking the limit as $$x$$ approaches infinity, we see that the expression converges to $$s/(s+1)$, since $(x+1)^{s-2}/x^{s-1} \to 0$$ as $$x \to \infty$$.\
+> > Therefore, the original limit evaluates to $$s/(s+1)$$.
+> > 
+> {: .solution}
+{: .challenge}
+
+
 
 [==>](../50-9-extreme-values-of-functions)
