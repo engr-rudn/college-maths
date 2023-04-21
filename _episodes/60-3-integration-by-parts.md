@@ -124,7 +124,7 @@ $$\int e^{2x} \sin x dx$$
 > > 
 > {: .solution}
 {: .challenge}
-> ## 7.3.1 Exercise 2 - For each natural number $$n$$ we define the function $$f_n(x) = (e^x^2)\frac{d^n}{dx^n}(e^x^2)$$. 
+> ## 7.3.1 Exercise 2 - For each natural number $$n$$ we define the function $$\f_n(x) = (e^x^2)\frac{d^n}{dx^n}(e^-x^2)$$. 
 > ### (a) Show that $$f_n$$ is a polynomial of degree $$n$$, and is moreover an even function when $$n$$ is even and an odd function when $$n$$ is odd 
 > > ## Solution
 > >
