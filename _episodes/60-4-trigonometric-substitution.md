@@ -31,19 +31,19 @@ $$2[\sin\theta\cos\theta + \theta] + C$$
 
 $$2[\frac x2  + \arcsin \frac x2] + C$$
 
-> ## 7.1.10 Exercise 1 - Check the formulas for the derivatives of $$tan x,sec x,csc x and cot x$$.
+> ## 7.1.10 Exercise 1 - Check the formulas for the derivatives of $$\tan x,\sec x,\csc x and \cot x$$.
 > > 
 > > ## Solution
 > >
 > > The formulas for the derivatives of the trigonometric functions are:\
 > > Derivative of $$\tan x$$:\
-> > <li>$$\frac{d}{dx} \tan x = \sec^2 x$$\<\li>
+> > <li>$$\frac{d}{dx} \tan x = \sec^2 x$$<\li>
 > > Derivative of $$\sec x$$:\
-> > <li>$$\frac{d}{dx} \sec x = \sec x \tan x$$<\li>\
+> > <li>$$\frac{d}{dx} \sec x = \sec x \tan x$$<\li>
 > > Derivative of $$\csc x$$:\
-> > <li>$$\frac{d}{dx} \csc x = -\csc x \cot x$$<\li>\
+> > <li>$$\frac{d}{dx} \csc x = -\csc x \cot x$$<\li>
 > > Derivative of $$\cot x$$:\
-> > <li>$$\frac{d}{dx} \cot x = -\csc^2 x$$<\li>\
+> > <li>$$\frac{d}{dx} \cot x = -\csc^2 x$$<\li>
 > > Here, $$\sec x$$, $$\csc x$$, and $$\cot x$$ are the reciprocal functions of $$\cos x$$, $$\sin x$$, and $$\tan x$$ respectively.
 > {: .solution}
 {: .challenge}
