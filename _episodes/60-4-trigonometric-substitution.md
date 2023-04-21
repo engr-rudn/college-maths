@@ -196,3 +196,44 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > $$\sin(3x) = 3\sin(x) - 4\sin^3(x)$$
 > {: .solution}
 {: .challenge}
+> ## 7.2.9 - 13. Prove the following (doubtlessly familiar) formulas. They are important tools for integration.
+> ### (a) $$\cosh^2 x - \sinh^2 x = 1$$
+> > ## Solution
+> >
+> > Starting with the definitions of $$\cosh$$ and $$\sinh$$:\
+> > $$\cosh(x) = 1/2*(e^x + e^-x), \sinh(x) = 1/2*(e^x - e^-x)$$\
+> > Squaring both expressions and subtracting them:\
+> > $$\cosh(x)^2 - \sinh(x)^2 = (1/2*(e^x + e^-x))^2 - (1/2*(e^x - e^-x))^2$$\
+> > $$ = 1/4*(4*e^x*e^-x) = 1 $$\
+> > Therefore, $$\cosh(x)^2 - sinh(x)^2 = 1$$, which is a well-known identity involving hyperbolic functions and is an important tool for integration.
+> {: .solution}
+{: .challenge}
+> ### (b) $$1 + \tan^2 x = \sec^2 x$$
+> > ## Solution
+> >
+> > To prove the identity $$1 + \tan^2(x) = \sec^2(x)$$, we start with the definitions of tangent and secant:\
+> > $$\tan(x) = \sin(x) / \cos(x), \sec(x) = 1 / \cos(x)$$\
+> > Squaring both expressions and adding them, we get:\
+> > $$\tan^2(x) + 1 = \sin^2(x) / \cos^2(x) + \cos^2(x) / \cos^2(x) = (\sin^2(x) + \cos^2(x)) / \cos^2(x) = 1 / \cos^2(x)\
+> > Therefore, we have shown that $$1 + \tan^2(x) = \sec^2(x)$$.\
+> > (This identity is an important tool in trigonometry and calculus).
+> {: .solution}
+{: .challenge}
+> ## 7.2.9 -15 Check the formulas for the derivatives of $$\sinh x, \cosh x and \tanh x$$
+> > ## Solution
+> >
+> > The formulas for the derivatives of $$\sinh x, \cosh x, and \tanh x$$ are:\
+> > $$\frac{d}{dx}\sinh(x) = \cosh(x)$$\
+> > $$\frac{d}{dx}\cosh(x) = \sinh(x)$$\
+> > $$\frac{d}{dx}\tanh(x) = \sech^2(x)$$\
+> > where $$\sech(x) = 1/\cosh(x)$$\
+> > To check these formulas, we can differentiate each of the hyperbolic functions using their respective definitions:\
+> > $$sinh(x) = (e^x - e^(-x)) / 2$$\
+> > $$\frac{d}{dx} \sinh(x) = (e^x + e^(-x)) / 2 = \cosh(x)$$\
+> > $$\cosh(x) = (e^x + e^(-x)) / 2$$\
+> > $$\frac{d}{dx} \cosh(x) = (e^x - e^(-x)) / 2 = \sinh(x)$$\
+> > $$\tanh(x) = \sinh(x) / \cosh(x) = (e^x - e^(-x)) / (e^x + e^(-x))$$\
+> > $$\frac{d}{dx} \tanh(x) = [(\cosh(x))^2 - (\sinh(x))^2] / (\cosh(x))^2 = \sech^2(x)$$\
+> > $$Therefore, the formulas for the derivatives of $$\sinh x$$, $$\cosh x$$, and $$\tanh x$$ are correct.
+> {: .solution}
+{: .challenge}

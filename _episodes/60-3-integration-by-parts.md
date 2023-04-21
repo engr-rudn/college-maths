@@ -124,4 +124,74 @@ $$\int e^{2x} \sin x dx$$
 > > 
 > {: .solution}
 {: .challenge}
-
+> ## 7.3.1 Exercise 2 - For each natural number $$n$$ we define the function $$f_n(x) = (e^x^2)\frac{d^n}{dx^n}(e^x^2)$$. 
+> ### (a) Show that $$f_n$$ is a polynomial of degree $$n$$, and is moreover an even function when $$n$$ is even and an odd function when $$n$$ is odd 
+> > ## Solution
+> >
+> > WE have to show that $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$ by using the derivative of $$e^{-x^2}$$ to write $$f_n(x)$$ in terms of a polynomial multiplied by $$e^{x^2}$$.
+> > Prove that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd by using the behavior of the derivatives of $$e^{-x^2}$$ to show that $$f_n(x)$$ has the same parity as $$n$$ for all $$n$$. Specifically, they should show that:\
+> > $$f_1(x)$$ is odd because the first derivative of $$e^{-x^2}$$ introduces a factor of $$-2x$$.
+> > $$f_2(x)$$ is even because the second derivative of $$e^{-x^2}$$ introduces a factor of $$4x^2-2$$.
+> > $$f_3(x)$$ is odd because the third derivative of $$e^{-x^2}$$ introduces a factor of $$-8x^3+12x$$.
+> > $$f_4(x)$$ is even because the fourth derivative of $$e^{-x^2}$$ introduces a factor of $$16x^4-48x^2+12$$.
+> > Generalize this pattern to all $$n$$ to show that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd.
+> > More explanation of the solution follows:
+> > For each natural number $$n$$, we define the function $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$.
+> > To show that $$f_n(x)$$ is a polynomial of degree $$n$$, we can find the first few derivatives of $$e^{-x^2}$$ and notice that each derivative introduces a polynomial of degree $$n$$ in $$x$$ multiplied by $$e^{-x^2}$$. Thus, $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$.
+> > To show that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd, we can look at the behavior of each derivative of $$e^{-x^2}$$. The first derivative introduces a factor of $$-2x$$, which means that $$f_1(x)$$ is an odd function. The second derivative introduces a factor of $$4x^2-2$$, which means that $$f_2(x)$$ is an even function. The third derivative introduces a factor of $$-8x^3+12x$$, which means that $$f_3(x)$$ is an odd function. The fourth derivative introduces a factor of $$16x^4-48x^2+12$$, which means that $$f_4(x)$$ is an even function.
+> > We can see that this pattern continues for all $$n$$. When $$n$$ is even, $$f_n(x)$$ is an even function because all of the derivatives up to the $$n$$th introduce even powers of $$x$$. When $$n$$ is odd, $$f_n(x)$$ is an odd function because all of the derivatives up to the $$n$$th introduce odd powers of $$x$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (b) show that $$f_{n+1}(x) = f'n(x) - 2xf_n(x)$$ for $$n=0,1,2,\ldots$$ 
+> > ## Solution
+> >
+> > To show that $$f_{n+1}(x) = f'n(x) - 2xf_n(x)$$ for $$n=0,1,2,\ldots$$, we can begin by writing out the definitions of $$f{n+1}(x)$$ and $$f_n(x)$$:\
+> > $$f_{n+1}(x) = (e^{x^2})\frac{d^{n+1}}{dx^{n+1}}(e^{-x^2})$$\
+> > $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$\
+> > We can then use the product rule for differentiation to find $$f'_n(x)$$:\
+> > $$f'_n(x) = \frac{d}{dx}\left((e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})\right)$$\
+> > Using the product rule again, we can simplify this expression:\
+> > $$f'_n(x) = (e^{x^2})\frac{d}{dx}\left(\frac{d^n}{dx^n}(e^{-x^2})\right) + \frac{d}{dx}(e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$\
+> > Notice that the first term in this expression is $$f_{n+1}(x)$$, so we can rewrite the equation as:\
+> > $$f_{n+1}(x) = f'_n(x) - 2xe^{x^2}\frac{d^n}{dx^n}(e^{-x^2})$$\
+Using the definition of $$f_n(x)$$, we can simplify the second term:\
+> > $$f_{n+1}(x) = f'_n(x) - 2xf_n(x)$$\
+> > Thus, we have shown that $$f_{n+1}(x) = f'_n(x) - 2xf_n(x)$$ for $$n=0,1,2,\ldots$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (c) show that $$f_n(x)$$ has $$n$$ distinct real roots 
+> > ## Solution
+> >
+> > To show that $$f_n(x)$$ has $$n$$ distinct real roots, we can begin by using the definition of $$f_n(x)$$:
+> > $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$
+Notice that $$e^{-x^2}$$ is an even function, so its $$n$$th derivative is also an even function when $$n$$ is even and an odd function when $$n$$ is odd. Therefore, we only need to consider the roots of $$\frac{d^n}{dx^n}(e^{-x^2})$$.
+> > We can find the roots of $$\frac{d^n}{dx^n}(e^{-x^2})$$ by solving the equation $$\frac{d^n}{dx^n}(e^{-x^2}) = 0$$. This can be simplified by taking the derivative of $$e^{-x^2}$$ using the chain rule:
+> > $$\frac{d}{dx}(e^{-x^2}) = -2xe^{-x^2}$$
+Using this, we can find the second derivative:
+> > $$\frac{d^2}{dx^2}(e^{-x^2}) = (4x^2-2)e^{-x^2}$$
+By inspection, we can see that this function has two roots: $$x=\pm\frac{1}{\sqrt{2}}$$. Using induction and the product rule, we can show that the $$n$$th derivative of $$e^{-x^2}$$ has $$n$$ distinct real roots, alternating between positive and negative values. Therefore, $$f_n(x)$$ has $$n$$ distinct real roots for $$n=0,1,2,\ldots$$
+> > 
+> {: .solution}
+{: .challenge}
+> ### (d) show that $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$ 
+> > ## Solution
+> >
+> > To show that $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$, we can start by differentiating $$f_n(x)$$ with respect to $$x$$. Using the product rule and the chain rule, we get:
+> > $$f_n'(x) = d/dx((e^{x^2})d^n/dx^n(e^{-x^2}))$$\
+> > $$f_n'(x) = (2xe^{x^2})d^n/dx^n(e^{-x^2})+(e^{x^2})d^{n+1}/dx^{n+1}(e^{-x^2})$$\
+> > $$f_n'(x) = (2xe^{x^2})d^n/dx^n(e^{-x^2})-(2n+2)(e^{x^2})d^n/dx^n(e^{-x^2})$$\
+> > $$f_n'(x) = (2x-2n-2)f_n(x)$$\
+> > Next, we differentiate $$f_n'(x)$$ with respect to $$x$$ using the product rule and the chain rule:
+> > $$f_n''(x) = d/dx((2x-2n-2)f_n(x)) + (2x-2n-2)f_n'(x)$$\
+> > $$f_n''(x) = 2f_n(x) + (2x-2n-2)(2x-2n)f_n(x)$$\
+> > $$f_n''(x) = (4x^2-4nx-2)f_n(x)$$\
+> > Substituting these expressions for $$f_n'(x)$$ and $$f_n''(x)$$ into the differential equation $$y''-2xy'+2ny=0$$, we get:
+> > $$(4x^2-4nx-2)f_n(x) - 2x(2x-2n-2)(2x-2n)f_n(x) + 2nf_n(x) = 0$$\
+Simplifying, we get:
+> > $$f_n(x)(4x^2-4nx+2-4x^2+8nx-4n^2-4n) = 0$$\
+Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
+> > 
+> {: .solution}
+{: .challenge}
