@@ -166,15 +166,15 @@ $$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 > > 
 > {: .solution}
 {: .challenge}
-> ## 7.2.9 Exercises -2 - Find a formula for the derivative $$(\frac{d}{dx})\log{a}(x)$$. 
+> ## 7.2.9 Exercises -2 - Find a formula for the derivative $$(\frac{d}{dx})\log_{a}(x)$$. 
 > 
 > > ## Solution
 > >
 > > The logarithm function $$\log_{a}(x)$$ is defined as the inverse function of the exponential function $$a^x$$, such that $$\log_{a}(a^x) = x$$ for all $$x$$.\
 > > Using the chain rule, we can differentiate $$\log_{a}(x)$$ with respect to $$x$$ as follows:\
-> > $$(d /dx)\log{a}(x) = (\frac{d}{dx})(\frac{\ln(x)}{(ln(a)}) = \frac{1}{\ln(a)}.(\frac{d\ln(x)}{dx})$$\
+> > $$(\frac{d}{dx})\log_{a}(x) = (\frac{d}{dx})(\frac{\ln(x)}{(ln(a)}) = \frac{1}{\ln(a)}.(\frac{d\ln(x)}{dx})$$\
 > > Since $$\ln(x)$$ is the natural logarithm of $$x$$ (i.e., the logarithm with base $$e$$), its derivative is simply $$1/x$$. Thus, we have:\
-> > $$(\frac{d}{dx})\log{a}(x) = \frac{1}{x\ln(a)}\
+> > $$(\frac{d}{dx})\log_{a}(x) = \frac{1}{x\ln(a)}\
 > > Therefore , the formula for the derivative of $$\log_{a}(x)$$ with respect to $$x$$ is $$\frac{1}{x\ln(a)}$$.
 > > 
 > {: .solution}
