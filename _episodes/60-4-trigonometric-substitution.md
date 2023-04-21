@@ -37,13 +37,13 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > >
 > > The formulas for the derivatives of the trigonometric functions are:\
 > > Derivative of $$\tan x$$:\
-> > $$\frac{d}{dx} \tan x = \sec^2 x$$\
+> > <li>$$\frac{d}{dx} \tan x = \sec^2 x$$\
 > > Derivative of $$\sec x$$:\
-> > $$\frac{d}{dx} \sec x = \sec x \tan x$$\
+> > <li>$$\frac{d}{dx} \sec x = \sec x \tan x$$\
 > > Derivative of $$\csc x$$:\
-> > $$\frac{d}{dx} \csc x = -\csc x \cot x$$\
+> > <li>$$\frac{d}{dx} \csc x = -\csc x \cot x$$\
 > > Derivative of $$\cot x$$:\
-> > $$\frac{d}{dx} \cot x = -\csc^2 x$$
+> > <li>$$\frac{d}{dx} \cot x = -\csc^2 x$$
 > > Here, $$\sec x$$, $$\csc x$$, and $$\cot x$$ are the reciprocal functions of $$\cos x$$, $$\sin x$$, and $$\tan x$$ respectively.
 > {: .solution}
 {: .challenge}
