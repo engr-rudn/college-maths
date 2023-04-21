@@ -128,17 +128,17 @@ $$\int e^{2x} \sin x dx$$
 > ### (a) Show that $$f_n$$ is a polynomial of degree $$n$$, and is moreover an even function when $$n$$ is even and an odd function when $$n$$ is odd 
 > > ## Solution
 > >
-> > We have to show that $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$ by using the derivative of $$e^{-x^2}$$ to write $$f_n(x)$$ in terms of a polynomial multiplied by $$e^{x^2}$$.
+> > We have to show that $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$ by using the derivative of $$e^{-x^2}$$ to write $$f_n(x)$$ in terms of a polynomial multiplied by $$e^{x^2}$$.\
 > > Prove that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd by using the behavior of the derivatives of $$e^{-x^2}$$ to show that $$f_n(x)$$ has the same parity as $$n$$ for all $$n$$. Specifically, they should show that:\
-> > $$f_1(x)$$ is odd because the first derivative of $$e^{-x^2}$$ introduces a factor of $$-2x$$.
-> > $$f_2(x)$$ is even because the second derivative of $$e^{-x^2}$$ introduces a factor of $$4x^2-2$$.
-> > $$f_3(x)$$ is odd because the third derivative of $$e^{-x^2}$$ introduces a factor of $$-8x^3+12x$$.
-> > $$f_4(x)$$ is even because the fourth derivative of $$e^{-x^2}$$ introduces a factor of $$16x^4-48x^2+12$$.
-> > Generalize this pattern to all $$n$$ to show that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd.
-> > More explanation of the solution follows:
-> > For each natural number $$n$$, we define the function $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$.
-> > To show that $$f_n(x)$$ is a polynomial of degree $$n$$, we can find the first few derivatives of $$e^{-x^2}$$ and notice that each derivative introduces a polynomial of degree $$n$$ in $$x$$ multiplied by $$e^{-x^2}$$. Thus, $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$.
-> > To show that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd, we can look at the behavior of each derivative of $$e^{-x^2}$$. The first derivative introduces a factor of $$-2x$$, which means that $$f_1(x)$$ is an odd function. The second derivative introduces a factor of $$4x^2-2$$, which means that $$f_2(x)$$ is an even function. The third derivative introduces a factor of $$-8x^3+12x$$, which means that $$f_3(x)$$ is an odd function. The fourth derivative introduces a factor of $$16x^4-48x^2+12$$, which means that $$f_4(x)$$ is an even function.
+> > $$f_1(x)$$ is odd because the first derivative of $$e^{-x^2}$$ introduces a factor of $$-2x$$.\
+> > $$f_2(x)$$ is even because the second derivative of $$e^{-x^2}$$ introduces a factor of $$4x^2-2$$.\
+> > $$f_3(x)$$ is odd because the third derivative of $$e^{-x^2}$$ introduces a factor of $$-8x^3+12x$$.\
+> > $$f_4(x)$$ is even because the fourth derivative of $$e^{-x^2}$$ introduces a factor of $$16x^4-48x^2+12$$.\
+> > Generalize this pattern to all $$n$$ to show that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd.\
+> > More explanation of the solution follows:\
+> > For each natural number $$n$$, we define the function $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$.\
+> > To show that $$f_n(x)$$ is a polynomial of degree $$n$$, we can find the first few derivatives of $$e^{-x^2}$$ and notice that each derivative introduces a polynomial of degree $$n$$ in $$x$$ multiplied by $$e^{-x^2}$$. Thus, $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$.\
+> > To show that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd, we can look at the behavior of each derivative of $$e^{-x^2}$$. The first derivative introduces a factor of $$-2x$$, which means that $$f_1(x)$$ is an odd function. The second derivative introduces a factor of $$4x^2-2$$, which means that $$f_2(x)$$ is an even function. The third derivative introduces a factor of $$-8x^3+12x$$, which means that $$f_3(x)$$ is an odd function. The fourth derivative introduces a factor of $$16x^4-48x^2+12$$, which means that $$f_4(x)$$ is an even function.\
 > > We can see that this pattern continues for all $$n$$. When $$n$$ is even, $$f_n(x)$$ is an even function because all of the derivatives up to the $$n$$th introduce even powers of $$x$$. When $$n$$ is odd, $$f_n(x)$$ is an odd function because all of the derivatives up to the $$n$$th introduce odd powers of $$x$$.
 > > 
 > {: .solution}
