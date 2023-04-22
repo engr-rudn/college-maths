@@ -195,7 +195,7 @@ Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
 > > 
 > {: .solution}
 {: .challenge}
-> # 8.1.2 Solve the following integrals:
+> ## 8.1.2 Solve the following integrals:
 > ## 1. Solve the following integrals:
 > ### (a) $$\int(xe^x)dx$$
 > > ## Solution
@@ -253,7 +253,7 @@ $$
 > > 
 > {: .solution}
 {: .challenge}
-> ### (e) $$\int e^x \cos x dx$$
+> ### (c) $$\int e^x \cos x dx$$
 > > ## Solution
 > >
 > > To evaluate the integral $$\int e^x \cos x dx$$, we can use integration by parts twice and solve for the integral.\
@@ -294,23 +294,86 @@ $$
 > > 
 > {: .solution}
 {: .challenge}
-> ## 2. Solve the following useful integrals, where $$a$$ is a positive constant:
-> ### (a) $$\int e^x \cos x dx$$
+> ### (e) $$\int \ln x dx$$
 > > ## Solution
 > >
-> > We can start by making a substitution. Let x = a sin(u). Then dx/d(u) = a cos(u), and we can rewrite the integral as:\
-> > $$\int(1/(a^2 - x^2)) dx = \int(1/(a^2 - a^2 \sin^2(u))) a \cos(u) du$$\
-> > $$= \int(1/(a^2 \cos^2(u))) a \cos(u) du$$\
-> > $$= a \int(\sec^2(u)) du$$\
-> > Integrating $$\sec^2(u)$$ gives us $$\tan(u) + C$$, where $$C$$ is a constant of integration. So, we have:\
-> > $$\int(1/(a^2 - x^2)) dx = a \tan^(-1)(x/a) + C$$\
-> > Since the limits of integration are -a and a, we can evaluate the definite integral as:\
-> > $$\(1/(a^2 - x^2)) dx = [a \tan^(-1)(x/a)]_(-a)^a$$\
-> > $$= [a \tan^(-1)(a/a) - a \tan^(-1)(-a/a)]$$\
-> > $$=[a (\pi/4) - (-a) (-\pi/4)]$$\
-> > $$= (\pi/2)a$$
-> > Therefore, the solution to the integral is:\
-> > $$\int(1/(a^2 - x^2)) dx = (\pi/2)a.$$
+> > To evaluate the integral $$\int \ln x dx$$, we can use integration by parts, which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.\
+> > Let's assume $$u = \ln x$$ and $$dv = dx$$. \
+> > Then, $$du = \frac{1}{x} dx$$ and $$v = \int dx = x$$. \
+> > Applying the formula for integration by parts, we have:\
+> > $$
+\begin{align*}
+\int \ln x dx &= \int u dv \\
+&= u v - \int v du \\
+&= x \ln x - \int x \frac{1}{x} dx \\
+&= x \ln x - x + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$\ln x$$ is $$x \ln x - x + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ## 2. Solve the following useful integrals, where $$a$$ is a positive constant:
+> ### (a) $$\int \frac{1}{\sqrt{a^2 - x^2}} dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int \frac{1}{\sqrt{a^2 - x^2}} dx$$, where $$-a < x < a$$, we can use the substitution $$x = a \sin \theta$$, which gives us $$dx = a \cos \theta d\theta$$ and $$\sqrt{a^2 - x^2} = a \cos \theta$$. Thus, we have:\
+> > $$
+\begin{align*}
+\int \frac{1}{\sqrt{a^2 - x^2}} dx &= \int \frac{1}{a \cos \theta} a \cos \theta d\theta \
+&= \int d\theta \
+&= \theta + C \
+&= \sin^{-1} \left( \frac{x}{a} \right) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.
+> > Since $$-a < x < a$$, we have\
+> >  $$-\frac{\pi}{2} < \theta < \frac{\pi}{2}$$, so \
+> >  $$\sin^{-1} \left( \frac{x}{a} \right)$$ is a valid antiderivative within the given range of $$x$$.\ 
+> > Therefore, the antiderivative of $$\frac{1}{\sqrt{a^2 - x^2}}$$ is $$\sin^{-1} \left( \frac{x}{a} \right) + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (b) $$\int \frac{1}{\sqrt{a^2+x^2}} dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int \frac{1}{\sqrt{a^2+x^2}} dx$$, we can use a trigonometric substitution, which is a technique that involves using the properties of trigonometric functions to simplify the integral.\
+> > Let's assume $$x = a \tan \theta$$, where $$-\frac{\pi}{2} < \theta < \frac{\pi}{2}$$. Then,\
+> > $$dx = a \sec^2 \theta d\theta$$,\
+> > and we can express the integrand in terms of $$\theta$$:\
+> > $$
+\begin{align*}
+\int \frac{1}{\sqrt{a^2+x^2}} dx &= \int \frac{1}{\sqrt{a^2+a^2 \tan^2 \theta}} a \sec^2 \theta d\theta \\
+&= \int \frac{1}{\sqrt{a^2 \sec^2 \theta}} a \sec^2 \theta d\theta \\
+&= \int \frac{1}{a} d\theta \\
+&= \frac{1}{a} \theta + C \\
+&= \frac{1}{a} \tan^{-1} \left(\frac{x}{a}\right) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $\frac{1}{\sqrt{a^2+x^2}}$ is\
+> > $$\frac{1}{a} \tan^{-1} \left(\frac{x}{a}\right) + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (d) $$\int \frac{1}{a^2 + x^2} dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int \frac{1}{a^2 + x^2} dx$$, we can use the substitution $$x = a \tan t$$.\
+> > Then, $$dx = a \sec^2 t dt$$ and $$a^2 + x^2 = a^2(1 + \tan^2 t) = a^2 \sec^2 t$$.\
+> > Substituting these into the integral, we get:\
+> > $$
+\begin{align*}
+\int \frac{1}{a^2 + x^2} dx &= \int \frac{1}{a^2 + a^2 \tan^2 t} a \sec^2 t dt \\
+&= \int \frac{1}{a^2 \sec^2 t} a \sec^2 t dt \\
+&= \int \frac{1}{a^2} dt \\
+&= \frac{1}{a} \tan^{-1} \left( \frac{x}{a} \right) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$\frac{1}{a^2 + x^2}$$ is\
+> > $$\frac{1}{a} \tan^{-1} \left( \frac{x}{a} \right) + C$$.
 > > 
 > {: .solution}
 {: .challenge}
