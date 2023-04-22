@@ -195,7 +195,8 @@ Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
 > > 
 > {: .solution}
 {: .challenge}
-> ## 8.1.2 Solve the following integrals:
+> # 8.1.2 Solve the following integrals:
+> ## 1. Solve the following integrals:
 > ### (a) $$\int(xe^x)dx$$
 > > ## Solution
 > >
@@ -290,6 +291,26 @@ $$
 $$
 > > where $$C$$ is the constant of integration.\
 > > Therefore, the antiderivative of $$e^x \cos x$$ is $$\frac{1}{2} e^x (\cos x + \sin x) + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ## 2. Solve the following useful integrals, where $$a$$ is a positive constant:
+> ### (a) $$\int e^x \cos x dx$$
+> > ## Solution
+> >
+> > We can start by making a substitution. Let x = a sin(u). Then dx/d(u) = a cos(u), and we can rewrite the integral as:\
+> > $$\int(1/(a^2 - x^2)) dx = \int(1/(a^2 - a^2 \sin^2(u))) a \cos(u) du$$\
+> > $$= \int(1/(a^2 \cos^2(u))) a \cos(u) du$$\
+> > $$= a \int(\sec^2(u)) du$$\
+> > Integrating $$\sec^2(u)$$ gives us $$\tan(u) + C$$, where $$C$$ is a constant of integration. So, we have:\
+> > $$\int(1/(a^2 - x^2)) dx = a \tan^(-1)(x/a) + C$$\
+> > Since the limits of integration are -a and a, we can evaluate the definite integral as:\
+> > $$\(1/(a^2 - x^2)) dx = [a \tan^(-1)(x/a)]_(-a)^a$$\
+> > $$= [a \tan^(-1)(a/a) - a \tan^(-1)(-a/a)]$$\
+> > $$=[a (\pi/4) - (-a) (-\pi/4)]$$\
+> > $$= (\pi/2)a$$
+> > Therefore, the solution to the integral is:\
+> > $$\int(1/(a^2 - x^2)) dx = (\pi/2)a.$$
 > > 
 > {: .solution}
 {: .challenge}
