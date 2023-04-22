@@ -203,9 +203,9 @@ Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
 > > Let $$u = x$$ and $$dv = e^x dx$$. Then, we have $$du = dx$$ and $$v = \int e^x dx = e^x$$. Using the formula for integration by parts, we have:\
 > > $$
 \begin{align*}
-\int (x e^x)dx &= \int u dv \
-&= u v - \int v du \
-&= x e^x - \int e^x dx \
+\int (x e^x)dx &= \int u dv \\
+&= u v - \int v du \\
+&= x e^x - \int e^x dx \\
 &= x e^x - e^x + C,
 \end{align*}
 $$
