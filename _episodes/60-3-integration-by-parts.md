@@ -373,22 +373,25 @@ $$\
 > ### (b) $$\int \frac{1}{\sqrt{a^2+x^2}} dx$$
 > > ## Solution
 > >
-> > To evaluate the integral $$\int \frac{1}{\sqrt{a^2+x^2}} dx$$, we can use a trigonometric substitution, which is a technique that involves using the properties of trigonometric functions to simplify the integral.\
-> > Let's assume $$x = a \tan \theta$$, where $$-\frac{\pi}{2} < \theta < \frac{\pi}{2}$$. Then,\
-> > $$dx = a \sec^2 \theta d\theta$$,\
-> > and we can express the integrand in terms of $$\theta$$:\
+> > This integral can be solved by using a trigonometric substitution. Let's substitute $$x = a\tan\theta$$:\
 > > $$
 \begin{align*}
-\int \frac{1}{\sqrt{a^2+x^2}} dx &= \int \frac{1}{\sqrt{a^2+a^2 \tan^2 \theta}} a \sec^2 \theta d\theta \\
-&= \int \frac{1}{\sqrt{a^2 \sec^2 \theta}} a \sec^2 \theta d\theta \\
-&= \int \frac{1}{a} d\theta \\
-&= \frac{1}{a} \theta + C \\
-&= \frac{1}{a} \tan^{-1} \left(\frac{x}{a}\right) + C,
+x &= a\tan\theta \
+dx &= a\sec^2\theta d\theta \
+\sqrt{a^2+x^2} &= \sqrt{a^2+a^2\tan^2\theta} \
+&= \sqrt{a^2\sec^2\theta} \
+&= a\sec\theta
 \end{align*}
 $$\
-> > where $$C$$ is the constant of integration.\
-> > Therefore, the antiderivative of $\frac{1}{\sqrt{a^2+x^2}}$ is\
-> > $$\frac{1}{a} \tan^{-1} \left(\frac{x}{a}\right) + C$$.
+> > Substituting these expressions in the integral gives:
+> > $$
+\begin{align*}
+\int \frac{1}{\sqrt{a^2+x^2}} dx &= \int \frac{1}{a\sec\theta} a\sec^2\theta d\theta \
+&= \int \cos\theta d\theta \
+&= \sin\theta + C \
+&= \frac{x}{\sqrt{a^2+x^2}} + C
+\end{align*}
+$$\
 > > 
 > {: .solution}
 {: .challenge}
