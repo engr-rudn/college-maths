@@ -381,3 +381,156 @@ $$
 > > 
 > {: .solution}
 {: .challenge}
+> ## 5. Solve the following integrals:
+> ### (a) $$\int \sin^2 x dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int \sin^2 x dx$$, we can use the trigonometric identity\
+> >  $$\sin^2 x = \frac{1}{2}(1 - \cos 2x)$$ and simplify the integral.\
+> > $$
+\begin{align*}
+\int \sin^2 x dx &= \int \frac{1}{2}(1 - \cos 2x) dx \\
+&= \frac{1}{2} \int (1 - \cos 2x) dx \\
+&= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$\sin^2 x$$ is\
+> >  $$\frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (a) $$\int \sin^2 x dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int \sin^2 x dx$$, we can use the trigonometric identity\
+> >  $$\sin^2 x = \frac{1}{2}(1 - \cos 2x)$$ and simplify the integral.\
+> > $$
+\begin{align*}
+\int \sin^2 x dx &= \int \frac{1}{2}(1 - \cos 2x) dx \\
+&= \frac{1}{2} \int (1 - \cos 2x) dx \\
+&= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$\sin^2 x$$ is\
+> >  $$\frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (a) $$\int \sin^2 x dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int \sin^2 x dx$$, we can use the trigonometric identity\
+> >  $$\sin^2 x = \frac{1}{2}(1 - \cos 2x)$$ and simplify the integral.\
+> > $$
+\begin{align*}
+\int \sin^2 x dx &= \int \frac{1}{2}(1 - \cos 2x) dx \\
+&= \frac{1}{2} \int (1 - \cos 2x) dx \\
+&= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$\sin^2 x$$ is\
+> >  $$\frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (b) $$\int \cos^2 x \cos^2 x dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int \cos^2 x \cos^2 x dx$$, we can use the trigonometric identity $$\cos^2 x = \frac{1}{2}(1 + \cos 2x)$$ and simplify the integral.\
+> > $$
+\begin{align*}
+\int \cos^2 x \cos^2 x dx &= \int \cos^2 x \left( \frac{1}{2}(1 + \cos 2x) \right) dx \\
+&= \frac{1}{2} \int (\cos^2 x + \cos^3 2x) dx \\
+&= \frac{1}{2} \left( \int \cos^2 x dx + \int \cos^3 2x dx \right)
+\end{align*}
+$$
+> > To evaluate $\int \cos^2 x dx$, we can use the trigonometric identity\
+> >  $\cos^2 x = \frac{1}{2}(1 + \cos 2x)$.
+> > $$
+\begin{align*}
+\int \cos^2 x dx &= \int \frac{1}{2}(1 + \cos 2x) dx \
+&= \frac{1}{2} \left( x + \frac{1}{2} \sin 2x \right) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > To evaluate $$\int \cos^3 2x dx$$, we can use the substitution $$u = 2x$$ and simplify the integral.\
+> > $$
+\begin{align*}
+\int \cos^3 2x dx &= \frac{1}{2} \int \cos^3 u du \\
+&= \frac{1}{2} \int \cos u \cos^2 u du \\
+&= \frac{1}{2} \int \cos u (1 + \cos 2u) du \\
+&= \frac{1}{2} \left( \int \cos u du + \int \cos u \cos 2u du \right) \\
+&= \frac{1}{2} \left( \sin u + \frac{1}{3} \sin^3 u \right) + C \\
+&= \frac{1}{2} \left( \sin 2x + \frac{1}{3} \sin^3 2x \right) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Substituting these results back into the original integral, we get:
+> > $$
+\begin{align*}
+\int \cos^2 x \cos^2 x dx &= \frac{1}{2} \left( \frac{1}{2} \left( x + \frac{1}{2} \sin 2x \right) + \frac{1}{2} \left( \sin 2x + \frac{1}{3} \sin^3 2x \right) \right) + C \
+&= \frac{1}{4} x + \frac{1}{8} \sin 2x + \frac{1}{6} \sin^3 2x + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$\cos^2 x \cos^2 x$$ is\
+> >  $$\frac{1}{4} x + \frac{1}{8} \sin 2x + \frac{1}{6} \sin^3 2x + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (c) $$\int \cos^3 x \cos^2 x dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int \cos^3 x \cos^2 x dx$$, we can use the trigonometric identity\
+> >  $$\cos^2 x = 1 - \sin^2 x$$ \
+> > to express the integrand in terms of only $$\cos x$$.
+> > $$
+\begin{align*}
+\int \cos^3 x \cos^2 x dx &= \int \cos^3 x (1 - \sin^2 x) dx \\
+&= \int (\cos^3 x - \cos^3 x \sin^2 x) dx.
+\end{align*}
+$$
+> > To integrate $$\cos^3 x$$, we can use another trigonometric identity\
+> >  $$\cos^3 x = \cos x (1 - \sin^2 x)$$. So, we have\
+> > $$
+\begin{align*}
+\int \cos^3 x \cos^2 x dx &= \int (\cos x - \cos x \sin^2 x - \cos x \sin^2 x + \cos x \sin^4 x) dx \\
+&= \int \cos x dx - 2\int \cos x \sin^2 x dx + \int \cos x \sin^4 x dx \\
+&= \sin x - 2\int \cos x (1 - \cos^2 x) dx + \frac{1}{4} \int \cos x (3 - 4\sin^2 x) dx \\
+&= \sin x - 2\int \cos x dx + 2\int \cos^3 x dx + \frac{3}{4} \int \cos x dx - \int \cos x \sin^2 x dx \\
+&= \sin x - 2\sin x + 2\int \cos x (1 - \sin^2 x) dx + \frac{3}{4} \sin x - \frac{1}{2}\int (1 - \sin^2 x) d(\sin x) \\
+&= -\sin x + \frac{3}{4} \sin x + \frac{1}{2} \int \sin^2 x d(\sin x) \\
+&= -\frac{1}{4} \sin x + \frac{1}{6} \sin^3 x + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$\cos^3 x \cos^2 x$$ is\
+> >  $$-\frac{1}{4} \sin x + \frac{1}{6} \sin^3 x + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (d) $$\int \sin^4 x , dx$$
+> > ## Solution
+> >
+> > To find $$\int \sin^4 x , dx$$, we use the identity\
+> >  $$\sin^2 x = 1 - \cos^2 x$$ to express $$\sin^4 x$$ as\
+> >  a product of two powers of $$\sin x$$ and two powers of $$\cos x$$.\
+> >  Thus, $$\sin^4 x = (\sin^2 x)^2 = (\sin^2 x)(1 - \cos^2 x) = \sin^2 x - \sin^2 x \cos^2 x$$.\
+> >  Therefore, we have:\
+> > $$
+\begin{align*}
+\int \sin^4 x , dx &= \int (\sin^2 x - \sin^2 x \cos^2 x) , dx \\
+&= \int \sin^2 x , dx - \int \sin^2 x \cos^2 x , dx \\
+&= \frac{1}{2} \int (1 - \cos 2x) , dx - \frac{1}{4} \int \sin^2 2x , dx \\
+&= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) - \frac{1}{8} \int (1 - \cos 4x) , dx \\
+&= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) - \frac{1}{8} \left(x - \frac{1}{4} \sin 4x \right) + C \\
+&= \frac{3}{8} x - \frac{1}{4} \sin 2x - \frac{1}{32} \sin 4x + C,
+\end{align*}
+$$
+> > where $$C$$ is a constant of integration.
+> > 
+> {: .solution}
+{: .challenge}
