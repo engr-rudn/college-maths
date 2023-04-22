@@ -442,42 +442,6 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ### (a) $$\int \sin^2 x dx$$
-> > ## Solution
-> >
-> > To evaluate the integral $$\int \sin^2 x dx$$, we can use the trigonometric identity\
-> >  $$\sin^2 x = \frac{1}{2}(1 - \cos 2x)$$ and simplify the integral.\
-> > $$
-\begin{align*}
-\int \sin^2 x dx &= \int \frac{1}{2}(1 - \cos 2x) dx \\
-&= \frac{1}{2} \int (1 - \cos 2x) dx \\
-&= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C,
-\end{align*}
-$$\
-> > where $$C$$ is the constant of integration.\
-> > Therefore, the antiderivative of $$\sin^2 x$$ is\
-> >  $$\frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C$$.
-> > 
-> {: .solution}
-{: .challenge}
-> ### (a) $$\int \sin^2 x dx$$
-> > ## Solution
-> >
-> > To evaluate the integral $$\int \sin^2 x dx$$, we can use the trigonometric identity\
-> >  $$\sin^2 x = \frac{1}{2}(1 - \cos 2x)$$ and simplify the integral.\
-> > $$
-\begin{align*}
-\int \sin^2 x dx &= \int \frac{1}{2}(1 - \cos 2x) dx \\
-&= \frac{1}{2} \int (1 - \cos 2x) dx \\
-&= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C,
-\end{align*}
-$$\
-> > where $$C$$ is the constant of integration.\
-> > Therefore, the antiderivative of $$\sin^2 x$$ is\
-> >  $$\frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C$$.
-> > 
-> {: .solution}
-{: .challenge}
 > ### (b) $$\int \cos^2 x \cos^2 x dx$$
 > > ## Solution
 > >
