@@ -379,8 +379,11 @@ $$\
 \begin{align*}
 x &= a\tan\theta \\
 dx &= a\sec^2\theta d\theta \\
+\\
 \sqrt{a^2+x^2} &= \sqrt{a^2+a^2\tan^2\theta} \\
+\\
 &= \sqrt{a^2\sec^2\theta} \\
+\\
 &= a\sec\theta
 \end{align*}
 $$\
