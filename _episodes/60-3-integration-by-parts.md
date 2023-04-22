@@ -529,7 +529,7 @@ $$
 &= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) - \frac{1}{8} \left(x - \frac{1}{4} \sin 4x \right) + C \\
 &= \frac{3}{8} x - \frac{1}{4} \sin 2x - \frac{1}{32} \sin 4x + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is a constant of integration.
 > > 
 > {: .solution}
