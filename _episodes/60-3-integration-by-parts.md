@@ -102,11 +102,14 @@ $$\int e^{2x} \sin x dx$$
 > > One example of a function that has antiderivatives that cannot be expressed in the form of the given integral is:\
 > > $$f(x) = \frac{\sin x}{x}, \text{ where } x \neq 0 \text{ and } f(0) = 1$$\
 > > To see that this function has antiderivatives that cannot be expressed in the given form, suppose that there exists a function $$F(x)$$ such that $$F'(x) = f(x)$$ for all $$x$$ in some open interval $$A$$. Then, we have:\
-> > $$F'(x) = f(x) = \frac{\sin x}{x}$$
-> > Integrating both sides with respect to $$x$$, we get:
-> > $$F(x) = \int \frac{\sin x}{x} dx + C$$
-> > where $$C$$ is a constant of integration.
-> > However, it can be shown that the integral $$\int \frac{\sin x}{x} dx$$ does not have an elementary antiderivative, i.e., an antiderivative that can be expressed in terms of elementary functions (such as polynomials, exponentials, logarithms, trigonometric functions, etc.). Therefore, the function $$F(x)$$ cannot be expressed in the given form for this choice of $$f(x)$$.
+> > $$F'(x) = f(x) = \frac{\sin x}{x}$$\
+> > Integrating both sides with respect to $$x$$, we get:\
+> > $$F(x) = \int \frac{\sin x}{x} dx + C$$\
+> > where $$C$$ is a constant of integration.\
+> > However, it can be shown that the integral\
+> > $$\int \frac{\sin x}{x} dx$$ does not have an elementary antiderivative,\
+> > i.e., an antiderivative that can be expressed in terms of elementary functions (such as polynomials, exponentials, logarithms, trigonometric functions, etc.).\
+> > Therefore, the function $$F(x)$$ cannot be expressed in the given form for this choice of $$f(x)$$.
 > > 
 > {: .solution}
 {: .challenge}
@@ -128,7 +131,8 @@ $$\int e^{2x} \sin x dx$$
 > ### (a) Show that $$f_n$$ is a polynomial of degree $$n$$, and is moreover an even function when $$n$$ is even and an odd function when $$n$$ is odd 
 > > ## Solution
 > >
-> > We have to show that $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$ by using the derivative of $$e^{-x^2}$$ to write $$f_n(x)$$ in terms of a polynomial multiplied by $$e^{x^2}$$.\
+> > We have to show that $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$\
+> >  by using the derivative of $$e^{-x^2}$$ to write $$f_n(x)$$ in terms of a polynomial multiplied by $$e^{x^2}$$.\
 > > Prove that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd by using the behavior of the derivatives of $$e^{-x^2}$$ to show that $$f_n(x)$$ has the same parity as $$n$$ for all $$n$$. Specifically, they should show that:\
 > > $$f_1(x)$$ is odd because the first derivative of $$e^{-x^2}$$ introduces a factor of $$-2x$$.\
 > > $$f_2(x)$$ is even because the second derivative of $$e^{-x^2}$$ introduces a factor of $$4x^2-2$$.\
@@ -138,8 +142,14 @@ $$\int e^{2x} \sin x dx$$
 > > More explanation of the solution follows:\
 > > For each natural number $$n$$, we define the function $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$.\
 > > To show that $$f_n(x)$$ is a polynomial of degree $$n$$, we can find the first few derivatives of $$e^{-x^2}$$ and notice that each derivative introduces a polynomial of degree $$n$$ in $$x$$ multiplied by $$e^{-x^2}$$. Thus, $$f_n(x)$$ is a polynomial of degree $$n$$ multiplied by $$e^{x^2}$$.\
-> > To show that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd, we can look at the behavior of each derivative of $$e^{-x^2}$$. The first derivative introduces a factor of $$-2x$$, which means that $$f_1(x)$$ is an odd function. The second derivative introduces a factor of $$4x^2-2$$, which means that $$f_2(x)$$ is an even function. The third derivative introduces a factor of $$-8x^3+12x$$, which means that $$f_3(x)$$ is an odd function. The fourth derivative introduces a factor of $$16x^4-48x^2+12$$, which means that $$f_4(x)$$ is an even function.\
-> > We can see that this pattern continues for all $$n$$. When $$n$$ is even, $$f_n(x)$$ is an even function because all of the derivatives up to the $$n$$th introduce even powers of $$x$$. When $$n$$ is odd, $$f_n(x)$$ is an odd function because all of the derivatives up to the $$n$$th introduce odd powers of $$x$$.
+> > To show that $$f_n(x)$$ is even when $$n$$ is even and odd when $$n$$ is odd, we can look at the behavior of each derivative of $$e^{-x^2}$$.\
+> >  The first derivative introduces a factor of $$-2x$$, which means that $$f_1(x)$$ is an odd function.\
+> > The second derivative introduces a factor of $$4x^2-2$$, which means that $$f_2(x)$$ is an even function.\
+> > The third derivative introduces a factor of $$-8x^3+12x$$, which means that $$f_3(x)$$ is an odd function.\
+> > The fourth derivative introduces a factor of $$16x^4-48x^2+12$$, which means that $$f_4(x)$$ is an even function.\
+> > We can see that this pattern continues for all $$n$$.\
+> >  When $$n$$ is even, $$f_n(x)$$ is an even function because all of the derivatives up to the $$n$$th introduce even powers of $$x$$.\
+> > When $$n$$ is odd, $$f_n(x)$$ is an odd function because all of the derivatives up to the $$n$$th introduce odd powers of $$x$$.
 > > 
 > {: .solution}
 {: .challenge}
@@ -164,32 +174,40 @@ Using the definition of $$f_n(x)$$, we can simplify the second term:\
 > ### (c) show that $$f_n(x)$$ has $$n$$ distinct real roots 
 > > ## Solution
 > >
-> > To show that $$f_n(x)$$ has $$n$$ distinct real roots, we can begin by using the definition of $$f_n(x)$$:
-> > $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$
-Notice that $$e^{-x^2}$$ is an even function, so its $$n$$th derivative is also an even function when $$n$$ is even and an odd function when $$n$$ is odd. Therefore, we only need to consider the roots of $$\frac{d^n}{dx^n}(e^{-x^2})$$.
-> > We can find the roots of $$\frac{d^n}{dx^n}(e^{-x^2})$$ by solving the equation $$\frac{d^n}{dx^n}(e^{-x^2}) = 0$$. This can be simplified by taking the derivative of $$e^{-x^2}$$ using the chain rule:
-> > $$\frac{d}{dx}(e^{-x^2}) = -2xe^{-x^2}$$
-Using this, we can find the second derivative:
-> > $$\frac{d^2}{dx^2}(e^{-x^2}) = (4x^2-2)e^{-x^2}$$
-By inspection, we can see that this function has two roots: $$x=\pm\frac{1}{\sqrt{2}}$$. Using induction and the product rule, we can show that the $$n$$th derivative of $$e^{-x^2}$$ has $$n$$ distinct real roots, alternating between positive and negative values. Therefore, $$f_n(x)$$ has $$n$$ distinct real roots for $$n=0,1,2,\ldots$$
+> > To show that $$f_n(x)$$ has $$n$$ distinct real roots, we can begin by using the definition of $$f_n(x)$$:\
+> > $$f_n(x) = (e^{x^2})\frac{d^n}{dx^n}(e^{-x^2})$$\
+> > Notice that $$e^{-x^2}$$ is an even function, so its $$n$$th derivative is also an even function when $$n$$ is even and an odd function when $$n$$ is odd. Therefore, we only need to consider the roots of\
+> > $$\frac{d^n}{dx^n}(e^{-x^2})$$.
+> > We can find the roots of $$\frac{d^n}{dx^n}(e^{-x^2})$$ by solving the equation\
+> >  $$\frac{d^n}{dx^n}(e^{-x^2}) = 0$$.\
+> > This can be simplified by taking the derivative of $$e^{-x^2}$$ using the chain rule:\
+> > $$\frac{d}{dx}(e^{-x^2}) = -2xe^{-x^2}$$\
+> > Using this, we can find the second derivative:\
+> > $$\frac{d^2}{dx^2}(e^{-x^2}) = (4x^2-2)e^{-x^2}$$\
+> > By inspection, we can see that this function has two roots:\
+> > $$x=\pm\frac{1}{\sqrt{2}}$$.\
+> > Using induction and the product rule, we can show that the $$n$$th derivative of $$e^{-x^2}$$ has $$n$$ distinct real roots, alternating between positive and negative values.\
+> > Therefore, $$f_n(x)$$ has $$n$$ distinct real roots for $$n=0,1,2,\ldots$$
 > > 
 > {: .solution}
 {: .challenge}
 > ### (d) show that $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$ 
 > > ## Solution
 > >
-> > To show that $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$, we can start by differentiating $$f_n(x)$$ with respect to $$x$$. Using the product rule and the chain rule, we get:
+> > To show that $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$,\
+> > we can start by differentiating $$f_n(x)$$ with respect to $$x$$.\
+> > Using the product rule and the chain rule, we get:\
 > > $$f_n'(x) = d/dx((e^{x^2})d^n/dx^n(e^{-x^2}))$$\
 > > $$f_n'(x) = (2xe^{x^2})d^n/dx^n(e^{-x^2})+(e^{x^2})d^{n+1}/dx^{n+1}(e^{-x^2})$$\
 > > $$f_n'(x) = (2xe^{x^2})d^n/dx^n(e^{-x^2})-(2n+2)(e^{x^2})d^n/dx^n(e^{-x^2})$$\
 > > $$f_n'(x) = (2x-2n-2)f_n(x)$$\
-> > Next, we differentiate $$f_n'(x)$$ with respect to $$x$$ using the product rule and the chain rule:
+> > Next, we differentiate $$f_n'(x)$$ with respect to $$x$$ using the product rule and the chain rule:\
 > > $$f_n''(x) = d/dx((2x-2n-2)f_n(x)) + (2x-2n-2)f_n'(x)$$\
 > > $$f_n''(x) = 2f_n(x) + (2x-2n-2)(2x-2n)f_n(x)$$\
 > > $$f_n''(x) = (4x^2-4nx-2)f_n(x)$$\
-> > Substituting these expressions for $$f_n'(x)$$ and $$f_n''(x)$$ into the differential equation $$y''-2xy'+2ny=0$$, we get:
+> > Substituting these expressions for $$f_n'(x)$$ and $$f_n''(x)$$ into the differential equation $$y''-2xy'+2ny=0$$, we get:\
 > > $$(4x^2-4nx-2)f_n(x) - 2x(2x-2n-2)(2x-2n)f_n(x) + 2nf_n(x) = 0$$\
-Simplifying, we get:
+> > Simplifying, we get:\
 > > $$f_n(x)(4x^2-4nx+2-4x^2+8nx-4n^2-4n) = 0$$\
 Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
 > > 
@@ -200,8 +218,10 @@ Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
 > ### (a) $$\int(xe^x)dx$$
 > > ## Solution
 > >
-> > To evaluate the integral $$\int (x e^x)dx$$, we will use integration by parts, which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.\
-> > Let $$u = x$$ and $$dv = e^x dx$$. Then, we have $$du = dx$$ and $$v = \int e^x dx = e^x$$. Using the formula for integration by parts, we have:\
+> > To evaluate the integral $$\int (x e^x)dx$$, we will use integration by parts,\
+> > which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.\
+> > Let $$u = x$$ and $$dv = e^x dx$$. Then, we have $$du = dx$$ and $$v = \int e^x dx = e^x$$.\
+> > Using the formula for integration by parts, we have:\
 > > $$
 \begin{align*}
 \int (x e^x)dx &= \int u dv \\
@@ -209,7 +229,7 @@ Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
 &= x e^x - \int e^x dx \\
 &= x e^x - e^x + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration. \
 > > Therefore, the antiderivative of $$xe^x$$ is $$xe^x - e^x + C$$.
 > > 
@@ -218,27 +238,11 @@ $$
 > ### (b) $$\int (x^2 \cos x)dx$$
 > > ## Solution
 > >
-> > To integrate $$\int (x^2 \cos x)dx$$, we can use integration by parts, which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.\
-> > Let's assume $$u = x^2$$ and $$dv = \cos x dx$$. Then, $$du = 2x dx$$ and $$v = \int \cos x dx = \sin x$$. Applying the formula for integration by parts, we have:
-> > $$\begin{align*}
-\int (x^2 \cos x)dx &= \int u dv \\
-&= u v - \int v du \\
-&= x^2 \sin x - \int 2x \sin x dx \\
-&= x^2 \sin x + 2 \int x (-\cos x) dx \\
-&= x^2 \sin x - 2x \cos x + 2 \int \cos x dx \\
-&= x^2 \sin x - 2x \cos x + 2 \sin x + C,
-\end{align*}
-$$\
-> > where $$C$$ is the constant of integration. Therefore, the antiderivative of $$x^2 \cos x$$ is\
-> > $$x^2 \sin x - 2x \cos x + 2 \sin x + C$$.
-> > 
-> {: .solution}
-{: .challenge}
-> ### (c) $$\int e^x \cos x dx$$
-> > ## Solution
-> >
-> > To integrate $$\int (x^2 \cos x)dx$$, we can use integration by parts, which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.\
-> > Let's assume $$u = x^2$$ and $$dv = \cos x dx$$. Then, $$du = 2x dx$$ and $$v = \int \cos x dx = \sin x$$. Applying the formula for integration by parts, we have:
+> > To integrate $$\int (x^2 \cos x)dx$$, we can use integration by parts,\
+> >  which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.\
+> > Let's assume $$u = x^2$$ and $$dv = \cos x dx$$.\
+> > Then, $$du = 2x dx$$ and $$v = \int \cos x dx = \sin x$$.\
+> > Applying the formula for integration by parts, we have:\
 > > $$
 \begin{align*}
 \int (x^2 \cos x)dx &= \int u dv \\
@@ -248,8 +252,32 @@ $$\
 &= x^2 \sin x - 2x \cos x + 2 \int \cos x dx \\
 &= x^2 \sin x - 2x \cos x + 2 \sin x + C,
 \end{align*}
-$$
-> > where $$C$$ is the constant of integration. Therefore, the antiderivative of $$x^2 \cos x$$ is $$x^2 \sin x - 2x \cos x + 2 \sin x + C$$.
+$$\
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$x^2 \cos x$$ is\
+> > $$x^2 \sin x - 2x \cos x + 2 \sin x + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (c) $$\int e^x \cos x dx$$
+> > ## Solution
+> >
+> > To integrate $$\int (x^2 \cos x)dx$$, we can use integration by parts, which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.\
+> > Let's assume $$u = x^2$$ and $$dv = \cos x dx$$. Then,\
+> >  $$du = 2x dx$$ and $$v = \int \cos x dx = \sin x$$.\
+> > Applying the formula for integration by parts, we have:
+> > $$
+\begin{align*}
+\int (x^2 \cos x)dx &= \int u dv \\
+&= u v - \int v du \\
+&= x^2 \sin x - \int 2x \sin x dx \\
+&= x^2 \sin x + 2 \int x (-\cos x) dx \\
+&= x^2 \sin x - 2x \cos x + 2 \int \cos x dx \\
+&= x^2 \sin x - 2x \cos x + 2 \sin x + C,
+\end{align*}
+$$\
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$x^2 \cos x$$ is $$x^2 \sin x - 2x \cos x + 2 \sin x + C$$.
 > > 
 > {: .solution}
 {: .challenge}
@@ -269,9 +297,11 @@ $$
 &= \cos x e^x - e^x \sin x + \int e^x \cos x dx \\
 &= \cos x e^x - e^x \sin x + I,
 \end{align*}
-$$
+$$\
 > > where $$I = \int e^x \cos x dx$$.\
-> > Now, let's assume $$u = \sin x$$ and $$dv = e^x dx$$. Then, $$du = \cos x dx$$ and $$v = \int e^x dx = e^x$$. Applying the formula for integration by parts again, we have:\
+> > Now, let's assume $$u = \sin x$$ and $$dv = e^x dx$$. Then,\
+> >  $$du = \cos x dx$$ and $$v = \int e^x dx = e^x$$.\
+> > Applying the formula for integration by parts again, we have:\
 > >$$
  \begin{align*}
 I &= \int e^x \cos x dx \\
@@ -280,7 +310,7 @@ I &= \int e^x \cos x dx \\
 &= \sin x e^x - \int e^x \cos x dx \\
 &= \sin x e^x - I.
 \end{align*}
-$$
+$$\
 > > Solving for $$I$$ by adding $$I$$ to both sides, we get:\
 > > $$
 \begin{align*}
@@ -288,9 +318,10 @@ $$
 &= e^x (\cos x + \sin x) \\
 \Rightarrow I &= \frac{1}{2} e^x (\cos x + \sin x) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
-> > Therefore, the antiderivative of $$e^x \cos x$$ is $$\frac{1}{2} e^x (\cos x + \sin x) + C$$.
+> > Therefore, the antiderivative of $$e^x \cos x$$ is\
+> >  $$\frac{1}{2} e^x (\cos x + \sin x) + C$$.
 > > 
 > {: .solution}
 {: .challenge}
@@ -308,9 +339,10 @@ $$
 &= x \ln x - \int x \frac{1}{x} dx \\
 &= x \ln x - x + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
-> > Therefore, the antiderivative of $$\ln x$$ is $$x \ln x - x + C$$.
+> > Therefore, the antiderivative of $$\ln x$$ is\
+> > $$x \ln x - x + C$$.
 > > 
 > {: .solution}
 {: .challenge}
@@ -330,7 +362,7 @@ $$
 &= \theta + C \\
 &= \sin^{-1} \left( \frac{x}{a} \right) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Since $$-a < x < a$$, we have\
 > >  $$-\frac{\pi}{2} < \theta < \frac{\pi}{2}$$, so \
@@ -354,7 +386,7 @@ $$
 &= \frac{1}{a} \theta + C \\
 &= \frac{1}{a} \tan^{-1} \left(\frac{x}{a}\right) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Therefore, the antiderivative of $\frac{1}{\sqrt{a^2+x^2}}$ is\
 > > $$\frac{1}{a} \tan^{-1} \left(\frac{x}{a}\right) + C$$.
@@ -374,7 +406,7 @@ $$
 &= \int \frac{1}{a^2} dt \\
 &= \frac{1}{a} \tan^{-1} \left( \frac{x}{a} \right) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Therefore, the antiderivative of $$\frac{1}{a^2 + x^2}$$ is\
 > > $$\frac{1}{a} \tan^{-1} \left( \frac{x}{a} \right) + C$$.
@@ -393,7 +425,7 @@ $$
 &= \frac{1}{2} \int (1 - \cos 2x) dx \\
 &= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Therefore, the antiderivative of $$\sin^2 x$$ is\
 > >  $$\frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C$$.
@@ -411,7 +443,7 @@ $$
 &= \frac{1}{2} \int (1 - \cos 2x) dx \\
 &= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Therefore, the antiderivative of $$\sin^2 x$$ is\
 > >  $$\frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C$$.
@@ -429,7 +461,7 @@ $$
 &= \frac{1}{2} \int (1 - \cos 2x) dx \\
 &= \frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Therefore, the antiderivative of $$\sin^2 x$$ is\
 > >  $$\frac{1}{2} \left(x - \frac{1}{2} \sin 2x \right) + C$$.
@@ -439,22 +471,23 @@ $$
 > ### (b) $$\int \cos^2 x \cos^2 x dx$$
 > > ## Solution
 > >
-> > To evaluate the integral $$\int \cos^2 x \cos^2 x dx$$, we can use the trigonometric identity $$\cos^2 x = \frac{1}{2}(1 + \cos 2x)$$ and simplify the integral.\
+> > To evaluate the integral $$\int \cos^2 x \cos^2 x dx$$, we can use the trigonometric identity\
+> >  $$\cos^2 x = \frac{1}{2}(1 + \cos 2x)$$ and simplify the integral.\
 > > $$
 \begin{align*}
 \int \cos^2 x \cos^2 x dx &= \int \cos^2 x \left( \frac{1}{2}(1 + \cos 2x) \right) dx \\
 &= \frac{1}{2} \int (\cos^2 x + \cos^3 2x) dx \\
 &= \frac{1}{2} \left( \int \cos^2 x dx + \int \cos^3 2x dx \right)
 \end{align*}
-$$
+$$\
 > > To evaluate $\int \cos^2 x dx$, we can use the trigonometric identity\
-> >  $\cos^2 x = \frac{1}{2}(1 + \cos 2x)$.
+> >  $$\cos^2 x = \frac{1}{2}(1 + \cos 2x)$$.
 > > $$
 \begin{align*}
 \int \cos^2 x dx &= \int \frac{1}{2}(1 + \cos 2x) dx \
 &= \frac{1}{2} \left( x + \frac{1}{2} \sin 2x \right) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > To evaluate $$\int \cos^3 2x dx$$, we can use the substitution $$u = 2x$$ and simplify the integral.\
 > > $$
@@ -466,7 +499,7 @@ $$
 &= \frac{1}{2} \left( \sin u + \frac{1}{3} \sin^3 u \right) + C \\
 &= \frac{1}{2} \left( \sin 2x + \frac{1}{3} \sin^3 2x \right) + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Substituting these results back into the original integral, we get:
 > > $$
@@ -474,7 +507,7 @@ $$
 \int \cos^2 x \cos^2 x dx &= \frac{1}{2} \left( \frac{1}{2} \left( x + \frac{1}{2} \sin 2x \right) + \frac{1}{2} \left( \sin 2x + \frac{1}{3} \sin^3 2x \right) \right) + C \
 &= \frac{1}{4} x + \frac{1}{8} \sin 2x + \frac{1}{6} \sin^3 2x + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Therefore, the antiderivative of $$\cos^2 x \cos^2 x$$ is\
 > >  $$\frac{1}{4} x + \frac{1}{8} \sin 2x + \frac{1}{6} \sin^3 2x + C$$.
@@ -492,7 +525,7 @@ $$
 \int \cos^3 x \cos^2 x dx &= \int \cos^3 x (1 - \sin^2 x) dx \\
 &= \int (\cos^3 x - \cos^3 x \sin^2 x) dx.
 \end{align*}
-$$
+$$\
 > > To integrate $$\cos^3 x$$, we can use another trigonometric identity\
 > >  $$\cos^3 x = \cos x (1 - \sin^2 x)$$. So, we have\
 > > $$
@@ -505,7 +538,7 @@ $$
 &= -\sin x + \frac{3}{4} \sin x + \frac{1}{2} \int \sin^2 x d(\sin x) \\
 &= -\frac{1}{4} \sin x + \frac{1}{6} \sin^3 x + C,
 \end{align*}
-$$
+$$\
 > > where $$C$$ is the constant of integration.\
 > > Therefore, the antiderivative of $$\cos^3 x \cos^2 x$$ is\
 > >  $$-\frac{1}{4} \sin x + \frac{1}{6} \sin^3 x + C$$.
