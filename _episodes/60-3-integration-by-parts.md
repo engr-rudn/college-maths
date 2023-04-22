@@ -86,7 +86,7 @@ $$\int e^{2x} \sin x dx$$
 > > To show that $$\sqrt{f}$$ is integrable on $$[a,b]$$, we need to show that $$\int_a^b \sqrt{f(x)} dx$$ exists and is finite.\
 > > We can use the inequality $$\sqrt{f(x)} > \sqrt{\alpha}$$ for all $$x \in [a,b]$$ to obtain:\
 > > $$\int_a^b \sqrt{f(x)} dx \geq \int_a^b \sqrt{\alpha} dx = \sqrt{\alpha} \int_a^b dx = \sqrt{\alpha}(b-a)$$\
-> > Since $$\sqrt{\alpha}(b-a)$$ is a finite number, it follows that $$\sqrt{f}$$ is integrable on $$[a,b]$$.
+> > Since $$\sqrt{\alpha}(b-a)$$ is a finite number, it follows that $$\sqrt{f}$$ is integrable on $$[a,b]$$.\
 > > To compare the oscillation of $$\sqrt{f}$$ on an interval with that of $$f$$, we can use the identity\
 > > $$\sqrt{x} - \sqrt{y} = \frac{x-y}{\sqrt{x}+\sqrt{y}}$$ for $$x,y>0$$. \
 > > Then, for any $$x,y \in [a,b]$$ with $$x \neq y$$, we have:\
@@ -364,9 +364,8 @@ $$\
 \end{align*}
 $$\
 > > where $$C$$ is the constant of integration.\
-> > Since $$-a < x < a$$, we have\
-> >  $$-\frac{\pi}{2} < \theta < \frac{\pi}{2}$$, so \
-> >  $$\sin^{-1} \left( \frac{x}{a} \right)$$ is a valid antiderivative within the given range of $$x$$.\ 
+> > Since $$-a < x < a$$, we have  $$-\frac{\pi}{2} < \theta < \frac{\pi}{2}$$, so \
+> >  $$\sin^{-1} \left( \frac{x}{a} \right)$$ is a valid antiderivative within the given range of $$x$$.\
 > > Therefore, the antiderivative of $$\frac{1}{\sqrt{a^2 - x^2}}$$ is $$\sin^{-1} \left( \frac{x}{a} \right) + C$$.
 > > 
 > {: .solution}
