@@ -318,16 +318,20 @@ $$
 > ### (a) $$\int \frac{1}{\sqrt{a^2 - x^2}} dx$$
 > > ## Solution
 > >
-> > To evaluate the integral $$\int \frac{1}{\sqrt{a^2 - x^2}} dx$$, where $$-a < x < a$$, we can use the substitution $$x = a \sin \theta$$, which gives us $$dx = a \cos \theta d\theta$$ and $$\sqrt{a^2 - x^2} = a \cos \theta$$. Thus, we have:\
+> > To evaluate the integral $$\int \frac{1}{\sqrt{a^2 - x^2}} dx$$, where\
+> > $$-a < x < a$$, we can use the substitution\
+> > $$x = a \sin \theta$$, which gives us\
+> > $$dx = a \cos \theta d\theta$$ and $$\sqrt{a^2 - x^2} = a \cos \theta$$. 
+> > Thus, we have:\
 > > $$
 \begin{align*}
-\int \frac{1}{\sqrt{a^2 - x^2}} dx &= \int \frac{1}{a \cos \theta} a \cos \theta d\theta \
-&= \int d\theta \
-&= \theta + C \
+\int \frac{1}{\sqrt{a^2 - x^2}} dx &= \int \frac{1}{a \cos \theta} a \cos \theta d\theta \\
+&= \int d\theta \\
+&= \theta + C \\
 &= \sin^{-1} \left( \frac{x}{a} \right) + C,
 \end{align*}
 $$
-> > where $$C$$ is the constant of integration.
+> > where $$C$$ is the constant of integration.\
 > > Since $$-a < x < a$$, we have\
 > >  $$-\frac{\pi}{2} < \theta < \frac{\pi}{2}$$, so \
 > >  $$\sin^{-1} \left( \frac{x}{a} \right)$$ is a valid antiderivative within the given range of $$x$$.\ 
