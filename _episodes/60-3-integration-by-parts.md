@@ -233,3 +233,38 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
+> ### (c) $$\int e^x \cos x dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$\int e^x \cos x dx$$, we can use integration by parts twice and solve for the integral.\
+> > Let's assume $$u = \cos x$$ and $$dv = e^x dx$$. Then, $$du = -\sin x dx$$ and $$v = \int e^x dx = e^x$$. Applying the formula for integration by parts, we have:\
+> > \begin{align*}
+\int e^x \cos x dx &= \int u dv \\
+&= u v - \int v du \\
+&= \cos x e^x + \int e^x \sin x dx \\
+&= \cos x e^x - \int \sin x d(e^x) \\
+&= \cos x e^x - e^x \sin x + \int e^x \cos x dx \\
+&= \cos x e^x - e^x \sin x + I,
+\end{align*}
+> > where $$I = \int e^x \cos x dx$$.\
+> > Now, let's assume $$u = \sin x$$ and $$dv = e^x dx$$. Then, $$du = \cos x dx$$ and $$v = \int e^x dx = e^x$$. Applying the formula for integration by parts again, we have:\
+> > \begin{align*}
+I &= \int e^x \cos x dx \\
+&= \int u dv \\
+&= u v - \int v du \\
+&= \sin x e^x - \int e^x \cos x dx \\
+&= \sin x e^x - I.
+\end{align*}
+> > Solving for $$I$$ by adding $$I$$ to both sides, we get:\
+> > $$
+\begin{align*}
+2I &= \cos x e^x - e^x \sin x + \sin x e^x \\
+&= e^x (\cos x + \sin x) \\
+\Rightarrow I &= \frac{1}{2} e^x (\cos x + \sin x) + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration.\
+> > Therefore, the antiderivative of $$e^x \cos x$$ is $$\frac{1}{2} e^x (\cos x + \sin x) + C$$.
+> > 
+> {: .solution}
+{: .challenge}
