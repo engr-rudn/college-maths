@@ -267,13 +267,15 @@ $$
 \end{align*}
 > > where $$I = \int e^x \cos x dx$$.\
 > > Now, let's assume $$u = \sin x$$ and $$dv = e^x dx$$. Then, $$du = \cos x dx$$ and $$v = \int e^x dx = e^x$$. Applying the formula for integration by parts again, we have:\
-> > \begin{align*}
+> >$$
+ \begin{align*}
 I &= \int e^x \cos x dx \\
 &= \int u dv \\
 &= u v - \int v du \\
 &= \sin x e^x - \int e^x \cos x dx \\
 &= \sin x e^x - I.
 \end{align*}
+$$
 > > Solving for $$I$$ by adding $$I$$ to both sides, we get:\
 > > $$
 \begin{align*}
