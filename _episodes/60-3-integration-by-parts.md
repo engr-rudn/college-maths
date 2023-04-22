@@ -373,22 +373,23 @@ $$\
 > ### (b) $$\int \frac{1}{\sqrt{a^2+x^2}} dx$$
 > > ## Solution
 > >
-> > This integral can be solved by using a trigonometric substitution. Let's substitute $$x = a\tan\theta$$:\
+> > This integral can be solved by using a trigonometric substitution.\
+> > Let's substitute $$x = a\tan\theta$$:\
 > > $$
 \begin{align*}
-x &= a\tan\theta \
-dx &= a\sec^2\theta d\theta \
-\sqrt{a^2+x^2} &= \sqrt{a^2+a^2\tan^2\theta} \
-&= \sqrt{a^2\sec^2\theta} \
+x &= a\tan\theta \\
+dx &= a\sec^2\theta d\theta \\
+\sqrt{a^2+x^2} &= \sqrt{a^2+a^2\tan^2\theta} \\
+&= \sqrt{a^2\sec^2\theta} \\
 &= a\sec\theta
 \end{align*}
 $$\
 > > Substituting these expressions in the integral gives:
 > > $$
 \begin{align*}
-\int \frac{1}{\sqrt{a^2+x^2}} dx &= \int \frac{1}{a\sec\theta} a\sec^2\theta d\theta \
-&= \int \cos\theta d\theta \
-&= \sin\theta + C \
+\int \frac{1}{\sqrt{a^2+x^2}} dx &= \int \frac{1}{a\sec\theta} a\sec^2\theta d\theta \\
+&= \int \cos\theta d\theta \\
+&= \sin\theta + C \\
 &= \frac{x}{\sqrt{a^2+x^2}} + C
 \end{align*}
 $$\
