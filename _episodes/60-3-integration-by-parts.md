@@ -208,7 +208,7 @@ Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
 &= x e^x - \int e^x dx \\
 &= x e^x - e^x + C,
 \end{align*}
-$$\	
+$$
 > > where $$C$$ is the constant of integration. \
 > > Therefore, the antiderivative of $$xe^x$$ is $$xe^x - e^x + C$$.
 > > 
@@ -228,7 +228,8 @@ $$\
 &= x^2 \sin x - 2x \cos x + 2 \sin x + C,
 \end{align*}
 $$\
-> > where $$C$$ is the constant of integration. Therefore, the antiderivative of $$x^2 \cos x$$ is $$x^2 \sin x - 2x \cos x + 2 \sin x + C$$.
+> > where $$C$$ is the constant of integration. Therefore, the antiderivative of $$x^2 \cos x$$ is\
+> > $$x^2 \sin x - 2x \cos x + 2 \sin x + C$$.
 > > 
 > {: .solution}
 {: .challenge}
