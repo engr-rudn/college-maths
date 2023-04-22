@@ -256,7 +256,8 @@ $$
 > > ## Solution
 > >
 > > To evaluate the integral $$\int e^x \cos x dx$$, we can use integration by parts twice and solve for the integral.\
-> > Let's assume $$u = \cos x$$ and $$dv = e^x dx$$. Then, $$du = -\sin x dx$$ and $$v = \int e^x dx = e^x$$.\
+> > Let's assume $$u = \cos x$$ and $$dv = e^x dx$$. Then,\
+> > $$du = -\sin x dx$$ and $$v = \int e^x dx = e^x$$.\
 > > Applying the formula for integration by parts, we have:\
 > > $$
 \begin{align*}
