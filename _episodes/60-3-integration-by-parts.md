@@ -386,14 +386,17 @@ dx &= a\sec^2\theta d\theta \\
 \\
 &= a\sec\theta
 \end{align*}
-$$\
+$$\\
 > >
-> > Substituting these expressions in the integral gives:
+> > Substituting these expressions in the integral gives:\
 > > $$
 \begin{align*}
 \int \frac{1}{\sqrt{a^2+x^2}} dx &= \int \frac{1}{a\sec\theta} a\sec^2\theta d\theta \\
+\\
 &= \int \cos\theta d\theta \\
+\\
 &= \sin\theta + C \\
+\\
 &= \frac{x}{\sqrt{a^2+x^2}} + C
 \end{align*}
 $$\
