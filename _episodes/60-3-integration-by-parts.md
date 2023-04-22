@@ -236,6 +236,25 @@ $$\
 > ### (c) $$\int e^x \cos x dx$$
 > > ## Solution
 > >
+> > To integrate $$\int (x^2 \cos x)dx$$, we can use integration by parts, which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.\
+> > Let's assume $$u = x^2$$ and $$dv = \cos x dx$$. Then, $$du = 2x dx$$ and $$v = \int \cos x dx = \sin x$$. Applying the formula for integration by parts, we have:
+> > $$
+\begin{align*}
+\int (x^2 \cos x)dx &= \int u dv \\
+&= u v - \int v du \\
+&= x^2 \sin x - \int 2x \sin x dx \\
+&= x^2 \sin x + 2 \int x (-\cos x) dx \\
+&= x^2 \sin x - 2x \cos x + 2 \int \cos x dx \\
+&= x^2 \sin x - 2x \cos x + 2 \sin x + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration. Therefore, the antiderivative of $$x^2 \cos x$$ is $$x^2 \sin x - 2x \cos x + 2 \sin x + C$$.
+> > 
+> {: .solution}
+{: .challenge}
+> ### (e) $$\int e^x \cos x dx$$
+> > ## Solution
+> >
 > > To evaluate the integral $$\int e^x \cos x dx$$, we can use integration by parts twice and solve for the integral.\
 > > Let's assume $$u = \cos x$$ and $$dv = e^x dx$$. Then, $$du = -\sin x dx$$ and $$v = \int e^x dx = e^x$$. Applying the formula for integration by parts, we have:\
 > > \begin{align*}
