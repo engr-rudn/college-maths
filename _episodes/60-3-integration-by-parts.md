@@ -195,3 +195,21 @@ Therefore, $$f_n(x)$$ satisfies the differential equation $$y''-2xy'+2ny=0$$.
 > > 
 > {: .solution}
 {: .challenge}
+> ## Solve the following integrals:
+> ### (a) $$\int(xe^x)dx$$
+> > ## Solution
+> >
+> > To evaluate the integral $$$\int (x e^x)dx$$, we will use integration by parts, which is a technique that involves breaking down the integral into two parts and applying a formula involving the product rule of differentiation.
+> > Let $$u = x$$ and $$dv = e^x dx$$. Then, we have $$du = dx$$ and $$v = \int e^x dx = e^x$$. Using the formula for integration by parts, we have:
+> > $$
+\begin{align*}
+\int (x e^x)dx &= \int u dv \
+&= u v - \int v du \
+&= x e^x - \int e^x dx \
+&= x e^x - e^x + C,
+\end{align*}
+$$
+> > where $$C$$ is the constant of integration. Therefore, the antiderivative of $$xe^x$$ is $$xe^x - e^x + C$$.
+> > 
+> {: .solution}
+{: .challenge}
