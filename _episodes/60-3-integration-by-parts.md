@@ -384,6 +384,7 @@ dx &= a\sec^2\theta d\theta \\
 &= a\sec\theta
 \end{align*}
 $$\
+> >
 > > Substituting these expressions in the integral gives:
 > > $$
 \begin{align*}
