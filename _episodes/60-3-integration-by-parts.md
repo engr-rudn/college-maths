@@ -689,3 +689,17 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
+> ### (b) $$\int \frac{x^2}{x^2+1} dx$$
+> > ## Solution
+> >$$
+\begin{align*}
+\int \frac{1}{x^4+1}dx &= \int \frac{Ax + B}{x^2 + \sqrt{2}x + 1} dx + \int \frac{Cx + D}{x^2 - \sqrt{2}x + 1} dx \\
+&= \int \frac{1}{2}\left[A(x + \frac{\sqrt{2}}{2}) - \frac{1}{2}\frac{2x + \sqrt{2}}{x^2 + \sqrt{2}x + 1} + \frac{1}{2}\frac{2x - \sqrt{2}}{x^2 - \sqrt{2}x + 1}\right] dx \\
+&+ \int \frac{1}{2}\left[\frac{-1}{2}+\frac{1}{2}i\right]\frac{1}{x - \frac{\sqrt{2}}{2} + i\frac{\sqrt{2}}{2}}dx + \int \frac{1}{2}\left[\frac{1}{2}-\frac{1}{2}i\right]\frac{1}{x - \frac{\sqrt{2}}{2} - i\frac{\sqrt{2}}{2}}dx \\
+&= \frac{1}{2} \ln(x^2 + \sqrt{2}x + 1) - \frac{1}{2\sqrt{2}}\arctan\left(\frac{x+\sqrt{2}}{1}\right) + \frac{1}{2\sqrt{2}}\arctan\left(\frac{x-\sqrt{2}}{1}\right) \\
+&- \frac{1}{4\sqrt{2}}\ln\left(x - \frac{\sqrt{2}}{2} + i\frac{\sqrt{2}}{2}\right) + \frac{1}{4\sqrt{2}}\ln\left(x - \frac{\sqrt{2}}{2} - i\frac{\sqrt{2}}{2}\right) + C
+\end{align*}
+$$
+> > 
+> {: .solution}
+{: .challenge}
