@@ -541,3 +541,107 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
+> ## 8.2.7 In the case of a rational integrand the precise form of the antiderivative may depend on which interval, whose endpoints are successive zeros of the denominator, is being considered. If this is the case it is simplest to assume that x is higher than all roots of the denominator. It is then easy to adjust the antiderivative thus obtained for other intervals separated by roots of the denominator.
+> ## 1. Solve the following integrals:
+> ### (a) $$\int \frac{x^2}{x^2+1} dx$$
+> > ## Solution
+> > We can start by using substitution. Let $$u = x^2 + 1$$, then $$du/dx = 2x$$, and $$dx = du/2x$$.\
+> > Substituting these into the integral, we get:\
+> > $$\int \frac{x^2}{x^2+1} dx = \int \frac{u-1}{2u} du$$\
+> > Now we can split this into two separate integrals:\
+> > $$\int \frac{u}{2u} du - \int \frac{1}{2u} du$$\
+> > $$= \frac{1}{2} \int \frac{u}{u} du - \frac{1}{2} \int \frac{1}{u} du$$\
+> > $$= \frac{1}{2} (\int 1 du - \ln|u| + C)$$\
+> > Substituting back $$u = x^2 + 1$$, we get:\
+> > $$\int \frac{x^2}{x^2+1} dx = \frac{1}{2} (x - \ln|x^2+1| + C)$$\
+> > 
+> {: .solution}
+{: .challenge}
+> ### (d) $$\int(\frac{x}{(x^2 - 1)(x^2 + 2)})dx$$
+> > ## Solution
+> >
+> > $$
+\begin{aligned}
+\frac{x}{(x^2 - 1)(x^2 + 2)} &= \frac{x}{(x - 1)(x + 1)(x^2 + 2)} \
+&= \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx}{x^2 + 2} + \frac{Dx^2}{x^2 + 2} \
+&= -\frac{1}{4}\cdot\frac{1}{x - 1} + \frac{1}{4}\cdot\frac{1}{x + 1} + \frac{1}{4}\cdot\frac{x(x^2 + 2)}{x^2 + 2} + \frac{1}{4}\cdot\frac{x^2(x^2 + 2)}{x^2 + 2} \
+\end{aligned}
+$$\
+> > The integral of each term is:\
+> > $$
+\begin{aligned}
+\int -\frac{1}{4}\cdot\frac{1}{x - 1} dx &= -\frac{1}{4} \ln|x - 1| + C_1 \
+\int \frac{1}{4}\cdot\frac{1}{x + 1} dx &= \frac{1}{4} \ln|x + 1| + C_2 \
+\int \frac{1}{4} \cdot \frac{x}{x^2 + 2} dx &= \frac{1}{8} \ln|x^2 + 2| + C_3 \
+\int \frac{1}{4} \cdot \frac{x^2}{x^2 + 2} dx &= \frac{1}{12} x^3 + C_4 \
+\end{aligned}
+$$\
+> > Therefore, the final result is:\
+> > $$\int \frac{x}{(x^2 - 1)(x^2 +2)} dx = -\frac{1}{4} \ln|x - 1| + \frac{1}{4} \ln|x + 1| + \frac{1}{8} \ln|x^2 + 2| + \frac{1}{12} x^3 + C$$
+> > 
+> {: .solution}
+{: .challenge}
+> ### (f) $$\int \frac{1}{(x-1)^2(x^2+1)^2} dx$$
+> > ## Solution
+> >
+> > We can use partial fraction decomposition to simplify the integral. First, we factor the denominator:\
+> > $$
+\begin{align*}
+x^2 + 1 = (x + i)(x - i)
+\end{align*}
+$$\
+> > So the denominator can be written as:\
+> > $$
+\begin{align*}
+(x - 1)^2(x + i)^2(x - i)^2
+\end{align*}
+$$\
+> > We can write the integrand as a sum of partial fractions:\
+> > $$
+\begin{align*}
+\frac{1}{(x - 1)^2(x + i)^2(x - i)^2} &= \frac{A}{x - 1} + \frac{B}{(x - 1)^2} + \frac{C}{x + i} + \frac{D}{(x + i)^2} + \frac{E}{x - i} + \frac{F}{(x - i)^2}
+\end{align*}
+$$\
+> > where $$A$$, $$B$$, $$C$$, $$D$$, $$E$$, and $$F$$ are constants that we need to solve for.\
+> > We can find these constants by multiplying both sides of the equation by the common denominator:\
+> > $$
+\begin{align*}
+1 &= A(x - 1)(x + i)^2(x - i)^2 + B(x + i)^2(x - i)^2 \
+&\quad + C(x - 1)^2(x + i)(x - i)^2 + D(x - 1)^2(x + i)^2(x - i) \
+&\quad + E(x - 1)^2(x + i)^2(x - i) + F(x - 1)^2(x + i)(x - i)^2
+\end{align*}
+$$\
+> > To solve for $$A$$, we can let $$x = 1$$, which gives:\
+> > $$
+\begin{align*}
+1 &= A(1 - 1)(1 + i)^2(1 - i)^2 + B(1 + i)^2(1 - i)^2 \
+&\quad + C(1 - 1)^2(1 + i)(1 - i)^2 + D(1 - 1)^2(1 + i)^2(1 - i) \
+&\quad + E(1 - 1)^2(1 + i)^2(1 - i) + F(1 - 1)^2(1 + i)(1 - i)^2
+\end{align*}
+$$\
+> > Simplifying and solving for $$A$$, we get:\
+> > $$
+\begin{align*}
+A = \frac{1}{4}
+\end{align*}
+$$\
+> > Similarly, we can solve for the other constants and get:\
+> > $$
+\begin{align*}
+B &= -\frac{1}{2} \
+C &= \frac{i}{4} \
+D &= -\frac{i}{4} \
+E &= -\frac{i}{4} \
+F &= \frac{i}{4}
+\end{align*}
+$$\
+> > Now we can substitute these values back into the original equation:\
+> > $$
+\begin{align*}
+\int \frac{1}{(x - 1)^2(x^2 + 1)^2} , dx &= \int \frac{1}{4(x - 1)} , dx - \int \frac{1}{2(x - 1)^2} , dx \
+&\quad + \int \frac{i}{4(x + i)} , dx - \int \frac{i}{4(x + i)^2} , dx \
+&\quad + \int \frac{-i}{4(x - i)}
+$$\
+> > 
+> {: .solution}
+{: .challenge}
