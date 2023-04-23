@@ -645,3 +645,47 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
+> ## 8.2.7 In the case of a rational integrand the precise form of the antiderivative may depend on which interval, whose endpoints are successive zeros of the denominator, is being considered. If this is the case it is simplest to assume that x is higher than all roots of the denominator. It is then easy to adjust the antiderivative thus obtained for other intervals separated by roots of the denominator.
+> ## 13. Solve the following integrals:
+> ### (a) $$\int \frac{x^2}{x^2+1} dx$$
+> > ## Solution
+> > We can start by factoring the denominator $$x^3 - 1$$.\
+> > $$x^3 - 1$$ can be written as $$(x - 1)(x^2 + x + 1)$$.
+> > So we have:\
+> > $$\int(1/(x^3-1))dx = \int(1/[(x-1)(x^2+x+1)])dx$$\
+> > We can then use partial fraction decomposition to separate the integrand into simpler fractions.\
+> > $$1/[(x-1)(x^2+x+1)] = A/(x-1) + (Bx+C)/(x^2+x+1)$$\
+> > Multiplying both sides by the denominator, we get:\
+> > $$1 = A(x^2+x+1) + (Bx+C)(x-1)$$
+> > We can solve for $$A$$, $$B$$, and $$C$$ by setting x equal to different values.\
+> > Setting x equal to 1, we get:\
+> > $$1 = A(3)$$\
+> > $$A = 1/3$$\
+> > Setting $$x$$ equal to $$ω$$ (where $$ω$$ is a cube root of unity, i.e., $$ω^3 = 1$$ and $$ω ≠ 1$$), we get:\
+> > $$0 = A(1+ω+ω^2) + (Bω+C)(ω-1)$$\
+> > $$0 = A(1+ω+ω^2) + B(ω^2-1) + C(ω-ω^2)$$\
+> > We can simplify this equation using the fact that $$ω^2 = -ω - 1$$:\
+> > $$0 = A(1+ω+ω^2) + B(ω^2-1) + C(ω-ω^2)$$\
+> > $$0 = A(1+ω+ω^2) + B(-ω-2) + C(1+2ω)$$\
+> > $$0 = A(1+ω+ω^2) - Bω - 2B + C + 2Cω$$\
+> > We know that $$ω+ω^2 = -1$$, so we can substitute $$-1-ω$$ for $$ω^2$$:\
+> > $$0 = A(1+ω+ω^2) - Bω - 2B + C + 2Cω$$\
+> > $$0 = A(-1) - Bω - 2B + C + 2Cω$$\
+> > Setting ω equal to $$-1$$, we get:\
+> > $$1 = A(-1) - B(-1) - 2B + C - 2C$$\
+> > $$1 = -A + 3B - C$$\
+> > We now have a system of three equations:\
+> > $$A = 1/3$$\
+> > $$-A + 3B - C = 1$$\
+> > Solving for $$B$$ and $$C$$ using the third equation, we get:\
+> > $$B = (-2A+2)/3 = -2/9$$\
+> > $$C = (4A+1)/3 = 5/9$$\
+> > So we have:\
+> > $$1/[(x-1)(x^2+x+1)] = 1/3(x-1) - 2/9(x^2+x+1)$$\
+> > Now we can integrate:\
+> > $$int(1/(x^3-1))dx = int(1/[(x-1)(x^2+x+1)])dx$$\
+> >  $$                 = int[1/3(x-1) - 2/9(x^2+x+1)]dx$$\
+> >  $$                  = 1$$
+> > 
+> {: .solution}
+{: .challenge}
