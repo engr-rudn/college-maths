@@ -689,7 +689,7 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ### (b) $$\int \frac{x^2}{x^2+1} dx$$
+> ### (b) $$\int \frac{1}{x^4+1} dx$$
 > > ## Solution
 > >$$
 \begin{align*}
