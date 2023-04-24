@@ -195,7 +195,7 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > ## Find a polynomial function from given real and imaginary zeros
 > > E.g. you are given the zeroes $$1, 5, 2i$$, and you are told that this function is of degree 6.
 > >
-> >  ## Solution
+> > ## Solution
 > > $$f(x) = x^2(x-5)^2(x+2i)(x-2i)$$
 >{: .solution}
 {: .challenge}
