@@ -194,7 +194,6 @@ If you're asked to only provide the real zeroes, then you only need to write the
 {: .challenge}
 > ## Find a polynomial function from given real and imaginary zeros
 > > E.g. you are given the zeroes $$1, 5, 2i$$, and you are told that this function is of degree 6.
-> >
 > > ## Solution
 > > $$f(x) = x^2(x-5)^2(x+2i)(x-2i)$$
 >{: .solution}
@@ -207,7 +206,6 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > 1. Check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2)$$. 
 > >
 > > ## Solution
-> >
 > > The reciprocal of a complex number z is defined as 1/z.\
 > > To check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2), we need to verify that:\
 > > $$(a+bi) * (a-bi) / (a^2 + b^2) = 1$$\
