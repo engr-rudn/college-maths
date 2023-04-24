@@ -90,22 +90,22 @@ $$\frac{d}{dx}y = \lim_{h\to 0}\frac{a^{x+h}-a^x}{h}$$\
 
 $$\frac{dy}{dx} = \lim_{h\to 0}\frac{a^xa^h-a^x}{h}$$\
 
-$$\frac{dy}{dx} = \lim_{h\to 0}a^x\frac{a^h-1}{h}$$
+$$\frac{dy}{dx} = \lim_{h\to 0}a^x\frac{a^h-1}{h}$$\
 
 Notice that the limit does not depend on $$a^x$$.
 
 What does $$\lim_{h\to 0}\frac{a^h-1}{h}$$ equal?
 
-$$\lim_{h\to 0}\frac{a^h-1}{h} = ?$$
+$$\lim_{h\to 0}\frac{a^h-1}{h} = ?$$\
 
 If $$a=e$$, then...
 
 #### Definitions with the number $$e$$
   1. $$e = \lim_{n\to \infty}(1+\frac{1}{n})^n$$.
   2. $$e$$ is the unique positive number for which $$\lim_{h\to 0}\frac{e^h -1}{h} = 1$$.
-  3. $$e = \sum_{n=0}^{\infty}\frac{1}{n!}$$
+  3. $$e = \sum_{n=0}^{\infty}\frac{1}{n!}$$\
 
-$$\frac{dy}{dx} = a^x \lim_{h\to 0}\frac{a^h-1}{h}$$
+$$\frac{dy}{dx} = a^x \lim_{h\to 0}\frac{a^h-1}{h}$$\
 
 The first part, $$a^x$$ does not depend on $$h$$, and we have some number, a derivative times $$a^x$$. The derivative of rate of change of $$a^x$$ is proportional to the function itself, $$ka^x$$. What is that number?
 
@@ -123,9 +123,9 @@ $$X$$ | $$Y_1$$
 
 ### Derivative of a exponential function
 
-$$\frac{d}{dx}a^x = a^x\ln a$$
+$$\frac{d}{dx}a^x = a^x\ln a$$\
 
-$$\frac{d}{dx}e^x = e^x\ln e = e^x$$
+$$\frac{d}{dx}e^x = e^x\ln e = e^x$$\
 
 ### Finding the derivative of a logarithmic function
 
