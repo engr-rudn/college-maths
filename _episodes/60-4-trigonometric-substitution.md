@@ -75,15 +75,15 @@ $$2[\sin\theta\cos\theta + \theta] + C$$
 $$2[\frac x2  + \arcsin \frac x2] + C$$
 
 > ## Simplify the following
->1. $$\tan(\theta)\csc(\theta)$$\
->2. $$\cot^2x-\csc^2x$$\
->3. $$\frac{\sin(\frac \pi2 - \theta)}{\cos(\frac \pi2 - \theta)}$$\
->4. $$\frac{\sin^2x}{1+\cos x}$$\
->5. $$\sec^4y-\tan^4y$$\
->6. $$\frac{\sec^2x-1}{\sin^2x}$$\
->7. $$\frac{1+\tan x}{1+\cot x}$$\
->8. $$\frac{\sec^2x\csc x}{\sec^2x+\csc^2x}$$\
->9. $$\frac{1}{1-\sin\varphi} + \frac{1}{1+\sin\varphi}$$\
+>1. $$\tan(\theta)\csc(\theta)$$.
+>2. $$\cot^2x-\csc^2x$$.
+>3. $$\frac{\sin(\frac \pi2 - \theta)}{\cos(\frac \pi2 - \theta)}$$.
+>4. $$\frac{\sin^2x}{1+\cos x}$$.
+>5. $$\sec^4y-\tan^4y$$.
+>6. $$\frac{\sec^2x-1}{\sin^2x}$$.
+>7. $$\frac{1+\tan x}{1+\cot x}$$.
+>8. $$\frac{\sec^2x\csc x}{\sec^2x+\csc^2x}$$.
+>9. $$\frac{1}{1-\sin\varphi} + \frac{1}{1+\sin\varphi}$$.
 >10. $$\frac{\sin x}{\cot^2 x} - \frac{\sin x}{\cos^2 x}$$
 > > 
 {: .challenge}
