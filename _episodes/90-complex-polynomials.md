@@ -248,3 +248,34 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
+> ### 3. Check that $$Re(z\bar{w})$$ is the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identiﬁed with plane vectors. 
+> >
+> > ## Solution
+> >
+> > We need to prove that for any complex number $$z$$, we have $$|z| \leq \sqrt{2} \max(|\operatorname{Re}(z)|, |\operatorname{Im}(z)|)$$.\
+> > Let $$z = a + bi$$ be a complex number, where $$a$$ and $$b$$ are real numbers. Then, we have:\
+> > $$
+\begin{align*}
+|z| &= \sqrt{a^2 + b^2} \
+&\leq \sqrt{2}\sqrt{\frac{1}{2}(a^2 + b^2)} \
+&= \sqrt{2}\sqrt{\frac{1}{2}a^2 + \frac{1}{2}b^2} \
+&\leq \sqrt{2}\sqrt{\max(\frac{1}{2}a^2, \frac{1}{2}b^2)} \
+&= \sqrt{2}\max(\sqrt{\frac{1}{2}a^2}, \sqrt{\frac{1}{2}b^2}) \
+&\leq \sqrt{2}\max(|a|, |b|) \
+&= \sqrt{2}\max(|\operatorname{Re}(z)|, |\operatorname{Im}(z)|)
+\end{align*}
+$$\
+> > Therefore, we have proved that $$|z| \leq \sqrt{2} \max(|\operatorname{Re}(z)|, |\operatorname{Im}(z)|)$$ for any complex number $$z$$.\
+> > To show that $$\sqrt{2}$$ cannot be replaced by a smaller number, consider the complex numbers\
+> >  $$z_1 = \sqrt{2}/2 + i\sqrt{2}/2$$ and $$z_2 = -\sqrt{2}/2 + i\sqrt{2}/2$$.\
+> > We have \
+> > $$|\operatorname{Re}(z_1)| = |\operatorname{Im}(z_2)| = \sqrt{2}/2$$, so\
+> > $$\max(|\operatorname{Re}(z_1)|, |\operatorname{Im}(z_2)|) = \sqrt{2}/2$$.\
+> >  However, we have $$|z_1| = |z_2| = \sqrt{2}/2$$, and $$|z_1z_2| = \sqrt{2}/2 \cdot \sqrt{2}/2 = 1/2$$, so\
+> > $$|z_1z_2| > \sqrt{2}/4$$.\
+> > Therefore, if we replace $$\sqrt{2}$$ with any smaller number in the inequality\
+> >  $$|z| \leq \sqrt{2} \max(|\operatorname{Re}(z)|, |\operatorname{Im}(z)|)$$,\
+> >  there exist complex numbers $$z_1$$ and $$z_2$$ such that the inequality is not true.
+> > 
+> {: .solution}
+{: .challenge}
