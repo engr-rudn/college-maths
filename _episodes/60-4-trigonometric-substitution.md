@@ -88,8 +88,8 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > 
 {: .challenge}
 > ## Factor the following
->   11. $$\sin^2\theta + \frac{2}{\csc\theta} + 1$$
->   12. $$\sec^2x - \sec x + \tan^2 x$$
+>   11. $$\sin^2\theta + \frac{2}{\csc\theta} + 1$$.
+>   12. $$\sec^2x - \sec x + \tan^2 x$$.
 >   13. Evaluate without calculator using identities $$\cos(-\theta),\ if\ \sin(\theta-\frac \pi2) = 0.73$$
 > > 
 {: .challenge}
