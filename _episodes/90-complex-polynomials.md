@@ -229,21 +229,22 @@ z\bar{w} &= (x_1+iy_1)(x_2-iy_2) \
 &= x_1x_2 + y_1y_2 + i(x_1(-y_2) + y_1x_2) \
 &= x_1x_2 + y_1y_2 - i(x_1y_2 - y_1x_2) \
 \end{align*}
-$$
+$$\
 > > Taking the real part of the above expression, we get:\
 > > $$
 \begin{align*}
 \operatorname{Re}(z\bar{w}) &= x_1x_2 + y_1y_2 \
 \end{align*}
-$$
+$$\
 > > On the other hand, the dot product of the corresponding vectors can be expressed as:\
 > > $$
 \begin{align*}
 z \cdot w &= (x_1, y_1) \cdot (x_2, y_2) \
 &= x_1x_2 + y_1y_2 \
 \end{align*}
-$$
-> > Therefore, we can see that $$\operatorname{Re}(z\bar{w})$$ is equal to the dot product of the vectors $$z$$ and $$w$$. Hence, $$\operatorname{Re}(z\bar{w})$$ is indeed the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identified with plane vectors.
+$$\
+> > Therefore, we can see that $$\operatorname{Re}(z\bar{w})$$ is equal to the dot product of the vectors\
+> > $$z$$ and $$w$$. Hence, $$\operatorname{Re}(z\bar{w})$$ is indeed the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identified with plane vectors.
 > > 
 > {: .solution}
 {: .challenge}
