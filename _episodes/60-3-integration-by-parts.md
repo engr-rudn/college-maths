@@ -645,7 +645,6 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ## 8.2.7 In the case of a rational integrand the precise form of the antiderivative may depend on which interval, whose endpoints are successive zeros of the denominator, is being considered. If this is the case it is simplest to assume that x is higher than all roots of the denominator. It is then easy to adjust the antiderivative thus obtained for other intervals separated by roots of the denominator.
 > ## 13. Solve the following integrals:
 > ### (a) $$\int \frac{x^2}{x^2+1} dx$$
 > > ## Solution
