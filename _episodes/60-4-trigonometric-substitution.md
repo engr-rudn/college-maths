@@ -34,7 +34,7 @@ $$\sec(\frac \pi2-\theta) = \csc\theta$$ $$\qquad$$ $$\csc(\frac \pi2-\theta) = 
 # Prove Trig Identities
 
 $$
-\begin{matrix}
+\begin{matrix}\raggedright
    \textbf{Left-Hand-Side}& \ & \textbf{Right-Hand-Side}\\
     \cos{x}+\sin{x}\tan{x}&=&\sec{x}\\
     \cos{x}+\frac{\sin{x}}{1}(\frac{\sin{x}}{\cos{x}})&=&\sec{x}\\
@@ -84,7 +84,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 >7. $$\frac{1+\tan x}{1+\cot x}$$.
 >8. $$\frac{\sec^2x\csc x}{\sec^2x+\csc^2x}$$.
 >9. $$\frac{1}{1-\sin\varphi} + \frac{1}{1+\sin\varphi}$$.
->10. $$\frac{\sin x}{\cot^2 x} - \frac{\sin x}{\cos^2 x}$$
+>10. $$\frac{\sin x}{\cot^2 x} - \frac{\sin x}{\cos^2 x}$$.
 {: .challenge}
 > ## Factor the following
 >   11. $$\sin^2\theta + \frac{2}{\csc\theta} + 1$$.
