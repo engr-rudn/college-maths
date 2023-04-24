@@ -183,10 +183,10 @@ This means that our equation $$(x^3-1)$$ has two factors, and they are $$(x-1)$$
 
 If you're asked to only provide the real zeroes, then you only need to write the zero of 1. However, you you're asked to provide both real _and_ imaginary zeroes, then the full list of zeroes would be $$\{1, \frac{-1 + \sqrt{-3}}{2}, \frac{-1 - \sqrt{-3}}{2}\}$$
 
->  ## Listing possible zeroes with the Rational Zeroes Theorem
+> ## Listing possible zeroes with the Rational Zeroes Theorem
 > {: .solution}
 {: .challenge}
->  ## Finding all the zeroes using the Rational Zeroes Theorem
+> ## Finding all the zeroes using the Rational Zeroes Theorem
 > {: .solution}
 {: .challenge}
 > ## Finding all real and complex zeroes given 1 complex zero
