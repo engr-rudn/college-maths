@@ -217,7 +217,7 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > > 
 > {: .solution}
 {: .challenge}
-> ### 2. Check that $$Re(\zw^{-})$$is the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identiﬁed with plane vectors. 
+> ### 2. Check that $$Re(zw\bar)$$is the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identiﬁed with plane vectors. 
 > >
 > > ## Solution
 > >
