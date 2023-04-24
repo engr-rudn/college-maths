@@ -274,8 +274,7 @@ $$\
 > > We have \
 > > $$|\operatorname{Re}(z_1)| = |\operatorname{Im}(z_2)| = \sqrt{2}/2$$, so\
 > > $$\max(|\operatorname{Re}(z_1)|, |\operatorname{Im}(z_2)|) = \sqrt{2}/2$$.\
-> >  However, we have $$|z_1| = |z_2| = \sqrt{2}/2$$, and $$|z_1z_2| = \sqrt{2}/2 \cdot \sqrt{2}/2 = 1/2$$, so\
-> > $$|z_1z_2| > \sqrt{2}/4$$.\
+> >  However, we have $$|z_1| = |z_2| = \sqrt{2}/2$$, and $$|z_1z_2| = \sqrt{2}/2 \cdot \sqrt{2}/2 = 1/2$$, so $$|z_1z_2| > \sqrt{2}/4$$.\
 > > Therefore, if we replace $$\sqrt{2}$$ with any smaller number in the inequality\
 > >  $$|z| \leq \sqrt{2} \max(|\operatorname{Re}(z)|, |\operatorname{Im}(z)|)$$,\
 > >  there exist complex numbers $$z_1$$ and $$z_2$$ such that the inequality is not true.
