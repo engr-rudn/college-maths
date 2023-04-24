@@ -35,7 +35,7 @@ $$\sec(\frac \pi2-\theta) = \csc\theta$$ $$\qquad$$ $$\csc(\frac \pi2-\theta) = 
 
 $$
 \begin{matrix}
-    <b>{Left-Hand-Side}& \ & **{Right-Hand-Side}<\b>\\
+   \textbf{Left-Hand-Side}& \ & \textbf{Right-Hand-Side}\\
     \cos{x}+\sin{x}\tan{x}&=&\sec{x}\\
     \cos{x}+\frac{\sin{x}}{1}(\frac{\sin{x}}{\cos{x}})&=&\sec{x}\\
     \cos{x}+\frac{\sin^2{x}}{\cos{x}}&=&\sec{x}\\
