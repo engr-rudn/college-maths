@@ -6,6 +6,7 @@ questions:
 
 objectives:
 - "Solve simple exponential and log equations"
+-  Solve non simple exponential functions
 - "Derive rules for derivatives of exponential and logs"
 - "Compute derivatives of problems that contain exponentials and logs"
 ---
@@ -31,27 +32,22 @@ $$x = b^a$$
 {: .challenge}
 
 > ## Exercises
-  1. Solve $$4^x-5=3$$
-  2. Solve $$\frac 12(6)^{x+3} - 1 = 17$$
-  3. Solve $$3^{x+4} + 2 = -7$$
-  4. Solve $$10^{2x-3} + 4 = 21$$ Exact and approximate answer using log button
-  5. Solve $$-5e^-x + 9 = 6$$ Exact and approximate answer using $$\ln$$ button
-  6. Solve $$\log_2 x = -1$$
-  7. Solve $$\log_5 \lvert 3x+1 \rvert = 2$$
-  8. Solve $$15 + 2\log_2 x = 31$$
-  9. Solve $$\log_6 (x-5) + 8 \leq 10$$
-  10. Solve $$1 - 2\ln x = -4$$
-  11. Solve $$\log_x 25 = 2$$
-  12. Solve $$\log_3 (5x-1) = \log_3 (x+7)$$
+  1. Solve $$4^x-5=3$$.
+  2. Solve $$\frac 12(6)^{x+3} - 1 = 17$$.
+  3. Solve $$3^{x+4} + 2 = -7$$.
+  4. Solve $$10^{2x-3} + 4 = 21$$ Exact and approximate answer using log button.
+  5. Solve $$-5e^-x + 9 = 6$$ Exact and approximate answer using $$\ln$$ button.
+  6. Solve $$\log_2 x = -1$$.
+  7. Solve $$\log_5 \lvert 3x+1 \rvert = 2$$.
+  8. Solve $$15 + 2\log_2 x = 31$$.
+  9. Solve $$\log_6 (x-5) + 8 \leq 10$$.
+  10. Solve $$1 - 2\ln x = -4$$.
+  11. Solve $$\log_x 25 = 2$$.
+  12. Solve $$\log_3 (5x-1) = \log_3 (x+7)$$.
   13. Are the following equations equivalent, and do they produce the same solutions? Explain. $$4\log x = 2$$ and $$\log x^4 = 2$$
 {: .challenge}
 
 # Solving Non Simple Exponential Functions
-
-## Learning Targets
-
-You should be able to
-- [ ] Solve non simple exponential functions
 
 ## Concepts / Definitions
 
