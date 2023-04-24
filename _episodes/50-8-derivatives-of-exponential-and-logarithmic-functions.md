@@ -157,24 +157,11 @@ $$\frac{df}{dx} = {1}{x\ln a}$$
 
 ### Derivative of a logarithmic function
 
-$$
-\frac{d}{dx}\log_a\lvert x \rvert = \frac{1}{x\ln a}
-$$.
-
-$$
-\qquad$$ $$\frac{d}{dx}\log_ax = \frac{1}{x\ln a},\ for\ x > 0
-$$.
-
-$$
-\frac{d}{dx}\ln\lvert x \rvert = \frac{1}{x\ln e} = \frac{1}{x}
-$$.
-
-$$
-\qquad$$ 
-
-$$.
-\frac{d}{dx}\ln x = \frac{1}{x\ln e} = \frac{1}{x},\ for\ x > 0
-$$
+$$\frac{d}{dx}\log_a\lvert x \rvert = \frac{1}{x\ln a}$$.
+$$\qquad$$ $$\frac{d}{dx}\log_ax = \frac{1}{x\ln a},\ for\ x > 0$$.
+$$\frac{d}{dx}\ln\lvert x \rvert = \frac{1}{x\ln e} = \frac{1}{x}$$.
+$$\qquad$$ 
+$$\frac{d}{dx}\ln x = \frac{1}{x\ln e} = \frac{1}{x},\ for\ x > 0$$
 
 ### Differentiate $$x^{\sin x}$$
 
