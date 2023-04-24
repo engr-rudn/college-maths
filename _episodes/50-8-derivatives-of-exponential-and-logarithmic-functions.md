@@ -147,39 +147,39 @@ $$\frac{df}{dx} = \lim_{h\to 0}\frac{1}{x}\ln e = \frac{1}{x}$$.
 
 ---
 
-$$y = \log_ax,\ for\ y = f(x)$$.
-$$a^y = x$$.
-$$\frac{d}{dx}a^y = \frac{d}{dx}x$$.
-$$a^y \ln a \frac{dy}{dx} = 1$$.
-$$\frac{dy}{dx} = \frac{1}{a^y \ln a}$$.
-$$\frac{dy}{dx} = \frac{1}{a^{\log_ax}\ln a}$$.
+$$y = \log_ax,\ for\ y = f(x)$$\
+$$a^y = x$$\
+$$\frac{d}{dx}a^y = \frac{d}{dx}x$$\
+$$a^y \ln a \frac{dy}{dx} = 1$$\
+$$\frac{dy}{dx} = \frac{1}{a^y \ln a}$$\
+$$\frac{dy}{dx} = \frac{1}{a^{\log_ax}\ln a}$$\
 $$\frac{df}{dx} = {1}{x\ln a}$$
 
 ### Derivative of a logarithmic function
 
-$$\frac{d}{dx}\log_a\lvert x \rvert = \frac{1}{x\ln a}$$.
-$$\qquad$$ $$\frac{d}{dx}\log_ax = \frac{1}{x\ln a},\ for\ x > 0$$.
-$$\frac{d}{dx}\ln\lvert x \rvert = \frac{1}{x\ln e} = \frac{1}{x}$$.
+$$\frac{d}{dx}\log_a\lvert x \rvert = \frac{1}{x\ln a}$$\
+$$\qquad$$ $$\frac{d}{dx}\log_ax = \frac{1}{x\ln a},\ for\ x > 0$$\
+$$\frac{d}{dx}\ln\lvert x \rvert = \frac{1}{x\ln e} = \frac{1}{x}$$\
 $$\qquad$$ 
 $$\frac{d}{dx}\ln x = \frac{1}{x\ln e} = \frac{1}{x},\ for\ x > 0$$
 
 ### Differentiate $$x^{\sin x}$$
 
-Let $$y = x^{\sin x}$$.
+Let $$y = x^{\sin x}$$\
 
-$$\ln y = ln x^{\sin x}$$.
+$$\ln y = ln x^{\sin x}$$\
 
-$$\ln y = \sin x \ln x$$.
+$$\ln y = \sin x \ln x$$\
 
-$$\frac{d}{dx}\ln y = \frac{d}{dx}(\sin x \ln x)$$.
+$$\frac{d}{dx}\ln y = \frac{d}{dx}(\sin x \ln x)$$\
 
-$$\frac{1}{y}\frac{d}{dx}y = \frac{d}{dx}\sin x \ln x + \sin x \frac{d}{dx} \ln x$$.
+$$\frac{1}{y}\frac{d}{dx}y = \frac{d}{dx}\sin x \ln x + \sin x \frac{d}{dx} \ln x$$\
 
-$$\frac{1}{y}\frac{d}{dx}y = \cos x \ln x + \sin x \frac{1}{x}$$.
+$$\frac{1}{y}\frac{d}{dx}y = \cos x \ln x + \sin x \frac{1}{x}$$\
 
-$$\frac{dy}{dx} = y(\cos x \ln x + \sin x \frac{1}{x})$$.
+$$\frac{dy}{dx} = y(\cos x \ln x + \sin x \frac{1}{x})$$\
 
-$$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$.
+$$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
 
 
 
