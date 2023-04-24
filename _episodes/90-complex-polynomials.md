@@ -203,7 +203,7 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > ## Write the polynomial function in factored form given its graph
 {: .challenge}
 > ## 9.1.3 - Exercises 
-> 1. Check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2)$$. 
+> #### 1. Check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2)$$. 
 > >
 > > ## Solution
 > > The reciprocal of a complex number z is defined as 1/z.\
@@ -217,7 +217,7 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > > 
 > {: .solution}
 {: .challenge}
-> 2. Check that Re($$\zw^*$$)is the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identiﬁed with plane vectors. 
+> ### 2. Check that Re($$\zw^*$$)is the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identiﬁed with plane vectors. 
 > >
 > > ## Solution
 > >
