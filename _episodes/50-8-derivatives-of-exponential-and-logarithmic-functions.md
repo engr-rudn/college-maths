@@ -27,23 +27,61 @@ $$b^{\log_{b}{x}} = b^a$$
 $$x = b^a$$
 
 > ## Example
-> Solve $5 + 2 \ln (x-1) = 4$
+> Solve $$5 + 2 \ln (x-1) = 4$$
 {: .challenge}
 
 > ## Exercises
-  1. Solve $4^x-5=3$
-  2. Solve $\frac 12(6)^{x+3} - 1 = 17$
-  3. Solve $3^{x+4} + 2 = -7$
-  4. Solve $10^{2x-3} + 4 = 21$ Exact and approximate answer using log button
-  5. Solve $-5e^-x + 9 = 6$ Exact and approximate answer using $\ln$ button
-  6. Solve $\log_2 x = -1$
-  7. Solve $\log_5 \lvert 3x+1 \rvert = 2$
-  8. Solve $15 + 2\log_2 x = 31$
-  9. Solve $\log_6 (x-5) + 8 \leq 10$
-  10. Solve $1 - 2\ln x = -4$
-  11. Solve $\log_x 25 = 2$
-  12. Solve $\log_3 (5x-1) = \log_3 (x+7)$
-  13. Are the following equations equivalent, and do they produce the same solutions? Explain. $4\log x = 2$ and $\log x^4 = 2$
+  1. Solve $$4^x-5=3$$
+  2. Solve $$\frac 12(6)^{x+3} - 1 = 17$$
+  3. Solve $$3^{x+4} + 2 = -7$$
+  4. Solve $$10^{2x-3} + 4 = 21$$ Exact and approximate answer using log button
+  5. Solve $$-5e^-x + 9 = 6$$ Exact and approximate answer using $$\ln$$ button
+  6. Solve $$\log_2 x = -1$$
+  7. Solve $$\log_5 \lvert 3x+1 \rvert = 2$$
+  8. Solve $$15 + 2\log_2 x = 31$$
+  9. Solve $$\log_6 (x-5) + 8 \leq 10$$
+  10. Solve $$1 - 2\ln x = -4$$
+  11. Solve $$\log_x 25 = 2$$
+  12. Solve $$\log_3 (5x-1) = \log_3 (x+7)$$
+  13. Are the following equations equivalent, and do they produce the same solutions? Explain. $$4\log x = 2$$ and $$\log x^4 = 2$$
+{: .challenge}
+
+# Solving Non Simple Exponential Functions
+
+## Learning Targets
+
+You should be able to
+- [ ] Solve non simple exponential functions
+
+## Concepts / Definitions
+
+### Strategies
+
+Equating if two terms, combine using properties, or factoring.
+
+Note: All answers should be evaluated, unless it is irrational.
+
+> ## Examples
+1) Algebraically solve $$e^{2x} - 7e^x = -12$$
+2) Algebraically solve $$\ln(x-2) + \ln(2x-3) = 2\ln x$$
+3) Algebraically solve $$\frac{2^x - 2^{-x}}{2} = 4$$
+{: .challenge}
+
+> # Exercises
+> Solve the following algebraically. (Exact answer)
+  1. $$\log_4x + \log_4(x-3) = 1$$
+  2. $$23^{2x} + 5e^x = 3$$
+  3. $$\frac{e^x+e^{-x}}{2} = 4$$
+  4. $$\ln(x-3) + \ln(x+4) - 3\ln2 = 0$$
+  5. $$2^{2x} + 2^{x+2} = 12$$
+  6. $$2\log(x+1) - 2\log6 < 0$$
+  7. $$\ln x + \ln (x+2) = 4$$
+  8. $$5^{x-2}=3^{3x+2}$$
+  9. $$x^2e^x-4x^2=0$$
+  10. $$\log_3(x-6) = \log_92x$$
+  11. $$\frac{62}{1+3e^{-0.3x}} = 2$$
+  12. $$\lvert\log_5x\rvert - \log_5 (2x+1) = 0$$
+  13. Use calculator to solve $$x + \log_3 x = 8$$
 {: .challenge}
 
 # Derivatives of Exponential and Logarithmic Functions
