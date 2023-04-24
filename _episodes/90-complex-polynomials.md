@@ -59,8 +59,8 @@ The powers of $$i$$ fulfill a cyclic pattern of $$(i, -1, -i, 1)$$:
 
 We can also notice a certain pattern:
 
-* Even exponents are always imaginary
-* Odd exponents are always real
+* Odd exponents are always imaginary
+* Even exponents are always real
 
 This allows us to find arbitrary exponents of $$i$$:
 
@@ -183,18 +183,35 @@ This means that our equation $$(x^3-1)$$ has two factors, and they are $$(x-1)$$
 
 If you're asked to only provide the real zeroes, then you only need to write the zero of 1. However, you you're asked to provide both real _and_ imaginary zeroes, then the full list of zeroes would be $$\{1, \frac{-1 + \sqrt{-3}}{2}, \frac{-1 - \sqrt{-3}}{2}\}$$
 
-### Listing possible zeroes with the Rational Zeroes Theorem
+>  ## Listing possible zeroes with the Rational Zeroes Theorem
+{: .challenge}
 
-### Finding all the zeroes using the Rational Zeroes Theorem
-
-### Finding all real and complex zeroes given 1 complex zero
-
-### Find a polynomial function from given real and imaginary zeros
-
-E.g. you are given the zeroes $$1, 5, 2i$$, and you are told that this function is of degree 6.
-
-Answer: $$f(x) = x^2(x-5)^2(x+2i)(x-2i)$$
-
-## Writing a polynomial as a product of linear factors  
-
-## Write the polynomial function in factored form given its graph
+>  ## Finding all the zeroes using the Rational Zeroes Theorem
+{: .challenge}
+> ## Finding all real and complex zeroes given 1 complex zero
+{: .challenge}
+> ## Find a polynomial function from given real and imaginary zeros
+> > E.g. you are given the zeroes $$1, 5, 2i$$, and you are told that this function is of degree 6.
+> >
+> >  ## Solution
+> > $$f(x) = x^2(x-5)^2(x+2i)(x-2i)$$
+>{: .solution}
+{: .challenge}
+> ## Writing a polynomial as a product of linear factors  
+{: .challenge}
+> ## Write the polynomial function in factored form given its graph
+{: .challenge}
+> ## 9.1.3 - Check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2)$$. 
+> >
+> > ## Solution
+> >
+> > The reciprocal of a complex number z is defined as 1/z. To check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2), we need to verify that:
+$$(a+bi) * (a-bi) / (a^2 + b^2) = 1$$
+> > We can simplify the left-hand side of this equation as follows:
+> > $$(a+bi) * (a-bi) = a^2 - (bi)^2 = a^2 + b^2$$
+> > Therefore:
+> > $$(a+bi) * (a-bi) / (a^2 + b^2) = (a^2 + b^2) / (a^2 + b^2) = 1$$
+> > This verifies that the reciprocal of a+bi is indeed $$(a-bi)/(a^2+b^2)$$.
+> > 
+> {: .solution}
+{: .challenge}
