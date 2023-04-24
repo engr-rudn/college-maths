@@ -45,7 +45,7 @@ $$
 \frac{1}{\cos{x}}&=&\sec{x}\\
 \sec{x}&=&\sec{x}\\
 \end{align*}
-$$
+$$\
 To _disprove an identity_, you only need to show one particular example (like plugging in a number to show both sides are not equal).
 
 # Trigonometric Substitution
