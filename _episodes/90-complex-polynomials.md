@@ -221,8 +221,7 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > >
 > > ## Solution
 > >
-> > $$
-\begin{align*}
+> > $$\begin{align*}
 \text{Let } z \text{ and } w \text{ be complex numbers, identified with the corresponding complex plane vectors } z &= x_1 + iy_1 \text{ and } w = x_2 + iy_2, \
 \text{where } x_1, y_1, x_2, y_2 \text{ are real numbers. Then: } \
 zw^* &= (x_1 + iy_1)(x_2 - iy_2) = x_1x_2 + y_1y_2 + i(x_1y_2 - x_2y_1) \
