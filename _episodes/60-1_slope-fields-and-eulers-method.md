@@ -8,6 +8,8 @@ objectives:
 - Be able to write solutions in integral form
 - Draw a slope field for a differential equation by hand
 - Use Euler's Method to find a solution to a differential equation at a particular input value
+- Evaluate limits algebraically and numerically, with and without calculator
+- Numerically calculate derivatives and integrals using nDeriv and fnInt on calculator
 ---
 
 #  Slope Fields and Euler's Method
@@ -64,11 +66,6 @@ Euler's method is a method for estimating the graph of a function given its deri
 
 # More on Limits and using calculator for Numerical Derivatives and Integrals
 
-## Learning Targets
-
-You should be able to
-- [ ] Evaluate limits algebraically and numerically, with and without calculator
-- [ ] Numerically calculate derivatives and integrals using nDeriv and fnInt on calculator
 
 ## Concepts / Definitions
 
@@ -83,15 +80,15 @@ $$\lim_{x \to \infty} \frac{\sin{x}}{x} = 1 \qquad \lim_{x \to 0} \frac{\cos{x}-
 ### Derivative and Integral buttons
 
 From Graphing Screen:<br>
-Graph $f(x)$, $2^{nd}$ TRACE (calc), 6 deriv, 7 integral<br>
+Graph $$f(x)$$, $$2^{nd}$$ TRACE (calc), 6 deriv, 7 integral<br>
 From Main Screen:<br>
-MATH, 8nDeriv$(f(x), x, x_a)$, 9fnIn$t(f(x), x, a, b)$
+MATH, 8nDeriv$$(f(x), x, x_a)$$, 9fnIn$$t(f(x), x, a, b)$$
 
 Note: Technically the theorem is based on real numbers, we do include infinity as a possible answer to give more information about answer.
 
 ### Theorem
 
-If $r > 0$ is a rational number, then
+If $$r > 0$$ is a rational number, then
 $$\lim_{x \to \pm \infty} \frac{1}{x^r} = 0$$
 
 Suppose we want to answer a limit question, and *when we "plug in" the limit value*, this is what we get. So, what would they equal?
