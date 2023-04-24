@@ -204,7 +204,8 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > >
 > > ## Solution
 > >
-> > The reciprocal of a complex number z is defined as 1/z. To check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2), we need to verify that:\
+> > The reciprocal of a complex number z is defined as 1/z.\
+> > To check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2), we need to verify that:\
 > > $$(a+bi) * (a-bi) / (a^2 + b^2) = 1$$\
 > > We can simplify the left-hand side of this equation as follows:\
 > > $$(a+bi) * (a-bi) = a^2 - (bi)^2 = a^2 + b^2$$\
