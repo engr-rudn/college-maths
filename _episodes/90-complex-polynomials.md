@@ -217,20 +217,10 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > > 
 > {: .solution}
 {: .challenge}
-> ### 2. Check that $$Re(z\barw)$$ is the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identiﬁed with plane vectors. 
+> ### 2. Check that $$Re(z\bar{w})$$ is the scalar product of the vectors $$z$$ and $$w$$, where the complex numbers are identiﬁed with plane vectors. 
 > >
 > > ## Solution
 > >
-> > Let $$z$$ and $$w$$ be complex numbers, identified with the corresponding complex plane vectors $$z &= x_1 + iy_1$$ and $$ w = x_2 + iy_2,$$ \
-> > where $$x_1, y_1, x_2, y_2 $$ are real numbers. Then:  \
-> > $$zw^* &= (x_1 + iy_1)(x_2 - iy_2) = x_1x_2 + y_1y_2 + i(x_1y_2 - x_2y_1)$$ \
-> > Taking the real part of this expression, we get: \
-> > $$\operatorname{Re}(zw^) &= x_1x_2 + y_1y_2 $$\
-> > We can also express the dot product of the corresponding vectors as: \
-> > $$z \cdot w &= (x_1, y_1) \cdot (x_2, y_2) = x_1x_2 + y_1y_2 $$\
-> > Therefore, we can see that $$\operatorname{Re}(zw^)$$ is equal to the dot product of the vectors $$z$$ and $$w$$. \
-> > Therefore, $$\operatorname{Re}(zw^)$$ is indeed the scalar product of the vectors $$z$$ and $$ w$$, \
-> > where the complex numbers are identified with plane vectors.\
 > > Let $$z$$ and $$w$$ be complex numbers, which can be identified with the corresponding complex plane vectors $$z=x_1+iy_1$$ and $$w=x_2+iy_2$$, where $$x_1$$, $$y_1$$, $$x_2$$, and $$y_2$$ are real numbers.\
 > > Then, we have:\
 > > $$
