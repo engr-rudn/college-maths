@@ -179,7 +179,7 @@ $$\frac{1}{y}\frac{d}{dx}y = \cos x \ln x + \sin x \frac{1}{x}$$\
 
 $$\frac{dy}{dx} = y(\cos x \ln x + \sin x \frac{1}{x})$$\
 
-$$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$
+$$\frac{dy}{dx} = x^{\sin x}(\cos x \ln x + \sin x \frac{1}{x})$$\
 
 
 
