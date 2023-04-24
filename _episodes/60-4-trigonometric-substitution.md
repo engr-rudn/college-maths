@@ -9,25 +9,6 @@ objectives:
 - "Evaluate integrals using trigonometric substitution"
 ---
 
-# Prove Trig Identities
-
-$$
-\begin{matrix}
-    \bold{Left-Hand-Side}&\ &\bold{Right-Hand-Side}\\
-    \cos{x}+\sin{x}\tan{x}&=&\sec{x}\\
-    \cos{x}+\frac{\sin{x}}{1}(\frac{\sin{x}}{\cos{x}})&=&\sec{x}\\
-    \cos{x}+\frac{\sin^2{x}}{\cos{x}}&=&\sec{x}\\
-    (\frac{\cos{x}}{\cos{x}})(\frac{\cos{x}}{1})+\frac{\sin^2{x}}{\cos{x}}&=&\sec{x}\\
-    \frac{\cos^2{x}}{\cos{x}}+\frac{\sin^2{x}}{\cos{x}}&=&\sec{x}\\
-    \frac{\sin^2{x}+\cos^2{x}}{\cos{x}}&=&\sec{x}\\
-    \frac{\sin^2{x}+\cos^2{x}}{\cos{x}}&=&\sec{x}\\
-    \frac{1}{\cos{x}}&=&\sec{x}\\
-    \sec{x}&=&\sec{x}\\
-\end{matrix}
-$$
-
-To _disprove an identity_, you only need to show one particular example (like plugging in a number to show both sides are not equal).
-
 # Fundamental Trigonometric Identities
 
 ## Concepts / Definitions
@@ -49,6 +30,25 @@ $$\tan(-\theta) = -\tan\theta$$ $$\qquad$$ $$\cot(-\theta) = -\cot\theta$$
 $$\sin(\frac \pi2-\theta) = \cos\theta$$ $$\qquad$$ $$\cos(\frac \pi2-\theta) = \sin\theta$$<br>
 $$\tan(\frac \pi2-\theta) = \cot\theta$$ $$\qquad$$ $$\cot(\frac \pi2-\theta) = \tan\theta$$<br>
 $$\sec(\frac \pi2-\theta) = \csc\theta$$ $$\qquad$$ $$\csc(\frac \pi2-\theta) = \sec\theta$$
+
+# Prove Trig Identities
+
+$$
+\begin{matrix}
+    \**{Left-Hand-Side}**&\ &\**{Right-Hand-Side}**\\
+    \cos{x}+\sin{x}\tan{x}&=&\sec{x}\\
+    \cos{x}+\frac{\sin{x}}{1}(\frac{\sin{x}}{\cos{x}})&=&\sec{x}\\
+    \cos{x}+\frac{\sin^2{x}}{\cos{x}}&=&\sec{x}\\
+    (\frac{\cos{x}}{\cos{x}})(\frac{\cos{x}}{1})+\frac{\sin^2{x}}{\cos{x}}&=&\sec{x}\\
+    \frac{\cos^2{x}}{\cos{x}}+\frac{\sin^2{x}}{\cos{x}}&=&\sec{x}\\
+    \frac{\sin^2{x}+\cos^2{x}}{\cos{x}}&=&\sec{x}\\
+    \frac{\sin^2{x}+\cos^2{x}}{\cos{x}}&=&\sec{x}\\
+    \frac{1}{\cos{x}}&=&\sec{x}\\
+    \sec{x}&=&\sec{x}\\
+\end{matrix}
+$$
+
+To _disprove an identity_, you only need to show one particular example (like plugging in a number to show both sides are not equal).
 
 # Trigonometric Substitution
 
