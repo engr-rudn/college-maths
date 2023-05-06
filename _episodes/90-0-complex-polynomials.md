@@ -308,24 +308,51 @@ $$\
 > >
 > > ## Solution
 > >
-> > We can start by noting that the roots of the equation $$x^4 + 1 = 0$$ are the four complex numbers given:\
-> > $$w_1 = (1 + i)/\sqrt(2)$$\
-> > $$w_2 = (-1 + i)/\sqrt(2)$$\
-> > $$w_3 = (-1 - i)/\sqrt(2)$$\
-> > $$w_4 = (1 - i)/\sqrt(2)$$\
-> > We can also observe that these four complex numbers form the corners of a square in the complex plane with center at the origin and side length 2.\
-> > To obtain the factorization of $$x^4 + 1$$ into irreducible quadratic factors, we can use the fact that the product of these factors must be equal to $$x^4 + 1$$. We can also use the fact that the quadratics $$(x - w1)(x - w4)$$ and $$(x - w2)(x - w3)$$ have real coefficients.\
+> > We can write the expression $$x^4 + 1 as (x^4 + 2x^2 + 1) - 2x^2 = (x^2 + 1)^2 - (sqrt(2)x)^2$$. Using the difference of squares formula, we get:\
+> > $$x^4 + 1 = (x^2 + sqrt(2)x + 1)(x^2 - sqrt(2)x + 1)$$\
+> > Note that both of these quadratic factors have real coefficients. To see this, we can use the fact that the roots of $$x^4 + 1 = 0$$ are $$w_1 = (1 + i)/sqrt(2)$$,\
+> > $$ w_2 = (-1 + i)/sqrt(2)$$,\
+> > $$ w_3 = (-1 - i)/sqrt(2),$$ and\
+> > $$ w_4 = (1 - i)/sqrt(2)$$.\
+> >  Since these roots come in complex conjugate pairs, we can write $$x^4 + 1$$ as the product of two irreducible quadratic factors with real coefficients:\
+> > $$x^4 + 1 = (x - w_1)(x - w_2)(x - w_3)(x - w_4)$$\
+> > $$        = [(x - w_1)(x - w_4)][(x - w_2)(x - w_3)]$$\
+> > Expanding this out gives:\
+> > $$x^4 + 1 = [(x^2 - (w_1 + w_4)x + w_1w_4)][(x^2 - (w_2 + w_3)x + w_2w_3)]$$\
+> > Substituting in the values of $$w_1, w_2, w_3$$, and $$w_4$$, we get:\
+> > $$x^4 + 1 = [(x^2 - sqrt(2)x + 1)(x^2 + sqrt(2)x + 1)]$$\
+> > Therefore, the factorization of $$x^4 + 1$$ into irreducible quadratic factors with real coefficients is:\
+> > $$x^4 + 1 = (x^2 - sqrt(2)x + 1)(x^2 + sqrt(2)x + 1)$$\
+> > Using this factorization, we can rewrite the integral as:\
+> > $$1/(x^4 + 1) = 1/[(x^2 - sqrt(2)x + 1)(x^2 + sqrt(2)x + 1)]$$\
+> > We can then use partial fractions to evaluate this integral.\
+> > To evaluate the integral 1/(x^4 + 1), we can use partial fractions. First, we factor the denominator as:\
+> > $$x^4 + 1 = (x^2 - sqrt(2)x + 1)(x^2 + sqrt(2)x + 1)$$\
+> > Then, we write:\
+> > $$1/(x^4 + 1) = A(x^2 + sqrt(2)x + 1) + B(x^2 - sqrt(2)x + 1)$$\
+> > for some constants A and B. Multiplying both sides by the denominator, we get:\
+> > $$1 = A(x^2 + sqrt(2)x + 1)(x^2 - sqrt(2)x + 1) + B(x^2 - sqrt(2)x + 1)(x^2 + sqrt(2)x + 1)$$\
+> > We can simplify this equation by plugging in values for x that make some of the terms equal to zero. For example, setting $$x = sqrt(2)/2$$ gives:\
+> > $$1 = A(2) + B(2)$$\
+> > which simplifies to:\
+> > $$1 = 2(A + B)$$\
+> > Similarly, setting $$x = -sqrt(2)/2$$ gives:\
+> > $$1 = A(2) + B(2)$$\
+> > which again simplifies to:\
+> > $$1 = 2(A + B)$$\
+> > Solving these two equations simultaneously, we get:\
+> > $$A = B = 1/4$$\
 > > Therefore, we can write:\
-> > $$x^4 + 1 = (x - w1)(x - w2)(x - w3)(x - w4)$$\
-> > Expanding the right-hand side, we get:\
-> > $$x^4 + 1 = (x^2 - (w1 + w2)x + w1w2)(x^2 - (w3 + w4)x + w3w4)$$\
-> > where we have used the fact that the product of the roots of each quadratic is equal to the constant term.\
-> > Simplifying, we get:\
-> > $$x^4 + 1 = (x^2 - \sqrt(2)x + 1)(x^2 + \sqrt(2)x + 1)$$\
-> > This is the real factorization of $$x^4 + 1$$ into irreducible quadratic factors.\
-> > Now, to calculate the integral $$1/(x^4 + 1) dx$$, we can use partial fractions:\
-> > $$1/(x^4 + 1) = A(x^2 - \sqrt(2)x + 1) + B(x^2 + \sqrt(2)x + 1)$$
-> > Multiplying both sides by $$x^4 + 1$$ and simplifying, we get:
+> > $$1/(x^4 + 1) = (1/4)(x^2 + sqrt(2)x + 1) + (1/4)(x^2 - sqrt(2)x + 1)$$\
+> > Integrating both sides with respect to $$x$$, we get:\
+> > > > $$∫[1/(x^4 + 1)]dx = (1/4)∫[x^2 + sqrt(2)x + 1]dx + (1/4)∫[x^2 - sqrt(2)x + 1]dx$$\
+> > Using the power rule for integration, we get:\
+> > $$∫[1/(x^4 + 1)]dx = (1/4)(x^3/3 + (sqrt(2)/2)x^2 + x) + (1/4)(x^3/3 - (sqrt(2)/2)x^2 + x) + C$$\
+> > where C is the constant of integration. Simplifying, we get:\
+> > $$∫[1/(x^4 + 1)]dx = (1/6)x^3 + (1/2)x - (1/4)(sqrt(2)/2)x^2 + C$$\
+> > Therefore, the integral of $$1/(x^4 + 1)$$ is:\
+> > $$∫[1/(x^4 + 1)]dx = (1/6)x^3 + (1/2)x - (1/4)(sqrt(2)/2)x^2 + C$$
+> > where C is the constant of integration.
 > > 
 > {: .solution}
 {: .challenge}
