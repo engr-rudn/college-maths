@@ -203,7 +203,7 @@ If you're asked to only provide the real zeroes, then you only need to write the
 > ## Write the polynomial function in factored form given its graph
 {: .challenge}
 > ## 9.1.3 - Exercises 
-> #### 1. Check the claim that the reciprocal of a+bi is (a-bi)/(a^2+b^2)$$. 
+> #### 1. Check the claim that the reciprocal of $$a+bi is (a-bi)/(a^2+b^2)$$. 
 > >
 > > ## Solution
 > > The reciprocal of a complex number z is defined as 1/z.\
@@ -278,6 +278,35 @@ $$\
 > > Therefore, if we replace $$\sqrt{2}$$ with any smaller number in the inequality\
 > >  $$|z| \leq \sqrt{2} \max(|\operatorname{Re}(z)|, |\operatorname{Im}(z)|)$$,\
 > >  there exist complex numbers $$z_1$$ and $$z_2$$ such that the inequality is not true.
+> > 
+> {: .solution}
+{: .challenge}
+> ### 2. prove the inequality $$|z| ≤ \sqrt(2) max(|Re z|, |Im z|)$$. Show that $$\sqrt(2)$$ cannot be replaced by a smaller number. 
+> >
+> > ## Solution
+> >
+> > To prove the inequality $$|z| ≤ \sqrt(2) max(|Re z|, |Im z|)$$, we can use the following steps:
+> > Let $$z = x + yi$$, where x and y are real numbers.
+> > We know that $$|z| = sqrt(x^2 + y^2)$$ by the definition of the modulus of a complex number.
+> > We also know that $$max(|Re z|, |Im z|) = max(|x|, |y|)$$ since $$Re(z) = x and Im(z) = y$$.
+> > Without loss of generality, assume that |x| ≥ |y|. Then, we can write\
+> > $$max(|x|, |y|) = |x|$$.
+> > Now, we need to prove that $$|z| ≤ √2 |x|$$.
+> > We can square both sides of the inequality to get rid of the square root:
+> > $$|z|^2 ≤ 2 |x|^2$$\
+> > We know that $$|z|^2 = x^2 + y^2$$ and $$|x|^2 ≥ y^2$$ since $$|x| ≥ |y|$$.
+> > Therefore, we can write:
+> > $$ x^2 + y^2 ≤ 2 |x|^2$$
+> > Rearranging the terms, we get:
+> > $$y^2 ≤ |x|^2$$
+> > We know that $$|x| ≥ |y|$$, so $$|x|^2 ≥ y^2$$.
+> > Combining the last two inequalities, we get:
+> > $$y^2 ≤ |x|^2 ≥ y^2$$
+> > This implies that $$y^2 ≤ |x|^2$$, which is true.
+> > Therefore, $$|z| ≤ \sqrt(2) max(|Re z|, |Im z|)$$ is true.
+> > To show that $$\sqrt(2)$$ cannot be replaced by a smaller number, consider the complex number $$z = 1 + i$$. We have:
+> > $$|z| = sqrt(2) > sqrt(2)/2 = max(|Re z|, |Im z|)/2$$
+> > Therefore, we cannot replace $$\sqrt(2)$$ by a smaller number in the inequality.
 > > 
 > {: .solution}
 {: .challenge}
