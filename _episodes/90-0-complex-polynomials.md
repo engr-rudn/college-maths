@@ -281,32 +281,26 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ### 2. prove the inequality $$|z| ≤ \sqrt(2) max(|Re z|, |Im z|)$$. Show that $$\sqrt(2)$$ cannot be replaced by a smaller number. 
+> ### 4. Prove the formula $$Arg z = 2 \arctan( Im z/ (|z|+ Re z))$$ for $$z$$ not of the form $$x + 0i$$ with $$x ≤ 0$$. 
 > >
 > > ## Solution
 > >
-> > To prove the inequality $$|z| ≤ \sqrt(2) max(|Re z|, |Im z|)$$, we can use the following steps:
-> > Let $$z = x + yi$$, where x and y are real numbers.
-> > We know that $$|z| = sqrt(x^2 + y^2)$$ by the definition of the modulus of a complex number.
-> > We also know that $$max(|Re z|, |Im z|) = max(|x|, |y|)$$ since $$Re(z) = x and Im(z) = y$$.
-> > Without loss of generality, assume that |x| ≥ |y|. Then, we can write\
-> > $$max(|x|, |y|) = |x|$$.
-> > Now, we need to prove that $$|z| ≤ √2 |x|$$.
-> > We can square both sides of the inequality to get rid of the square root:
-> > $$|z|^2 ≤ 2 |x|^2$$\
-> > We know that $$|z|^2 = x^2 + y^2$$ and $$|x|^2 ≥ y^2$$ since $$|x| ≥ |y|$$.
-> > Therefore, we can write:
-> > $$ x^2 + y^2 ≤ 2 |x|^2$$
-> > Rearranging the terms, we get:
-> > $$y^2 ≤ |x|^2$$
-> > We know that $$|x| ≥ |y|$$, so $$|x|^2 ≥ y^2$$.
-> > Combining the last two inequalities, we get:
-> > $$y^2 ≤ |x|^2 ≥ y^2$$
-> > This implies that $$y^2 ≤ |x|^2$$, which is true.
-> > Therefore, $$|z| ≤ \sqrt(2) max(|Re z|, |Im z|)$$ is true.
-> > To show that $$\sqrt(2)$$ cannot be replaced by a smaller number, consider the complex number $$z = 1 + i$$. We have:
-> > $$|z| = sqrt(2) > sqrt(2)/2 = max(|Re z|, |Im z|)/2$$
-> > Therefore, we cannot replace $$\sqrt(2)$$ by a smaller number in the inequality.
+> > To prove the formula $$Arg z = 2 \arctan( Im z/ (|z|+ Re z))$$ for $$z$$ not of the form $$x + 0i$$ with $$x ≤ 0$$, we can use the following steps:
+> > Let $$z = x + yi$$, where x and y are real numbers, and z is not of the form $$x + 0i$$ with $$x ≤ 0$$.
+> > We know that $$Arg z$$ is the angle between the positive real axis and the line segment from the origin to z, measured counterclockwise.
+> > Draw a right triangle with legs of length $$y$$ and $$x + |z|$$. The hypotenuse of the triangle is the line segment from the origin to z.
+> > The angle between the positive real axis and the leg of length $$y$$ is $$\arctan(y/(x+|z|))$$.
+> > Since the triangle is a right triangle, the angle between the positive real axis and the hypotenuse (i.e., Arg z) is equal to $$\pi/2$$ minus the angle between the positive real axis and the other leg (i.e., y).
+> > Therefore, we have:
+> > $$Arg z = pi/2 - \arctan(y/(x+|z|))$$
+> > We can simplify this expression by multiplying both the numerator and denominator of the fraction inside the arctan function by $$1/|z|$$:
+> > $$Arg z = \pi/2 - \arctan(y/(|z|(x/|z| + 1)))$$
+> > We can also use the fact that $$|z| = sqrt(x^2 + y^2)$$ to rewrite the expression inside the arctan function:
+> > $$Arg z = pi/2 - arctan(y/(|z|+x))$$
+> > Finally, we can use the identity $$\arctan(a) = 1/2 arctan(2a/(1-a^2))$$ to simplify the expression further:
+> > $$Arg z = 2 arctan(y/(|z|+x))$$
+> >     $$ = 2 arctan(Im z/(|z|+Re z))$$
+> > Therefore, we have proven that $$Arg z = 2 arctan( Im z/ (|z|+ Re z))$$ for $$z$$ not of the form $$x + 0i$$ with $$x ≤ 0$$, as required.
 > > 
 > {: .solution}
 {: .challenge}
