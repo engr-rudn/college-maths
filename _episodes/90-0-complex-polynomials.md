@@ -308,12 +308,12 @@ $$\
 > >
 > > ## Solution
 > >
-> > We can write the expression $$x^4 + 1 as (x^4 + 2x^2 + 1) - 2x^2 = (x^2 + 1)^2 - (sqrt(2)x)^2$$. Using the difference of squares formula, we get:\
+> > We can write the expression $$x^4 + 1$$ as $$(x^4 + 2x^2 + 1) - 2x^2 = (x^2 + 1)^2 - (sqrt(2)x)^2$$. Using the difference of squares formula, we get:\
 > > $$x^4 + 1 = (x^2 + \sqrt(2)x + 1)(x^2 - \sqrt(2)x + 1)$$\
-> > Note that both of these quadratic factors have real coefficients. To see this, we can use the fact that the roots of $$x^4 + 1 = 0$$ are $$w_1 = (1 + i)/sqrt(2)$$,\
-> > $$ w_2 = (-1 + i)/sqrt(2)$$,\
-> > $$ w_3 = (-1 - i)/sqrt(2),$$ and\
-> > $$ w_4 = (1 - i)/sqrt(2)$$.\
+> > Note that both of these quadratic factors have real coefficients. To see this, we can use the fact that the roots of $$x^4 + 1 = 0$$ are $$w_1 = (1 + i)/\sqrt(2)$$,\
+> > $$ w_2 = (-1 + i)/\sqrt(2)$$,\
+> > $$ w_3 = (-1 - i)/\sqrt(2),$$ and\
+> > $$ w_4 = (1 - i)/\sqrt(2)$$.\
 > >  Since these roots come in complex conjugate pairs, we can write $$x^4 + 1$$ as the product of two irreducible quadratic factors with real coefficients:\
 > > $$x^4 + 1 = (x - w_1)(x - w_2)(x - w_3)(x - w_4)$$\
 > > $$        = [(x - w_1)(x - w_4)][(x - w_2)(x - w_3)]$$\
