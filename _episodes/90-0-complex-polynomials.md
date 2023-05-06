@@ -459,7 +459,7 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ### 9. Let $$w = a + ib$$ and let  $$f(x) = e^(ax) (\cos bx + i \sin bx)$$ for real $$x$$. Show that $$f'(x) = wf(x)$$. 
+> ### 9. Let $$w = a + ib$$ and let  $$f(x) = e^{ax} (\cos bx + i \sin bx)$$ for real $$x$$. Show that $$f'(x) = wf(x)$$. 
 > >
 > > ## Solution
 > >
