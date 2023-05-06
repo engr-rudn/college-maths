@@ -374,3 +374,107 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
+> ### (b) Express the sum $$η + η^2 + η^3  + η^4$$ in terms of $$λ := cos(2π/5)$$. 
+> >
+> > ## Solution
+> >
+> > To express the sum $$η + η^2 + η^3 + η^4$$ in terms of $$λ := cos(2π/5)$$, we can use the fact that $$η$$ is a root of the polynomial $$x^4 + x^3 + x^2 + x + 1$$, which can be factored as:\
+> > $$x^4 + x^3 + x^2 + x + 1 = (x^2 + x + 1)(x^2 - x + 1)$$\
+> > Since $$η$$ is not a root of $$x^2 + x + 1$$, we have $$η^2 - η + 1 = 0$$. Multiplying both sides by $$η^2$$, we get:\
+> > $$η^4 - η^3 + η^2 = η^2 - η + 1$$\
+> > Similarly, we can obtain the following relations:\
+> > $$η^3 - η^2 + η = η - 1$$\
+> > $$η^4 - η^3 + η^2 - η + 1 = 0$$\
+> > Adding all four equations, we get:\
+> > $$η^4 + η^3 + η^2 + η + 1 = 2(η^2 - η + 1) + 2(η - 1) = 2(η^2 + η - 2) = 0$$\
+> > Therefore, we have:\
+> > $$η + η^2 + η^3 + η^4 = -1 - η - η^2 = -1 - λ$$\
+> > Hence, the sum of the non-real fifth roots of 1 can be expressed in terms of $$λ$$ as $$-1 - λ$$.\
+> > 
+> {: .solution}
+{: .challenge}
+> ### (c) Deduce that $$cos(2π/5) =(\sqrt(5) − 1)/4$$. 
+> >
+> > ## Solution
+> >
+> > We know that $$η = cos(2π/5) + i sin(2π/5)$$ is one of the non-real fifth roots of 1, which satisfies the equation $$η^2 + η - 1 = 0$$. Solving for $$η$$ using the quadratic formula, we get:\
+> > $$η = (-1 ± √5)/2$$\
+> > Since $$η$$ is a non-real complex number, its real part must be equal to $$cos(2π/5)$$. Therefore, we have:\
+> > $$cos(2π/5) = Re(η) = (η + η*)/2$$\
+> > where $$η*$$ is the complex conjugate of $$η$$. Since $$η$$ is not real, its complex conjugate is also not equal to $$η$$, and we have:\
+> > $$η* = (-1 ∓ √5)/2$$\
+> > Taking the positive sign, we have:\
+> > $$η* = (-1 + √5)/2$$\
+> > Adding $$η$$ and $$η*$$ and simplifying, we get:\
+> > $$η + η* = (-1 + √5)/2 + (-1 - √5)/2 = -1 - √5$$\
+> > Therefore, we have:\
+> > $$cos(2π/5) = (η + η*)/2 = (-1 - √5)/2$$
+> > Multiplying the numerator and denominator by $$√5 + 1$$ and simplifying, we get:\
+> > $$cos(2π/5) = (-1 - √5)/2 = (√5 - 1)/(-2) = (√5 - 1)/4 * (-2/-1) = (√5 - 1)/4$$\
+> > Hence, we have shown that $$cos(2π/5) = (√5 - 1)/4$$.\
+> > 
+> {: .solution}
+{: .challenge}
+> ### (d) Show that they are the roots of the polynomial $$x^4 + x^3 + x^2 + x + 1$$. 
+> >
+> > ## Solution
+> >
+> > From part (c), we know that the roots of $$x^4 + x^3 + x^2 + x + 1$$ are the numbers:\
+> > $$η = cos(2π/5) + i sin(2π/5)$$\
+> > $$η^2 = cos(4π/5) + i sin(4π/5)$$\
+> > $$η^3 = cos(6π/5) + i sin(6π/5)$$\
+> > $$η^4 = cos(8π/5) + i sin(8π/5)$$\
+> > Since $$sin(2π/5) = sin(8π/5) and sin(4π/5) = sin(6π/5)$$, we have:\
+> > $$η + η^4 = cos(2π/5) + cos(8π/5) + i(sin(2π/5) + sin(8π/5)) = 2cos(2π/5)$$ and\
+> > $$η^2 + η^3 = cos(4π/5) + cos(6π/5) + i(sin(4π/5) + sin(6π/5)) = -2cos(π/5)$$\
+> > Substituting $$λ = cos(2π/5)$$ into the factorization from part (c), we get:\
+> > $$x^4 + x^3 + x^2 + x + 1 = (x - η)(x - η^4)(x - η^2)(x - η^3)$$\
+> > $$                       = [(x - η)(x - η^4)][(x - η^2)(x - η^3)]$$\
+> > $$                       = [(x^2 - (η + η^4)x + ηη^4)][(x^2 - (η^2 + η^3)x + η^2η^3)]$$\
+> > $$                       = [(x^2 - 2cos(2π/5)x + 1)][(x^2 + 2cos(π/5)x + 1)]$$\
+> > $$                       = (x^2 - 2λx + 1)(x^2 - 2(2λ^2 - 1)x + 1)$$\
+> > Therefore, we have shown that $$x^4 + x^3 + x^2 + x + 1$$ can be factored as the product of two irreducible quadratic polynomials with real coefficients.\
+> > Since $$λ = cos(2π/5)$$ is constructible with straight edge and compass, we can construct the roots of $$x^4 + x^3 + x^2 + x + 1$$ using the given factorization, which involves only square roots and additions, subtractions, and multiplications of constructible numbers.\
+> > Hence, we can construct the regular pentagon using a straight edge and compass, as it can be inscribed in a circle with radius 1, whose center and circumference can be constructed using straight edge and compass.
+> > 
+> {: .solution}
+{: .challenge}
+> ### 8. Express the antiderivative $$\int(1/( x^5 − 1)dx$$. using the principal logarithm of first-degree complex polynomials
+> >
+> > ## Solution
+> >
+> > $$\int \frac{1}{x^5 - 1} dx = \int \frac{1}{(x-1)(x^4+x^3+x^2+x+1)}dx$$\
+> > Let $$\omega = e^{\frac{2 \pi i}{5}}$$, the roots of $$x^5 - 1$$ are\
+> > $$1, \omega, \omega^2, \omega^3, \omega^4$$.\
+> > Since $$\omega^5 = 1$$, $$\omega$$ is a root of $$x^4+x^3+x^2+x+1$$. Then,\
+> > $$x^4+x^3+x^2+x+1 = (x-\omega)(x-\omega^2)(x-\omega^3)(x-\omega^4)$$\
+> > Let $$u = x-\omega$$, then $$du = dx$$, and\
+> > $$\int \frac{1}{x^5 - 1} dx = \int \frac{1}{(x-1)(x^4+x^3+x^2+x+1)}dx$$\
+> > $$ = \frac{1}{\omega-1}\int \frac{1}{u(u^3 + (1+\omega+\omega^2+\omega^3)u^2 + (1+\omega+\omega^2+\omega^3+\omega^4)u + 1)}du$$\
+> > Since $$\omega^4+\omega^3+\omega^2+\omega+1 = 0$, $1+\omega+\omega^2+\omega^3 = -\omega^4$$. Then,\
+> > $$\int \frac{1}{x^5 - 1} dx = \frac{1}{\omega-1}\int \frac{1}{u(u^3 - \omega^4 + 1)}du$$\
+> > $$ = \frac{1}{\omega-1}\left[\frac{1}{2}\ln\left|\frac{u^2+(1-\omega^2)u+1}{u^2+(\omega^2-2)u+1}\right|+\frac{2}{\sqrt{5}}\arctan\left(\frac{2u+(1-\omega)}{\sqrt{5}}\right)+C\right]$$\
+> > where $$C$$ is the constant of integration. Substituting back $$u = x-\omega$$ and using the fact that $$\omega = e^{\frac{2 \pi i}{5}}$$, we have\
+> > $$\int \frac{1}{x^5 - 1} dx = \frac{1}{4\sin(\frac{\pi}{5})}\left[\ln\left|\frac{x^2-(2\cos(\frac{2\pi}{5}))x+1}{x^2+(2\cos(\frac{2\pi}{5})-2)x+1}\right|+\frac{2}{\sqrt{5}}\arctan\left(\frac{2x-(1+\cos(\frac{2\pi}{5}))+\sqrt{5}\sin(\frac{2\pi}{5})}{\sqrt{5}\cos(\frac{2\pi}{5})-1}\right)+C\right]$$
+> > 
+> {: .solution}
+{: .challenge}
+> ### 9. Let $$w = a + ib$$ and let  $$f(x) = e^(ax) (cos bx + i sin bx)$$ for real $$x$$. Show that $$f'(x) = wf(x)$$. 
+> >
+> > ## Solution
+> >
+> > We have:\
+> > $$f(x) = e^(ax) (cos bx + i sin bx)$$\
+> > Taking the derivative with respect to $$x$$:\
+> > $$f'(x) = (ae^(ax))(cos bx + i sin bx) + e^(ax)(-b sin bx + i b cos bx)$$\
+Simplifying:\
+> > $$f '(x) = e^(ax) [(a cos bx - b sin bx) + i(a sin bx + b cos bx)]$$\
+> > But we also have:\
+> > $$w = a + ib$$\
+> > So we can write:\
+> > $$f '(x) = e^(ax) [(a cos bx - b sin bx) + i(a sin bx + b cos bx)]$$\
+> > $$ = (a + ib) e^(ax) (cos bx + i sin bx) = wf(x)$$\
+Therefore, $$f '(x) = wf(x)$$, as required.
+> > 
+> {: .solution}
+{: .challenge}
