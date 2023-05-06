@@ -285,22 +285,47 @@ $$\
 > >
 > > ## Solution
 > >
-> > To prove the formula $$Arg z = 2 \arctan( Im z/ (|z|+ Re z))$$ for $$z$$ not of the form $$x + 0i$$ with $$x ≤ 0$$, we can use the following steps:
-> > Let $$z = x + yi$$, where x and y are real numbers, and z is not of the form $$x + 0i$$ with $$x ≤ 0$$.
-> > We know that $$Arg z$$ is the angle between the positive real axis and the line segment from the origin to z, measured counterclockwise.
-> > Draw a right triangle with legs of length $$y$$ and $$x + |z|$$. The hypotenuse of the triangle is the line segment from the origin to z.
-> > The angle between the positive real axis and the leg of length $$y$$ is $$\arctan(y/(x+|z|))$$.
-> > Since the triangle is a right triangle, the angle between the positive real axis and the hypotenuse (i.e., Arg z) is equal to $$\pi/2$$ minus the angle between the positive real axis and the other leg (i.e., y).
-> > Therefore, we have:
-> > $$Arg z = pi/2 - \arctan(y/(x+|z|))$$
-> > We can simplify this expression by multiplying both the numerator and denominator of the fraction inside the arctan function by $$1/|z|$$:
-> > $$Arg z = \pi/2 - \arctan(y/(|z|(x/|z| + 1)))$$
-> > We can also use the fact that $$|z| = sqrt(x^2 + y^2)$$ to rewrite the expression inside the arctan function:
-> > $$Arg z = pi/2 - arctan(y/(|z|+x))$$
-> > Finally, we can use the identity $$\arctan(a) = 1/2 arctan(2a/(1-a^2))$$ to simplify the expression further:
-> > $$Arg z = 2 arctan(y/(|z|+x))$$
-> >     $$ = 2 arctan(Im z/(|z|+Re z))$$
+> > To prove the formula $$Arg z = 2 \arctan( Im z/ (|z|+ Re z))$$ for $$z$$ not of the form $$x + 0i$$ with $$x ≤ 0$$, we can use the following steps:\
+> > Let $$z = x + yi$$, where x and y are real numbers, and z is not of the form $$x + 0i$$ with $$x ≤ 0$$.\
+> > We know that $$Arg z$$ is the angle between the positive real axis and the line segment from the origin to z, measured counterclockwise.\
+> > Draw a right triangle with legs of length $$y$$ and $$x + |z|$$. The hypotenuse of the triangle is the line segment from the origin to z.\
+> > The angle between the positive real axis and the leg of length $$y$$ is $$\arctan(y/(x+|z|))$$.\
+> > Since the triangle is a right triangle, the angle between the positive real axis and the hypotenuse (i.e., Arg z) is equal to $$\pi/2$$ minus the angle between the positive real axis and the other leg (i.e., y).\
+> > Therefore, we have:\
+> > $$Arg z = pi/2 - \arctan(y/(x+|z|))$$\
+> > We can simplify this expression by multiplying both the numerator and denominator of the fraction inside the arctan function by $$1/|z|$$:\
+> > $$Arg z = \pi/2 - \arctan(y/(|z|(x/|z| + 1)))$$\
+> > We can also use the fact that $$|z| = sqrt(x^2 + y^2)$$ to rewrite the expression inside the arctan function:\
+> > $$Arg z = pi/2 - arctan(y/(|z|+x))$$\
+> > Finally, we can use the identity $$\arctan(a) = 1/2 arctan(2a/(1-a^2))$$ to simplify the expression further:\
+> > $$Arg z = 2 arctan(y/(|z|+x))$$\
+> >     $$ = 2 arctan(Im z/(|z|+Re z))$$\
 > > Therefore, we have proven that $$Arg z = 2 arctan( Im z/ (|z|+ Re z))$$ for $$z$$ not of the form $$x + 0i$$ with $$x ≤ 0$$, as required.
+> > 
+> {: .solution}
+{: .challenge}
+> ### 4. The real factorisation of $$x^4 + 1$$ into irreducible quadratic factors is needed to calculate the integral    $$1/(x^4 + 1) dx$$. Obtain the factorisation using complex numbers by noting that the roots of $$x^4 + 1 = 0$$, the four complex numbers $$w_1 = (1 + i)/\sqrt(2)$$  ,  $$w_2 = (-1  + i)/\sqrt(2)$$    ,  $$w_3 =(-1  − i)/\sqrt(2)$$,  $$w_4 =(1  − i)/\sqrt(2)$$, form the corners of a square, and that the quadratics, $$(x − w1)(x − w4)$$ and $$(x − w2)(x − w3)$$, have real coefficients. 
+> >
+> > ## Solution
+> >
+> > We can start by noting that the roots of the equation $$x^4 + 1 = 0$$ are the four complex numbers given:\
+> > $$w_1 = (1 + i)/sqrt(2)$$\
+> > $$w_2 = (-1 + i)/sqrt(2)$$\
+> > $$w_3 = (-1 - i)/sqrt(2)$$\
+> > $$w_4 = (1 - i)/sqrt(2)$$\
+> > We can also observe that these four complex numbers form the corners of a square in the complex plane with center at the origin and side length 2.\
+> > To obtain the factorization of $$x^4 + 1$$ into irreducible quadratic factors, we can use the fact that the product of these factors must be equal to $$x^4 + 1$$. We can also use the fact that the quadratics $$(x - w1)(x - w4)$$ and $$(x - w2)(x - w3)$$ have real coefficients.\
+> > Therefore, we can write:\
+> > $$x^4 + 1 = (x - w1)(x - w2)(x - w3)(x - w4)$$\
+> > Expanding the right-hand side, we get:\
+> > $$x^4 + 1 = (x^2 - (w1 + w2)x + w1w2)(x^2 - (w3 + w4)x + w3w4)$$\
+> > where we have used the fact that the product of the roots of each quadratic is equal to the constant term.\
+> > Simplifying, we get:\
+> > $$x^4 + 1 = (x^2 - sqrt(2)x + 1)(x^2 + sqrt(2)x + 1)$$\
+> > This is the real factorization of $$x^4 + 1$$ into irreducible quadratic factors.\
+> > Now, to calculate the integral $$1/(x^4 + 1) dx$$, we can use partial fractions:\
+> > $$1/(x^4 + 1) = A(x^2 - sqrt(2)x + 1) + B(x^2 + sqrt(2)x + 1)$$
+> > Multiplying both sides by $$x^4 + 1$$ and simplifying, we get:
 > > 
 > {: .solution}
 {: .challenge}
