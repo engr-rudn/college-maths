@@ -281,7 +281,8 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ### 4. Prove the formula $$Arg z = 2 \arctan( Im z/ (|z|+ Re z))$$ for $$z$$ not of the form $$x + 0i$$ with $$x ≤ 0$$. 
+> ## 9.2.3 - Exercises 
+> ### 1. Prove the formula $$Arg z = 2 \arctan( Im z/ (|z|+ Re z))$$ for $$z$$ not of the form $$x + 0i$$ with $$x ≤ 0$$. 
 > >
 > > ## Solution
 > >
@@ -304,7 +305,7 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ### 5. The real factorisation of $$x^4 + 1$$ into irreducible quadratic factors is needed to calculate the integral    $$1/(x^4 + 1) dx$$. Obtain the factorisation using complex numbers by noting that the roots of $$x^4 + 1 = 0$$, the four complex numbers $$w_1 = (1 + i)/\sqrt(2)$$  ,  $$w_2 = (-1  + i)/\sqrt(2)$$    ,  $$w_3 =(-1  − i)/\sqrt(2)$$,  $$w_4 =(1  − i)/\sqrt(2)$$, form the corners of a square, and that the quadratics, $$(x − w1)(x − w4)$$ and $$(x − w2)(x − w3)$$, have real coefficients. 
+> ### 2. The real factorisation of $$x^4 + 1$$ into irreducible quadratic factors is needed to calculate the integral    $$1/(x^4 + 1) dx$$. Obtain the factorisation using complex numbers by noting that the roots of $$x^4 + 1 = 0$$, the four complex numbers $$w_1 = (1 + i)/\sqrt(2)$$  ,  $$w_2 = (-1  + i)/\sqrt(2)$$    ,  $$w_3 =(-1  − i)/\sqrt(2)$$,  $$w_4 =(1  − i)/\sqrt(2)$$, form the corners of a square, and that the quadratics, $$(x − w1)(x − w4)$$ and $$(x − w2)(x − w3)$$, have real coefficients. 
 > >
 > > ## Solution
 > >
@@ -353,6 +354,23 @@ $$\
 > > Therefore, the integral of $$1/(x^4 + 1)$$ is:\
 > > $$∫[1/(x^4 + 1)]dx = (1/6)x^3 + (1/2)x - (1/4)(sqrt(2)/2)x^2 + C$$\
 > > where $$C$$ is the constant of integration.
+> > 
+> {: .solution}
+{: .challenge}
+> ## 3. Let $$η = cos(2π/5) + i sin(2π/5)$$. The four non-real fifth roots of $$1 are η, η^2,η^3 and η^4$$.
+> ### (a) Show that they are the roots of the polynomial $$x^4 + x^3 + x^2 + x + 1$$. 
+> >
+> > ## Solution
+> >
+> > We can show that the polynomial $$x^4 + x^3 + x^2 + x + 1$$ has $$η, η^2, η^3, and η^4$$ as its roots by directly substituting these values into the polynomial and verifying that the result is zero.\
+> > Let's start with η. We have:\
+> > $$η^4 + η^3 + η^2 + η + 1$$\
+> > $$= (cos(8π/5) + i sin(8π/5)) + (cos(6π/5) + i sin(6π/5)) + (cos(4π/5) + i sin(4π/5)) + (cos(2π/5) + i sin(2π/5)) + 1$$\
+> > $$= (cos(8π/5) + cos(6π/5) + cos(4π/5) + cos(2π/5) + 1) + i(sin(8π/5) + sin(6π/5) + sin(4π/5) + sin(2π/5))$$\
+> > Now, we can use the fact that $$cos(2π/5)$$ and $$sin(2π/5)$$ are the real and imaginary parts of η, respectively, to simplify the expression:\
+> > $$η^4 + η^3 + η^2 + η + 1$$\
+> > $$= (-1/2) + i(sqrt(5)/2) + (-1/2) + i(-sqrt(5)/2) + 1 = 0$$\
+> > Therefore, η is a root of $$x^4 + x^3 + x^2 + x + 1$$. By a similar computation, we can show that $$η^2, η^3, and η^4$$ are also roots of the polynomial. Hence, the polynomial $$x^4 + x^3 + x^2 + x + 1$$ has all four non-real fifth roots of 1 as its roots.
 > > 
 > {: .solution}
 {: .challenge}
