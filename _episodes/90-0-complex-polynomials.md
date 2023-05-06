@@ -464,16 +464,16 @@ $$\
 > > ## Solution
 > >
 > > We have:\
-> > $$f(x) = e^(ax) (\cos bx + i \sin bx)$$\
+> > $$f(x) = e^{ax} (\cos bx + i \sin bx)$$\
 > > Taking the derivative with respect to $$x$$:\
-> > $$f'(x) = (ae^(ax))(\cos bx + i \sin bx) + e^(ax)(-b \sin bx + i b \cos bx)$$\
+> > $$f'(x) = (ae^{ax})(\cos bx + i \sin bx) + e^{ax}(-b \sin bx + i b \cos bx)$$\
 Simplifying:\
-> > $$f '(x) = e^(ax) [(a \cos bx - b \sin bx) + i(a \sin bx + b \cos bx)]$$\
+> > $$f '(x) = e^{ax} [(a \cos bx - b \sin bx) + i(a \sin bx + b \cos bx)]$$\
 > > But we also have:\
 > > $$w = a + ib$$\
 > > So we can write:\
-> > $$f '(x) = e^(ax) [(a \cos bx - b \sin bx) + i(a \sin bx + b \cos bx)]$$\
-> > $$ = (a + ib) e^(ax) (\cos bx + i \sin bx) = wf(x)$$\
+> > $$f '(x) = e^{ax} [(a \cos bx - b \sin bx) + i(a \sin bx + b \cos bx)]$$\
+> > $$ = (a + ib) e^{ax} (\cos bx + i \sin bx) = wf(x)$$\
 Therefore, $$f '(x) = wf(x)$$, as required.
 > > 
 > {: .solution}
