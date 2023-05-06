@@ -297,7 +297,7 @@ $$\
 > > We can simplify this expression by multiplying both the numerator and denominator of the fraction inside the \arctan function by $$1/|z|$$:\
 > > $$Arg z = \pi/2 - \arctan(y/(|z|(x/|z| + 1)))$$\
 > > We can also use the fact that $$|z| = \sqrt(x^2 + y^2)$$ to rewrite the expression inside the \arctan function:\
-> > $$Arg z = pi/2 - \arctan(y/(|z|+x))$$\
+> > $$Arg z = \pi/2 - \arctan(y/(|z|+x))$$\
 > > Finally, we can use the identity $$\arctan(a) = 1/2 \arctan(2a/(1-a^2))$$ to simplify the expression further:\
 > > $$Arg z = 2 \arctan(y/(|z|+x))$$\
 > >     $$ = 2 \arctan(Im z/(|z|+Re z))$$\
@@ -357,7 +357,7 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ## 3. Let $$η = cos(2π/5) + i sin(2π/5)$$. The four non-real fifth roots of $$1 are η, η^2,η^3 and η^4$$.
+> ## 3. Let $$η = \cos(2π/5) + i \sin(2π/5)$$. The four non-real fifth roots of $$1 are η, η^2,η^3 and η^4$$.
 > ### (a) Show that they are the roots of the polynomial $$x^4 + x^3 + x^2 + x + 1$$. 
 > >
 > > ## Solution
@@ -365,22 +365,22 @@ $$\
 > > We can show that the polynomial $$x^4 + x^3 + x^2 + x + 1$$ has $$η, η^2, η^3, and η^4$$ as its roots by directly substituting these values into the polynomial and verifying that the result is zero.\
 > > Let's start with η. We have:\
 > > $$η^4 + η^3 + η^2 + η + 1$$\
-> > $$= (cos(8π/5) + i sin(8π/5)) + (cos(6π/5) + i sin(6π/5)) + (cos(4π/5) + i sin(4π/5)) + (cos(2π/5) + i sin(2π/5)) + 1$$\
-> > $$= (cos(8π/5) + cos(6π/5) + cos(4π/5) + cos(2π/5) + 1) + i(sin(8π/5) + sin(6π/5) + sin(4π/5) + sin(2π/5))$$\
-> > Now, we can use the fact that $$cos(2π/5)$$ and $$sin(2π/5)$$ are the real and imaginary parts of η, respectively, to simplify the expression:\
+> > $$= (\cos(8π/5) + i \sin(8π/5)) + (\cos(6π/5) + i \sin(6π/5)) + (\cos(4π/5) + i \sin(4π/5)) + (\cos(2π/5) + i \sin(2π/5)) + 1$$\
+> > $$= (\cos(8π/5) + \cos(6π/5) + \cos(4π/5) + \cos(2π/5) + 1) + i(\sin(8π/5) + \sin(6π/5) + \sin(4π/5) + \sin(2π/5))$$\
+> > Now, we can use the fact that $$\cos(2π/5)$$ and $$\sin(2π/5)$$ are the real and imaginary parts of η, respectively, to simplify the expression:\
 > > $$η^4 + η^3 + η^2 + η + 1$$\
 > > $$= (-1/2) + i(sqrt(5)/2) + (-1/2) + i(-sqrt(5)/2) + 1 = 0$$\
 > > Therefore, η is a root of $$x^4 + x^3 + x^2 + x + 1$$. By a similar computation, we can show that $$η^2, η^3, and η^4$$ are also roots of the polynomial. Hence, the polynomial $$x^4 + x^3 + x^2 + x + 1$$ has all four non-real fifth roots of 1 as its roots.
 > > 
 > {: .solution}
 {: .challenge}
-> ### (b) Express the sum $$η + η^2 + η^3  + η^4$$ in terms of $$λ := cos(2π/5)$$. 
+> ### (b) Express the sum $$η + η^2 + η^3  + η^4$$ in terms of $$λ := \cos(2π/5)$$. 
 > >
 > > ## Solution
 > >
-> > To express the sum $$η + η^2 + η^3 + η^4$$ in terms of $$λ := cos(2π/5)$$, we can use the fact that $$η$$ is a root of the polynomial $$x^4 + x^3 + x^2 + x + 1$$, which can be factored as:\
+> > To express the sum $$η + η^2 + η^3 + η^4$$ in terms of $$λ := \cos(2π/5)$$, we can use the fact that $$η$$ is a root of the polynomial $$x^4 + x^3 + x^2 + x + 1$$, which can be factored as:\
 > > $$x^4 + x^3 + x^2 + x + 1 = (x^2 + x + 1)(x^2 - x + 1)$$\
-> > Since $$η$$ is not a root of $$x^2 + x + 1$$, we have $$η^2 - η + 1 = 0$$. Multiplying both sides by $$η^2$$, we get:\
+> > since $$η$$ is not a root of $$x^2 + x + 1$$, we have $$η^2 - η + 1 = 0$$. Multiplying both sides by $$η^2$$, we get:\
 > > $$η^4 - η^3 + η^2 = η^2 - η + 1$$\
 > > Similarly, we can obtain the following relations:\
 > > $$η^3 - η^2 + η = η - 1$$\
@@ -393,14 +393,14 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ### (c) Deduce that $$cos(2π/5) =(\sqrt(5) − 1)/4$$. 
+> ### (c) Deduce that $$\cos(2π/5) =(\sqrt(5) − 1)/4$$. 
 > >
 > > ## Solution
 > >
-> > We know that $$η = cos(2π/5) + i sin(2π/5)$$ is one of the non-real fifth roots of 1, which satisfies the equation $$η^2 + η - 1 = 0$$. Solving for $$η$$ using the quadratic formula, we get:\
+> > We know that $$η = \cos(2π/5) + i \sin(2π/5)$$ is one of the non-real fifth roots of 1, which satisfies the equation $$η^2 + η - 1 = 0$$. Solving for $$η$$ using the quadratic formula, we get:\
 > > $$η = (-1 ± √5)/2$$\
-> > Since $$η$$ is a non-real complex number, its real part must be equal to $$cos(2π/5)$$. Therefore, we have:\
-> > $$cos(2π/5) = Re(η) = (η + η*)/2$$\
+> > Since $$η$$ is a non-real complex number, its real part must be equal to $$\cos(2π/5)$$. Therefore, we have:\
+> > $$\cos(2π/5) = Re(η) = (η + η*)/2$$\
 > > where $$η*$$ is the complex conjugate of $$η$$. Since $$η$$ is not real, its complex conjugate is also not equal to $$η$$, and we have:\
 > > $$η* = (-1 ∓ √5)/2$$\
 > > Taking the positive sign, we have:\
@@ -408,10 +408,10 @@ $$\
 > > Adding $$η$$ and $$η*$$ and simplifying, we get:\
 > > $$η + η* = (-1 + √5)/2 + (-1 - √5)/2 = -1 - √5$$\
 > > Therefore, we have:\
-> > $$cos(2π/5) = (η + η*)/2 = (-1 - √5)/2$$
+> > $$\cos(2π/5) = (η + η*)/2 = (-1 - √5)/2$$
 > > Multiplying the numerator and denominator by $$√5 + 1$$ and simplifying, we get:\
-> > $$cos(2π/5) = (-1 - √5)/2 = (√5 - 1)/(-2) = (√5 - 1)/4 * (-2/-1) = (√5 - 1)/4$$\
-> > Hence, we have shown that $$cos(2π/5) = (√5 - 1)/4$$.\
+> > $$\cos(2π/5) = (-1 - √5)/2 = (√5 - 1)/(-2) = (√5 - 1)/4 * (-2/-1) = (√5 - 1)/4$$\
+> > Hence, we have shown that $$\cos(2π/5) = (√5 - 1)/4$$.\
 > > 
 > {: .solution}
 {: .challenge}
@@ -420,21 +420,21 @@ $$\
 > > ## Solution
 > >
 > > From part (c), we know that the roots of $$x^4 + x^3 + x^2 + x + 1$$ are the numbers:\
-> > $$η = cos(2π/5) + i sin(2π/5)$$\
-> > $$η^2 = cos(4π/5) + i sin(4π/5)$$\
-> > $$η^3 = cos(6π/5) + i sin(6π/5)$$\
-> > $$η^4 = cos(8π/5) + i sin(8π/5)$$\
-> > Since $$sin(2π/5) = sin(8π/5) and sin(4π/5) = sin(6π/5)$$, we have:\
-> > $$η + η^4 = cos(2π/5) + cos(8π/5) + i(sin(2π/5) + sin(8π/5)) = 2cos(2π/5)$$ and\
-> > $$η^2 + η^3 = cos(4π/5) + cos(6π/5) + i(sin(4π/5) + sin(6π/5)) = -2cos(π/5)$$\
-> > Substituting $$λ = cos(2π/5)$$ into the factorization from part (c), we get:\
+> > $$η = \cos(2π/5) + i \sin(2π/5)$$\
+> > $$η^2 = \cos(4π/5) + i \sin(4π/5)$$\
+> > $$η^3 = \cos(6π/5) + i \sin(6π/5)$$\
+> > $$η^4 = \cos(8π/5) + i \sin(8π/5)$$\
+> > \since $$\sin(2π/5) = \sin(8π/5) and \sin(4π/5) = \sin(6π/5)$$, we have:\
+> > $$η + η^4 = \cos(2π/5) + \cos(8π/5) + i(\sin(2π/5) + \sin(8π/5)) = 2\cos(2π/5)$$ and\
+> > $$η^2 + η^3 = \cos(4π/5) + \cos(6π/5) + i(\sin(4π/5) + \sin(6π/5)) = -2\cos(π/5)$$\
+> > Substituting $$λ = \cos(2π/5)$$ into the factorization from part (c), we get:\
 > > $$x^4 + x^3 + x^2 + x + 1 = (x - η)(x - η^4)(x - η^2)(x - η^3)$$\
 > > $$                       = [(x - η)(x - η^4)][(x - η^2)(x - η^3)]$$\
 > > $$                       = [(x^2 - (η + η^4)x + ηη^4)][(x^2 - (η^2 + η^3)x + η^2η^3)]$$\
-> > $$                       = [(x^2 - 2cos(2π/5)x + 1)][(x^2 + 2cos(π/5)x + 1)]$$\
+> > $$                       = [(x^2 - 2\cos(2π/5)x + 1)][(x^2 + 2\cos(π/5)x + 1)]$$\
 > > $$                       = (x^2 - 2λx + 1)(x^2 - 2(2λ^2 - 1)x + 1)$$\
 > > Therefore, we have shown that $$x^4 + x^3 + x^2 + x + 1$$ can be factored as the product of two irreducible quadratic polynomials with real coefficients.\
-> > Since $$λ = cos(2π/5)$$ is constructible with straight edge and compass, we can construct the roots of $$x^4 + x^3 + x^2 + x + 1$$ using the given factorization, which involves only square roots and additions, subtractions, and multiplications of constructible numbers.\
+> > since $$λ = \cos(2π/5)$$ is constructible with straight edge and compass, we can construct the roots of $$x^4 + x^3 + x^2 + x + 1$$ using the given factorization, which involves only square roots and additions, subtractions, and multiplications of constructible numbers.\
 > > Hence, we can construct the regular pentagon using a straight edge and compass, as it can be inscribed in a circle with radius 1, whose center and circumference can be constructed using straight edge and compass.
 > > 
 > {: .solution}
@@ -459,21 +459,21 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
-> ### 9. Let $$w = a + ib$$ and let  $$f(x) = e^(ax) (cos bx + i sin bx)$$ for real $$x$$. Show that $$f'(x) = wf(x)$$. 
+> ### 9. Let $$w = a + ib$$ and let  $$f(x) = e^(ax) (\cos bx + i \sin bx)$$ for real $$x$$. Show that $$f'(x) = wf(x)$$. 
 > >
 > > ## Solution
 > >
 > > We have:\
-> > $$f(x) = e^(ax) (cos bx + i sin bx)$$\
+> > $$f(x) = e^(ax) (\cos bx + i \sin bx)$$\
 > > Taking the derivative with respect to $$x$$:\
-> > $$f'(x) = (ae^(ax))(cos bx + i sin bx) + e^(ax)(-b sin bx + i b cos bx)$$\
+> > $$f'(x) = (ae^(ax))(\cos bx + i \sin bx) + e^(ax)(-b \sin bx + i b \cos bx)$$\
 Simplifying:\
-> > $$f '(x) = e^(ax) [(a cos bx - b sin bx) + i(a sin bx + b cos bx)]$$\
+> > $$f '(x) = e^(ax) [(a \cos bx - b \sin bx) + i(a \sin bx + b \cos bx)]$$\
 > > But we also have:\
 > > $$w = a + ib$$\
 > > So we can write:\
-> > $$f '(x) = e^(ax) [(a cos bx - b sin bx) + i(a sin bx + b cos bx)]$$\
-> > $$ = (a + ib) e^(ax) (cos bx + i sin bx) = wf(x)$$\
+> > $$f '(x) = e^(ax) [(a \cos bx - b \sin bx) + i(a \sin bx + b \cos bx)]$$\
+> > $$ = (a + ib) e^(ax) (\cos bx + i \sin bx) = wf(x)$$\
 Therefore, $$f '(x) = wf(x)$$, as required.
 > > 
 > {: .solution}
