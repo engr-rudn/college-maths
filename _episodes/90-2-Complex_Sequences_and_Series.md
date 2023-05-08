@@ -70,3 +70,15 @@ $$
 \textbf{Proof} It follows from the inequality $$| |z| - |w| |\leq |z-w|$$ stated in Proposition 9.2.
 \end{flushleft}
 $$
+\textbf{Cauchy's principle of convergence for real sequences (Proposition 3.12)} extends almost without change to complex sequences.
+
+\textbf{Proposition 10.3} (Cauchy's convergence principle) A complex sequence $$(z_n)_{n=1}^\infty$$ is convergent if and only if it satisfies Cauchy's condition: for each $$\epsilon > 0$$ there exists $$N$$, such that $$|z_n - z_m| < \epsilon$$ for all $$n$$ and $$m$$ that satisfy $$n \geq N$$ and $$m \geq N$$.
+
+\textbf{Proof} Let $$a_n = \Re(z_n)$$ and $$b_n = \Im(z_n)$$. Since $$(z_n){n=1}^\infty$$ is convergent if and only if $$(a_n){n=1}^\infty$$ and $$(b_n){n=1}^\infty$$ are both convergent real sequences, it suffices to show that $$(z_n){n=1}^\infty$$ satisfies Cauchy's condition for complex sequences if and only if $$(a_n){n=1}^\infty$$ and $$(b_n){n=1}^\infty$$ satisfy Cauchy's condition for real sequences. But that is obvious in virtue of the inequalities (all of which appeared in Sect. 9.1):
+
+$$|a_n - a_m| \leq |z_n - z_m|$$, \quad $$|b_n - b_m| \leq |z_n - z_m|$$, \quad and \quad $$|z_n - z_m| \leq \sqrt{2} \max(|a_n - a_m|, |b_n - b_m|)$$.
+
+
+
+
+
