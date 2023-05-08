@@ -8,7 +8,7 @@ objectives:
 - ""
 ---
 
-![](Aspose.Words.ff951d22-9249-4b70-9959-718fc272f861.001.png) ![](Aspose.Words.ff951d22-9249-4b70-9959-718fc272f861.002.png)
+![test](../images/complexNumbers/Aspose.Words.ff951d22-9249-4b70-9959-718fc272f861.001.png) ![](../images/complexNumbers/Aspose.Words.ff951d22-9249-4b70-9959-718fc272f861.002.png)
 
 ![](Aspose.Words.ff951d22-9249-4b70-9959-718fc272f861.003.png)
 
