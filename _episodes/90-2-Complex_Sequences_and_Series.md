@@ -161,10 +161,10 @@ $$\
 > > $$\lim_{n\rightarrow \infty}\frac{n^2+n}{(n^4+9n^3+26n^2+24n)}= $$<br>	
 > > $$\lim_{n\rightarrow \infty}\frac{1/n+1/n^3}{1+9/n+26/n^2+24/n^3} = 0$$.	
 > > Therefore, the series<br>
-> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}$$<br>
+> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}$$
 > >  converges by the alternating series test.<br>
 > > To determine whether the series is absolutely convergent, we consider the series of absolute values:<br> 
-> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}\right|$$=<br> 
+> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}\right|$$= 
 > > $$\sum_{n=1}^{\infty}\frac{n(n+1)}{(n+2)(n+3)(n+4)}$$<br> 
 > > Using partial fractions,<br> 
 > > $$\frac{n(n+1)}{(n+2)(n+3)(n+4)}= \frac{1}{2(n+2)}-\frac{2}{(n+3)}+\frac{3}{2(n+4)}$$<br>
