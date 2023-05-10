@@ -150,33 +150,30 @@ $$\
 > > $$\frac{n^2+n}{(n+2)*(n+3)} = \frac{1}{n+3} - \frac{1}{n+2}$$
 > {: .solution}
 {: .challenge}
-> (c) $$\sum_{n}{\infty}\frac{(-1^n)*n*(n+1)}{\(n+2)*(n+3)*(n+4)}$$
+> (c) $$\sum_{n}{\infty}\frac{(-1^n)n(n+1)}{(n+2)(n+3)(n+4)}$$
 > > ## Solution
 > >
 > > We will use the alternating series test to show that the series converges. We have:
-> > $$frac{(-1^n)*n*(n+1)}{\(n+2)*(n+3)*(n+4)}>0$$ for all $$n \in \mathbb{N}$$, and\
-> > $$
-\begin{align*}
-\lim_{n\rightarrow \infty}\frac{n*(n+1)}{(n+2)(n+3)(n+4)} &= \lim_{n\rightarrow \infty}\frac{n*(n+1)}{(n+2)n(n+3)(n+4)/n} \
-&= \lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)*(n+4)}n \
+> > $$frac{(-1^n)n(n+1)}{\(n+2)(n+3)(n+4)}>0$$ for all $$n \in \mathbb{N}$$, and\
+> > $$\lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)(n+3)(n+4)} &= \lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)(n+4)/n} \
+&= \lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)(n+4)}n \
 &= \lim_{n\rightarrow \infty}\frac{n^2+n}{(n^4+9n^3+26n^2+24n)} \
 &= \lim_{n\rightarrow \infty}\frac{1/n+1/n^3}{1+9/n+26/n^2+24/n^3} \
 &= 0.
-\end{align}
 $$\
 > > Therefore, the series\
 > > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}$$\
 > >  converges by the alternating series test.\
 > > To determine whether the series is absolutely convergent, we consider the series of absolute values:\
-> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn*(n+1)}{(n+2)*(n+3)*(n+4)}\right|$$=\
-> > $$\sum_{n=1}^{\infty}\frac{n*(n+1)}{(n+2)*(n+3)*(n+4)}$$\
+> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}\right|$$=\
+> > $$\sum_{n=1}^{\infty}\frac{n(n+1)}{(n+2)(n+3)(n+4)}$$\
 > > Using partial fractions,\
-> > $$\frac{n*(n+1)}{(n+2)*(n+3)*(n+4)}$$ = $$\frac{1}{2*(n+2)}-\frac{2}{(n+3)}+\frac{3}{2*(n+4)}\
+> > $$\frac{n(n+1)}{(n+2)(n+3)(n+4)}= \frac{1}{2(n+2)}-\frac{2}{(n+3)}+\frac{3}{2(n+4)}$$\
 > > Therefore,\
-> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn*(n+1)}{(n+2)*(n+3)*(n+4)}\right|$$=\
-> > $$\sum_{n=1}^{\infty}\frac{1}{2*(n+2)}-\frac{2}{(n+3)}+\frac{3}{2*(n+4)}$$\
+> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}\right|$$=\
+> > $$\sum_{n=1}^{\infty}\frac{1}{2(n+2)}-\frac{2}{(n+3)}+\frac{3}{2(n+4)}$$\
 > > We can rewrite this series as:\
-> > $$-\frac{1}{4}-\frac{1}{5}+\frac{3}{8}-\frac{1}{6}-\frac{1}{7}+\frac{3}{4}-\frac{1}{8}-\frac{1}{9}+\frac{3}{12}- ...$$\
+> > $$-\frac{1}{4}-\frac{1}{5}+\frac{3}{8}-\frac{1}{6}-\frac{1}{7}+\frac{3}{4}-\frac{1}{8}-\frac{1}{9}+\frac{3}{12}- '...'$$\
 > > It can be observed that the series of absolute values does not converge. Hence, the original series is not absolutely convergent.\
 > > Therefore, the original series $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}$$ is conditionally convergent.
 > {: .solution}
