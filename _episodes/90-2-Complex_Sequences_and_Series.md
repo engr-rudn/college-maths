@@ -85,10 +85,11 @@ $$,\
    |b_n - b_m|)
    $$.
 > ## Exercises 10.2.6 Test the following series for convergence. In each case determine whether the series is absolutely convergent, conditionally convergent or divergent.
-> (a) $$\sum_{n}{\infty}\frac{-1^n}{\sqrt{n}}$$
+> (a) $$\sum_{n=1}^{\infty}\frac{-1^n}{\sqrt{n}}$$
 > > ## Solution
 > >
-> > We can test the convergence of the given series using the alternating series test, which states that if a series $\sum_{n=1}^{\infty}(-1)^{n+1}b_n$ satisfies the conditions:\
+> > We can test the convergence of the given series using the alternating series test, which states that if a series\
+> > $$\sum_{n=1}^{\infty}(-1)^{n+1}b_n$$ satisfies the conditions:\
 > > $$b_n > 0$$ for all $$n \in \mathbb{N}$$, and\
 > > $$b_{n+1} \leq b_n$$ for all $$n \in \mathbb{N}$$,\
 > > then the series converges.\
