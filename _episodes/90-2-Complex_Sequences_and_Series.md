@@ -104,4 +104,119 @@ $$,\
 > > Therefore, the given series is not absolutely convergent, but it is conditionally convergent.
 > {: .solution}
 {: .challenge}
-
+> (b) $$\sum_{n}{\infty}\frac{(-1^n)*n*(n+1)}{\(n+2)*(n+3)}$$
+> > ## Solution
+> >
+> > $$
+\begin{align*}
+\sum_{n=1}^{\infty}\left|\frac{(n^2+n)}{(n+2)(n+3)}\right| &= \sum_{n=1}^{\infty}\frac{n^2+n}{(n+2)(n+3)} \
+&= \sum_{n=1}^{\infty}\left(\frac{1}{n+3} - \frac{1}{n+2}\right) \
+&= \sum_{n=4}^{\infty}\frac{1}{n} - \frac{1}{2} + \frac{1}{3}
+\end{align*}
+$$\
+> > Since the terms of this series do not approach zero, the series diverges.\
+> > Using the ratio test, we have:\
+> > $$
+\begin{align*}
+\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| &= \lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+2)(n+3)}\frac{(n+2)(n+3)}{n^2+n} \
+&= \lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)} \
+&= \lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)} \
+&= \lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+5n^2+4n^2+4n} \
+&= \lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+9n^2+4n} \
+&= 1
+\end{align}
+$$\
+> > Since the limit is equal to 1, the ratio test is inconclusive.\
+> > However, using the alternating series test, we can show that the series converges. We have:\
+> > $$\frac{(n^2+n)}{(n+2)*((n+3)}>0 for all $$n \in \mathbb{N}$$,\
+> > $$a_{n+1} \le a_{n} for all n \ge 1$$.\
+> > Therefore, the series converges by the alternating series test.\
+> > Since the series $$\sum_{n=1}^{\infty}\left|\frac{(n^2+n)}{(n+2)(n+3)}\right|$$ diverges,\
+> >the original series\
+> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn*(n+1)}{(n+2)*(n+3)}$$\
+> >  is conditionally convergent.\
+> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)} = \sum_{n=1}^{\infty}\frac{(-1)^n(n^2+n)}{(n+2)*(n+3)}$$\
+> > Let $$a_n = \frac{(n^2+n)}{(n+2)*(n+3)}$$. Then,\
+> > $$\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| =\
+> > $$\lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+3)(n+4)}\frac{(n+2)*(n+3)}{n^2+n}$$\
+> > $$=\lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)}$$ =\
+> > $$\lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)}$$\
+> > $$=\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+5n^2+4n^2+4n}$$\
+> > $$=\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+9n^2+4n} = 1$$\
+> > Using the alternating series test, we can determine that the series is conditionally convergent.\
+> > The absolute value series can be written as:\
+> > $$\sum_{n=1}^{\infty}\left|\frac{(n^2+n)}{(n+2)(n+3)}\right| = \sum_{n=1}^{\infty}\frac{n^2+n}{(n+2)(n+3)}$$\
+> > Using partial fractions, we can write:\
+> > $$\frac{n^2+n}{(n+2)*(n+3)} = \frac{1}{n+3} - \frac{1}{n+2}$$
+> {: .solution}
+{: .challenge}
+> (c) $$\sum_{n}{\infty}\frac{(-1^n)*n*(n+1)}{\(n+2)*(n+3)*(n+4)}$$
+> > ## Solution
+> >
+> > We will use the alternating series test to show that the series converges. We have:
+> > $$frac{(-1^n)*n*(n+1)}{\(n+2)*(n+3)*(n+4)}>0$$ for all $$n \in \mathbb{N}$$, and\
+> > $$
+\begin{align*}
+\lim_{n\rightarrow \infty}\frac{n*(n+1)}{(n+2)(n+3)(n+4)} &= \lim_{n\rightarrow \infty}\frac{n*(n+1)}{(n+2)n(n+3)(n+4)/n} \
+&= \lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)*(n+4)}n \
+&= \lim_{n\rightarrow \infty}\frac{n^2+n}{(n^4+9n^3+26n^2+24n)} \
+&= \lim_{n\rightarrow \infty}\frac{1/n+1/n^3}{1+9/n+26/n^2+24/n^3} \
+&= 0.
+\end{align}
+$$\
+> > Therefore, the series\
+> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}$$\
+> >  converges by the alternating series test.\
+> > To determine whether the series is absolutely convergent, we consider the series of absolute values:\
+> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn*(n+1)}{(n+2)*(n+3)*(n+4)}\right|$$=\
+> > $$\sum_{n=1}^{\infty}\frac{n*(n+1)}{(n+2)*(n+3)*(n+4)}$$\
+> > Using partial fractions,\
+> > $$\frac{n*(n+1)}{(n+2)*(n+3)*(n+4)}$$ = $$\frac{1}{2*(n+2)}-\frac{2}{(n+3)}+\frac{3}{2*(n+4)}\
+> > Therefore,\
+> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn*(n+1)}{(n+2)*(n+3)*(n+4)}\right|$$=\
+> > $$\sum_{n=1}^{\infty}\frac{1}{2*(n+2)}-\frac{2}{(n+3)}+\frac{3}{2*(n+4)}$$\
+> > We can rewrite this series as:\
+> > $$-\frac{1}{4}-\frac{1}{5}+\frac{3}{8}-\frac{1}{6}-\frac{1}{7}+\frac{3}{4}-\frac{1}{8}-\frac{1}{9}+\frac{3}{12}- ...$$\
+> > It can be observed that the series of absolute values does not converge. Hence, the original series is not absolutely convergent.\
+> > Therefore, the original series $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}$$ is conditionally convergent.
+> {: .solution}
+{: .challenge}
+<!-- > (d) $$\sum_{n=1}^{\infty}\frac{-1^n}{\sqrt{n}}$$
+> > ## Solution
+> >
+> > We can test the convergence of the given series using the alternating series test, which states that if a series\
+> > $$\sum_{n=1}^{\infty}(-1)^{n+1}b_n$$\
+> > satisfies the conditions:\
+> > - $$b_n > 0$$ for all $$n \in \mathbb{N}$$, and\
+> > - $$b_{n+1} \leq b_n$$ for all $$n \in \mathbb{N}$$,\
+> > then the series converges.\
+> > In the given series, we have $$b_n = \frac{1}{\sqrt{n}}$$, which is always positive.\
+> > Also, $$b_{n+1} = \frac{1}{\sqrt{n+1}} \leq \frac{1}{\sqrt{n}} = b_n$$ for all $$n \in \mathbb{N}$$.\
+> > Therefore, the alternating series test applies, and we can conclude that the series converges.\
+> > To determine whether the series is absolutely convergent or conditionally convergent, we need to consider the series\
+> >  $$\sum_{n=1}^{\infty}\left|\frac{(-1)^n}{\sqrt{n}}\right| = \sum_{n=1}^{\infty}\frac{1}{\sqrt{n}}$$.\
+> > This series diverges, since it is a $$p$$-series with\
+> >  $$p=\frac{1}{2}$$, and $$p \leq 1$$.\
+> > Therefore, the given series is not absolutely convergent, but it is conditionally convergent.
+> {: .solution}
+{: .challenge}
+> (e) $$\sum_{n=1}^{\infty}\frac{-1^n}{\sqrt{n}}$$
+> > ## Solution
+> >
+> > We can test the convergence of the given series using the alternating series test, which states that if a series\
+> > $$\sum_{n=1}^{\infty}(-1)^{n+1}b_n$$\
+> > satisfies the conditions:\
+> > - $$b_n > 0$$ for all $$n \in \mathbb{N}$$, and\
+> > - $$b_{n+1} \leq b_n$$ for all $$n \in \mathbb{N}$$,\
+> > then the series converges.\
+> > In the given series, we have $$b_n = \frac{1}{\sqrt{n}}$$, which is always positive.\
+> > Also, $$b_{n+1} = \frac{1}{\sqrt{n+1}} \leq \frac{1}{\sqrt{n}} = b_n$$ for all $$n \in \mathbb{N}$$.\
+> > Therefore, the alternating series test applies, and we can conclude that the series converges.\
+> > To determine whether the series is absolutely convergent or conditionally convergent, we need to consider the series\
+> >  $$\sum_{n=1}^{\infty}\left|\frac{(-1)^n}{\sqrt{n}}\right| = \sum_{n=1}^{\infty}\frac{1}{\sqrt{n}}$$.\
+> > This series diverges, since it is a $$p$$-series with\
+> >  $$p=\frac{1}{2}$$, and $$p \leq 1$$.\
+> > Therefore, the given series is not absolutely convergent, but it is conditionally convergent.
+> {: .solution}
+{: .challenge}
+ -->
