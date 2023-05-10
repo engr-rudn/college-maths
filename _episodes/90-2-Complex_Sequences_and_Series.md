@@ -116,10 +116,10 @@ $$,\
 $$\
 > > Since the terms of this series do not approach zero, the series diverges.<br>
 > > Using the ratio test, we have:<br>
-> > $$\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| &= \lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+2)(n+3)}\frac{(n+2)(n+3)}{n^2+n} <br>
-> > $$\lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)}
-> > $$\lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)}<br>
-> > $$\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+5n^2+4n^2+4n} 
+> > $$\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| = \lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+2)(n+3)}\frac{(n+2)(n+3)}{n^2+n}$$ <br>
+> > $$\lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)}$$
+> > $$\lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)}$$<br>
+> > $$\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+5n^2+4n^2+4n}$$ 
 > > $$\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+9n^2+4n}= 1$$<br>
 > > Since the limit is equal to 1, the ratio test is inconclusive.<br>
 > > However, using the alternating series test, we can show that the series converges. We have:<br>
