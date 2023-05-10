@@ -209,7 +209,7 @@ $$\
 > {: .solution}
 {: .challenge}
 > ## Exercises 10.3.2 
-> 1. The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test. Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. Show that $$\left|c_{n}\right | \ge 1$$, so that $$\sum_{n=0}^{\infty}c_{n}$$ diverges.
+> 1. The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test. Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. Show that $$\left|c_{n}\right| \ge 1$$, so that $$\sum_{n=0}^{\infty}c_{n}$$ diverges.
 >
 > > ## Solution
 > >
