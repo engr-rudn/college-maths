@@ -154,7 +154,7 @@ $$\
 > > ## Solution
 > >
 > > We will use the alternating series test to show that the series converges. We have:\
-> > $$\frac{(-1)^nn(n+1)}{\(n+2)(n+3)(n+4)}>0$$ for all $$n \in \mathbb{N}$$, and\
+> > $$\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}>0$$ for all $$n \in \mathbb{N}, and$$\
 > > $$\lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)(n+3)(n+4)} = $$\ 
 > > $$\lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)(n+4)/n}= $$\ 
 > > $$ \lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)(n+4)}n= $$\ 
