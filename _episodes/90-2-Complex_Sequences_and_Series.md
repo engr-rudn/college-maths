@@ -171,42 +171,39 @@ $$\
 > > Therefore, the original series $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}$$ is conditionally convergent.
 > {: .solution}
 {: .challenge}
-<!-- > (d) $$\sum_{n=1}^{\infty}\frac{-1^n}{\sqrt{n}}$$
+> (e) $$\sum_{n}{\infty}\frac{(-1^n)(n+a)(n+b)}{\(n+c)(n+d)(n+e)}$$
+> where a, b, c, d and e are real numbers and none of c, d or e is a negative integer (but e is not necessarily the base of the natural logarithm).
 > > ## Solution
 > >
-> > We can test the convergence of the given series using the alternating series test, which states that if a series\
-> > $$\sum_{n=1}^{\infty}(-1)^{n+1}b_n$$\
-> > satisfies the conditions:\
-> > - $$b_n > 0$$ for all $$n \in \mathbb{N}$$, and\
-> > - $$b_{n+1} \leq b_n$$ for all $$n \in \mathbb{N}$$,\
-> > then the series converges.\
-> > In the given series, we have $$b_n = \frac{1}{\sqrt{n}}$$, which is always positive.\
-> > Also, $$b_{n+1} = \frac{1}{\sqrt{n+1}} \leq \frac{1}{\sqrt{n}} = b_n$$ for all $$n \in \mathbb{N}$$.\
-> > Therefore, the alternating series test applies, and we can conclude that the series converges.\
-> > To determine whether the series is absolutely convergent or conditionally convergent, we need to consider the series\
-> >  $$\sum_{n=1}^{\infty}\left|\frac{(-1)^n}{\sqrt{n}}\right| = \sum_{n=1}^{\infty}\frac{1}{\sqrt{n}}$$.\
-> > This series diverges, since it is a $$p$$-series with\
-> >  $$p=\frac{1}{2}$$, and $$p \leq 1$$.\
-> > Therefore, the given series is not absolutely convergent, but it is conditionally convergent.
+> >We will use the alternating series test to show that the series converges. We have:<br>
+> >  $$\frac{(-1)^n(n+a)(n+b)}{(n+c)(n+d)(n+e)}>0$$ for all $$n \in \mathbb{N}$$,<br>
+> > and <br>
+> > $$\lim_{n\rightarrow \infty}\frac{(n+a)(n+b)}{(n+c)(n+d)(n+e)}$$<br>
+> > $$=\lim_{n\rightarrow \infty}\frac{n^2+(a+b)n+ab}{n^3+(c+d+e)n^2+(cd+ce+de)n+cde}$$<br>
+> >= \lim_{n\rightarrow \infty}\frac{1+\frac{a+b}{n}+\frac{ab}{n^2}}{1+\frac{c+d+e}{n}+\frac{cd+ce+de}{n^2}+\frac{cde}{n^3}} = 0.$$<br>
+> >Therefore, the series $$\sum_{n=1}^{\infty}\frac{(-1)^n(n+a)(n+b)}{(n+c)(n+d)(n+e)}$$<br>
+> >converges by the alternating series test.<br>
+> > To determine whether the series is absolutely convergent, we consider the series of absolute values:<br>
+> >$$\sum_{n=1}{\infty}\left|\frac{(-1^n)(n+a)(n+b)}{\(n+c)(n+d)(n+e)}\right|=\sum_{n}{\infty}\frac{\left|(n+a)\right|\left|(n+b)\right|}{\left|\(n+c)\right|\left|(n+d)\right|\left|(n+e)\right|}$$<br>
+> >Using the comparison test with the series $$\sum_{n=1}^{\infty}\frac{1}{n^3}$$, we have:<br>
+> >$$\frac{\left|(n+a)\right|\left|(n+b)\right|}{\left|\(n+c)\right|\left|(n+d)\right|\left|(n+e)\right|} \le \frac{(n+\left|a\right|)\frac{(n+\left|b\right|)}{n^3}$$<br>
+> >Since $$\sum_{n=1}^{\infty}\frac{(n+|a|)(n+|b|)}{n^3}$$ converges (it is a convergent p-series with $$p=3>1$$),<br>
+> >the series $$\sum_{n=1}^{\infty}\frac{|n+a||n+b|}{|n+c||n+d||n+e|}$$ converges absolutely,<br>
+> >and hence the original series $$\sum_{n=1}^{\infty}\frac{(-1)^n*(n+a)(n+b)}{(n+c)(n+d)*(n+e)}$$<br>
+> >is absolutely convergent.
+> >Therefore, the original series $$\sum_{n=1}^{\infty}\frac{(-1)^n*(n+a)(n+b)}{(n+c)(n+d)*(n+e)}$$ is convergent, and it is also absolutely convergent.
 > {: .solution}
 {: .challenge}
-> (e) $$\sum_{n=1}^{\infty}\frac{-1^n}{\sqrt{n}}$$
+> (g) $$\sum_{n=1}{\infty}\frac{1}{\(n+i)}$$
+> where a, b, c, d and e are real numbers and none of c, d or e is a negative integer 
 > > ## Solution
 > >
-> > We can test the convergence of the given series using the alternating series test, which states that if a series\
-> > $$\sum_{n=1}^{\infty}(-1)^{n+1}b_n$$\
-> > satisfies the conditions:\
-> > - $$b_n > 0$$ for all $$n \in \mathbb{N}$$, and\
-> > - $$b_{n+1} \leq b_n$$ for all $$n \in \mathbb{N}$$,\
-> > then the series converges.\
-> > In the given series, we have $$b_n = \frac{1}{\sqrt{n}}$$, which is always positive.\
-> > Also, $$b_{n+1} = \frac{1}{\sqrt{n+1}} \leq \frac{1}{\sqrt{n}} = b_n$$ for all $$n \in \mathbb{N}$$.\
-> > Therefore, the alternating series test applies, and we can conclude that the series converges.\
-> > To determine whether the series is absolutely convergent or conditionally convergent, we need to consider the series\
-> >  $$\sum_{n=1}^{\infty}\left|\frac{(-1)^n}{\sqrt{n}}\right| = \sum_{n=1}^{\infty}\frac{1}{\sqrt{n}}$$.\
-> > This series diverges, since it is a $$p$$-series with\
-> >  $$p=\frac{1}{2}$$, and $$p \leq 1$$.\
-> > Therefore, the given series is not absolutely convergent, but it is conditionally convergent.
+> > We will use the limit comparison test to determine the convergence of the series $$\sum_{n=1}^{\infty}\frac{1}{n+i}$$.<br>
+> >Let $$a_n = \frac{1}{n+i}$$. We will compare this series with the harmonic series, $$b_n = \frac{1}{n}$$.<br>
+> >We have:<br>
+> >$$\lim_{n\rightarrow \infty}\frac{a_n}{b_n} = \lim_{n\rightarrow \infty}\frac{\frac{1}{n+i}}{\frac{1}{n}}$$<br>
+> >$$\lim_{n\rightarrow \infty}\frac{n}{n+i}= 1$$<br>.
+> >Since $$\sum_{n=1}^{\infty}\frac{1}{n}$$ is a divergent series, the limit comparison test implies that $$\sum_{n=1}^{\infty}\frac{1}{n+i}$$ is also a divergent series.<br>
+> >Therefore, the series $$\sum_{n=1}^{\infty}\frac{1}{n+i}$$ is divergent.
 > {: .solution}
 {: .challenge}
- -->
