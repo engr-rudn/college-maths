@@ -154,12 +154,12 @@ $$\
 > > ## Solution
 > >
 > > We will use the alternating series test to show that the series converges. We have:\
-> > $$\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}>0$$ for all $$n \in \mathbb{N}, and$$\
-> > $$\lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)(n+3)(n+4)} = $$\ 
-> > $$\lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)(n+4)/n}= $$\ 
-> > $$ \lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)(n+4)}n= $$\ 
-> > $$\lim_{n\rightarrow \infty}\frac{n^2+n}{(n^4+9n^3+26n^2+24n)}= $$\ 
-> > $$\lim_{n\rightarrow \infty}\frac{1/n+1/n^3}{1+9/n+26/n^2+24/n^3} = 0$$.\
+> > $$\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}>0$$ for all $$n \in \mathbb{N}, and$$
+> > $$\lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)(n+3)(n+4)} = $$
+> > $$\lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)(n+4)/n}= $$
+> > $$ \lim_{n\rightarrow \infty}\frac{n(n+1)}{(n+2)n(n+3)(n+4)}n= $$
+> > $$\lim_{n\rightarrow \infty}\frac{n^2+n}{(n^4+9n^3+26n^2+24n)}= $$
+> > $$\lim_{n\rightarrow \infty}\frac{1/n+1/n^3}{1+9/n+26/n^2+24/n^3} = 0$$.
 > > Therefore, the series\
 > > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}$$\
 > >  converges by the alternating series test.\
