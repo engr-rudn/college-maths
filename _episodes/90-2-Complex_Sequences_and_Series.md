@@ -85,7 +85,7 @@ $$,\
    |b_n - b_m|)
    $$.
 > ## Exercises 10.2.6 Test the following series for convergence. In each case determine whether the series is absolutely convergent, conditionally convergent or divergent.
-> (a) $$\sum_{n}{\infty}\frac{-1^n}{\sqrt{n}}
+> (a) $$\sum_{n}{\infty}\frac{-1^n}{\sqrt{n}}$$
 > > ## Solution
 > >
 > {: .solution}
