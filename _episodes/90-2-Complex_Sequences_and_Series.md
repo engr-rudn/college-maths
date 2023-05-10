@@ -88,19 +88,19 @@ $$,\
 > (a) $$\sum_{n=1}^{\infty}\frac{-1^n}{\sqrt{n}}$$
 > > ## Solution
 > >
-> > We can test the convergence of the given series using the alternating series test, which states that if a series\
-> > $$\sum_{n=1}^{\infty}(-1)^{n+1}b_n$$\
-> > satisfies the conditions:\
-> > - $$b_n > 0$$ for all $$n \in \mathbb{N}$$, and\
-> > - $$b_{n+1} \leq b_n$$ for all $$n \in \mathbb{N}$$,\
-> > then the series converges.\
-> > In the given series, we have $$b_n = \frac{1}{\sqrt{n}}$$, which is always positive.\
-> > Also, $$b_{n+1} = \frac{1}{\sqrt{n+1}} \leq \frac{1}{\sqrt{n}} = b_n$$ for all $$n \in \mathbb{N}$$.\
-> > Therefore, the alternating series test applies, and we can conclude that the series converges.\
-> > To determine whether the series is absolutely convergent or conditionally convergent, we need to consider the series\
-> >  $$\sum_{n=1}^{\infty}\left|\frac{(-1)^n}{\sqrt{n}}\right| = \sum_{n=1}^{\infty}\frac{1}{\sqrt{n}}$$.\
-> > This series diverges, since it is a $$p$$-series with\
-> >  $$p=\frac{1}{2}$$, and $$p \leq 1$$.\
+> > We can test the convergence of the given series using the alternating series test, which states that if a series<br>
+> > $$\sum_{n=1}^{\infty}(-1)^{n+1}b_n$$<br>
+> > satisfies the conditions:<br>
+> > - $$b_n > 0$$ for all $$n \in \mathbb{N}$$, and<br>
+> > - $$b_{n+1} \leq b_n$$ for all $$n \in \mathbb{N}$$,<br>
+> > then the series converges.<br>
+> > In the given series, we have $$b_n = \frac{1}{\sqrt{n}}$$, which is always positive.<br>
+> > Also, $$b_{n+1} = \frac{1}{\sqrt{n+1}} \leq \frac{1}{\sqrt{n}} = b_n$$ for all $$n \in \mathbb{N}$$.<br>
+> > Therefore, the alternating series test applies, and we can conclude that the series converges.<br>
+> > To determine whether the series is absolutely convergent or conditionally convergent, we need to consider the series<br>
+> >  $$\sum_{n=1}^{\infty}\left|\frac{(-1)^n}{\sqrt{n}}\right| = \sum_{n=1}^{\infty}\frac{1}{\sqrt{n}}$$.<br>
+> > This series diverges, since it is a $$p$$-series with<br>
+> >  $$p=\frac{1}{2}$$, and $$p \leq 1$$.<br>
 > > Therefore, the given series is not absolutely convergent, but it is conditionally convergent.
 > {: .solution}
 {: .challenge}
