@@ -132,7 +132,7 @@ $$\
 > >  is conditionally convergent.<br>
 > > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)} = \sum_{n=1}^{\infty}\frac{(-1)^n(n^2+n)}{(n+2)(n+3)}$$<br>
 > > Let $$a_n = \frac{(n^2+n)}{(n+2)(n+3)}$$. Then,<br>
-> > $$\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| =<br>
+> > $$\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| =$$<br>
 > > $$\lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+3)(n+4)}\frac{(n+2)(n+3)}{n^2+n}$$<br>
 > > $$=\lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)}$$ =<br>
 > > $$\lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)}$$<br>
@@ -164,7 +164,7 @@ $$\
 > > Using partial fractions,<br> 
 > > $$\frac{n(n+1)}{(n+2)(n+3)(n+4)}= \frac{1}{2(n+2)}-\frac{2}{(n+3)}+\frac{3}{2(n+4)}$$<br>
 > > Therefore,<br>
-> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}\right|$$=$$\sum_{n=1}^{\infty}\frac{1}{2(n+2)}-\frac{2}{(n+3)}+\frac{3}{2(n+4)}$$<br>
+> > $$\sum_{n=1}^{\infty}\left|\frac{(-1)^nn(n+1)}{(n+2)(n+3)(n+4)}\right|=\sum_{n=1}^{\infty}\frac{1}{2(n+2)}-\frac{2}{(n+3)}+\frac{3}{2(n+4)}$$<br>
 > > We can rewrite this series as:<br>
 > > $$-\frac{1}{4}-\frac{1}{5}+\frac{3}{8}-\frac{1}{6}-\frac{1}{7}+\frac{3}{4}-\frac{1}{8}-\frac{1}{9}+\frac{3}{12}- ...$$<br>
 > > It can be observed that the series of absolute values does not converge. Hence, the original series is not absolutely convergent.<br>
