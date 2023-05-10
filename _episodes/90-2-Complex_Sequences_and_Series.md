@@ -124,7 +124,7 @@ $$\
 > > Since the limit is equal to 1, the ratio test is inconclusive.<br>
 > > However, using the alternating series test, we can show that the series converges. We have:<br>
 > > $$\frac{(n^2+n)}{(n+2)*((n+3)}>0$$ for all $$n \in \mathbb{N}$$,<br>
-> > $$a_{n+1} \le a_{n} for all n \ge 1$$.<br>
+> > $$a_{n+1} \le a_{n}$$ for all $$n \ge 1$$.<br>
 > > Therefore, the series converges by the alternating series test.<br>
 > > Since the series $$\sum_{n=1}^{\infty}\left|\frac{(n^2+n)}{(n+2)(n+3)}\right|$$ diverges,<br>
 > >the original series<br>
