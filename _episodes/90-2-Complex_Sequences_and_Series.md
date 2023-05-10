@@ -218,10 +218,10 @@ $$\
 > > Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. That is,<br>
 > >$$\sum_{n=0}^{\infty}c_{n} = \sum_{n=0}^{\infty}\left(\frac{(-1)^n}{\sqrt{n+1}}\right) \left(\frac{(-1)^n}{\sqrt{n+1}}\right)<br>
 > > $$\sum_{n=0}^{\infty}\frac{1}{n+1}.$$<br>
-> >Now, consider $$n \geq 1$$. Then, $$n+1 \geq 2$$, so $$\frac{1}{n+1} \leq \frac{1}{2}$$.<br>
+> >Now, consider $$n \ge 1$$. Then, $$n+1 \ge 2$$, so $$\frac{1}{n+1} \le \frac{1}{2}$$.<br>
 > >Therefore, we have<br>
 > >$$\left∣c_{n}\right|=\left|\frac{1}{n+1} \ge \frac{1}{n+1} \ge \frac{1}{2},$$<br>
-> >since $$n+1 \geq 2$$. Hence, $$\sum_{n=0}^{\infty}c_{n}$$ diverges by the Comparison Test.
+> >since $$n+1 \ge 2$$. Hence, $$\sum_{n=0}^{\infty}c_{n}$$ diverges by the Comparison Test.
 > {: .solution}
 {: .challenge}
 > 3.Prove Mertens’ theorem. Let the series  $$\sum_{n=0}^{\infty}a_{n}$$ and    $$\sum_{n=0}^{\infty}b_{n}$$ be convergent, let  $$\sum_{n=0}^{\infty}a_{n}=A$$ 
