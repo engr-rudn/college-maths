@@ -209,7 +209,7 @@ $$\
 > {: .solution}
 {: .challenge}
 > ## Exercises 10.3.2 
-> 1. The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz\’s test. Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$.<br>
+> 1.The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test. Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$.<br>
 > Show that $$\left|c_{n}\right| \ge 1$$, so that $$\sum_{n=0}^{\infty}c_{n}$$ diverges.
 >
 > > ## Solution
@@ -224,7 +224,7 @@ $$\
 > >since $$n+1 \geq 2$$. Hence, $$\sum_{n=0}^{\infty}c_{n}$$ diverges by the Comparison Test.
 > {: .solution}
 {: .challenge}
-> 3. Prove Mertens’ theorem. Let the series  $$\sum_{n=0}^{\infty}a_{n}$$ and    $$\sum_{n=0}^{\infty}b_{n}$$ be convergent, let  $$\sum_{n=0}^{\infty}a_{n}=A$$ 
+> 3.Prove Mertens’ theorem. Let the series  $$\sum_{n=0}^{\infty}a_{n}$$ and    $$\sum_{n=0}^{\infty}b_{n}$$ be convergent, let  $$\sum_{n=0}^{\infty}a_{n}=A$$ 
  and     $$\sum_{n=0}^{\infty}b_{n}=B$$. Assume that one of the series, let us say the first, is absolutely convergent. Then the Cauchy product is convergent and its sum is AB.
 Hint. Let $$A_{n}  = \sum_{k=0}^{n}a_{k}$$, $$B_{n}  = \sum_{k=0}^{n}b_{k}$$ ,$$c_{n}  = \sum_{k=0}^{n}a_{k}b_{n-k}$$, $$C_{n}  = \sum_{k=0}^{n}c_{k}$$ Show that $$Cn =  \sum_{k=0}^{n}a_{k}B_{n-k}$$  and use this to estimate $$C_{n} - B\sum_{k=0}^{n}a_{k}$$ for large n.
 >
