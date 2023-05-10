@@ -232,7 +232,7 @@ Hint. Let $$A_{n}  = \sum_{k=0}^{n}a_{k}$$, $$B_{n}  = \sum_{k=0}^{n}b_{k}$$ ,$$
 > > We are given two convergent series $$\sum_{n=0}^{\infty} a_n = A$$ and $$\sum_{n=0}^{\infty} b_n = B$$, where the first series is absolutely convergent. Let $$A_n = \sum_{k=0}^{n} a_k$$ and $$B_n = \sum_{k=0}^{n} b_k$$. We define the Cauchy product of the two series as $$\sum_{n=0}^{\infty} c_n$$ where $$c_n = \sum_{k=0}^{n} a_k b_{n-k}$$, and $$C_n = \sum_{k=0}^{n} c_k$$. Our goal is to show that $$C = AB$$.<br>
 > >First, note that we can express $$C_n$$ as $$C_n = \sum_{k=0}^{n} a_k \sum_{j=0}^{n-k} b_j = \sum_{k=0}^{n} a_k B_{n-k}$$, using the definition of $$B_n$$.<br>
 > >Next, we can estimate $$C_n - AB$$ as follows:<br>
-> >$$C_n - AB &= \sum_{k=0}^{n} a_k B_{n-k} - AB$$<br>
+> >$$C_{n} - AB = \sum_{k=0}^{n} a_k B_{n-k} - AB$$<br>
 > >$$= \sum_{k=0}^{n} a_k B_{n-k} - \sum_{k=0}^{n} a_k B + \sum_{k=0}^{n} a_k B - AB $$<br>
 > >$$= \sum_{k=0}^{n} a_k (B_{n-k} - B) + (\sum_{k=0}^{n} a_k)(B - B) $$<br>
 > >$$= \sum_{k=0}^{n} a_k (B_{n-k} - B) $$<br>
