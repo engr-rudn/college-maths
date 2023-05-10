@@ -196,6 +196,7 @@ $$\
 {: .challenge}
 > (g) $$\sum_{n=1}{\infty}\frac{1}{\(n+i)}$$
 > where a, b, c, d and e are real numbers and none of c, d or e is a negative integer 
+>
 > > ## Solution
 > >
 > > We will use the limit comparison test to determine the convergence of the series $$\sum_{n=1}^{\infty}\frac{1}{n+i}$$.<br>
@@ -209,6 +210,7 @@ $$\
 {: .challenge}
 > ## Exercises 10.3.2 
 > 1. The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test. Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. Show that $$\left|c_{n}\right | \ge 1$$, so that $$\sum_{n=0}^{\infty}c_{n}$$ diverges.
+>
 > > ## Solution
 > >
 > > The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test.<br>
@@ -224,6 +226,7 @@ $$\
 > 3. Prove Mertens’ theorem. Let the series  $$\sum_{n=0}^{\infty}a_{n}$$ and    $$\sum_{n=0}^{\infty}b_{n}$$ be convergent, let  $$\sum_{n=0}^{\infty}a_{n}=A$$ 
  and     $$\sum_{n=0}^{\infty}b_{n}=B$$. Assume that one of the series, let us say the first, is absolutely convergent. Then the Cauchy product is convergent and its sum is AB.
 Hint. Let $$A_{n}  = \sum_{k=0}^{n}a_{k}$$, $$B_{n}  = \sum_{k=0}^{n}b_{k}$$ ,$$c_{n}  = \sum_{k=0}^{n}a_{k}b_{n-k}$$, $$C_{n}  = \sum_{k=0}^{n}c_{k}$$ Show that $$Cn =  \sum_{k=0}^{n}a_{k}B_{n-k}$$  and use this to estimate $$C_{n} - B\sum_{k=0}^{n}a_{k}$$ for large n.
+>
 > > ## Solution
 > >
 > > We are given two convergent series $$\sum_{n=0}^{\infty} a_n = A$$ and $$\sum_{n=0}^{\infty} b_n = B$$, where the first series is absolutely convergent. Let $$A_n = \sum_{k=0}^{n} a_k$$ and $$B_n = \sum_{k=0}^{n} b_k$$. We define the Cauchy product of the two series as $$\sum_{n=0}^{\infty} c_n$$ where $$c_n = \sum_{k=0}^{n} a_k b_{n-k}$$, and $$C_n = \sum_{k=0}^{n} c_k$$. Our goal is to show that $$C = AB$$.<br>
