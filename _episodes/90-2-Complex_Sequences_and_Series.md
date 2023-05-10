@@ -207,3 +207,37 @@ $$\
 > >Therefore, the series $$\sum_{n=1}^{\infty}\frac{1}{n+i}$$ is divergent.
 > {: .solution}
 {: .challenge}
+> ## Exercises 10.3.2 
+> 1. The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test. Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. Show that $$\left|c_{n}\right | \ge 1$$, so that $$\sum_{n=0}^{\infty}c_{n}$$ diverges.
+> > ## Solution
+> >
+> > The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test.<br>
+> > Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. That is,<br>
+> >$$\sum_{n=0}^{\infty}c_{n} = \sum_{n=0}^{\infty}\left(\frac{(-1)^n}{\sqrt{n+1}}\right) \left(\frac{(-1)^n}{\sqrt{n+1}}\right)<br>
+> > $$\sum_{n=0}^{\infty}\frac{1}{n+1}.$$<br>
+> >Now, consider $$n \geq 1$$. Then, $$n+1 \geq 2$$, so $$\frac{1}{n+1} \leq \frac{1}{2}$$.<br>
+> >Therefore, we have<br>
+> >$$\left∣c_{n}\right|=\left|\frac{1}{n+1} \ge \frac{1}{n+1} \ge \frac{1}{2},$$<br>
+> >since $$n+1 \geq 2$$. Hence, $$\sum_{n=0}^{\infty}c_{n}$$ diverges by the Comparison Test.
+> {: .solution}
+{: .challenge}
+> 3. Prove Mertens’ theorem. Let the series  $$\sum_{n=0}^{\infty}a_{n}$$ and    $$\sum_{n=0}^{\infty}b_{n}$$ be convergent, let  $$\sum_{n=0}^{\infty}a_{n}=A$$ 
+ and     $$\sum_{n=0}^{\infty}b_{n}=B$$. Assume that one of the series, let us say the first, is absolutely convergent. Then the Cauchy product is convergent and its sum is AB.
+Hint. Let $$A_{n}  = \sum_{k=0}^{n}a_{k}$$, $$B_{n}  = \sum_{k=0}^{n}b_{k}$$ ,$$c_{n}  = \sum_{k=0}^{n}a_{k}b_{n-k}$$, $$C_{n}  = \sum_{k=0}^{n}c_{k}$$ Show that $$Cn =  \sum_{k=0}^{n}a_{k}B_{n-k}$$  and use this to estimate $$C_{n} - B\sum_{k=0}^{n}a_{k}$$ for large n.
+> > ## Solution
+> >
+> > We are given two convergent series $$\sum_{n=0}^{\infty} a_n = A$$ and $$\sum_{n=0}^{\infty} b_n = B$$, where the first series is absolutely convergent. Let $$A_n = \sum_{k=0}^{n} a_k$$ and $$B_n = \sum_{k=0}^{n} b_k$$. We define the Cauchy product of the two series as $$\sum_{n=0}^{\infty} c_n$$ where $$c_n = \sum_{k=0}^{n} a_k b_{n-k}$$, and $$C_n = \sum_{k=0}^{n} c_k$$. Our goal is to show that $$C = AB$$.<br>
+> >First, note that we can express $$C_n$$ as $$C_n = \sum_{k=0}^{n} a_k \sum_{j=0}^{n-k} b_j = \sum_{k=0}^{n} a_k B_{n-k}$$, using the definition of $$B_n$$.<br>
+> >Next, we can estimate $$C_n - AB$$ as follows:<br>
+> >$$C_n - AB &= \sum_{k=0}^{n} a_k B_{n-k} - AB$$<br>
+> >$$= \sum_{k=0}^{n} a_k B_{n-k} - \sum_{k=0}^{n} a_k B + \sum_{k=0}^{n} a_k B - AB $$<br>
+> >$$= \sum_{k=0}^{n} a_k (B_{n-k} - B) + (\sum_{k=0}^{n} a_k)(B - B) $$<br>
+> >$$= \sum_{k=0}^{n} a_k (B_{n-k} - B) $$<br>
+> >$$= \sum_{k=0}^{n} a_k \sum_{j=n-k+1}^{\infty} b_j $$<br>
+> >$$= \sum_{k=0}^{n} a_k \sum_{j=0}^{\infty} b_{n-k+j+1}$$<br>
+> >Since $$\sum_{n=0}^{\infty} b_n = B$$ is convergent, we have $$\lim_{n\to\infty} B_n = B$$, so for any $$\epsilon \gt 0$$, there exists an $$N$$ such that for all $$n \gt N$$, $$|B_n - B| \lt \epsilon$$. Then, for $$n > 2N$$, we have
+> >$$\left|C_n - AB\right| = \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{\infty} b_{n-k+j+1} - AB \right|<br>
+> >= \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{N} b_{n-k+j+1} + \sum_{k=0}^{n} a_k \sum_{j=N+1}^{\infty} b_{n-k+j+1} - AB \right|<br>
+> >$$\leq \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{N} b_{n-k+j+1} - AB_n \right| + \left|\sum_{k=0}^{n} a_k \sum_{j=N+1}^{\infty} b_{n-k+j+1} \right|$$
+> {: .solution}
+{: .challenge}
