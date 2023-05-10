@@ -114,39 +114,34 @@ $$,\
 &= \sum_{n=4}^{\infty}\frac{1}{n} - \frac{1}{2} + \frac{1}{3}
 \end{align*}
 $$\
-> > Since the terms of this series do not approach zero, the series diverges.\
-> > Using the ratio test, we have:\
-> > $$
-\begin{align*}
-\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| &= \lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+2)(n+3)}\frac{(n+2)(n+3)}{n^2+n} \
-&= \lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)} \
-&= \lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)} \
-&= \lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+5n^2+4n^2+4n} \
-&= \lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+9n^2+4n} \
-&= 1
-\end{align}
-$$\
-> > Since the limit is equal to 1, the ratio test is inconclusive.\
-> > However, using the alternating series test, we can show that the series converges. We have:\
-> > $$\frac{(n^2+n)}{(n+2)*((n+3)}>0 for all $$n \in \mathbb{N}$$,\
-> > $$a_{n+1} \le a_{n} for all n \ge 1$$.\
-> > Therefore, the series converges by the alternating series test.\
-> > Since the series $$\sum_{n=1}^{\infty}\left|\frac{(n^2+n)}{(n+2)(n+3)}\right|$$ diverges,\
-> >the original series\
-> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn*(n+1)}{(n+2)*(n+3)}$$\
-> >  is conditionally convergent.\
-> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)} = \sum_{n=1}^{\infty}\frac{(-1)^n(n^2+n)}{(n+2)*(n+3)}$$\
-> > Let $$a_n = \frac{(n^2+n)}{(n+2)*(n+3)}$$. Then,\
-> > $$\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| =\
-> > $$\lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+3)(n+4)}\frac{(n+2)*(n+3)}{n^2+n}$$\
-> > $$=\lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)}$$ =\
-> > $$\lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)}$$\
-> > $$=\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+5n^2+4n^2+4n}$$\
-> > $$=\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+9n^2+4n} = 1$$\
-> > Using the alternating series test, we can determine that the series is conditionally convergent.\
-> > The absolute value series can be written as:\
-> > $$\sum_{n=1}^{\infty}\left|\frac{(n^2+n)}{(n+2)(n+3)}\right| = \sum_{n=1}^{\infty}\frac{n^2+n}{(n+2)(n+3)}$$\
-> > Using partial fractions, we can write:\
+> > Since the terms of this series do not approach zero, the series diverges.<br>
+> > Using the ratio test, we have:<br>
+> > $$\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| &= \lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+2)(n+3)}\frac{(n+2)(n+3)}{n^2+n} <br>
+> > $$\lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)}
+> > $$\lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)}<br>
+> > $$\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+5n^2+4n^2+4n} 
+> > $$\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+9n^2+4n}= 1$$<br>
+> > Since the limit is equal to 1, the ratio test is inconclusive.<br>
+> > However, using the alternating series test, we can show that the series converges. We have:<br>
+> > $$\frac{(n^2+n)}{(n+2)*((n+3)}>0 for all $$n \in \mathbb{N}$$,<br>
+> > $$a_{n+1} \le a_{n} for all n \ge 1$$.<br>
+> > Therefore, the series converges by the alternating series test.<br>
+> > Since the series $$\sum_{n=1}^{\infty}\left|\frac{(n^2+n)}{(n+2)(n+3)}\right|$$ diverges,<br>
+> >the original series<br>
+> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn*(n+1)}{(n+2)*(n+3)}$$<br>
+> >  is conditionally convergent.<br>
+> > $$\sum_{n=1}^{\infty}\frac{(-1)^nn(n+1)}{(n+2)(n+3)} = \sum_{n=1}^{\infty}\frac{(-1)^n(n^2+n)}{(n+2)*(n+3)}$$<br>
+> > Let $$a_n = \frac{(n^2+n)}{(n+2)*(n+3)}$$. Then,<br>
+> > $$\lim_{n\rightarrow \infty}\left|\frac{a_{n+1}}{a_n}\right| =<br>
+> > $$\lim_{n\rightarrow \infty}\frac{(n+1)^2+(n+1)}{(n+3)(n+4)}\frac{(n+2)*(n+3)}{n^2+n}$$<br>
+> > $$=\lim_{n\rightarrow \infty}\frac{(n^2+2n+1+n+1)(n+2)}{(n^2+n)(n+4)}$$ =<br>
+> > $$\lim_{n\rightarrow \infty}\frac{(n^2+3n+2)(n+2)}{(n^2+n)(n+4)}$$<br>
+> > $$=\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+5n^2+4n^2+4n}$$<br>
+> > $$=\lim_{n\rightarrow \infty}\frac{n^3+5n^2+8n+4}{n^3+9n^2+4n} = 1$$<br>
+> > Using the alternating series test, we can determine that the series is conditionally convergent.<br>
+> > The absolute value series can be written as:<br>
+> > $$\sum_{n=1}^{\infty}\left|\frac{(n^2+n)}{(n+2)(n+3)}\right| = \sum_{n=1}^{\infty}\frac{n^2+n}{(n+2)(n+3)}$$<br>
+> > Using partial fractions, we can write:<br>
 > > $$\frac{n^2+n}{(n+2)*(n+3)} = \frac{1}{n+3} - \frac{1}{n+2}$$
 > {: .solution}
 {: .challenge}
