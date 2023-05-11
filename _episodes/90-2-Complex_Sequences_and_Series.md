@@ -214,15 +214,26 @@ $$\
 >
 > > ## Solution
 > >
-> > The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test.<br>
-> > Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. That is,<br>
-> >$$\sum_{n=0}^{\infty}c_{n} = \sum_{n=0}^{\infty}\left(\frac{(-1)^n}{\sqrt{n+1}}\right) \left(\frac{(-1)^n}{\sqrt{n+1}}\right)
-> >
-> > $$\sum_{n=0}^{\infty}\frac{1}{n+1}.$$<br>
-> >Now, consider $$n \ge 1$$. Then, $$n+1 \ge 2$$, so $$\frac{1}{n+1} \le \frac{1}{2}$$.<br>
-> >Therefore, we have<br>
-> > $$\left∣c_{n}\right|=\left|\frac{1}{n+1} \ge \frac{1}{n+1} \ge \frac{1}{2},$$<br>
-> >since $$n+1 \ge 2$$. Hence, $$\sum_{n=0}^{\infty}c_{n}$$ diverges by the Comparison Test.
+> > We know that the Cauchy product of two series<br>
+> > $$\sum_{n=0}^{\infty}a_{n}$$ and $$\sum_{n=0}^{\infty}b_{n}$$ is given by<br>
+> >$$\sum_{n=0}^{\infty}c_{n} ,<br>
+> >where $$c_n = \sum_{k=0}^{n}a_{k}b_{n-k}$$.<br>
+> > In this case, we have the series<br>
+> > $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}.$$<br>
+> >which converges by Leibniz's test. Its Cauchy product with itself is given by<br>
+> >$$c_n = \sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}}\frac{(-1)^{n-k}}{\sqrt{n-k+1}}$$<br>
+> >$$= \sum_{k=0}^{n}\frac{(-1)^n}{\sqrt{(k+1)(n-k+1)}} $$<br>
+> >$$= \frac{(-1)^n}{\sqrt{n+1}}\sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}\sqrt{n-k+1}} $$<br>
+> >We will show that $$|c_n| \ge 1$$ for all $$n$$ which will imply that the series $$\sum_{n=0}^{\infty}c_{n}$$ diverges.<br>
+> >First, note that $$c_0 = 1$$. For $$n>0$$, we have$$<br>
+> >$$|c_n| &= \left|\frac{(-1)^n}{\sqrt{n+1}}\sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}\sqrt{n-k+1}}\right| $$<br>
+> >$$\ge \frac{1}{\sqrt{n+1}}\left|\sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}\sqrt{n-k+1}}\right| $$<br>
+> >$$\ge \frac{1}{\sqrt{n+1}}\left|\sum_{k=0}^{n}\frac{1}{\sqrt{(n+1)(n+1)}}\right| $$<br>
+> >$$= \frac{1}{\sqrt{n+1}}\frac{n+1}{\sqrt{(n+1)(n+1)}} $$<br>
+> >$$= \frac{1}{n+1} $$<br>
+> >Therefore, $$|c_n| \ge \frac{1}{n+1} > 0$$ for all $$n>0$$.<br>
+> > We have shown that $$|c_n| \ge 1$$ for all $$n$$, so the series <br>
+> >$$\sum_{n=0}^{\infty}c_{n}$$ diverges$$.
 > {: .solution}
 {: .challenge}
 > 3.Prove Mertens’ theorem. Let the series  $$\sum_{n=0}^{\infty}a_{n}$$ and    $$\sum_{n=0}^{\infty}b_{n}$$ be convergent, let  $$\sum_{n=0}^{\infty}a_{n}=A$$ 
