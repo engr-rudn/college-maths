@@ -19,17 +19,15 @@ $$\sum_{k=1}^{5} 2k = 2(1) + 2(2) + 2(3) + 2(4) + 2(5)$$
 and the sum would equal 30.
 
 ### Arithmetic series
-* Sum to infity: $$s_\infty$$
-Proof:
->$$
+* Sum to infity: $$s_\infty$$<br>
+#### Proof:<br>
+$$
 s_n = a\; +\; a+d\;+\;a+2d\;+\;...\;+\;a+(n-2)d\;+\;a+(n-1)d
 $$
-
->$$
+$$
 s_n = a+(n-1)d\;+\;a+(n-2)d\;+\;...\;+\;a+2d\;+\;a+d\;+\;a
 $$
-
->$$
+$$
 2s = n[2a+(n-1)d]
 $$
 $$
