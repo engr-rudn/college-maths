@@ -49,14 +49,13 @@ $$
 s = \frac{n}{2}[2a+(n-1)d]
 $$
 
-The **sum of an infinite geometric series**<br>
-$$S$$ with common ratio $$r$$ and $$\lvert r\rvert < 1$$ is <br>
+The **sum of an infinite geometric series** $$S$$ with common ratio $$r$$ and $$\lvert r\rvert < 1$$ is <br>
 $$S_{\infty} = \lim_{n \to \infty} a_1 (\frac{1-r^n}{1-r}),\ \lvert r\rvert < 1$$<br>
 $$S_{\infty} = \frac{a_1}{1-r}$$
 
 ### Other summation rules
 
-$$\sum_{i=1}^{n} c = cn$$
-$$\sum_{i=1}^{n} i = \frac{n (n+1)}{2}$$
-$$\sum_{i=1}^{n} i^2 = \frac{n (n+1) (2n+1)}{6}$$
+$$\sum_{i=1}^{n} c = cn$$<br>
+$$\sum_{i=1}^{n} i = \frac{n (n+1)}{2}$$<br>
+$$\sum_{i=1}^{n} i^2 = \frac{n (n+1) (2n+1)}{6}$$<br>
 $$\sum_{i=1}^{n} i^3 = \frac{n^2 (n+1)^2}{4}$$
