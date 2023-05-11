@@ -217,6 +217,7 @@ $$\
 > > The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test.<br>
 > > Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. That is,<br>
 > >$$\sum_{n=0}^{\infty}c_{n} = \sum_{n=0}^{\infty}\left(\frac{(-1)^n}{\sqrt{n+1}}\right) \left(\frac{(-1)^n}{\sqrt{n+1}}\right)
+> >
 > > $$\sum_{n=0}^{\infty}\frac{1}{n+1}.$$<br>
 > >Now, consider $$n \ge 1$$. Then, $$n+1 \ge 2$$, so $$\frac{1}{n+1} \le \frac{1}{2}$$.<br>
 > >Therefore, we have<br>
