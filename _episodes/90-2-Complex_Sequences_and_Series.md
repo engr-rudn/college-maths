@@ -226,7 +226,7 @@ $$\
 > >$$= \frac{(-1)^n}{\sqrt{n+1}}\sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}\sqrt{n-k+1}} $$<br>
 > >We will show that $$|c_n| \ge 1$$ for all $$n$$ which will imply that the series $$\sum_{n=0}^{\infty}c_{n}$$ diverges.<br>
 > >First, note that $$c_0 = 1$$. For $$n>0$$, we have<br>
-> >$$|c_n| &= \left|\frac{(-1)^n}{\sqrt{n+1}}\sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}\sqrt{n-k+1}}\right| $$<br>
+> >$$|c_n| = \left|\frac{(-1)^n}{\sqrt{n+1}}\sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}\sqrt{n-k+1}}\right| $$<br>
 > >$$\ge \frac{1}{\sqrt{n+1}}\left|\sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}\sqrt{n-k+1}}\right| $$<br>
 > >$$\ge \frac{1}{\sqrt{n+1}}\left|\sum_{k=0}^{n}\frac{1}{\sqrt{(n+1)(n+1)}}\right| $$<br>
 > >$$= \frac{1}{\sqrt{n+1}}\frac{n+1}{\sqrt{(n+1)(n+1)}} $$<br>
