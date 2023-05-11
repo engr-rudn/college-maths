@@ -120,5 +120,5 @@ The case when the sequence is decreasing is similar and is left to the reader.
 >  7. Given the ninth term is -5 and the fifteenth term is 31, write an arithmetic explicit rule.
 >  8. Given $$a_4 = 2$$, and $$a_7 = \frac{54}{125}$$, write a geometric explicit rule.
 >  9. Find $$x$$ so that $$x$$, $$x+2$$, and $$x+3$$ are consecutive terms of a geometric sequence.
->  10. Suppose that you have been hired at an annual salary of $$30,000 and expect to receive annual increases of 3%. What will your salary be when you begin your fifth year?
+>  10. Suppose that you have been hired at an annual salary of $30,000 and expect to receive annual increases of 3%. What will your salary be when you begin your fifth year?
 {: .challenge}
