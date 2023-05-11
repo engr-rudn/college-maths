@@ -219,7 +219,7 @@ $$\
 > >$$\sum_{n=0}^{\infty}c_{n}$$ ,<br>
 > >where $$c_n = \sum_{k=0}^{n}a_{k}b_{n-k}$$.<br>
 > > In this case, we have the series<br>
-> > $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}.$$<br>
+> > $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}.$$<br>
 > >which converges by Leibniz's test. Its Cauchy product with itself is given by<br>
 > >$$c_n = \sum_{k=0}^{n}\frac{(-1)^k}{\sqrt{k+1}}\frac{(-1)^{n-k}}{\sqrt{n-k+1}}$$<br>
 > >$$= \sum_{k=0}^{n}\frac{(-1)^n}{\sqrt{(k+1)(n-k+1)}} $$<br>
