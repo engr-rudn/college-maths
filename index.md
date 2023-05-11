@@ -33,7 +33,7 @@ Calculus C includes
 
 ## Some important external links:
 
-<b><i>Youtube Links</i></b>
+<b><i>Youtube</i></b>
 
 - <a href="https://www.youtube.com/watch?v=riXcZT2ICjA" target="_blank">Introduction to limits</a>
 - <a href="https://www.youtube.com/watch?v=HfACrKJ_Y2w" target="_blank">Calculus 1 - Full College Course</a>
@@ -47,9 +47,9 @@ Calculus C includes
 
 
 
-<b><i>Other Important Materials of Mathematics  Links</i></b>
+<b><i>Important Tools for Learning Mathematics</i></b>
 
-- <a href="https://www.desmos.com/calculator" target="_blank" > Tool for drawing Graphs of equations  </a>
+- <a href="https://www.desmos.com/calculator" target="_blank" > Tool for drawing Graphs of equations  </a>
 
 
 
