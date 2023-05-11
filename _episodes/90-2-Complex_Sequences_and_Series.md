@@ -184,7 +184,7 @@ $$\
 > >Therefore, the series $$\sum_{n=1}^{\infty}\frac{(-1)^n(n+a)(n+b)}{(n+c)(n+d)(n+e)}$$<br>
 > >converges by the alternating series test.<br>
 > > To determine whether the series is absolutely convergent, we consider the series of absolute values:<br>
-> >$$\sum_{n=1}{\infty}\left|\frac{(-1^n)(n+a)(n+b)}{\(n+c)(n+d)(n+e)}\right|=\sum_{n}{\infty}\frac{\left|(n+a)\right|\left|(n+b)\right|}{\left|\(n+c)\right|\left|(n+d)\right|\left|(n+e)\right|}$$<br>
+> >$$\sum_{n=1}{\infty}\left|\frac{(-1^n)(n+a)(n+b)}{(n+c)(n+d)(n+e)}\right|=\sum_{n}{\infty}\frac{\left|(n+a)\right|\left|(n+b)\right|}{\left|(n+c)\right|\left|(n+d)\right|\left|(n+e)\right|}$$<br>
 > >Using the comparison test with the series $$\sum_{n=1}^{\infty}\frac{1}{n^3}$$, we have:<br>
 > >$$\frac{\left|(n+a)\right|\left|(n+b)\right|}{\left|\(n+c)\right|\left|(n+d)\right|\left|(n+e)\right|} \le \frac{(n+\left|b\right|)}{n^3}$$<br>
 > >Since $$\sum_{n=1}^{\infty}\frac{(n+|a|)(n+|b|)}{n^3}$$ converges (it is a convergent p-series with $$p=3>1$$),<br>
