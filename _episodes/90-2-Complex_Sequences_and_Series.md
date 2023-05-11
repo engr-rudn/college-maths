@@ -217,7 +217,7 @@ $$\
 > > We know that the Cauchy product of two series<br>
 > > $$\sum_{n=0}^{\infty}a_{n}$$ and $$\sum_{n=0}^{\infty}b_{n}$$ is given by<br>
 > >$$\sum_{n=0}^{\infty}c_{n} ,<br>
-> >where $$c_n = \sum_{k=0}^{n}a_{k}b_{n-k}$$.<br>
+> >
 > > In this case, we have the series<br>
 > > $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}.$$<br>
 > >which converges by Leibniz's test. Its Cauchy product with itself is given by<br>
