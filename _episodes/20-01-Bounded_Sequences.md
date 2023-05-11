@@ -93,31 +93,32 @@ The case when the sequence is decreasing is similar and is left to the reader.
 
 ### Examples
 
-#### Example 1
-Write an explicit rule for $$5, -7, 9, 11, 13, ...$$
-
-#### Example 2
-Determine if the following sequence converges or diverges. $$2, \frac 32, \frac 43, \frac 54, ...$$
-
-#### Example 3
-Write an explicit rule for the following sequence. $$3, 9, 17, 27, 39$$
-
-#### Example 4
-Write an explicit rule for a geometric sequence given that $$a_3 = 54$$, and $$a_6 = 2$$
-
-## Exercises
-Calculator okay, find with algebra.
-  1. Determine if the following sequences converge or diverge.
-     1. $$\frac 12, \frac 14, \frac 18, \frac{1}{16}, ...$$
-     2. $$-1,1,-1,1,-1,...$$
-     3. $$a_n = 1.3^{n-1}$$
-     4. $$a_n = \frac{1-2n}{n+1}$$
-  2. Write an explicit and recursive rule for $$-5, -2, 1, 4, ...$$
-  3. Write an explicit rule for $$\frac e2, \frac{e^2}{3}, \frac{e^3}{4}, ...$$
-  4. Write an explicit rule for $$\frac{-6}{5}, \frac{7}{15},\frac{-8}{45},\frac{1}{15},\frac{-2}{81}, ...$$
-  5. Write an explicit rule for $$2, 7, 16, 29, 46$$
-  6. Write an explicit rule $$1\frac 12, 3\frac 14, 5\frac 16, 7\frac 18, ...$$
-  7. Given the ninth term is -5 and the fifteenth term is 31, write an arithmetic explicit rule.
-  8. Given $$a_4 = 2$$, and $$a_7 = \frac{54}{125}$$, write a geometric explicit rule.
-  9. Find $$x$$ so that $$x$$, $$x+2$$, and $$x+3$$ are consecutive terms of a geometric sequence.
-  10. Suppose that you have been hired at an annual salary of $$30,000 and expect to receive annual increases of 3%. What will your salary be when you begin your fifth year?
+> #### Example 1
+> Write an explicit rule for $$5, -7, 9, 11, 13, ...$$
+{: .challenge}
+> #### Example 2
+> Determine if the following sequence converges or diverges. $$2, \frac 32, \frac 43, \frac 54, ...$$
+{: .challenge}
+> #### Example 3
+> Write an explicit rule for the following sequence. $$3, 9, 17, 27, 39$$
+{: .challenge}
+> #### Example 4
+> Write an explicit rule for a geometric sequence given that $$a_3 = 54$$, and $$a_6 = 2$$
+{: .challenge}
+> ## Exercises
+> Calculator okay, find with algebra.
+>  1. Determine if the following sequences converge or diverge.
+>  - a. $$\frac 12, \frac 14, \frac 18, \frac{1}{16}, ...$$
+>  - b. $$-1,1,-1,1,-1,...$$
+>  - c. $$a_n = 1.3^{n-1}$$
+>  - d. $$a_n = \frac{1-2n}{n+1}$$
+>  2. Write an explicit and recursive rule for $$-5, -2, 1, 4, ...$$
+>  3. Write an explicit rule for $$\frac e2, \frac{e^2}{3}, \frac{e^3}{4}, ...$$
+>  4. Write an explicit rule for $$\frac{-6}{5}, \frac{7}{15},\frac{-8}{45},\frac{1}{15},\frac{-2}{81}, ...$$
+>  5. Write an explicit rule for $$2, 7, 16, 29, 46$$
+>  6. Write an explicit rule $$1\frac 12, 3\frac 14, 5\frac 16, 7\frac 18, ...$$
+>  7. Given the ninth term is -5 and the fifteenth term is 31, write an arithmetic explicit rule.
+>  8. Given $$a_4 = 2$$, and $$a_7 = \frac{54}{125}$$, write a geometric explicit rule.
+>  9. Find $$x$$ so that $$x$$, $$x+2$$, and $$x+3$$ are consecutive terms of a geometric sequence.
+>  10. Suppose that you have been hired at an annual salary of $$30,000 and expect to receive annual increases of 3%. What will your salary be when you begin your fifth year?
+{: .challenge}
