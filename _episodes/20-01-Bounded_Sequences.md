@@ -41,15 +41,16 @@ As the spiral continues, the ratios of the numbers approach a number called the 
 $$\frac{a+b}{a} = \frac{1+\sqrt{5}}{2} \approx 1.6180$$
 ## Bounded Sequences
 Various notions of boundedness for sequences parallel the corresponding notions for sets of numbers, as defined in Sect. 2.5:
-$$\item$$ A sequence $$(a_n){n\geq 1}$$ is said to be bounded above if there exists $$K$$ such that $$a_n<K$$ for all $$n$$.
-$$\item$$ A sequence $$(a_n){n\geq 1}$$ is said to be bounded below if there exists $$K$$ such that $$a_n>K$$ for all $$n$$.
-\item A sequence $$(a_n)_{n\geq 1}$$ is said to be bounded if there exists $$K$$ such that $$|a_n|\leq K$$ for all $$n$$.
+-  A sequence $$(a_n){n\geq 1}$$ is said to be bounded above if there exists $$K$$ such that $$a_n<K$$ for all $$n$$.
+-  A sequence $$(a_n){n\geq 1}$$ is said to be bounded below if there exists $$K$$ such that $$a_n>K$$ for all $$n$$.<br>
+\item A sequence $$(a_n)_{n\geq 1}$$ is said to be bounded if there exists $$K$$ such that $$|a_n|\leq K$$ for all $$n$$.<br>
 <!-- \end{enumerate} -->
-Obviously a sequence is bounded if and only if it is both bounded above and bounded below. As usual it is sometimes convenient to write the inequality as $$-K\leq a_n\leq K$$, or using set theory as $$a_n\in [-K, K]$$.
+Obviously a sequence is bounded if and only if it is both bounded above and bounded below. As usual it is sometimes convenient to write the inequality as $$-K\leq a_n\leq K$$, or using set theory as $$a_n\in [-K, K]$$.<br>
 
-$$\textbf{Proposition 3.2}$$ A convergent sequence is bounded.
+$$\textbf{Proposition 3.2}$$ A convergent sequence is bounded.<br>
 
-$$\textbf{Proof}$$ Assume that $$\lim\limits_{n\to\infty} a_n=t$$. Apply the definition of limit with $$\varepsilon = 1$$. There exists $$N$$ such that $$|a_n-t|<1$$ for all $$n\geq N$$. But then $$|a_n|<|t|+1$$ for all $$n\geq N$$. Choose $$k=\max_{1\leq n\leq N-1} |a_n|$$ and we then have for all $$n$$ that $$|a_n|\leq K$$ where $$K=\max(k, |t|+1)$$.
+$$\textbf{Proof}$$ Assume that $$\lim\limits_{n\to\infty} a_n=t$$.<br> 
+Apply the definition of limit with $$\varepsilon = 1$$. There exists $$N$$ such that $$\left|a_n-t\right|<1$$ for all $$n\geq N$$. But then $$\left|a_n\right|<\left|t\right|+1$$ for all $$n\geq N$$. Choose $$k=\max_{1\leq n\leq N-1} \left|a_n\right|$$ and we then have for all $$n$$ that $$\left|a_n\right|\leq K$$ where $$K=\max(k, \left|t\right|+1)$$.
 
 $$\textbf{Definition}$$ The sequence $$(a_n){n\geq 1}$$ tends to infinity (or has the limit $$\infty$$), and we write $$\lim\limits{n\to\infty} a_n=\infty$$, if the following condition is satisfied:
 
