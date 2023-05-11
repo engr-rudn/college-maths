@@ -233,7 +233,7 @@ $$\
 > >$$= \frac{1}{n+1} $$<br>
 > >Therefore, $$|c_n| \ge \frac{1}{n+1} > 0$$ for all $$n>0$$.<br>
 > > We have shown that $$|c_n| \ge 1$$ for all $$n$$, so the series <br>
-> >$$\sum_{n=0}^{\infty}c_{n}$$ diverges$$.
+> >$$\sum_{n=0}^{\infty}c_{n}$$ diverges.
 > {: .solution}
 {: .challenge}
 > 3.Prove Mertens’ theorem. Let the series  $$\sum_{n=0}^{\infty}a_{n}$$ and    $$\sum_{n=0}^{\infty}b_{n}$$ be convergent, let  $$\sum_{n=0}^{\infty}a_{n}=A$$ 
