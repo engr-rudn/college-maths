@@ -180,7 +180,7 @@ $$\
 > > and <br>
 > > $$\lim_{n\rightarrow \infty}\frac{(n+a)(n+b)}{(n+c)(n+d)(n+e)}$$<br>
 > > $$=\lim_{n\rightarrow \infty}\frac{n^2+(a+b)n+ab}{n^3+(c+d+e)n^2+(cd+ce+de)n+cde}$$<br>
-> >= \lim_{n\rightarrow \infty}\frac{1+\frac{a+b}{n}+\frac{ab}{n^2}}{1+\frac{c+d+e}{n}+\frac{cd+ce+de}{n^2}+\frac{cde}{n^3}} = 0.$$<br>
+> >$$= \lim_{n\rightarrow \infty}\frac{1+\frac{a+b}{n}+\frac{ab}{n^2}}{1+\frac{c+d+e}{n}+\frac{cd+ce+de}{n^2}+\frac{cde}{n^3}} = 0.$$<br>
 > >Therefore, the series $$\sum_{n=1}^{\infty}\frac{(-1)^n(n+a)(n+b)}{(n+c)(n+d)(n+e)}$$<br>
 > >converges by the alternating series test.<br>
 > > To determine whether the series is absolutely convergent, we consider the series of absolute values:<br>
