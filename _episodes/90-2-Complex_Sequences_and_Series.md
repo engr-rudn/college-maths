@@ -216,7 +216,7 @@ $$\
 > >
 > > The series $$\sum_{n=0}^{\infty}\frac{(-1)^n}{\sqrt{n+1}}$$ converges by Leibniz’s test.<br>
 > > Let its Cauchy product with itself be the series $$\sum_{n=0}^{\infty}c_{n}$$. That is,<br>
-> >$$\sum_{n=0}^{\infty}c_{n} = \sum_{n=0}^{\infty}\left(\frac{(-1)^n}{\sqrt{n+1}}\right) \left(\frac{(-1)^n}{\sqrt{n+1}}\right)<br>
+> >$$\sum_{n=0}^{\infty}c_{n} = \sum_{n=0}^{\infty}\left(\frac{(-1)^n}{\sqrt{n+1}}\right) \left(\frac{(-1)^n}{\sqrt{n+1}}\right)
 > > $$\sum_{n=0}^{\infty}\frac{1}{n+1}.$$<br>
 > >Now, consider $$n \ge 1$$. Then, $$n+1 \ge 2$$, so $$\frac{1}{n+1} \le \frac{1}{2}$$.<br>
 > >Therefore, we have<br>
@@ -242,6 +242,6 @@ Hint. Let $$A_{n}  = \sum_{k=0}^{n}a_{k}$$, $$B_{n}  = \sum_{k=0}^{n}b_{k}$$ ,$$
 > >Since $$\sum_{n=0}^{\infty} b_n = B$$ is convergent, we have $$\lim_{n\to\infty} B_n = B$$, so for any $$\epsilon \gt 0$$, there exists an $$N$$ such that for all $$n \gt N$$, $$|B_n - B| \lt \epsilon$$. Then, for $$n > 2N$$, we have
 > >$$\left|C_n - AB\right| = \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{\infty} b_{n-k+j+1} - AB \right|<br>
 > >= \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{N} b_{n-k+j+1} + \sum_{k=0}^{n} a_k \sum_{j=N+1}^{\infty} b_{n-k+j+1} - AB \right|<br>
-> >$$\leq \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{N} b_{n-k+j+1} - AB_n \right| + \left|\sum_{k=0}^{n} a_k \sum_{j=N+1}^{\infty} b_{n-k+j+1} \right|$$
+> >$$\le \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{N} b_{n-k+j+1} - AB_n \right| + \left|\sum_{k=0}^{n} a_k \sum_{j=N+1}^{\infty} b_{n-k+j+1} \right|$$
 > {: .solution}
 {: .challenge}
