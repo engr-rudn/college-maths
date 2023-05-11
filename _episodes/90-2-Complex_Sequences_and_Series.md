@@ -221,7 +221,7 @@ $$\
 > > $$\sum_{n=0}^{\infty}\frac{1}{n+1}.$$<br>
 > >Now, consider $$n \ge 1$$. Then, $$n+1 \ge 2$$, so $$\frac{1}{n+1} \le \frac{1}{2}$$.<br>
 > >Therefore, we have<br>
-> >$$\left∣c_{n}\right|=\left|\frac{1}{n+1} \ge \frac{1}{n+1} \ge \frac{1}{2},$$<br>
+> > $$\left∣c_{n}\right|=\left|\frac{1}{n+1} \ge \frac{1}{n+1} \ge \frac{1}{2},$$<br>
 > >since $$n+1 \ge 2$$. Hence, $$\sum_{n=0}^{\infty}c_{n}$$ diverges by the Comparison Test.
 > {: .solution}
 {: .challenge}
