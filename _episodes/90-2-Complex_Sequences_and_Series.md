@@ -252,8 +252,8 @@ Hint. Let $$A_{n}  = \sum_{k=0}^{n}a_{k}$$, $$B_{n}  = \sum_{k=0}^{n}b_{k}$$ ,$$
 > >$$= \sum_{k=0}^{n} a_k \sum_{j=n-k+1}^{\infty} b_j $$<br>
 > >$$= \sum_{k=0}^{n} a_k \sum_{j=0}^{\infty} b_{n-k+j+1}$$<br>
 > >Since $$\sum_{n=0}^{\infty} b_n = B$$ is convergent, we have $$\lim_{n\to\infty} B_n = B$$, so for any $$\epsilon \gt 0$$, there exists an $$N$$ such that for all $$n \gt N$$, $$|B_n - B| \lt \epsilon$$. Then, for $$n > 2N$$, we have
-> >$$\left|C_n - AB\right| = \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{\infty} b_{n-k+j+1} - AB \right|<br>
-> >= \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{N} b_{n-k+j+1} + \sum_{k=0}^{n} a_k \sum_{j=N+1}^{\infty} b_{n-k+j+1} - AB \right|<br>
+> >$$\left|C_n - AB\right| = \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{\infty} b_{n-k+j+1} - AB \right|$$<br>
+> >$$= \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{N} b_{n-k+j+1} + \sum_{k=0}^{n} a_k \sum_{j=N+1}^{\infty} b_{n-k+j+1} - AB \right|$$<br>
 > >$$\le \left|\sum_{k=0}^{n} a_k \sum_{j=0}^{N} b_{n-k+j+1} - AB_n \right| + \left|\sum_{k=0}^{n} a_k \sum_{j=N+1}^{\infty} b_{n-k+j+1} \right|$$
 > {: .solution}
 {: .challenge}
