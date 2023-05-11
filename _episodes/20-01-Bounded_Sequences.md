@@ -43,7 +43,7 @@ $$\frac{a+b}{a} = \frac{1+\sqrt{5}}{2} \approx 1.6180$$
 Various notions of boundedness for sequences parallel the corresponding notions for sets of numbers, as defined in Sect. 2.5:
 -  A sequence $$(a_n){n\geq 1}$$ is said to be bounded above if there exists $$K$$ such that $$a_n<K$$ for all $$n$$.
 -  A sequence $$(a_n){n\geq 1}$$ is said to be bounded below if there exists $$K$$ such that $$a_n>K$$ for all $$n$$.<br>
-\item A sequence $$(a_n)_{n\geq 1}$$ is said to be bounded if there exists $$K$$ such that $$|a_n|\leq K$$ for all $$n$$.<br>
+-  A sequence $$(a_n)_{n\geq 1}$$ is said to be bounded if there exists $$K$$ such that $$|a_n|\leq K$$ for all $$n$$.<br>
 <!-- \end{enumerate} -->
 Obviously a sequence is bounded if and only if it is both bounded above and bounded below. As usual it is sometimes convenient to write the inequality as $$-K\leq a_n\leq K$$, or using set theory as $$a_n\in [-K, K]$$.<br>
 
