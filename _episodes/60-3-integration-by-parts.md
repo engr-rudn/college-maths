@@ -584,15 +584,15 @@ $$\
 > > ## Solution corrected
 > >
 > >To solve the given integral, we need to decompose the integrand into partial fractions. The integrand is:\
-> >$$\[\frac{x}{(x^2 - 1)(x^2 + 2)}\]$$\
+> >$$\left[\frac{x}{(x^2 - 1)(x^2 + 2)}\right]$$\
 > > Let's start by factoring the denominator:\
-> >\$$[x^2 - 1 = (x - 1)(x + 1), \quad x^2 + 2\]$$\
+> >\$$[x^2 - 1 = (x - 1)(x + 1), \quad x^2 + 2\right]$$\
 > > Now we can write the partial fraction decomposition:\
-> > $$\[\frac{x}{(x - 1)(x + 1)(x^2 + 2)} = \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx + D}{x^2 + 2}\]$$\
+> > $$\left[\frac{x}{(x - 1)(x + 1)(x^2 + 2)} = \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx + D}{x^2 + 2}\right]$$\
 > > To determine the constants $$\(A\), \(B\), \(C\), and \(D\)$$, we can multiply through by the common denominator and equate the numerators:\
-> > $$\[x = A(x + 1)(x^2 + 2) + B(x - 1)(x^2 + 2) + (Cx + D)(x - 1)(x + 1)\]$$\
+> > $$\left[x = A(x + 1)(x^2 + 2) + B(x - 1)(x^2 + 2) + (Cx + D)(x - 1)(x + 1)\right]$$\
 > >Expanding and collecting like terms, we have:\
-> > $$\[x = (A + B)x^3 + (A - B)x^2 + (3A - C + D)x + (2A + 2B - D)\]$$\
+> > $$\left[x = (A + B)x^3 + (A - B)x^2 + (3A - C + D)x + (2A + 2B - D)\right]$$\
 > >Comparing the coefficients of the powers of $$\(x\)$$, we get the following equations:\
 > > For $$\(x^3\): \(A + B = 0\)$$\
 > > For $$\(x^2\): \(A - B = 0\)$$\
@@ -601,31 +601,29 @@ $$\
 > >Solving these equations, we find $$\(A = B = 0\) and \(C = -1\), \(D = 1\)$$.\
 > > Therefore, the partial fraction decomposition is:\
 > > $$
-> > \[
+> > \left[
 \frac{x}{(x^2 - 1)(x^2 + 2)} = \frac{-1}{x^2 + 2}
-\]$$\
+\right]$$\
 > > Now we can integrate:\
-> > $$\[
+> > $$\left[
 \int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right) dx = \int \left(\frac{-1}{x^2 + 2}\right) dx
-\]$$\
+\right]$$\
 > > To integrate this, we can use the substitution $$\(u = x^2 + 2\)$$:\
-> > $$\[
+> > $$\left[
 du = 2x \, dx, \quad \frac{1}{2} \, du = x \, dx
-\]$$\
+\right]$$\
 > > Substituting back, we have:\
 > > $$
-\[
-\int \left(\frac{-1}{u}\right) \frac{1}{2} \, du = -\frac{1}{2} \ln|u| + C
-\]$$\
+\left[\int \left(\frac{-1}{u}\right) \frac{1}{2} \, du = -\frac{1}{2} \ln|u| + C\right]$$\
 > > Substituting $$\(u = x^2 + 2\)$$ back in, we get:\
-> > $$\[
+> > $$\left[
 -\frac{1}{2} \ln|x^2 + 2| + C
-\]$$\
+\right]$$\
 > >Therefore, the solution to the given integral is:\
 > > $$
-\[
+\left[
 \int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right) dx = -\frac{1}{2} \ln|x^2 + 2| + C
-\]$$\
+\right]$$\
 > >where $$\(C\)$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
