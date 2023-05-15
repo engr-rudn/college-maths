@@ -562,9 +562,9 @@ $$\
 > >
 > > $$
 \begin{aligned}
-\frac{x}{(x^2 - 1)(x^2 + 2)} &= \frac{x}{(x - 1)(x + 1)(x^2 + 2)} \
-&= \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx}{x^2 + 2} + \frac{Dx^2}{x^2 + 2} \
-&= -\frac{1}{4}\cdot\frac{1}{x - 1} + \frac{1}{4}\cdot\frac{1}{x + 1} + \frac{1}{4}\cdot\frac{x(x^2 + 2)}{x^2 + 2} + \frac{1}{4}\cdot\frac{x^2(x^2 + 2)}{x^2 + 2} \
+\frac{x}{(x^2 - 1)(x^2 + 2)} &= \frac{x}{(x - 1)(x + 1)(x^2 + 2)} \\
+&= \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx}{x^2 + 2} + \frac{Dx^2}{x^2 + 2} \\
+&= -\frac{1}{4}\cdot\frac{1}{x - 1} + \frac{1}{4}\cdot\frac{1}{x + 1} + \frac{1}{4}\cdot\frac{x(x^2 + 2)}{x^2 + 2} + \frac{1}{4}\cdot\frac{x^2(x^2 + 2)}{x^2 + 2} \\
 \end{aligned}
 $$\
 > > The integral of each term is:\
