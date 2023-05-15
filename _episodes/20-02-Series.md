@@ -36,18 +36,10 @@ $$\quad\qquad S_n = a_1 (\frac{1-r^n}{1-r})$$
 ### Arithmetic series
 * Sum to infity: $$s_\infty$$<br>
 #### Proof:<br>
-$$
-s_n = a\; +\; a+d\;+\;a+2d\;+\;...\;+\;a+(n-2)d\;+\;a+(n-1)d
-$$
-$$
-s_n = a+(n-1)d\;+\;a+(n-2)d\;+\;...\;+\;a+2d\;+\;a+d\;+\;a
-$$
-$$
-2s = n[2a+(n-1)d]
-$$
-$$
-s = \frac{n}{2}[2a+(n-1)d]
-$$
+$$ s_n = a\; +\; a+d\;+\;a+2d\;+\;...\;+\;a+(n-2)d\;+\;a+(n-1)d$$<br>
+$$s_n = a+(n-1)d\;+\;a+(n-2)d\;+\;...\;+\;a+2d\;+\;a+d\;+\;a$$<br>
+$$2s = n[2a+(n-1)d]$$<br>
+$$s = \frac{n}{2}[2a+(n-1)d]$$
 
 The **sum of an infinite geometric series** $$S$$ with common ratio $$r$$ and $$\lvert r\rvert < 1$$ is <br>
 $$S_{\infty} = \lim_{n \to \infty} a_1 (\frac{1-r^n}{1-r}),\ \lvert r\rvert < 1$$<br>

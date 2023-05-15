@@ -570,10 +570,10 @@ $$\
 > > The integral of each term is:\
 > > $$
 \begin{aligned}
-\int -\frac{1}{4}\cdot\frac{1}{x - 1} dx &= -\frac{1}{4} \ln|x - 1| + C_1 \
-\int \frac{1}{4}\cdot\frac{1}{x + 1} dx &= \frac{1}{4} \ln|x + 1| + C_2 \
-\int \frac{1}{4} \cdot \frac{x}{x^2 + 2} dx &= \frac{1}{8} \ln|x^2 + 2| + C_3 \
-\int \frac{1}{4} \cdot \frac{x^2}{x^2 + 2} dx &= \frac{1}{12} x^3 + C_4 \
+\int -\frac{1}{4}\cdot\frac{1}{x - 1} dx &= -\frac{1}{4} \ln|x - 1| + C_1 \\
+\int \frac{1}{4}\cdot\frac{1}{x + 1} dx &= \frac{1}{4} \ln|x + 1| + C_2 \\
+\int \frac{1}{4} \cdot \frac{x}{x^2 + 2} dx &= \frac{1}{8} \ln|x^2 + 2| + C_3 \\
+\int \frac{1}{4} \cdot \frac{x^2}{x^2 + 2} dx &= \frac{1}{12} x^3 + C_4 \\
 \end{aligned}
 $$\
 > > Therefore, the final result is:\
