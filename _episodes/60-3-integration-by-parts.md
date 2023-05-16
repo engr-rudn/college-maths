@@ -691,6 +691,33 @@ $$\
 > > 
 > {: .solution}
 {: .challenge}
+> > ## Solution Corrected
+> >
+> > To solve the given integral, we need to decompose the integrand into partial fractions. The integrand is:\
+> >$$\left[\frac{1}{(x - 1)^2(x^2 + 1)^2}\right]$$\
+> >Let's start by factoring the denominator:\
+> > $$\left[(x - 1)^2, \quad (x^2 + 1)^2\right]$$\
+> > Now we can write the partial fraction decomposition:\
+> > $$\left[\frac{1}{(x - 1)^2(x^2 + 1)^2} = \frac{A}{x - 1} + \frac{B}{(x - 1)^2} + \frac{Cx + D}{x^2 + 1} + \frac{Ex + F}{(x^2 + 1)^2}\right]$$\
+> > To determine the constants \left(A\right), \left(B\right), \left(C\right), \left(D\right), \left(E\right), and \left(F\right), we can multiply through by the common denominator and equate the numerators:\
+> >$$\left[1 = A(x - 1)(x^2 + 1)^2 + B(x^2 + 1)^2 + (Cx + D)(x - 1)^2(x^2 + 1) + (Ex + F)(x - 1)^2
+\right]$$\
+> > Expanding and collecting like terms, we have:\
+> > $$\left[1 = (A + C)x^5 + (B - 2A - D + E)x^4 + (2A + 2B - 2C - 2D + F)x^3 + (-2A - 2B + 2C + 2D)x^2 + (-2A - D - E)x + (A + B + D + F)\right]$$\
+> > Comparing the coefficients of the powers of \left(x\right), we get the following equations:\
+> > For $$\left(x^5\right): \left(A + C = 0\right)$$\
+For $$\left(x^4\right): \left(B - 2A - D + E = 0\right)$$\
+For $$\left(x^3\right): \left(2A + 2B - 2C - 2D + F = 0\right)$$\
+For $$\left(x^2\right): \left(-2A - 2B + 2C + 2D = 0\right)$$\
+For $$\left(x^1\right): \left(-2A - D - E = 0\right)$$\
+For $$\left(x^0\right): \left(A + B + D + F = 1\right)$$\
+> >Solving these equations, we find $$\left(A = -\frac{1}{2}\right), \left(B = \frac{3}{2}\right), \left(C = \frac{1}{2}\right), \left(D = \frac{1}{2}\right), \left(E = -1\right), \left(F = \frac{1}{2}\right)$$.\
+> >Therefore, the partial fraction decomposition is:\
+> > $$\left[\frac{1}{(x - 1)^2(x^2 + 1)^2} = \frac{-1/2}{x - 1} + \frac{3/2}{(x - 1)^2} + \frac{1/2x + 1/2}{x^2 + 1} - \frac{x + 1/2}{(x^2 + 1)^2}\right]$$\
+> > Now we can integrate:\
+> > $$\left[\int \left(\frac{1}{(x - 1)^2(x^2 + 1)^2}\right) dx = \int \left(\frac{-1/2}{x - 1}\$$
+>{: .solution}
+{: .challenge}
 > ## 13. Solve the following integrals:
 > ### (a) $$\int \frac{x^2}{x^2+1} dx$$
 > > ## Solution
