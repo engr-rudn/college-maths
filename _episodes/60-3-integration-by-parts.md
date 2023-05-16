@@ -586,7 +586,7 @@ $$\
 > >To solve the given integral, we need to decompose the integrand into partial fractions. The integrand is:\
 > >$$\left[\frac{x}{(x^2 - 1)(x^2 + 2)}\right]$$\
 > > Let's start by factoring the denominator:\
-> >\$$[x^2 - 1 = (x - 1)(x + 1), \quad x^2 + 2\right]$$\
+> >$$\left[x^2 - 1 = (x - 1)(x + 1), \quad x^2 + 2\right]$$\
 > > Now we can write the partial fraction decomposition:\
 > > $$\left[\frac{x}{(x - 1)(x + 1)(x^2 + 2)} = \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx + D}{x^2 + 2}\right]$$\
 > > To determine the constants $$\(A\), \(B\), \(C\), and \(D\)$$, we can multiply through by the common denominator and equate the numerators:\
