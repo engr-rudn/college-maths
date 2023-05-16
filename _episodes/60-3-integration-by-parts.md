@@ -682,12 +682,9 @@ F &= \frac{i}{4}
 \end{align*}
 $$\
 > > Now we can substitute these values back into the original equation:\
-> > $$
-\begin{align*}
-\int \frac{1}{(x - 1)^2(x^2 + 1)^2} , dx &= \int \frac{1}{4(x - 1)} , dx - \int \frac{1}{2(x - 1)^2} , dx \
-&\quad + \int \frac{i}{4(x + i)} , dx - \int \frac{i}{4(x + i)^2} , dx \
-&\quad + \int \frac{-i}{4(x - i)}
-$$\
+> > $$\int \frac{1}{(x - 1)^2(x^2 + 1)^2} , dx = \int \frac{1}{4(x - 1)} , dx - \int \frac{1}{2(x - 1)^2} , dx $$\
+$$\quad + \int \frac{i}{4(x + i)} , dx - \int \frac{i}{4(x + i)^2} , dx$$ \
+$$\quad + \int \frac{-i}{4(x - i)}$$
 > > 
 > {: .solution}
 {: .challenge}
