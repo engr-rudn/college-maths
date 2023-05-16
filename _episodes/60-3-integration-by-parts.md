@@ -712,7 +712,7 @@ For $$\left(x^0\right): \left(A + B + D + F = 1\right)$$\
 > >Therefore, the partial fraction decomposition is:\
 > > $$\left[\frac{1}{(x - 1)^2(x^2 + 1)^2} = \frac{-1/2}{x - 1} + \frac{3/2}{(x - 1)^2} + \frac{1/2x + 1/2}{x^2 + 1} - \frac{x + 1/2}{(x^2 + 1)^2}\right]$$\
 > > Now we can integrate:\
-> > $$\int\frac{1}{(x - 1)^2(x^2 + 1)^2} dx = \int \frac{-1/2}{x - 1}\$$
+> > $$\int\frac{1}{(x - 1)^2(x^2 + 1)^2} dx = \int \frac{-1/2}{x - 1}$$
 >{: .solution}
 {: .challenge}
 > ## 13. Solve the following integrals:
