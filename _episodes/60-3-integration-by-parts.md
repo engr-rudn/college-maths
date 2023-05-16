@@ -716,7 +716,7 @@ For $$\left(x^0\right): \left(A + B + D + F = 1\right)$$\
 > >Substituting these values back into the partial fraction decomposition, we get:\
 > >$$\int \frac{1}{(x-1)^2(x^2+1)^2} dx = \int \left(-\frac{1}{4}\cdot\frac{1}{x-1}+\frac{1}{2}\cdot\frac{1}{(x-1)^2}-\frac{1}{2}\cdot\frac{x}{x^2+1}+\frac{1}{4}\cdot\frac{2x}{(x^2+1)^2}\right)dx$$\
 $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{x^2+1}+\frac{1}{8}\cdot\frac{x}{x^2+1}-\frac{1}{8}\cdot\frac{1}{(x^2+1)^2}+C$$,\
-> > where $C$ is the constant of integration.\
+> > where $$C$$ is the constant of integration.\
 > >Therefore, the solution to the integral $$\int \frac{1}{(x-1)^2(x^2+1)^2} dx$$ is:\
 > >$$-\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{x^2+1}+\frac{1}{8}\cdot\frac{x}{x^2+1}-\frac{1}{8}\cdot\frac{1}{(x^2+1)^2}+C.$$
 >{: .solution}
