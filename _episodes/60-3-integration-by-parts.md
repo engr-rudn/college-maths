@@ -589,16 +589,16 @@ $$\
 > >$$\left[x^2 - 1 = (x - 1)(x + 1), \quad x^2 + 2\right]$$\
 > > Now we can write the partial fraction decomposition:\
 > > $$\left[\frac{x}{(x - 1)(x + 1)(x^2 + 2)} = \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx + D}{x^2 + 2}\right]$$\
-> > To determine the constants $$\(A\), \(B\), \(C\), and \(D\)$$, we can multiply through by the common denominator and equate the numerators:\
+> > To determine the constants $$\left(A\right), \left(B\right), \left(C\right), and \left(D\right)$$, we can multiply through by the common denominator and equate the numerators:\
 > > $$\left[x = A(x + 1)(x^2 + 2) + B(x - 1)(x^2 + 2) + (Cx + D)(x - 1)(x + 1)\right]$$\
 > >Expanding and collecting like terms, we have:\
 > > $$\left[x = (A + B)x^3 + (A - B)x^2 + (3A - C + D)x + (2A + 2B - D)\right]$$\
-> >Comparing the coefficients of the powers of $$\(x\)$$, we get the following equations:\
-> > For $$\(x^3\): \(A + B = 0\)$$\
-> > For $$\(x^2\): \(A - B = 0\)$$\
-> > For $$\(x^1\): \(3A - C + D = 1\)$$\
-> > For $$\(x^0\): \(2A + 2B - D = 0\)$$\
-> >Solving these equations, we find $$\(A = B = 0\) and \(C = -1\), \(D = 1\)$$.\
+> >Comparing the coefficients of the powers of $$\left(x\right)$$, we get the following equations:\
+> > For $$\left(x^3\right): \left(A + B = 0\right)$$\
+> > For $$\left(x^2\right): \left(A - B = 0\right)$$\
+> > For $$\left(x^1\right): \left(3A - C + D = 1\right)$$\
+> > For $$\left(x^0\right): \left(2A + 2B - D = 0\right)$$\
+> >Solving these equations, we find $$\left(A = B = 0\right) and \left(C = -1\right), \left(D = 1\right)$$.\
 > > Therefore, the partial fraction decomposition is:\
 > > $$
 > > \left[
@@ -608,14 +608,14 @@ $$\
 > > $$\left[
 \int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right) dx = \int \left(\frac{-1}{x^2 + 2}\right) dx
 \right]$$\
-> > To integrate this, we can use the substitution $$\(u = x^2 + 2\)$$:\
+> > To integrate this, we can use the substitution $$\left(u = x^2 + 2\right)$$:\
 > > $$\left[
 du = 2x \, dx, \quad \frac{1}{2} \, du = x \, dx
 \right]$$\
 > > Substituting back, we have:\
 > > $$
 \left[\int \left(\frac{-1}{u}\right) \frac{1}{2} \, du = -\frac{1}{2} \ln|u| + C\right]$$\
-> > Substituting $$\(u = x^2 + 2\)$$ back in, we get:\
+> > Substituting $$\left(u = x^2 + 2\right)$$ back in, we get:\
 > > $$\left[
 -\frac{1}{2} \ln|x^2 + 2| + C
 \right]$$\
@@ -624,7 +624,7 @@ du = 2x \, dx, \quad \frac{1}{2} \, du = x \, dx
 \left[
 \int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right) dx = -\frac{1}{2} \ln|x^2 + 2| + C
 \right]$$\
-> >where $$\(C\)$$ is the constant of integration.
+> >where $$\left(C\right)$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
 > ### (f) $$\int \frac{1}{(x-1)^2(x^2+1)^2} dx$$
