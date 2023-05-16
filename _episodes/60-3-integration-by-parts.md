@@ -696,12 +696,12 @@ $$\quad + \int \frac{-i}{4(x - i)}$$
 > > $$\left[(x - 1)^2, \quad (x^2 + 1)^2\right]$$\
 > > Now we can write the partial fraction decomposition:\
 > > $$\left[\frac{1}{(x - 1)^2(x^2 + 1)^2} = \frac{A}{x - 1} + \frac{B}{(x - 1)^2} + \frac{Cx + D}{x^2 + 1} + \frac{Ex + F}{(x^2 + 1)^2}\right]$$\
-> > To determine the constants \left(A\right), \left(B\right), \left(C\right), \left(D\right), \left(E\right), and \left(F\right), we can multiply through by the common denominator and equate the numerators:\
+> > To determine the constants $$\left(A\right), \left(B\right), \left(C\right), \left(D\right), \left(E\right), and \left(F\right)$$, we can multiply through by the common denominator and equate the numerators:\
 > >$$\left[1 = A(x - 1)(x^2 + 1)^2 + B(x^2 + 1)^2 + (Cx + D)(x - 1)^2(x^2 + 1) + (Ex + F)(x - 1)^2
 \right]$$\
 > > Expanding and collecting like terms, we have:\
 > > $$\left[1 = (A + C)x^5 + (B - 2A - D + E)x^4 + (2A + 2B - 2C - 2D + F)x^3 + (-2A - 2B + 2C + 2D)x^2 + (-2A - D - E)x + (A + B + D + F)\right]$$\
-> > Comparing the coefficients of the powers of \left(x\right), we get the following equations:\
+> > Comparing the coefficients of the powers of $$\left(x\right)$$, we get the following equations:\
 > > For $$\left(x^5\right): \left(A + C = 0\right)$$\
 For $$\left(x^4\right): \left(B - 2A - D + E = 0\right)$$\
 For $$\left(x^3\right): \left(2A + 2B - 2C - 2D + F = 0\right)$$\
