@@ -751,63 +751,63 @@ F \\
 1 \\
 \end{pmatrix}
 \end{equation}
-$$
+$$\
 > > We can apply elementary row operations to this matrix to transform it into an upper triangular matrix.\
 > >$$
-Step 1: Subtract 2 times the first row from the second row
+Step 1: Subtract 2 times the first row from the second row\
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & -2 & -1 & 1 & 0 \
-2 & 2 & -2 & -2 & 0 & 1 \
--2 & -2 & 2 & 2 & 0 & 0 \
--2 & 0 & -1 & -1 & -1 & 0 \
-1 & 1 & 0 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & -2 & -1 & 1 & 0 \\
+2 & 2 & -2 & -2 & 0 & 1 \\
+-2 & -2 & 2 & 2 & 0 & 0 \\
+-2 & 0 & -1 & -1 & -1 & 0 \\
+1 & 1 & 0 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
-$$\
+$$\\
 > > Step 2: Add 2 times the first row to the third row\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & -2 & -1 & 1 & 0 \
-0 & 2 & -4 & -2 & 0 & 1 \
--2 & -2 & 2 & 2 & 0 & 0 \
--2 & 0 & -1 & -1 & -1 & 0 \
-1 & 1 & 0 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & -2 & -1 & 1 & 0 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+-2 & -2 & 2 & 2 & 0 & 0 \\
+-2 & 0 & -1 & -1 & -1 & 0 \\
+1 & 1 & 0 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -815,28 +815,28 @@ $$\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & -2 & -1 & 1 & 0 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 4 & 2 & 0 & 0 \
--2 & 0 & -1 & -1 & -1 & 0 \
-1 & 1 & 0 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & -2 & -1 & 1 & 0 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 4 & 2 & 0 & 0 \\
+-2 & 0 & -1 & -1 & -1 & 0 \\
+1 & 1 & 0 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -844,28 +844,28 @@ $$\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & -2 & -1 & 1 & 0 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 4 & 2 & 0 & 0 \
-0 & 0 & -3 & -3 & -3 & 0 \
-1 & 1 & 0 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & -2 & -1 & 1 & 0 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 4 & 2 & 0 & 0 \\
+0 & 0 & -3 & -3 & -3 & 0 \\
+1 & 1 & 0 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -873,28 +873,28 @@ $$\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & -2 & -1 & 1 & 0 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 4 & 2 & 0 & 0 \
-0 & 0 & -3 & -3 & -3 & 0 \
-0 & 1 & -1 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & -2 & -1 & 1 & 0 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 4 & 2 & 0 & 0 \\
+0 & 0 & -3 & -3 & -3 & 0 \\
+0 & 1 & -1 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -902,28 +902,28 @@ $$\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & -2 & -1 & 1 & 0 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 4 & 2 & 0 & 0 \
-0 & 0 & 1 & 1 & 1 & 0 \
-0 & 1 & -1 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & -2 & -1 & 1 & 0 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 4 & 2 & 0 & 0 \\
+0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 1 & -1 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -931,28 +931,28 @@ $$\
 > > $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & 0 & -1 & 1 & -2 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 4 & 2 & 0 & 0 \
-0 & 0 & 1 & 1 & 1 & 0 \
-0 & 1 & -1 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 0 & -1 & 1 & -2 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 4 & 2 & 0 & 0 \\
+0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 1 & -1 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -960,28 +960,28 @@ $$\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & 0 & -1 & 1 & -1 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 4 & 2 & 0 & 0 \
-0 & 0 & 1 & 1 & 1 & 0 \
-0 & 1 & -1 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 0 & -1 & 1 & -1 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 4 & 2 & 0 & 0 \\
+0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 1 & -1 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -989,28 +989,28 @@ $$\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & 0 & -1 & 1 & -1 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 0 & 6 & 0 & -2 \
-0 & 0 & 1 & 1 & 1 & 0 \
-0 & 1 & -1 & 1 & 0 & 1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 0 & -1 & 1 & -1 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 0 & 6 & 0 & -2 \\
+0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 1 & -1 & 1 & 0 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -1018,28 +1018,28 @@ $$\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & 0 & -1 & 1 & -1 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 0 & 6 & 0 & -2 \
-0 & 0 & 1 & 1 & 1 & 0 \
-0 & 1 & 0 & -1 & 0 & -1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 0 & -1 & 1 & -1 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 0 & 6 & 0 & -2 \\
+0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 1 & 0 & -1 & 0 & -1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -1047,28 +1047,28 @@ $$\
 $$
 \begin{equation}
 \begin{pmatrix}
-1 & 0 & 1 & 0 & 0 & 0 \
-0 & 1 & 0 & -1 & 1 & -1 \
-0 & 2 & -4 & -2 & 0 & 1 \
-0 & -2 & 0 & 6 & 0 & -2 \
-0 & 0 & 1 & 1 & 1 & 0 \
-0 & 1 & 0 & -1 & 0 & -1 \
+1 & 0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 0 & -1 & 1 & -1 \\
+0 & 2 & -4 & -2 & 0 & 1 \\
+0 & -2 & 0 & 6 & 0 & -2 \\
+0 & 0 & 1 & 1 & 1 & 0 \\
+0 & 1 & 0 & -1 & 0 & -1 \\
 \end{pmatrix}
 \begin{pmatrix}
-A \
-B \
-C \
-D \
-E \
-F \
+A \\
+B \\
+C \\
+D \\
+E \\
+F \\
 \end{pmatrix}
 \begin{pmatrix}
-0 \
-0 \
-0 \
-0 \
-0 \
-1 \
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+1 \\
 \end{pmatrix}
 \end{equation}
 $$\
@@ -1080,12 +1080,12 @@ $$\
 > >Finally, from the sixth equation, we have $$A + B + D + F = 1$$, substituting $$A = -2D$$ and $$B - D - F = 0$$, we get $$-2D + B + D + F = 1$$, which simplifies to $$B - D + F = 1 + 2D$$.\
 > >In summary, the solution to the system of equations is:\
 $$
-A = -2D\
-B = D + 1 + 2D = 3D + 1\
-C = 2D\
-E = 0\
-F = D + 1\
-$$
+A = -2D\\
+B = D + 1 + 2D = 3D + 1\\
+C = 2D\\
+E = 0\\
+F = D + 1\\
+$$\
 > >where $$D$$ can take any value, and the other variables are dependent on $$D$$.
 >{: .solution}
 {: .challenge}
