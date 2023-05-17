@@ -752,9 +752,10 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > > We can apply elementary row operations to this matrix to transform it into an upper triangular matrix.\
+> >Step 1: Subtract 2 times the first row from the second row\
 > >$$
-Step 1: Subtract 2 times the first row from the second row\
 \begin{equation}
 \begin{pmatrix}
 1 & 0 & 1 & 0 & 0 & 0 \\
@@ -781,7 +782,8 @@ F \\
 1 \\
 \end{pmatrix}
 \end{equation}
-$$\\
+$$\
+> > <br>
 > > Step 2: Add 2 times the first row to the third row\
 $$
 \begin{equation}
@@ -811,6 +813,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > >Step 3: Add 2 times the first row to the fourth row\
 $$
 \begin{equation}
@@ -869,6 +872,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > >Step 5: Subtract the first row from the sixth row\
 $$
 \begin{equation}
@@ -898,6 +902,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > >Step 6: Multiply the fifth row by (-1/3)\
 $$
 \begin{equation}
@@ -927,6 +932,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > >Step 7: Subtract 2 times the third row from the second row\
 > > $$
 \begin{equation}
@@ -956,6 +962,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > > Step 8: Add 4 times the third row to the second row\
 $$
 \begin{equation}
@@ -985,6 +992,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > >Step 9: Subtract 2 times the third row from the fourth row\
 $$
 \begin{equation}
@@ -1014,6 +1022,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > >Step 10: Subtract 2 times the third row from the sixth row\
 $$
 \begin{equation}
@@ -1043,6 +1052,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > >Step 11: Subtract the fourth row from the fifth row\
 $$
 \begin{equation}
@@ -1072,6 +1082,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
+> > <br>
 > >We have obtained an upper triangular matrix. Now, we can solve for the variables using back substitution.\
 > > From the fifth equation, we can determine that $$E = 0$$.\
 > > From the third equation, we have $$2C - 4D + E = 0$$, substituting $$E = 0$$, we get $$2C - 4D = 0$$, which simplifies to $$C = 2D$$.\
