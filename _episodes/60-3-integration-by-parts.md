@@ -784,7 +784,7 @@ F \\
 \end{equation}
 $$\
 > > <br>
-> > Step 2: Add 2 times the first row to the third row\
+> > Step 2: Subtract 2 times the first row from the third row($$R3 \leftarrow R3 -2R1$$)\
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -814,7 +814,7 @@ F \\
 \end{equation}
 $$\
 > > <br>
-> >Step 3: Add 2 times the first row to the fourth row\
+> >Step 3: Add 2 times the first row to the fourth row($$R4 \leftarrow R4 +2R1$$)\
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -843,7 +843,7 @@ F \\
 \end{pmatrix}
 \end{equation}
 $$\
-> > Step 4: Add 2 times the first row to the fifth row\
+> > Step 4: Add 2 times the first row to the fifth row ($$R5 \leftarrow R5 +2R1$$)\
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -873,7 +873,7 @@ F \\
 \end{equation}
 $$\
 > > <br>
-> >Step 5: Subtract the first row from the sixth row\
+> >Step 5: Subtract the first row from the sixth row($$R6 \leftarrow R6 -2R1$$)\
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -903,7 +903,7 @@ F \\
 \end{equation}
 $$\
 > > <br>
-> >Step 6: Multiply the fifth row by (-1/3)\
+> >Step 6: Multiply the fifth row by (-1/3)($$R5 \leftarrow -\frac{1}{3}R5$$)\
 $$
 \begin{equation}
 \begin{pmatrix}
@@ -933,7 +933,7 @@ F \\
 \end{equation}
 $$\
 > > <br>
-> >Step 7: Subtract 2 times the third row from the second row\
+> >Step 7: Subtract 2 times the third row from the second row($$R2 \leftarrow R2 -2R3$$)\
 > > $$
 \begin{equation}
 \begin{pmatrix}
@@ -1102,7 +1102,7 @@ $$\
 {: .challenge}
 > ## 13. Solve the following integrals:
 > ### (a) $$\int \frac{x^2}{x^2+1} dx$$
-> > ## Solution
+<!-- > > ## Solution
 > > We can start by factoring the denominator $$x^3 - 1$$.\
 > > $$x^3 - 1$$ can be written as $$(x - 1)(x^2 + x + 1)$$.
 > > So we have:\
@@ -1142,8 +1142,8 @@ $$\
 > >  $$                  = 1$$
 > > 
 > {: .solution}
-{: .challenge}
-> > ## Solution Corrected
+{: .challenge} -->
+> > ## Solution
 > >
 > >$$\int \frac{x^2}{x^2+1} \, dx = \int \frac{x^2+1-1}{x^2+1} \, dx$$ \\
 > > $$= \int \left( \frac{x^2+1}{x^2+1} - \frac{1}{x^2+1} \right) \, dx $$ \\
