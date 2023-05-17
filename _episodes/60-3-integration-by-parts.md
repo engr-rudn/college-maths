@@ -454,7 +454,7 @@ $$\
 &= \frac{1}{2} \left( \int \cos^2 x dx + \int \cos^3 2x dx \right)
 \end{align*}
 $$\
-> > To evaluate $\int \cos^2 x dx$, we can use the trigonometric identity\
+> > To evaluate $$\int \cos^2 x dx$$, we can use the trigonometric identity\
 > >  $$\cos^2 x = \frac{1}{2}(1 + \cos 2x)$$.
 > > $$
 \begin{align*}
@@ -719,6 +719,374 @@ $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{
 > > where $$C$$ is the constant of integration.\
 > >Therefore, the solution to the integral $$\int \frac{1}{(x-1)^2(x^2+1)^2} dx$$ is:\
 > >$$-\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{x^2+1}+\frac{1}{8}\cdot\frac{x}{x^2+1}-\frac{1}{8}\cdot\frac{1}{(x^2+1)^2}+C.$$
+>{: .solution}
+{: .challenge}
+> > ## Solving the linear equation part
+> > 
+> > To solve these equations using Gauss elimination method, we need to first arrange the equations in a matrix form.\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+-2 & 1 & 0 & -1 & 1 & 0 \
+2 & 2 & -2 & -2 & 0 & 1 \
+-2 & -2 & 2 & 2 & 0 & 0 \
+-2 & 0 & -1 & -1 & -1 & 0 \
+1 & 1 & 0 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$
+> > We can apply elementary row operations to this matrix to transform it into an upper triangular matrix.\
+> >$$
+Step 1: Subtract 2 times the first row from the second row
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & -2 & -1 & 1 & 0 \
+2 & 2 & -2 & -2 & 0 & 1 \
+-2 & -2 & 2 & 2 & 0 & 0 \
+-2 & 0 & -1 & -1 & -1 & 0 \
+1 & 1 & 0 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> > Step 2: Add 2 times the first row to the third row\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & -2 & -1 & 1 & 0 \
+0 & 2 & -4 & -2 & 0 & 1 \
+-2 & -2 & 2 & 2 & 0 & 0 \
+-2 & 0 & -1 & -1 & -1 & 0 \
+1 & 1 & 0 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> >Step 3: Add 2 times the first row to the fourth row\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & -2 & -1 & 1 & 0 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 4 & 2 & 0 & 0 \
+-2 & 0 & -1 & -1 & -1 & 0 \
+1 & 1 & 0 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> > Step 4: Add 2 times the first row to the fifth row\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & -2 & -1 & 1 & 0 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 4 & 2 & 0 & 0 \
+0 & 0 & -3 & -3 & -3 & 0 \
+1 & 1 & 0 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> >Step 5: Subtract the first row from the sixth row\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & -2 & -1 & 1 & 0 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 4 & 2 & 0 & 0 \
+0 & 0 & -3 & -3 & -3 & 0 \
+0 & 1 & -1 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> >Step 6: Multiply the fifth row by (-1/3)\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & -2 & -1 & 1 & 0 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 4 & 2 & 0 & 0 \
+0 & 0 & 1 & 1 & 1 & 0 \
+0 & 1 & -1 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> >Step 7: Subtract 2 times the third row from the second row\
+> > $$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & 0 & -1 & 1 & -2 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 4 & 2 & 0 & 0 \
+0 & 0 & 1 & 1 & 1 & 0 \
+0 & 1 & -1 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> > Step 8: Add 4 times the third row to the second row\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & 0 & -1 & 1 & -1 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 4 & 2 & 0 & 0 \
+0 & 0 & 1 & 1 & 1 & 0 \
+0 & 1 & -1 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> >Step 9: Subtract 2 times the third row from the fourth row\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & 0 & -1 & 1 & -1 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 0 & 6 & 0 & -2 \
+0 & 0 & 1 & 1 & 1 & 0 \
+0 & 1 & -1 & 1 & 0 & 1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> >Step 10: Subtract 2 times the third row from the sixth row\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & 0 & -1 & 1 & -1 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 0 & 6 & 0 & -2 \
+0 & 0 & 1 & 1 & 1 & 0 \
+0 & 1 & 0 & -1 & 0 & -1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> >Step 11: Subtract the fourth row from the fifth row\
+$$
+\begin{equation}
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \
+0 & 1 & 0 & -1 & 1 & -1 \
+0 & 2 & -4 & -2 & 0 & 1 \
+0 & -2 & 0 & 6 & 0 & -2 \
+0 & 0 & 1 & 1 & 1 & 0 \
+0 & 1 & 0 & -1 & 0 & -1 \
+\end{pmatrix}
+\begin{pmatrix}
+A \
+B \
+C \
+D \
+E \
+F \
+\end{pmatrix}
+\begin{pmatrix}
+0 \
+0 \
+0 \
+0 \
+0 \
+1 \
+\end{pmatrix}
+\end{equation}
+$$\
+> >We have obtained an upper triangular matrix. Now, we can solve for the variables using back substitution.\
+> > From the fifth equation, we can determine that $$E = 0$$.\
+> > From the third equation, we have $$2C - 4D + E = 0$$, substituting $$E = 0$$, we get $$2C - 4D = 0$$, which simplifies to $$C = 2D$$.\
+> >From the second equation, we have $$B - D + E - F = 0$$, substituting $$E = 0$$, we get $$B - D - F = 0$$.\
+> > From the first equation, we have $$A + C = 0$$, substituting $$C = 2D$$, we get $$A + 2D = 0$$, which simplifies to $$A = -2D$$.\
+> >Finally, from the sixth equation, we have $$A + B + D + F = 1$$, substituting $$A = -2D$$ and $$B - D - F = 0$$, we get $$-2D + B + D + F = 1$$, which simplifies to $$B - D + F = 1 + 2D$$.\
+> >In summary, the solution to the system of equations is:\
+$$
+A = -2D\
+B = D + 1 + 2D = 3D + 1\
+C = 2D\
+E = 0\
+F = D + 1\
+$$
+> >where $$D$$ can take any value, and the other variables are dependent on $$D$$.
 >{: .solution}
 {: .challenge}
 > ## 13. Solve the following integrals:
