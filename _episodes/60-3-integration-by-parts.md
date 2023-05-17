@@ -754,7 +754,7 @@ F \\
 $$\
 > > <br>
 > > We can apply elementary row operations to this matrix to transform it into an upper triangular matrix.\
-> >Step 1: Subtract 2 times the first row from the second row ($$R2\&larr R2 -2R1$$)\
+> >Step 1: Subtract 2 times the first row from the second row ($$R2 &larr R2 -2R1$$)\
 > >$$
 \begin{equation}
 \begin{pmatrix}
