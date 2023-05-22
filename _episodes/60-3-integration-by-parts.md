@@ -558,7 +558,7 @@ $$\
 > {: .solution}
 {: .challenge}
 > ### (d) $$\int(\frac{x}{(x^2 - 1)(x^2 + 2)})dx$$
-> > ## Solution
+<!-- > > ## Solution
 > >
 > > $$
 \begin{aligned}
@@ -625,6 +625,55 @@ du = 2x \, dx, \quad \frac{1}{2} \, du = x \, dx
 \int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right) dx = -\frac{1}{2} \ln|x^2 + 2| + C
 \right]$$\
 > >where $$\left(C\right)$$ is the constant of integration.
+>{: .solution}
+{: .challenge} -->
+> > ## Solution
+> > 
+> > To integrate the given equation, we need to break it down into partial fractions. The integrand can be expressed as follows:\
+> > $$\left[
+\frac{x}{(x^2 - 1)(x^2 + 2)} = \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx+D}{x^2 + 2}
+\right]$$\
+> > To determine the values of the constants $$\(A\), \(B\), \(C\), and \(D\)$$, we can multiply both sides of the equation by the denominator and simplify:\
+> > $$\left[
+x = A(x + 1)(x^2 + 2) + B(x - 1)(x^2 + 2) + (Cx + D)(x^2 - 1)
+\right]$$\
+> > Expanding and collecting like terms, we have:\
+> > $$\left[
+x = (A + B + C)x^3 + (2A - 2B + D)x^2 + (A - B - C)x + (2A + 2B - D)
+\right]$$\
+> > By comparing the coefficients of corresponding powers of $$\(x\)$$ on both sides of the equation, we can determine the values of the constants:\
+> >For the coefficient of $$\(x^3\): \(A + B + C = 0\)$$\
+> > For the coefficient of $$\(x^2\): \(2A - 2B + D = 0\)$$\
+> > For the coefficient of $$\(x^1\): \(A - B - C = 1\)$$\
+> > For the coefficient of $$\(x^0\): \(2A + 2B - D = 0\)$$\
+> > Solving this system of equations, we find that $$\(A = -\frac{1}{6}\), \(B = \frac{1}{6}\), \(C = \frac{1}{4}\), and \(D = \frac{1}{12}\)$$.\
+> > Now we can rewrite the integrand in terms of these partial fractions:\
+> > $$\left[
+\int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right)dx = \int \left(\frac{-\frac{1}{6}}{x - 1} + \frac{\frac{1}{6}}{x + 1} + \frac{\frac{1}{4}x + \frac{1}{12}}{x^2 + 2}\right)dx
+\right]$$\
+> > We can integrate each term separately:\
+> > $$\left[
+\int \left(\frac{-\frac{1}{6}}{x - 1} + \frac{\frac{1}{6}}{x + 1} + \frac{\frac{1}{4}x + \frac{1}{12}}{x^2 + 2}\right)dx
+\right]$$\
+> > $$\left[= -\frac{1}{6}\ln|x - 1| + \frac{1}{6}\ln|x + 1| + \frac{1}{4}\int\frac{x}{x^2 + 2}dx + \frac{1}{12}\int\frac{1}{x^2 + 2}dx\right]$$
+> >Let's evaluate the remaining two integrals:\
+> > For the integral $$\(\int\frac{x}{x^2 + 2}dx\)$$, we can make a substitution by letting $$\(u = x^2 + 2\)$$:\
+> > $$\left[
+du = 2xdx \Rightarrow xdx = \frac{1}{2}du
+\right]$$\
+> >The integral becomes:\
+> >$$\left[
+\frac{1}{4}\int\frac{x}{x^2 + 2}dx = \frac{1}{4}\int\frac{1}{2}\frac{1}{u}du = \frac{1}{8}\ln|u| = \frac{1}{8}\ln|x^2 + 2|
+\right]$$\
+> >For the integral $$\left(\int\frac{1}{x^2 + 2}dx\right)$$, we can make use of the inverse tangent function:\
+> >$$\left[
+\int\frac{1}{x^2 + 2}dx = \frac{1}{\sqrt{2}}\arctan\left(\frac{x}{\sqrt{2}}\right)
+\right]$$\
+> >Now we can substitute these results back into the original equation:\
+> >$$\left[
+\int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right)dx = -\frac{1}{6}\ln|x - 1| + \frac{1}{6}\ln|x + 1| + \frac{1}{8}\ln|x^2 + 2| + \frac{1}{12}\left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x}{\sqrt{2}}\right)\right) + C
+\right]$$\
+> > where $$\left(C\right)$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
 > ### (f) $$\int \frac{1}{(x-1)^2(x^2+1)^2} dx$$
