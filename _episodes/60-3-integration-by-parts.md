@@ -690,8 +690,11 @@ $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{
 > > $$= \int \left( \frac{x^2+1}{x^2+1} - \frac{1}{x^2+1} \right) \, dx $$ \\
 > > $$= \int \left( 1 - \frac{1}{x^2+1} \right) \, dx $$ \\
 > > $$= \int dx - \int \frac{1}{x^2+1} \, dx $$ \\
-> > $$= x - \arctan(x) + C$$ 
-> > This analysis breaks down the integrand into two fractions and then integrates them separately. Finally, it applies the integral of dx as well as the integral of $$1/(x^2+1)$$ which can be expressed as $$-\arctan(x)$$. The result is $$x - arctan(x) + C$$, where $$C$$ represents the constant of integration.
+> > $$= x - \arctan(x) + C$$\\
+> > This analysis breaks down the integrand into two fractions and then integrates them separately.\
+> > Finally, it applies the integral of $$d$$x as well as the integral of $$1/(x^2+1)$$ which can be expressed as $$-\arctan(x)$$.\
+> > The result is $$x - arctan(x) + C$$,\
+> >  where $$C$$ represents the constant of integration.
 >{: .solution}
 {: .challenge}
 > ### (b) $$\int \frac{1}{x^4+1} dx$$
