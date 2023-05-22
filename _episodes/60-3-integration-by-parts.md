@@ -558,82 +558,13 @@ $$\
 > {: .solution}
 {: .challenge}
 > ### (d) $$\int(\frac{x}{(x^2 - 1)(x^2 + 2)})dx$$
-<!-- > > ## Solution
-> >
-> > $$
-\begin{aligned}
-\frac{x}{(x^2 - 1)(x^2 + 2)} &= \frac{x}{(x - 1)(x + 1)(x^2 + 2)} \\
-&= \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx}{x^2 + 2} + \frac{Dx^2}{x^2 + 2} \\
-&= -\frac{1}{4}\cdot\frac{1}{x - 1} + \frac{1}{4}\cdot\frac{1}{x + 1} + \frac{1}{4}\cdot\frac{x(x^2 + 2)}{x^2 + 2} + \frac{1}{4}\cdot\frac{x^2(x^2 + 2)}{x^2 + 2} \\
-\end{aligned}
-$$\
-> > The integral of each term is:\
-> > $$
-\begin{aligned}
-\int -\frac{1}{4}\cdot\frac{1}{x - 1} dx &= -\frac{1}{4} \ln|x - 1| + C_1 \\
-\int \frac{1}{4}\cdot\frac{1}{x + 1} dx &= \frac{1}{4} \ln|x + 1| + C_2 \\
-\int \frac{1}{4} \cdot \frac{x}{x^2 + 2} dx &= \frac{1}{8} \ln|x^2 + 2| + C_3 \\
-\int \frac{1}{4} \cdot \frac{x^2}{x^2 + 2} dx &= \frac{1}{12} x^3 + C_4 \\
-\end{aligned}
-$$\
-> > Therefore, the final result is:\
-> > $$\int \frac{x}{(x^2 - 1)(x^2 +2)} dx = -\frac{1}{4} \ln|x - 1| + \frac{1}{4} \ln|x + 1| + \frac{1}{8} \ln|x^2 + 2| + \frac{1}{12} x^3 + C$$
-> > 
-> {: .solution}
-{: .challenge}
-> > ## Solution corrected
-> >
-> >To solve the given integral, we need to decompose the integrand into partial fractions. The integrand is:\
-> >$$\left[\frac{x}{(x^2 - 1)(x^2 + 2)}\right]$$\
-> > Let's start by factoring the denominator:\
-> >$$\left[x^2 - 1 = (x - 1)(x + 1), \quad x^2 + 2\right]$$\
-> > Now we can write the partial fraction decomposition:\
-> > $$\left[\frac{x}{(x - 1)(x + 1)(x^2 + 2)} = \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx + D}{x^2 + 2}\right]$$\
-> > To determine the constants $$\left(A\right), \left(B\right), \left(C\right), and \left(D\right)$$, we can multiply through by the common denominator and equate the numerators:\
-> > $$\left[x = A(x + 1)(x^2 + 2) + B(x - 1)(x^2 + 2) + (Cx + D)(x - 1)(x + 1)\right]$$\
-> >Expanding and collecting like terms, we have:\
-> > $$\left[x = (A + B)x^3 + (A - B)x^2 + (3A - C + D)x + (2A + 2B - D)\right]$$\
-> >Comparing the coefficients of the powers of $$\left(x\right)$$, we get the following equations:\
-> > For $$\left(x^3\right): \left(A + B = 0\right)$$\
-> > For $$\left(x^2\right): \left(A - B = 0\right)$$\
-> > For $$\left(x^1\right): \left(3A - C + D = 1\right)$$\
-> > For $$\left(x^0\right): \left(2A + 2B - D = 0\right)$$\
-> >Solving these equations, we find $$\left(A = B = 0\right) and \left(C = -1\right), \left(D = 1\right)$$.\
-> > Therefore, the partial fraction decomposition is:\
-> > $$
-> > \left[
-\frac{x}{(x^2 - 1)(x^2 + 2)} = \frac{-1}{x^2 + 2}
-\right]$$\
-> > Now we can integrate:\
-> > $$\left[
-\int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right) dx = \int \left(\frac{-1}{x^2 + 2}\right) dx
-\right]$$\
-> > To integrate this, we can use the substitution $$\left(u = x^2 + 2\right)$$:\
-> > $$\left[
-du = 2x \, dx, \quad \frac{1}{2} \, du = x \, dx
-\right]$$\
-> > Substituting back, we have:\
-> > $$
-\left[\int \left(\frac{-1}{u}\right) \frac{1}{2} \, du = -\frac{1}{2} \ln|u| + C\right]$$\
-> > Substituting $$\left(u = x^2 + 2\right)$$ back in, we get:\
-> > $$\left[
--\frac{1}{2} \ln|x^2 + 2| + C
-\right]$$\
-> >Therefore, the solution to the given integral is:\
-> > $$
-\left[
-\int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right) dx = -\frac{1}{2} \ln|x^2 + 2| + C
-\right]$$\
-> >where $$\left(C\right)$$ is the constant of integration.
->{: .solution}
-{: .challenge} -->
 > > ## Solution
 > > 
 > > To integrate the given equation, we need to break it down into partial fractions. The integrand can be expressed as follows:\
 > > $$\left[
 \frac{x}{(x^2 - 1)(x^2 + 2)} = \frac{A}{x - 1} + \frac{B}{x + 1} + \frac{Cx+D}{x^2 + 2}
 \right]$$\
-> > To determine the values of the constants $$\(A\), \(B\), \(C\), and \(D\)$$, we can multiply both sides of the equation by the denominator and simplify:\
+> > To determine the values of the constants $$\left(A\right), \left(B\right), \left(C\right), and \left(D\right)$$, we can multiply both sides of the equation by the denominator and simplify:\
 > > $$\left[
 x = A(x + 1)(x^2 + 2) + B(x - 1)(x^2 + 2) + (Cx + D)(x^2 - 1)
 \right]$$\
@@ -641,12 +572,12 @@ x = A(x + 1)(x^2 + 2) + B(x - 1)(x^2 + 2) + (Cx + D)(x^2 - 1)
 > > $$\left[
 x = (A + B + C)x^3 + (2A - 2B + D)x^2 + (A - B - C)x + (2A + 2B - D)
 \right]$$\
-> > By comparing the coefficients of corresponding powers of $$\(x\)$$ on both sides of the equation, we can determine the values of the constants:\
-> >For the coefficient of $$\(x^3\): \(A + B + C = 0\)$$\
-> > For the coefficient of $$\(x^2\): \(2A - 2B + D = 0\)$$\
-> > For the coefficient of $$\(x^1\): \(A - B - C = 1\)$$\
-> > For the coefficient of $$\(x^0\): \(2A + 2B - D = 0\)$$\
-> > Solving this system of equations, we find that $$\(A = -\frac{1}{6}\), \(B = \frac{1}{6}\), \(C = \frac{1}{4}\), and \(D = \frac{1}{12}\)$$.\
+> > By comparing the coefficients of corresponding powers of $$\left(x\right)$$ on both sides of the equation, we can determine the values of the constants:\
+> >For the coefficient of $$\left(x^3\right): \left(A + B + C = 0\right)$$\
+> > For the coefficient of $$\left(x^2\right): \left(2A - 2B + D = 0\right)$$\
+> > For the coefficient of $$\left(x^1\right): \left(A - B - C = 1\right)$$\
+> > For the coefficient of $$\left(x^0\right): \left(2A + 2B - D = 0\right)$$\
+> > Solving this system of equations, we find that $$\left(A = -\frac{1}{6}\right), \left(B = \frac{1}{6}\right), \left(C = \frac{1}{4}\right), and \left(D = \frac{1}{12}\right)$$.\
 > > Now we can rewrite the integrand in terms of these partial fractions:\
 > > $$\left[
 \int \left(\frac{x}{(x^2 - 1)(x^2 + 2)}\right)dx = \int \left(\frac{-\frac{1}{6}}{x - 1} + \frac{\frac{1}{6}}{x + 1} + \frac{\frac{1}{4}x + \frac{1}{12}}{x^2 + 2}\right)dx
@@ -657,7 +588,7 @@ x = (A + B + C)x^3 + (2A - 2B + D)x^2 + (A - B - C)x + (2A + 2B - D)
 \right]$$\
 > > $$\left[= -\frac{1}{6}\ln|x - 1| + \frac{1}{6}\ln|x + 1| + \frac{1}{4}\int\frac{x}{x^2 + 2}dx + \frac{1}{12}\int\frac{1}{x^2 + 2}dx\right]$$
 > >Let's evaluate the remaining two integrals:\
-> > For the integral $$\(\int\frac{x}{x^2 + 2}dx\)$$, we can make a substitution by letting $$\(u = x^2 + 2\)$$:\
+> > For the integral $$\left(\int\frac{x}{x^2 + 2}dx\right)$$, we can make a substitution by letting $$\left(u = x^2 + 2\right)$$:\
 > > $$\left[
 du = 2xdx \Rightarrow xdx = \frac{1}{2}du
 \right]$$\
