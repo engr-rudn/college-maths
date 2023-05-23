@@ -34,7 +34,7 @@ $$\sec(\frac \pi2-\theta) = \csc\theta$$ $$\qquad$$ $$\csc(\frac \pi2-\theta) = 
 # Prove Trig Identities
 $$
 \begin{align*}
-\textbf{Left-Hand-Side}& \ $ \ & \textbf{Right-Hand-Side}\\
+\textbf{Left-Hand-Side}& \ $$ \ & \textbf{Right-Hand-Side}\\
 \cos{x}+\sin{x}\tan{x}&=&\sec{x}\\
 \cos{x}+\frac{\sin{x}}{1}(\frac{\sin{x}}{\cos{x}})&=&\sec{x}\\
 \cos{x}+\frac{\sin^2{x}}{\cos{x}}&=&\sec{x}\\
@@ -93,9 +93,24 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > 
 > > ## Solution
 > >
-> > The formulas for the derivatives of the trigonometric functions are:\
-> > Derivative of $$\tan x$$:
-> > - $$\frac{d}{dx} \tan x = \sec^2 x$$\
+> >To show that\
+> > $$\frac{d}{dx} \tan(x) = \sec^2(x)$$,\
+> > we can use the definition of the tangent function and the derivative rules.\
+> >The tangent function is defined as $$\tan(x) = \frac{\sin(x)}{\cos(x)}$$.\
+> >Using the quotient rule, we can differentiate $$\tan(x)$$ with respect to $$x$$ as follows:\
+> >$$\left[
+\begin{aligned}
+\frac{d}{dx} \tan(x) &= \frac{d}{dx} \left(\frac{\sin(x)}{\cos(x)}\right) \\
+&= \frac{\cos(x) \cdot \frac{d}{dx}(\sin(x)) - \sin(x) \cdot \frac{d}{dx}(\cos(x))}{\cos^2(x)} \\
+&= \frac{\cos(x) \cdot \cos(x) - \sin(x) \cdot (-\sin(x))}{\cos^2(x)} \quad \text{(using the derivatives of sine and cosine)} \\
+&= \frac{\cos^2(x) + \sin^2(x)}{\cos^2(x)} \\
+&= \frac{1}{\cos^2(x)} \\
+&= \sec^2(x).
+\end{aligned}
+\right]$$\
+> >Therefore, we have shown that $$\frac{d}{dx} \tan(x) = \sec^2(x)$$.\
+> > - Therefore $$\frac{d}{dx} \tan x = \sec^2 x$$\
+> > Similarly, it can be shown that:\
 > > Derivative of $$\sec x$$:
 > > - $$\frac{d}{dx} \sec x = \sec x \tan x$$\
 > > Derivative of $$\csc x$$:
