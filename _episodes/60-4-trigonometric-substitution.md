@@ -89,7 +89,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 >   12. $$\sec^2x - \sec x + \tan^2 x$$.
 >   13. Evaluate without calculator using identities $$\cos(-\theta),\ if\ \sin(\theta-\frac \pi2) = 0.73$$
 {: .challenge}
-> ## 7.1.10 Exercise 1 - Check the formulas for the derivatives of $$\tan x,\sec x,\csc x and \cot x$$.
+> ## 7.1.10 Exercise 1 - Check the formulas for the derivatives of $$\tan x,\sec x,\csc x$$ and $$\cot x$$.
 > > 
 > > ## Solution
 > >
@@ -111,7 +111,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > >Therefore, we have shown that\
 > > $$\frac{d}{dx} \tan(x) = \sec^2(x)$$.\
 > >===================================================================\
-> > Similarly, it can be shown that:\
+<!-- > > Similarly, it can be shown that:\
 > > $$\frac{d}{dx} \sec(x) = \sec(x) \tan(x)$$:\
 > > To prove that $$\frac{d}{dx} \sec(x) = \sec(x) \tan(x)$$, we can use the derivative rules and the definition of the secant function.\
 > >The secant function is defined as $$\sec(x) = \frac{1}{\cos(x)}$$.\
@@ -129,7 +129,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 \end{aligned}
 \right]$$\
 > >Therefore, we have shown that\
- $$\frac{d}{dx} \sec(x) = \sec(x) \tan(x)$$.\
+ $$\frac{d}{dx} \sec(x) = \sec(x) \tan(x)$$.\ -->
 > >===================================================================\
 > > show that\
 > > $$\frac{d}{dx} \csc x = -\csc x \cot x$$\
