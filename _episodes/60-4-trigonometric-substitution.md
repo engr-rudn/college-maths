@@ -132,7 +132,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
  $$\frac{d}{dx} \sec(x) = \sec(x) \tan(x)$$.\
 > >===================================================================\
 > > show that\
-> > - $$\frac{d}{dx} \csc x = -\csc x \cot x$$\
+> > $$\frac{d}{dx} \csc x = -\csc x \cot x$$\
 > >To prove that $$\frac{d}{dx} \csc(x) = -\csc(x) \cot(x)$$, we can use the derivative rules and the definition of the cosecant function.\
 > >The cosecant function is defined as $$\csc(x) = \frac{1}{\sin(x)}$$.\
 > >Using the quotient rule, we can differentiate $$\csc(x)$$ with respect to $$x$$ as follows:\
@@ -151,7 +151,23 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > >Therefore, we have shown that $$\frac{d}{dx} \csc(x) = -\csc(x) \cot(x)$$.\
 > >===================================================================\
 > > Show that\
-> > - $$\frac{d}{dx} \cot x = -\csc^2 x$$\
+> > $$\frac{d}{dx} \cot x = -\csc^2 x$$\
+> >To prove that $$\frac{d}{dx} \cot(x) = -\csc^2(x)$$, we can use the derivative rules and the definition of the cotangent function.\
+> >The cotangent function is defined as $$\cot(x) = \frac{1}{\tan(x)}$$.\
+> >Using the quotient rule, we can differentiate $$\cot(x)$$ with respect to $$x$$ as follows:\
+> >$$
+\left[
+\begin{aligned}
+\frac{d}{dx} \cot(x) &= \frac{d}{dx} \left(\frac{1}{\tan(x)}\right) \\
+&= \frac{-1 \cdot \frac{d}{dx}(\tan(x))}{\tan^2(x)} \\
+&= \frac{-1 \cdot \sec^2(x)}{\tan^2(x)} \quad \text{(using the derivative of tangent)} \\
+&= -\frac{\sec^2(x)}{\tan^2(x)} \\
+&= -\frac{\sec^2(x)}{\frac{\sin^2(x)}{\cos^2(x)}} \\
+&= -\frac{\cos^2(x)}{\sin^2(x)} \\
+&= -\csc^2(x).
+\end{aligned}
+\right]$$\
+> >Therefore, we have shown that $$\frac{d}{dx} \cot(x) = -\csc^2(x)$$.\
 > > Here, $$\sec x$$, $$\csc x$$, and $$\cot x$$ are the reciprocal functions of $$\cos x$$, $$\sin x$$, and $$\tan x$$ respectively.
 > {: .solution}
 {: .challenge}
