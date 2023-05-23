@@ -108,8 +108,9 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 &= \sec^2(x).
 \end{aligned}
 \right]$$\
-> >Therefore, we have shown that $$\frac{d}{dx} \tan(x) = \sec^2(x)$$.\
-> > - Therefore $$\frac{d}{dx} \tan x = \sec^2 x$$\
+> >Therefore, we have shown that\
+> > $$\frac{d}{dx} \tan(x) = \sec^2(x)$$.\
+> >
 > > Similarly, it can be shown that:\
 > > Derivative of $$\sec x$$:
 > > - $$\frac{d}{dx} \sec x = \sec x \tan x$$\
