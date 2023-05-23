@@ -109,11 +109,27 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 \end{aligned}
 \right]$$\
 > >Therefore, we have shown that\
-> > $$\frac{d}{dx} \tan(x) = \sec^2(x)$$.\
+> > $$\frac{d}{dx} \tan(x) = \sec^2(x)$$.
 > >
 > > Similarly, it can be shown that:\
 > > Derivative of $$\sec x$$:
-> > - $$\frac{d}{dx} \sec x = \sec x \tan x$$\
+> > To prove that $$\frac{d}{dx} \sec(x) = \sec(x) \tan(x)$$, we can use the derivative rules and the definition of the secant function.\
+> >The secant function is defined as $$\sec(x) = \frac{1}{\cos(x)}$$.\
+> >Using the quotient rule, we can differentiate $$\sec(x)$$ with respect to $$x$$ as follows:\
+> >$$
+\left[
+\begin{aligned}
+\frac{d}{dx} \sec(x) &= \frac{d}{dx} \left(\frac{1}{\cos(x)}\right) \\
+&= \frac{-1 \cdot \frac{d}{dx}(\cos(x))}{\cos^2(x)} \\
+&= \frac{-1 \cdot (-\sin(x))}{\cos^2(x)} \quad \text{(using the derivative of cosine)} \\
+&= \frac{\sin(x)}{\cos^2(x)} \\
+&= \frac{\sin(x)}{\cos(x)} \cdot \frac{1}{\cos(x)} \\
+&= \tan(x) \cdot \sec(x) \\
+&= \sec(x) \tan(x).
+\end{aligned}
+\right]$$\
+> >Therefore, we have shown that\
+ $$\frac{d}{dx} \sec(x) = \sec(x) \tan(x)$$.\
 > > Derivative of $$\csc x$$:
 > > - $$\frac{d}{dx} \csc x = -\csc x \cot x$$\
 > > Derivative of $$\cot x$$:
