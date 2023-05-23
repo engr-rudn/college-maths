@@ -168,7 +168,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 \end{aligned}
 \right]$$\
 > >Therefore, we have shown that $$\frac{d}{dx} \cot(x) = -\csc^2(x)$$.\ -->
-> > Here, $$\sec x$$, $$\csc x$$, and $$\cot x$$ are the reciprocal functions of $$\cos x$$, $$\sin x$$, and $$\tan x$$ respectively.
+> > Here, $$\sec x$$, $$\csc x$$, and $$\cot x$$ are the reciprocal functions of $$\cos x$$, $$\sin x$$, and $$\tan x$$ respectively $$\left[\sec x=\frac{1}{\cos x},\csc x=\frac{1}{\sin x},\cot x=\frac{1}{\tan x}\right]$$
 > {: .solution}
 {: .challenge}
 > ## 7.1.10 Exercise 2 - Obtain the addition formula for $$\tan x$$ (familiar from school mathematics):    $$\tan u + \tan v = \tan(u + v) / (1 - \tan u \tan v)$$.
