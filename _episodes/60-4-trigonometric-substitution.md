@@ -130,9 +130,27 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 \right]$$\
 > >Therefore, we have shown that\
  $$\frac{d}{dx} \sec(x) = \sec(x) \tan(x)$$.\
-> > Derivative of $$\csc x$$:
+> >===================================================================\
+> > show that\
 > > - $$\frac{d}{dx} \csc x = -\csc x \cot x$$\
-> > Derivative of $$\cot x$$:
+> >To prove that $$\frac{d}{dx} \csc(x) = -\csc(x) \cot(x)$$, we can use the derivative rules and the definition of the cosecant function.\
+> >The cosecant function is defined as $$\csc(x) = \frac{1}{\sin(x)}$$.\
+> >Using the quotient rule, we can differentiate $$\csc(x)$$ with respect to $$x$$ as follows:\
+> >$$
+\left[
+\begin{aligned}
+\frac{d}{dx} \csc(x) &= \frac{d}{dx} \left(\frac{1}{\sin(x)}\right) \\
+&= \frac{-1 \cdot \frac{d}{dx}(\sin(x))}{\sin^2(x)} \\
+&= \frac{-1 \cdot \cos(x)}{\sin^2(x)} \quad \text{(using the derivative of sine)} \\
+&= -\frac{\cos(x)}{\sin^2(x)} \\
+&= -\frac{\cos(x)}{\sin(x)} \cdot \frac{1}{\sin(x)} \\
+&= -\cot(x) \cdot \csc(x) \\
+&= -\csc(x) \cot(x).
+\end{aligned}
+\right]$$\
+> >Therefore, we have shown that $$\frac{d}{dx} \csc(x) = -\csc(x) \cot(x)$$.\
+> >===================================================================\
+> > Show that\
 > > - $$\frac{d}{dx} \cot x = -\csc^2 x$$\
 > > Here, $$\sec x$$, $$\csc x$$, and $$\cot x$$ are the reciprocal functions of $$\cos x$$, $$\sin x$$, and $$\tan x$$ respectively.
 > {: .solution}
