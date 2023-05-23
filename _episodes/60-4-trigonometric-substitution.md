@@ -152,7 +152,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > >===================================================================\
 > > Show that\
 > > $$\frac{d}{dx} \cot x = -\csc^2 x$$\
-> >To prove that $$\frac{d}{dx} \cot(x) = -\csc^2(x)$$, we can use the derivative rules and the definition of the cotangent function.\
+<!-- > >To prove that $$\frac{d}{dx} \cot(x) = -\csc^2(x)$$, we can use the derivative rules and the definition of the cotangent function.\
 > >The cotangent function is defined as $$\cot(x) = \frac{1}{\tan(x)}$$.\
 > >Using the quotient rule, we can differentiate $$\cot(x)$$ with respect to $$x$$ as follows:\
 > >$$
@@ -167,7 +167,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 &= -\csc^2(x).
 \end{aligned}
 \right]$$\
-> >Therefore, we have shown that $$\frac{d}{dx} \cot(x) = -\csc^2(x)$$.\
+> >Therefore, we have shown that $$\frac{d}{dx} \cot(x) = -\csc^2(x)$$.\ -->
 > > Here, $$\sec x$$, $$\csc x$$, and $$\cot x$$ are the reciprocal functions of $$\cos x$$, $$\sin x$$, and $$\tan x$$ respectively.
 > {: .solution}
 {: .challenge}
