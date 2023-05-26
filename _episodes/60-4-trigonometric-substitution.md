@@ -335,7 +335,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > Therefore, $$\cosh(x)^2 - sinh(x)^2 = 1$$, which is a well-known identity involving hyperbolic functions and is an important tool for integration.
 > {: .solution}
 {: .challenge}
-> ### (b) $$1 + \tan^2 x = \sec^2 x$$
+<!-- > ### (b) $$1 + \tan^2 x = \sec^2 x$$
 > > ## Solution
 > >
 > > To prove the identity $$1 + \tan^2(x) = \sec^2(x)$$, we start with the definitions of tangent and secant:\
@@ -345,7 +345,7 @@ $$2[\frac x2  + \arcsin \frac x2] + C$$
 > > Therefore, we have shown that $$1 + \tan^2(x) = \sec^2(x)$$.\
 > > (This identity is an important tool in trigonometry and calculus).
 > {: .solution}
-{: .challenge}
+{: .challenge} -->
 > ## 7.2.9 -15 Check the formulas for the derivatives of $$\sinh x, \cosh x and \tanh x$$
 > > ## Solution
 > >
