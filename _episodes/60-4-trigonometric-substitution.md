@@ -31,7 +31,7 @@ $$\sin(\frac \pi2-\theta) = \cos\theta$$ $$\qquad$$ $$\cos(\frac \pi2-\theta) = 
 $$\tan(\frac \pi2-\theta) = \cot\theta$$ $$\qquad$$ $$\cot(\frac \pi2-\theta) = \tan\theta$$<br>
 $$\sec(\frac \pi2-\theta) = \csc\theta$$ $$\qquad$$ $$\csc(\frac \pi2-\theta) = \sec\theta$$
 
-# Prove Trig Identities
+### Prove Trig Identities
 
 | Left-Hand-Side                        | Right-Hand-Side |
 |---------------------------------------|-----------------|
