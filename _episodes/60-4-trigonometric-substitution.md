@@ -32,8 +32,8 @@ $$\tan(\frac \pi2-\theta) = \cot\theta$$ $$\qquad$$ $$\cot(\frac \pi2-\theta) = 
 $$\sec(\frac \pi2-\theta) = \csc\theta$$ $$\qquad$$ $$\csc(\frac \pi2-\theta) = \sec\theta$$
 
 # Prove Trig Identities
-**Left-Hand-Side** | **Right-Hand-Side**
---- | ---
+$$**Left-Hand-Side** | **Right-Hand-Side**
+--- | ---$$
 $$\cos{x}+\sin{x}\tan{x}$$ | $$\sec{x}$$
 $$\cos{x}+\frac{\sin{x}}{1}(\frac{\sin{x}}{\cos{x}})$$ | $$\sec{x}$$
 $$\cos{x}+\frac{\sin^2{x}}{\cos{x}}$$ | $$\sec{x}$$
