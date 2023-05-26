@@ -31,6 +31,12 @@ $$\sin(\frac \pi2-\theta) = \cos\theta$$ $$\qquad$$ $$\cos(\frac \pi2-\theta) = 
 $$\tan(\frac \pi2-\theta) = \cot\theta$$ $$\qquad$$ $$\cot(\frac \pi2-\theta) = \tan\theta$$<br>
 $$\sec(\frac \pi2-\theta) = \csc\theta$$ $$\qquad$$ $$\csc(\frac \pi2-\theta) = \sec\theta$$
 
+### Some more Trigonometric Identities
+$$\cos(2x) &= \cos^2(x) - \sin^2(x) \\
+\sin(2x) &= 2\sin(x)\cos(x) \\
+\sin^2(x) + \cos^2(x) &= 1
+$$\
+
 ### Prove Trig Identities
 
 | Left-Hand-Side                        | Right-Hand-Side |
