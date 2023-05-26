@@ -681,6 +681,11 @@ $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{
 > >where $$C = C_1 + C_2$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
+> ### (mid-exam) $$\int \frac{1}{x^2-1} dx$$
+> >
+> > ## Solution
+> >
+> >
 <!-- > >## Solution
 > > We can start by factoring the denominator $$x^3 - 1$$.\
 > > $$x^3 - 1$$ can be written as $$(x - 1)(x^2 + x + 1)$$.
@@ -723,7 +728,46 @@ $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{
 > {: .solution}
 {: .challenge}  -->
 > ### (b) $$\int \frac{1}{x^4+1} dx$$
-> > ## Solution
+> >
+> >## Solution
+> >
+> >To solve the integral $$\int \frac{1}{x^4+1} \, dx$$, we can try to decompose the denominator $$x^4 + 1$$ into its factors. However, in this case, the denominator cannot be factored further using real numbers.\
+> >Let's proceed with the partial fraction decomposition by considering the irreducible quadratic factors over the complex numbers. The denominator $$x^4 + 1$$ can be factored as:\
+> >$$x^4 + 1 = (x^2 + \sqrt{2}x + 1)(x^2 - \sqrt{2}x + 1)$$\
+> >Therefore, we can write the given fraction as:\
+> >$$\frac{1}{x^4 + 1} = \frac{A}{x^2 + \sqrt{2}x + 1} + \frac{B}{x^2 - \sqrt{2}x + 1}$$\
+> >To determine the values of $$A$$ and $$B$$, we can multiply both sides of the equation by $$x^4 + 1$$:\
+> >$$1 = A(x^2 - \sqrt{2}x + 1) + B(x^2 + \sqrt{2}x + 1)$$\
+> >Expanding and collecting like terms, we get:\
+> >$$1 = (A + B)x^2 + (\sqrt{2}A - \sqrt{2}B)x + (A + B)$$\
+> >Equating the coefficients of like powers of $$x$$, we have the following system of equations:\
+> >$$A + B = 0$$    (1)\
+> >$$\sqrt{2}A - \sqrt{2}B = 0$$    (2)\
+> >$$A + B = 1$$    (3)\
+> >From equations (1) and (3), we can see that $$A = -B = \frac{1}{2}$$. Therefore, we have found $$A = \frac{1}{2}$$ and $$B = -\frac{1}{2}$$.\
+> >Now, we can rewrite the integral using the partial fraction decomposition:\
+> >$$\int \frac{1}{x^4 + 1} \, dx = \int \left(\frac{\frac{1}{2}}{x^2 + \sqrt{2}x + 1} - \frac{\frac{1}{2}}{x^2 - \sqrt{2}x + 1}\right) \, dx$$\
+> >To integrate each term separately, we can use the method of completing the square to simplify the denominators:\
+> >$$x^2 + \sqrt{2}x + 1 = (x + \frac{\sqrt{2}}{2})^2 + \frac{1}{2}$$\
+> >$$x^2 - \sqrt{2}x + 1 = (x - \frac{\sqrt{2}}{2})^2 + \frac{1}{2}$$\
+> >Now we can proceed with the substitutions:\
+> >Let $$u = x + \frac{\sqrt{2}}{2}$$ for the first term, and $$v = x - \frac{\sqrt{2}}{2}$$ for the second term. Therefore, $$du = dx$$ and $$dv = dx$$.\
+> >Substituting these values, we get:\
+> >$$\int \frac{\frac{1}{2}}{(u^2 + \frac{1}{2})} \, du - \int \frac{\frac{1}{2}}{(v^2 + \frac{1}{2})} \, dv$$\
+> >Simplifying further, we have:\
+> >$$\frac{1}{2} \int \frac{1}{u^2 + \frac{1}{2}} \, du - \frac{1}{2} \int \frac{1}{v^2 + \frac{1}{2}} \, dv$$\
+> >Both of these integrals can be evaluated using the substitution $$w = u^2 + \frac{1}{2}$$ and $$z = v^2 + \frac{1}{2}$$ respectively. Thus, $$dw = 2u \, du$$ and $$dz = 2v \, dv$$.\
+> >Making the substitutions and simplifying, we get:\
+> >$$\frac{1}{2} \int \frac{1}{w} \, dw - \frac{1}{2} \int \frac{1}{z} \, dz$$\
+> >$$= \frac{1}{2} \ln|w| - \frac{1}{2} \ln|z| + C_1$$\
+> >$$= \frac{1}{2} \ln|u^2 + \frac{1}{2}| - \frac{1}{2} \ln|v^2 + \frac{1}{2}| + C_1$$\
+> >$$= \frac{1}{2} \ln|(x + \frac{\sqrt{2}}{2})^2 + \frac{1}{2}| - \frac{1}{2} \ln|(x - \frac{\sqrt{2}}{2})^2 + \frac{1}{2}| + C_1$$\
+> >Therefore, the final result of the integral is:\
+> >$$\int \frac{1}{x^4 + 1} \, dx = \frac{1}{2} \ln|(x + \frac{\sqrt{2}}{2})^2 + \frac{1}{2}| - \frac{1}{2} \ln|(x - \frac{\sqrt{2}}{2})^2 + \frac{1}{2}| + C$$\
+> >where $$C = C_1 + C_2$$ is the constant of integration.
+>{: .solution}
+{: .challenge}
+<!-- > > ## Solution
 > >$$
 \begin{align*}
 \int \frac{1}{x^4+1}dx &= \int \frac{Ax + B}{x^2 + \sqrt{2}x + 1} dx + \int \frac{Cx + D}{x^2 - \sqrt{2}x + 1} dx \\
@@ -735,4 +779,4 @@ $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{
 $$
 > > 
 > {: .solution}
-{: .challenge}
+{: .challenge} -->
