@@ -9,10 +9,10 @@ objectives:
 
 ## Mid-Semester Exam Ac.Year 2022/23
 
-> ### 8.2.7 $$\int \frac{1}{x^2-1} dx$$
+<!-- > ### 8.2.7 $$\int \frac{1}{x^2-1} dx$$
 > >
 > > ## Solution
-> >
+> > -->
 <!-- > >To solve the integral $$\int \frac{1}{x^2 - 1} \, dx$$, we can decompose the denominator $$x^2 - 1$$ into its factors using partial fraction decomposition. Let's start by factoring the denominator:\
 > >$$x^2 - 1 = (x - 1)(x + 1)$$\
 > >The factors $$(x - 1)$$ and $$(x + 1)$$ are linear factors, so we can write the given fraction as:\
