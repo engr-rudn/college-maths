@@ -643,7 +643,8 @@ $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{
 {: .challenge}
 > ## 13. Solve the following integrals:
 > ### (a) $$\int \frac{1}{x^3-1} dx$$
-## Solution
+> >
+> >## Solution
 > > We can start by factoring the denominator $$x^3 - 1$$.\
 > > $$x^3 - 1$$ can be written as $$(x - 1)(x^2 + x + 1)$$.
 > > So we have:\
