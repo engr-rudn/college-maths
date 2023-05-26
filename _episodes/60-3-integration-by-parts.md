@@ -644,7 +644,44 @@ $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{
 > ## 13. Solve the following integrals:
 > ### (a) $$\int \frac{1}{x^3-1} dx$$
 > >
-> >## Solution
+> > ## Solution
+> >
+> >To solve the integral $$\int \frac{1}{x^3 - 1} \, dx$$, we can decompose the denominator $$x^3 - 1$$ into its factors using partial fraction decomposition. Let's start by factoring the denominator:\
+> >$$x^3 - 1 = (x - 1)(x^2 + x + 1)$$\
+> >The factors $$(x - 1)$$ and $$(x^2 + x + 1)$$ are irreducible over the real numbers, so we can write the given fraction as:\
+> >$$\frac{1}{x^3 - 1} = \frac{A}{x - 1} + \frac{Bx + C}{x^2 + x + 1}$$\
+> >To determine the values of $$A$$, $$B$$, and $$C$$, we can use algebraic manipulation or the method of coefficients. I will use the method of coefficients here.\
+> >Multiplying both sides of the equation by $$x^3 - 1$$, we have:\
+> >$$1 = A(x^2 + x + 1) + (Bx + C)(x - 1)$$\
+> >Expanding and collecting like terms, we get:\
+> >$$1 = (A + B)x^2 + (A + B - C)x + (A - C)$$\
+> >Equating the coefficients of like powers of $$x$$, we have the following system of equations:\
+> >$$A + B = 0$$    (1)\
+> >$$A + B - C = 0$$    (2)\
+> >$$A - C = 1$$    (3)\
+> >From equation (1), we get $$B = -A$$. Substituting this into equation (2), we have:\
+> >$$A - A - C = 0 \Rightarrow -C = 0 \Rightarrow C = 0$$\
+> >Substituting $$B = -A$$ and $$C = 0$$ into equation (3), we get:\
+> >$$A - 0 = 1 \Rightarrow A = 1$$\
+> >Therefore, we have found $$A = 1$$, $$B = -1$$, and $$C = 0$$.\
+> >Now, we can rewrite the integral using the partial fraction decomposition:\
+> >$$\int \frac{1}{x^3 - 1} \, dx = \int \left(\frac{1}{x - 1} - \frac{x}{x^2 + x + 1}\right) \, dx$$\
+> >Integrating each term separately, we have:\
+> >$$\int \frac{1}{x - 1} \, dx - \int \frac{x}{x^2 + x + 1} \, dx$$\
+> >The first integral is straightforward:\
+> >$$\int \frac{1}{x - 1} \, dx = \ln|x - 1| + C_1$$\
+> >For the second integral, we can use a substitution $$u = x^2 + x + 1$$:\
+> >$$\int \frac{x}{x^2 + x + 1} \, dx = \frac{1}{2} \int \frac{2x + 1}{x^2 + x + 1} \, dx$$\
+> >Let $$u = x^2 + x + 1$$ and $$du = (2x + 1) \, dx$$. The integral becomes:\
+> >$$\frac{1}{2} \int \frac{1}{u} \, du = \frac{1}{2} \ln|u| + C_2$$\
+> >Substituting back $$u = x^2 + x + 1$$, we get:\
+> >$$\frac{1}{2} \ln|x^2 + x + 1| + C_2$$\
+> >Therefore, the final result of the integral is:\
+> >$$\int \frac{1}{x^3 - 1} \, dx = \ln|x - 1| - \frac{1}{2} \ln|x^2 + x + 1| + C$$\
+> >where $$C = C_1 + C_2$$ is the constant of integration.
+>{: .solution}
+{: .challenge}
+<!-- > >## Solution
 > > We can start by factoring the denominator $$x^3 - 1$$.\
 > > $$x^3 - 1$$ can be written as $$(x - 1)(x^2 + x + 1)$$.
 > > So we have:\
@@ -684,7 +721,7 @@ $$= -\frac{1}{4}\ln|x-1|-\frac{1}{2}\cdot\frac{1}{x-1}-\frac{1}{4}\cdot\frac{1}{
 > >  $$                  = 1$$
 > > 
 > {: .solution}
-{: .challenge} 
+{: .challenge}  -->
 > ### (b) $$\int \frac{1}{x^4+1} dx$$
 > > ## Solution
 > >$$
