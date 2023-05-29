@@ -8,7 +8,7 @@ objectives:
 ---
 
 ## Mid-Semester Exam Ac.Year 2022/23
-> ### Show that if $$f$$ and $$g$$ are bounded functions, both integrable on the interval $$[a,b]$$, then so is $$f+g$$.
+> ### 1. Show that if $$f$$ and $$g$$ are bounded functions, both integrable on the interval $$[a,b]$$, then so is $$f+g$$.
 > >
 > > ## Solution
 > >
@@ -54,6 +54,6 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Using the natural logarithm function, we can write:\
 > >$$\frac{1}{2} \ln|x - 1| - \frac{1}{2} \ln|x + 1| + C$$\
 > >Therefore, the final result of the integral is:\
-> >$$\int \frac{1}{x^2 - 1} \, dx = \frac{1}{2} \ln|x - 1| - \frac{1}{2} \ln|x + 1| + C$$ -->
+> >$$\int \frac{1}{x^2 - 1} \, dx = \frac{1}{2} \ln|x - 1| - \frac{1}{2} \ln|x + 1| + C$$
 >{: .solution}
 {: .challenge}

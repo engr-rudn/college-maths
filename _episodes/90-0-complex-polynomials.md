@@ -309,7 +309,22 @@ $$\
 > >
 > > ## Solution
 > >
-> > We can write the expression $$x^4 + 1$$ as $$(x^4 + 2x^2 + 1) - 2x^2 = (x^2 + 1)^2 - (sqrt(2)x)^2$$. Using the difference of squares formula, we get:\
+> >The real factorization of $$x^4 + 1$$ into irreducible quadratic factors is needed to calculate the integral $$\int \frac{1}{x^4 + 1} \, dx$$. We can obtain the factorization using complex numbers by noting that the roots of $$x^4 + 1 = 0$$ are the four complex numbers $$w_1 = e^{i\pi/4}$$, $$w_2 = e^{3i\pi/4}$$, $$w_3 = e^{5i\pi/4}$$, and $$w_4 = e^{7i\pi/4}$$.\
+> >To compute the integral, we use partial fraction decomposition. The integrand can be expressed as:\
+$$\frac{1}{x^4 + 1} = \frac{\frac{1}{2}}{x^2 + \sqrt{2}x + 1} - \frac{\frac{1}{2}}{x^2 - \sqrt{2}x + 1}$$\
+> >Next, we complete the square in the denominators:\
+$$x^2 + \sqrt{2}x + 1 = (x + \frac{\sqrt{2}}{2})^2 + \frac{1}{2}$$\
+$$x^2 - \sqrt{2}x + 1 = (x - \frac{\sqrt{2}}{2})^2 + \frac{1}{2}$$\
+> >Using the substitutions $$u = x + \frac{\sqrt{2}}{2}$$ and $$v = x - \frac{\sqrt{2}}{2}$$, the integral becomes:\
+> >$$\int \frac{1}{x^4 + 1} \, dx = \frac{1}{2} \int \frac{1}{(x + \frac{\sqrt{2}}{2})^2 + \frac{1}{2}} \, dx - \frac{1}{2} \int \frac{1}{(x - \frac{\sqrt{2}}{2})^2 + \frac{1}{2}} \, dx$$\
+> >Applying the integral formulas for $$\frac{1}{u^2 + a^2}$$, the integrals can be evaluated as:\
+> >$$\frac{1}{2\sqrt{2}} \left(\arctan\left(\frac{x + \frac{\sqrt{2}}{2}}{\frac{1}{\sqrt{2}}}\right) - \arctan\left(\frac{x - \frac{\sqrt{2}}{2}}{\frac{1}{\sqrt{2}}}\right)\right) + C$$\
+> >Simplifying further, we have:\
+> >$$\frac{1}{\sqrt{2}} \left(\arctan\left(\sqrt{2}(x + \frac{\sqrt{2}}{2})\right) - \arctan\left(\sqrt{2}(x - \frac{\sqrt{2}}{2})\right)\right) + C$$\
+> >Therefore, the integral $$\int \frac{1}{x^4 + 1} \, dx$$\
+> > can be expressed as\
+> > $$\frac{1}{\sqrt{2}} \left(\arctan\left(\sqrt{2}(x + \frac{\sqrt{2}}{2})\right) - \arctan\left(\sqrt{2}(x - \frac{\sqrt{2}}{2})\right)\right) + C$$,\ where $$C$$ is the constant of integration.
+> > <!-- We can write the expression $$x^4 + 1$$ as $$(x^4 + 2x^2 + 1) - 2x^2 = (x^2 + 1)^2 - (sqrt(2)x)^2$$. Using the difference of squares formula, we get:\
 > > $$x^4 + 1 = (x^2 + \sqrt(2)x + 1)(x^2 - \sqrt(2)x + 1)$$\
 > > Note that both of these quadratic factors have real coefficients. To see this, we can use the fact that the roots of $$x^4 + 1 = 0$$ are $$w_1 = (1 + i)/\sqrt(2)$$,\
 > > $$ w_2 = (-1 + i)/\sqrt(2)$$,\
@@ -353,7 +368,7 @@ $$\
 > > $$∫[1/(x^4 + 1)]dx = (1/6)x^3 + (1/2)x - (1/4)(sqrt(2)/2)x^2 + C$$\
 > > Therefore, the integral of $$1/(x^4 + 1)$$ is:\
 > > $$∫[1/(x^4 + 1)]dx = (1/6)x^3 + (1/2)x - (1/4)(sqrt(2)/2)x^2 + C$$\
-> > where $$C$$ is the constant of integration.
+> > where $$C$$ is the constant of integration. -->
 > > 
 > {: .solution}
 {: .challenge}
