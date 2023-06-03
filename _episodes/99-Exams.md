@@ -141,3 +141,99 @@ $$\
 > >Thus, we have shown that $$f$$ is integrable on $$[a, b]$$ and $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f$$.
 {: .solution}
 {: .challenge}
+>### Solve the following integrals. Show your detailed answers by writing the step-by-step analysis:
+> #### a)  $$\int (x^2 \tan x)dx$$
+> >
+> > ## Solution
+> >
+> >a) To solve the integral $$\int (x^2 \tan x)dx$$:\
+> >We can use integration by parts, which states:\
+$$\int u dv = uv - \int v du$$\
+> >Let's choose $$u = x^2$$ and $$dv = \tan x dx$$. Taking the derivatives and antiderivatives, we have $$du = 2x dx$$ and $$v = \int \tan x dx = -\ln|\cos x|$$.\
+> >Now, applying the integration by parts formula, we get:
+$$\int (x^2 \tan x)dx = -x^2 \ln|\cos x| - \int (-\ln|\cos x| \cdot 2x)dx$$\
+> >Simplifying, we have:\
+> >$$\int (x^2 \tan x)dx = -x^2 \ln|\cos x| + 2\int x \ln|\cos x| dx$$\
+> >Now, we need to solve the remaining integral, $$\int x \ln|\cos x| dx$$. We can use integration by parts again.\
+> >Let's choose $$u = \ln|\cos x|$$ and $$dv = x dx$$. Taking the derivatives and antiderivatives, we have $$du = -\frac{\sin x}{\cos x} dx$$ and $$v = \frac{x^2}{2}$$.\
+> >Applying the integration by parts formula, we get:\
+> >$$\int x \ln|\cos x| dx = \frac{x^2}{2} \ln|\cos x| - \int \frac{x^2}{2} \cdot \frac{\sin x}{\cos x} dx$$\
+> >Simplifying, we have:\
+$$\int x \ln|\cos x| dx = \frac{x^2}{2} \ln|\cos x| - \frac{1}{2} \int x^2 \tan x dx$$\
+> >Now, let's substitute this result back into the equation for the original integral:\
+> >$$\int (x^2 \tan x)dx = -x^2 \ln|\cos x| + 2\left(\frac{x^2}{2} \ln|\cos x| - \frac{1}{2} \int x^2 \tan x dx\right)$$\
+> >Simplifying further, we have:\
+> >$$\int (x^2 \tan x)dx = -x^2 \ln|\cos x| + x^2 \ln|\cos x| - \int x^2 \tan x dx$$\
+> >Combining like terms, we obtain:\
+> >$$2\int (x^2 \tan x)dx = -x^2 \ln|\cos x|$$\
+> >Dividing both sides by 2, we get the final result:\
+$$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
+> >Therefore, $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$, where $$C$$ is the constant of integration.
+{: .solution}
+{: .challenge}
+> #### b) $$\int(x^2e^{2x})dx$$
+> >
+> > ## Solution
+> >
+> >To solve the integral $$\int(x^2e^{2x})dx$$:\
+> >We can use integration by parts, similar to the previous problem.\
+> >Let's choose $$u = x^2$$ and $$dv = e^{2x} dx$$. Taking the derivatives and antiderivatives, we have $$du = 2x dx$$ and $$v = \frac{1}{2} e^{2x}$$.\
+> >Applying the integration by parts formula, we get:\
+> >$$\int(x^2e^{2x})dx = \frac{1}{2}x^2e^{2x} - \int 2x \cdot \frac{1}{2} e^{2x} dx$$\
+> >Simplifying, we have:\
+> >$$\int(x^2e^{2x})dx = \frac{1}{2}x^2e^{2x} - \int x e^{2x} dx$$\
+> >Now, we need to solve the remaining integral, $$\int x e^{2x} dx$$. We can use integration by parts again.\
+> >Let's choose $$u = x$$ and $$dv = e^{2x} dx$$. Taking the derivatives and antiderivatives, we have $$du = dx$$ and $$v = \frac{1}{2} e^{2x}$$.\
+> >Applying the integration by parts formula, we get:\
+> >$$\int x e^{2x} dx = \frac{1}{2}x e^{2x} - \int \frac{1}{2} e^{2x} dx$$\
+> >Simplifying, we have:\
+> >$$\int x e^{2x} dx = \frac{1}{2}x e^{2x} - \frac{1}{4} e^{2x}$$\
+> >Now, substituting this result back into the equation for the original integral, we have:\
+> >$$\int(x^2e^{2x})dx = \frac{1}{2}x^2e^{2x} - \left(\frac{1}{2}x e^{2x} - \frac{1}{4} e^{2x}\right)$$\
+> >Combining like terms, we obtain:\
+> >$$\int(x^2e^{2x})dx = \frac{1}{2}x^2e^{2x} - \frac{1}{2}x e^{2x} + \frac{1}{4} e^{2x} + C$$\
+> >Therefore, $$\int(x^2e^{2x})dx = \frac{1}{2}x^2e^{2x} - \frac{1}{2}x e^{2x} + \frac{1}{4} e^{2x} + C$$, where $$C$$ is the constant of integration.
+>{: .solution}
+{: .challenge}
+>#### c) $$\int (x^2/(x-x^2)dx$$
+> >
+> > ## Solution
+> >
+> >To solve the integral $$\int \frac{x^2}{x-x^2}dx$$:\
+> >We can start by factoring the denominator:\
+> >$$\int \frac{x^2}{x(1-x)}dx$$\
+> >Now, we can express the fraction as a sum of partial fractions. We need to find constants $$A$$ and $$B$$ such that:\
+> >$$\frac{x^2}{x(1-x)} = \frac{A}{x} + \frac{B}{1-x}$$\
+> >Multiplying through by $$x(1-x)$$, we have:\
+> >$$x^2 = A(1-x) + Bx$$\
+> >Expanding and collecting like terms, we get:\
+> >$$x^2 = (A - B)x + A$$\
+> >To equate the coefficients of like powers of $$x$$, we have:\
+> >$$A - B = 0$$\
+> >$$A = 0$$\
+> >From the first equation, we obtain $$B = A = 0$$. Therefore, the integral simplifies to:\
+> >$$\int \frac{x^2}{x-x^2}dx = \int (0 + 0)dx$$\
+> >Since both terms in the integral are zero, the result is simply:
+$$\int \frac{x^2}{x-x^2}dx = 0 + C$$\
+> >Therefore, $$\int \frac{x^2}{x-x^2}dx = C$$, where $$C$$ is the constant of integration.
+{: .solution}
+{: .challenge}
+> #### d) $$\int \frac{x}{x^3-1} dx$$
+> >
+> > ## Solution
+> >
+> >To solve the integral $$\int \frac{x}{x^3-1} dx$$:\
+> >We can use a substitution to simplify the integral. Let $$u = x^3 - 1$$. Taking the derivative, we have $$du = 3x^2 dx$$, which implies $$dx = \frac{du}{3x^2}$$.\
+> >Substituting $$u$$ and $$dx$$ in the integral, we have:\
+> >$$\int \frac{x}{x^3-1} dx = \int \frac{x}{u} \cdot \frac{du}{3x^2}$$\
+> >Simplifying, we get:\
+> >$$\int \frac{x}{x^3-1} dx = \frac{1}{3} \int \frac{1}{u} du$$\
+> >Now, we can evaluate the integral of $$1/u$$:\
+$$\int \frac{1}{u} du = \ln|u|$$\
+> >Substituting $$u = x^3 - 1$$ back into the equation, we have:\
+$$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$\
+> >Therefore, $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$, where $$C$$ is the constant of integration.
+>{: .solution}
+{: .challenge}
+
+
