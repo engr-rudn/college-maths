@@ -91,7 +91,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Therefore, the integral $$\int \frac{1}{x^4 + 4} \, dx$$ can be expressed as $$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$, where $$C$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
-> ### Suppose that  f  is bounded on $$[a,b]$$  and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that  $$f$$  is integrable on $$[a,b]$$ and $$\lim_{ε→0+}\int_{a+ε}^{b} f =   \int_{a}^{b} f$$. 
+> ### a) Suppose that  f  is bounded on $$[a,b]$$  and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that  $$f$$  is integrable on $$[a,b]$$ and $$\lim_{ε→0+}\int_{a+ε}^{b} f =   \int_{a}^{b} f$$. 
 > >
 > > ## Solution
 > >
@@ -119,4 +119,25 @@ $$\
 > >$$\int_a^b f \leq \lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f \leq \int_a^b f$$\
 > >Hence, $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f = \int_a^b f$$, which shows that $$f$$ is integrable on $$[a, b]$$ and satisfies the desired limit property.
 >{: .solution}
+{: .challenge}
+>### b) Suppose that $$f$$  is bounded on $$[a,b]$$ and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that $$f$$ is integrable on $$[a,b]$$ and $$\lim_{ε→0+} \int_{a+ε}^{b} f = \int_{a}^{b} f$$.
+> >
+> >## Solution
+> >
+> >To show that $$f$$ is integrable on $$[a, b]$$ and $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f$$, we need to demonstrate that $$f$$ satisfies the conditions of Riemann integrability and that the limit of the integral as $$\varepsilon$$ approaches zero is equal to the integral over the entire interval.\
+> >Since $$f$$ is bounded on $$[a, b]$$, we can assume that there exists a constant $$M > 0$$ such that $$|f(x)| \leq M$$ for all $$x \in [a, b]$$. Additionally, for each $$\varepsilon > 0$$, we are given that $$f$$ is integrable on $$[a + \varepsilon, b]$$. This means that there exists a partition $$P_\varepsilon$$ of $$[a + \varepsilon, b]$$ such that the upper sum and lower sum of $$f$$ with respect to $$P_\varepsilon$$ satisfy the condition $$U(f, P_\varepsilon) - L(f, P_\varepsilon) < \varepsilon$$.\
+> >Now, consider the interval $$[a, b]$$. For each $$\varepsilon > 0$$, we can choose a partition $$P_\varepsilon$$ of $$[a + \varepsilon, b]$$. Let $$P = \{a = x_0 < x_1 < \ldots < x_n = b\}$$ be a common refinement of $$P_\varepsilon$$ and $$[a, b]$$. Since $$P$$ is a refinement of both partitions, it follows that $$P$$ is a partition of $$[a, b]$$.\
+> >Let $$U(f, P)$$ and $$L(f, P)$$ denote the upper sum and lower sum of $$f$$ with respect to the partition $$P$$, respectively. Since $$P$$ is a refinement of $$P_\varepsilon$$, we have $$U(f, P) \leq U(f, P_\varepsilon)$$ and $$L(f, P) \geq L(f, P_\varepsilon)$$. Thus, we have:\
+> >$$U(f, P) - L(f, P) \leq U(f, P_\varepsilon) - L(f, P_\varepsilon) < \varepsilon$$\
+> >Since this holds for any $$\varepsilon > 0$$, it follows that $$f$$ is integrable on $$[a, b]$$.\
+> >Now, let's consider the limit as $$\varepsilon$$ approaches zero of the integral $$\int_{a + \varepsilon}^{b} f$$. Using the limit definition of the integral, we have:\
+> >$$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \lim_{\varepsilon \to 0^+} \left( \int_{a}^{b} f - \int_{a}^{a + \varepsilon} f \right)$$\
+> >Since $$f$$ is integrable on $$[a, b]$$, we have:\
+> >$$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f - \lim_{\varepsilon \to 0^+} \int_{a}^{a + \varepsilon} f$$\
+> >Now, let's focus on the second term in the expression. Since $$f$$ is integrable on $$[a + \varepsilon, b]$$ for each $$\varepsilon > 0$$, we can apply the result of the previous analysis:\
+> >$$\lim_{\varepsilon \to 0^+} \int_{a}^{a + \varepsilon} f = \int_{a}^{a} f = 0$$\
+> >Substituting this result back into the expression, we get:\
+> >$$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f - 0 = \int_{a}^{b} f$$\
+> >Thus, we have shown that $$f$$ is integrable on $$[a, b]$$ and $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f$$.
+{: .solution}
 {: .challenge}
