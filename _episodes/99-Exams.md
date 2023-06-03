@@ -91,48 +91,39 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Therefore, the integral $$\int \frac{1}{x^4 + 4} \, dx$$ can be expressed as $$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$, where $$C$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
-> ### Suppose that  f  is bounded on $$[a,b]$$  and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that  $$f$$  is integrable on $$[a,b]$$ and $$\lim_ε→0+\int_{a+ε}^{b} f =   \int_{a}^{b} f. 
+> ### Suppose that  f  is bounded on $$[a,b]$$  and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that  $$f$$  is integrable on $$[a,b]$$ and $$\lim_ε→0+\int_{a+ε}^{b} f =   \int_{a}^{b} f$$. 
 > >
 > > ## Solution
 > >
-> > Suppose that $f$ is bounded on $[a, b]$ and for each $\varepsilon > 0$, it is integrable on $[a + \varepsilon, b]$. Show that $f$ is integrable on $[a, b]$ and
-\[
+> > Suppose that $$f$$ is bounded on $$[a, b]$$ and for each $$\varepsilon > 0$$, it is integrable on $$[a + \varepsilon, b]$$. Show that $$f$$ is integrable on $$[a, b]$$ and
+$$\[
 \lim_{{\varepsilon \to 0^+}} \int_{{a+\varepsilon}}^b f = \int_a^b f.
-\]
-Since $f$ is bounded on $[a, b]$, there exists a constant $M$ such that $|f(x)| \leq M$ for all $x \in [a, b]$. This implies that $|f(x)|$ is bounded on $[a, b]$.
-
-Now, for any given $\varepsilon > 0$, we are given that $f$ is integrable on $[a + \varepsilon, b]$. This means that there exists a partition $\mathcal{P}$ of $[a + \varepsilon, b]$ such that the upper and lower Riemann sums of $f$ on $\mathcal{P}$ differ by at most $\varepsilon$.
-
-Let $\mathcal{P}'$ be a refinement of $\mathcal{P}$ obtained by adding the point $a$ to the partition. Note that $\mathcal{P}'$ is a partition of $[a, b]$.
-
-Using the properties of integrability, we have:
-\[
+\]$$\
+Since $$f$$ is bounded on $$[a, b]$$, there exists a constant $$M$$ such that $$|f(x)| \leq M$$ for all $$x \in [a, b]$$. This implies that $$|f(x)|$$ is bounded on $$[a, b]$$.\
+> >Now, for any given $$\varepsilon > 0$$, we are given that $$f$$ is integrable on $$[a + \varepsilon, b]$$. This means that there exists a partition $$\mathcal{P}$$ of $$[a + \varepsilon, b]$$ such that the upper and lower Riemann sums of $$f$$ on $$\mathcal{P}$$ differ by at most $$\varepsilon$$.\
+> >Let $$\mathcal{P}'$$ be a refinement of $$\mathcal{P}$$ obtained by adding the point $$a$$ to the partition. Note that $$\mathcal{P}'$$ is a partition of $$[a, b]$$.\
+> >Using the properties of integrability, we have:\
+> >$$\[
 L(f, \mathcal{P}') \leq L(f, \mathcal{P}) \leq U(f, \mathcal{P}) \leq U(f, \mathcal{P}')
-\]
-where $L(f, \mathcal{P}')$ and $U(f, \mathcal{P}')$ denote the lower and upper Riemann sums of $f$ on $\mathcal{P}'$, respectively.
-
-Since $\mathcal{P}$ and $\mathcal{P}'$ differ by only one point, the difference between the upper and lower Riemann sums of $f$ on $\mathcal{P}'$ and $\mathcal{P}$ is at most $M \cdot \varepsilon$ (as $|f(x)| \leq M$ for all $x \in [a, b]$).
-
-Therefore, we have:
-\[
+\]$$\
+> >where $$L(f, \mathcal{P}')$$ and $$U(f, \mathcal{P}')$$ denote the lower and upper Riemann sums of $$f$$ on $$\mathcal{P}'$$, respectively.\
+> >Since $$\mathcal{P}$$ and $$\mathcal{P}'$$ differ by only one point, the difference between the upper and lower Riemann sums of $$f$$ on $$\mathcal{P}'$$ and $$\mathcal{P}$$ is at most $$M \cdot \varepsilon$$ (as $$|f(x)| \leq M$$ for all $$x \in [a, b]$$).\
+> >Therefore, we have:\
+> >$$\[
 L(f, \mathcal{P}') \leq L(f, \mathcal{P}) \leq U(f, \mathcal{P}) \leq U(f, \mathcal{P}') \leq L(f, \mathcal{P}') + M \cdot \varepsilon
-\]
-
-Taking the limit as $\varepsilon$ approaches 0, we have:
-\[
+\]$$\
+> >Taking the limit as $$\varepsilon$$ approaches 0, we have:\
+> >$$\[
 \lim_{{\varepsilon \to 0^+}} L(f, \mathcal{P}') \leq \lim_{{\varepsilon \to 0^+}} L(f, \mathcal{P}) \leq \lim_{{\varepsilon \to 0^+}} U(f, \mathcal{P}) \leq \lim_{{\varepsilon \to 0^+}} U(f, \mathcal{P}') \leq \lim_{{\varepsilon \to 0^+}} L(f, \mathcal{P}') + \lim_{{\varepsilon \to 0^+}} M \cdot \varepsilon
-\]
-
-Since $f$ is integrable on $[a + \varepsilon, b]$ for every $\varepsilon > 0$, the limit of the lower and upper Riemann sums as $\varepsilon$ approaches 0 is equal to the integral of $f$ over $[a, b]$. Therefore:
-\[
+\]$$\
+> >Since $$f$$ is integrable on $$[a + \varepsilon, b]$$ for every $$\varepsilon > 0$$, the limit of the lower and upper Riemann sums as $$\varepsilon$$ approaches 0 is equal to the integral of $$f$$ over $$[a, b]$$. Therefore:\
+> >$$\[
 \int_a^b f \leq \lim_{{\varepsilon \to 0^+}} \int_{{a + \varepsilon}}^b f \leq \int_a^b f \leq \lim_{{\varepsilon \to 0^+}} \int_{{a + \varepsilon}}^b f + \lim_{{\varepsilon \to 0^+}} M \cdot \varepsilon
-\]
-
-Since $\lim_{{\varepsilon \to 0^+}} M \cdot \varepsilon = 0$ (as $\varepsilon$ approaches 0), we have:
-\[
+\]$$\
+> >Since $$\lim_{{\varepsilon \to 0^+}} M \cdot \varepsilon = 0$$ (as $$\varepsilon$$ approaches 0), we have:\
+> >$$\[
 \int_a^b f \leq \lim_{{\varepsilon \to 0^+}} \int_{{a + \varepsilon}}^b f \leq \int_a^b f
-\]
-
-Hence, $\lim_{{\varepsilon \to 0^+}} \int_{{a + \varepsilon}}^b f = \int_a^b f$, which shows that $f$ is integrable on $[a, b]$ and satisfies the desired limit property.
+\]$$\
+> >Hence, $$\lim_{{\varepsilon \to 0^+}} \int_{{a + \varepsilon}}^b f = \int_a^b f$$, which shows that $$f$$ is integrable on $$[a, b]$$ and satisfies the desired limit property.
 >{: .solution}
 {: .challenge}
