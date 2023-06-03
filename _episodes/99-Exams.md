@@ -96,8 +96,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > > ## Solution
 > >
 > > Suppose that $$f$$ is bounded on $$[a, b]$$ and for each $$\varepsilon > 0$$, it is integrable on $$[a + \varepsilon, b]$$. Show that $$f$$ is integrable on $$[a, b]$$ and
-$$
-\lim_{{\varepsilon \to 0^+}} \int_{{a+\varepsilon}}^b f = \int_a^b f.
+$$\lim_{\varepsilon \to 0^+} \int_{a+\varepsilon}^b f = \int_a^b f.
 $$\
 Since $$f$$ is bounded on $$[a, b]$$, there exists a constant $$M$$ such that $$|f(x)| \leq M$$ for all $$x \in [a, b]$$. This implies that $$|f(x)|$$ is bounded on $$[a, b]$$.\
 > >Now, for any given $$\varepsilon > 0$$, we are given that $$f$$ is integrable on $$[a + \varepsilon, b]$$. This means that there exists a partition $$\mathcal{P}$$ of $$[a + \varepsilon, b]$$ such that the upper and lower Riemann sums of $$f$$ on $$\mathcal{P}$$ differ by at most $$\varepsilon$$.\
@@ -113,10 +112,9 @@ $$\
 $$\
 > >Taking the limit as $$\varepsilon$$ approaches 0, we have:\
 > >$$
-\lim_{{\varepsilon \to 0^+}} L(f, \mathcal{P}') \leq \lim_{{\varepsilon \to 0^+}} L(f, \mathcal{P}) \leq \lim_{{\varepsilon \to 0^+}} U(f, \mathcal{P}) \leq \lim_{{\varepsilon \to 0^+}} U(f, \mathcal{P}') \leq \lim_{{\varepsilon \to 0^+}} L(f, \mathcal{P}') + \lim_{{\varepsilon \to 0^+}} M \cdot \varepsilon
-$$\
+\lim_{\varepsilon \to 0^+} L(f, \mathcal{P}') \leq \lim_{\varepsilon \to 0^+} L(f, \mathcal{P}) \leq \lim_{\varepsilon \to 0^+} U(f, \mathcal{P}) \leq \lim_{\varepsilon \to 0^+} U(f, \mathcal{P}') \leq \lim_{\varepsilon \to 0^+} L(f, \mathcal{P}') + \lim_{\varepsilon \to 0^+} M \cdot \varepsilon$$\
 > >Since $$f$$ is integrable on $$[a + \varepsilon, b]$$ for every $$\varepsilon > 0$$, the limit of the lower and upper Riemann sums as $$\varepsilon$$ approaches 0 is equal to the integral of $$f$$ over $$[a, b]$$. Therefore:\
-> >$$\int_a^b f \leq \lim_{{\varepsilon \to 0^+}} \int_{{a + \varepsilon}}^b f \leq \int_a^b f \leq \lim_{{\varepsilon \to 0^+}} \int_{{a + \varepsilon}}^b f + \lim_{{\varepsilon \to 0^+}} M \cdot \varepsilon$$\
+> >$$\int_a^b f \leq \lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f \leq \int_a^b f \leq \lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f + \lim_{\varepsilon \to 0^+} M \cdot \varepsilon$$\
 > >Since $$\lim_{{\varepsilon \to 0^+}} M \cdot \varepsilon = 0$$ (as $$\varepsilon$$ approaches 0), we have:\
 > >$$\int_a^b f \leq \lim_{{\varepsilon \to 0^+}} \int_{{a + \varepsilon}}^b f \leq \int_a^b f$$\
 > >Hence, $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f = \int_a^b f$$, which shows that $$f$$ is integrable on $$[a, b]$$ and satisfies the desired limit property.
