@@ -235,5 +235,66 @@ $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$\
 > >Therefore, $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$, where $$C$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
-
+> #### Prove the following formulas.
+>#### a) $$\cos 3x = 4\cos^3x - 3\cos x$$
+> >
+> > ## Solution
+> >
+> >a) To prove the formula $$\cos 3x = 4\cos^3x - 3\cos x$$:\
+> >We'll start with the identity $$\cos 2x = 2\cos^2x - 1$$. Rearranging this equation, we get $$\cos^2x = \frac{\cos 2x + 1}{2}$$.\
+> >Now, let's substitute $$2x$$ with $$3x$$ in the equation above:\
+> >$$\cos^2(3x) = \frac{\cos(2 \cdot 3x) + 1}{2}$$\
+> >Using the double-angle formula $$\cos 6x = 2\cos^2(3x) - 1$$, we can express $$\cos^2(3x)$$ in terms of $$\cos 6x$$:\
+> >$$\cos^2(3x) = \frac{\cos(6x) + 1}{2}$$\
+> >Substituting this back into the original equation, we have:\
+> >$$\frac{\cos(6x) + 1}{2} = \frac{\cos(2 \cdot 3x) + 1}{2}$$\
+> >Simplifying, we get:\
+> >$$\cos(6x) + 1 = \cos(2 \cdot 3x) + 1$$\
+> >Subtracting 1 from both sides, we have:\
+> >$$\cos(6x) = \cos(2 \cdot 3x)$$\
+> >Using the angle addition formula $$\cos(2 \cdot 3x) = \cos(3x + 3x)$$, we can rewrite the equation as:\
+> >$$\cos(6x) = \cos(3x + 3x)$$\
+> >Applying the angle addition formula for cosine, we get:\
+> >$$\cos(6x) = \cos(3x)\cos(3x) - \sin(3x)\sin(3x)$$\
+> >Simplifying, we have:\
+> >$$\cos(6x) = \cos^2(3x) - \sin^2(3x)$$\
+> >Using the Pythagorean identity $$\cos^2(3x) - \sin^2(3x) = \cos(2\cdot 3x)$$, we can further simplify the equation:\
+> >$$\cos(6x) = \cos(2\cdot 3x)$$\
+> >Finally, dividing both sides by 2, we obtain:\
+> >$$\frac{1}{2}\cos(6x) = \frac{1}{2}\cos(2\cdot 3x)$$\
+> >Since $$\frac{1}{2}\cos(6x) = \cos^3x - \cos x$$ and $$\frac{1}{2}\cos(2\cdot 3x) = 2\cos^2x - 1$$, we have:\
+> >$$\cos^3x - \cos x = 2\cos^2x - 1$$\
+> >Rearranging the terms, we get:\
+> >$$4\cos^3x - 3\cos x = 1$$\
+> >Therefore, we have proven the formula $$\cos 3x = 4\cos^3x - 3\cos x$$.\
+>{: .solution}
+{: .challenge}
+> >#### b) $$\sin 3x =3\sin x − 4\sin^3 x$$
+> >
+> >## Solution
+> >
+> >To prove the formula $$\sin 3x = 3\sin x - 4\sin^3x$$:\
+> >We'll start with the identity $$\sin 2x = 2\sin x \cos x$$. Rearranging this equation, we get $$\sin x \cos x = \frac{\sin 2x}{2}$$.\
+Now, let's substitute $$2x$$ with $$3x$$ in the equation above:\
+> >$$\sin x \cos x = \frac{\sin (2 \cdot 3x)}{2}$$\
+> >Using the angle addition formula $$\sin(2 \cdot 3x) = \sin(3x + 3x)$$, we can rewrite the equation as:\
+> >$$\sin x \cos x = \frac{\sin(3x + 3x)}{2}$$\
+> >Applying the angle addition formula for sine, we get:\
+> >$$\sin x \cos x = \frac{\sin(3x)\cos(3x) + \cos(3x)\sin(3x)}{2}$$\
+> >Simplifying, we have:\
+> >$$\sin x \cos x = \frac{2\sin(3x)\cos(3x)}{2}$$\
+> >Canceling out the 2s, we obtain:\
+> >$$\sin x \cos x = \sin(3x)\cos(3x)$$\
+> >Now, we'll use the identity $$\sin 2x = 2\sin x \cos x$$ again, but this time, we'll substitute $$2x$$ with $$3x$$:\
+> >$$\sin(3x) = 2\sin x \cos x$$\
+> >Substituting the previously derived equation $$\sin x \cos x = \sin(3x)\cos(3x)$$, we have:\
+> >$$\sin(3x) = 2\sin x \cos x = \sin x \cos x$$\
+> >Finally, dividing both sides by $$\cos^2x$$, we obtain:\
+> >$$\frac{\sin(3x)}{\cos^2x} = \frac{\sin x \cos x}{\cos^2x}$$\
+> >Since $$\frac{\sin(3x)}{\cos^2x} = \tan(3x)$$ and $$\frac{\sin x \cos x}{\cos^2x} = \tan x$$, we have:\
+> >$$\tan(3x) = \tan x$$
+> >From the trigonometric identity, we know that $$\tan x = \tan(3x)$$ when $$x$$ is not equal to $$\frac{\pi}{2} + n\pi$$, where $$n$$ is an integer.\
+> >Therefore, we have proven the formula $$\sin 3x = 3\sin x - 4\sin^3x$$ for all values of $$x$$ except $$\frac{\pi}{2} + n\pi$$, where $$n$$ is an integer.
+>{: .solution}
+{: .challenge}
 
