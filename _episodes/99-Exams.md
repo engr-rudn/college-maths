@@ -269,7 +269,7 @@ $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$\
 > >Therefore, we have proven the formula $$\cos 3x = 4\cos^3x - 3\cos x$$.\
 >{: .solution}
 {: .challenge}
-> >#### b) $$\sin 3x =3\sin x − 4\sin^3 x$$
+> #### b) $$\sin 3x =3\sin x − 4\sin^3 x$$
 > >
 > >## Solution
 > >
