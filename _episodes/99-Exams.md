@@ -115,7 +115,7 @@ $$\
 \lim_{\varepsilon \to 0^+} L(f, \mathcal{P}') \leq \lim_{\varepsilon \to 0^+} L(f, \mathcal{P}) \leq \lim_{\varepsilon \to 0^+} U(f, \mathcal{P}) \leq \lim_{\varepsilon \to 0^+} U(f, \mathcal{P}') \leq \lim_{\varepsilon \to 0^+} L(f, \mathcal{P}') + \lim_{\varepsilon \to 0^+} M \cdot \varepsilon$$\
 > >Since $$f$$ is integrable on $$[a + \varepsilon, b]$$ for every $$\varepsilon > 0$$, the limit of the lower and upper Riemann sums as $$\varepsilon$$ approaches 0 is equal to the integral of $$f$$ over $$[a, b]$$. Therefore:\
 > >$$\int_a^b f \leq \lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f \leq \int_a^b f \leq \lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f + \lim_{\varepsilon \to 0^+} M \cdot \varepsilon$$\
-> >Since $$\lim_{{\varepsilon \to 0^+}} M \cdot \varepsilon = 0$$ (as $$\varepsilon$$ approaches 0), we have:\
+> >Since $$\lim_{\varepsilon \to 0^+} M \cdot \varepsilon = 0$$ (as $$\varepsilon$$ approaches 0), we have:\
 > >$$\int_a^b f \leq \lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f \leq \int_a^b f$$\
 > >Hence, $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f = \int_a^b f$$, which shows that $$f$$ is integrable on $$[a, b]$$ and satisfies the desired limit property.
 >{: .solution}
