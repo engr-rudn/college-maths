@@ -120,7 +120,7 @@ $$\
 > >Hence, $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f = \int_a^b f$$, which shows that $$f$$ is integrable on $$[a, b]$$ and satisfies the desired limit property.
 >{: .solution}
 {: .challenge}
->### b) Suppose that $$f$$  is bounded on $$[a,b]$$ and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that $$f$$ is integrable on $$[a,b]$$ and $$\lim_{ε→0+} \int_{a+ε}^{b} f = \int_{a}^{b} f$$.
+> ### b) Suppose that $$f$$  is bounded on $$[a,b]$$ and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that $$f$$ is integrable on $$[a,b]$$ and $$\lim_{ε→0+} \int_{a+ε}^{b} f = \int_{a}^{b} f$$.
 > >
 > >## Solution
 > >
@@ -139,7 +139,7 @@ $$\
 > >Substituting this result back into the expression, we get:\
 > >$$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f - 0 = \int_{a}^{b} f$$\
 > >Thus, we have shown that $$f$$ is integrable on $$[a, b]$$ and $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f$$.
-{: .solution}
+>{: .solution}
 {: .challenge}
 >### Solve the following integrals. Show your detailed answers by writing the step-by-step analysis:
 > #### a)  $$\int (x^2 \tan x)dx$$
@@ -169,7 +169,7 @@ $$\int x \ln|\cos x| dx = \frac{x^2}{2} \ln|\cos x| - \frac{1}{2} \int x^2 \tan 
 > >Dividing both sides by 2, we get the final result:\
 $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >Therefore, $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$, where $$C$$ is the constant of integration.
-{: .solution}
+>{: .solution}
 {: .challenge}
 > #### b) $$\int(x^2e^{2x})dx$$
 > >
@@ -216,7 +216,7 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >Since both terms in the integral are zero, the result is simply:
 $$\int \frac{x^2}{x-x^2}dx = 0 + C$$\
 > >Therefore, $$\int \frac{x^2}{x-x^2}dx = C$$, where $$C$$ is the constant of integration.
-{: .solution}
+>{: .solution}
 {: .challenge}
 > #### d) $$\int \frac{x}{x^3-1} dx$$
 > >
