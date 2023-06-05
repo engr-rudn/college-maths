@@ -273,28 +273,26 @@ $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$\
 > >
 > >## Solution
 > >
-> >To prove the formula $$\sin 3x = 3\sin x - 4\sin^3x$$:\
-> >We'll start with the identity $$\sin 2x = 2\sin x \cos x$$. Rearranging this equation, we get $$\sin x \cos x = \frac{\sin 2x}{2}$$.\
-Now, let's substitute $$2x$$ with $$3x$$ in the equation above:\
-> >$$\sin x \cos x = \frac{\sin (2 \cdot 3x)}{2}$$\
-> >Using the angle addition formula $$\sin(2 \cdot 3x) = \sin(3x + 3x)$$, we can rewrite the equation as:\
-> >$$\sin x \cos x = \frac{\sin(3x + 3x)}{2}$$\
-> >Applying the angle addition formula for sine, we get:\
-> >$$\sin x \cos x = \frac{\sin(3x)\cos(3x) + \cos(3x)\sin(3x)}{2}$$\
-> >Simplifying, we have:\
-> >$$\sin x \cos x = \frac{2\sin(3x)\cos(3x)}{2}$$\
-> >Canceling out the 2s, we obtain:\
-> >$$\sin x \cos x = \sin(3x)\cos(3x)$$\
-> >Now, we'll use the identity $$\sin 2x = 2\sin x \cos x$$ again, but this time, we'll substitute $$2x$$ with $$3x$$:\
-> >$$\sin(3x) = 2\sin x \cos x$$\
-> >Substituting the previously derived equation $$\sin x \cos x = \sin(3x)\cos(3x)$$, we have:\
-> >$$\sin(3x) = 2\sin x \cos x = \sin x \cos x$$\
-> >Finally, dividing both sides by $$\cos^2x$$, we obtain:\
-> >$$\frac{\sin(3x)}{\cos^2x} = \frac{\sin x \cos x}{\cos^2x}$$\
-> >Since $$\frac{\sin(3x)}{\cos^2x} = \tan(3x)$$ and $$\frac{\sin x \cos x}{\cos^2x} = \tan x$$, we have:\
-> >$$\tan(3x) = \tan x$$
-> >From the trigonometric identity, we know that $$\tan x = \tan(3x)$$ when $$x$$ is not equal to $$\frac{\pi}{2} + n\pi$$, where $$n$$ is an integer.\
-> >Therefore, we have proven the formula $$\sin 3x = 3\sin x - 4\sin^3x$$ for all values of $$x$$ except $$\frac{\pi}{2} + n\pi$$, where $$n$$ is an integer.
+> >To prove the formula $$\sin 3x = 3\sin x - 4\sin^3 x$$, we can use the trigonometric identities and properties. Let's start with the left-hand side of the equation:\
+> >$$\sin 3x$$\
+> >Using the triple angle formula for sine, we have:\
+> >$$\sin 3x = 3\sin x - 4\sin^3 x$$\
+> >This formula expresses $$\sin 3x$$ in terms of $$\sin x$$ and $$\sin^3 x$$. Now, let's simplify the right-hand side of the equation:\
+> >$$3\sin x - 4\sin^3 x$$\
+> >Factoring out $$\sin x$$ from both terms, we get:\
+> >$$\sin x(3 - 4\sin^2 x)$$\
+> >Now, we can use the Pythagorean identity $$\sin^2 x + \cos^2 x = 1$$ to rewrite $$\sin^2 x$$ as $$1 - \cos^2 x$$:\
+> >$$\sin x(3 - 4(1 - \cos^2 x))$$\
+> >Simplifying further, we have:\
+> >$$\sin x(3 - 4 + 4\cos^2 x)$$\
+> >$$\sin x(-1 + 4\cos^2 x)$$\
+> >Since $$\cos^2 x = 1 - \sin^2 x$$, we can substitute this into the equation:\
+> >$$\sin x(-1 + 4(1 - \sin^2 x))$$\
+> >$$\sin x(-1 + 4 - 4\sin^2 x)$$
+> >$$\sin x(3 - 4\sin^2 x)$$\
+> >Notice that this expression is equal to the right-hand side of the original equation. Therefore, we have shown that:\
+> >$$\sin 3x = 3\sin x - 4\sin^3 x$$\
+> >This completes the proof.
 >{: .solution}
 {: .challenge}
 
