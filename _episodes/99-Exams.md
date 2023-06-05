@@ -351,27 +351,21 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >
 > > ## Solution
 > >
-> >$$\int \frac{x^2}{x - x^2} \, dx$$\
-> >To decompose the rational function into partial fractions, we write:\
-> >$$\frac{x^2}{x - x^2} = \frac{A}{x} + \frac{B}{1 - x}$$\
-> >where A and B are constants to be determined.\
-> >Multiplying through by the denominator and equating the numerators, we have:\
-> >$$x^2 = A(1 - x) + Bx$$\
-> >Expanding and collecting like terms, we get:\
-> >$$x^2 = (A - A \cdot x) + (B \cdot x)$$\
-> >Matching coefficients:\
-> >- Coefficient of $$x^2: 1 = -A, so A = -1$$.
-> >- Coefficient of $$x: 0 = A + B$$, substituting $$A = -1$$ gives $$B = 1$$.
-> >The integral can now be rewritten as:\
-> >$$\int \frac{x^2}{x - x^2} \, dx = \int \left( \frac{-1}{x} + \frac{1}{1 - x} \right) \, dx$$\
-> >Integrating each term separately, we have:\
-> >$$\int \frac{-1}{x} \, dx = -\ln|x| + C_1$$\
-> >where $$C_1$$ is the constant of integration.\
-> >$$\int \frac{1}{1 - x} \, dx = -\ln|1 - x| + C_2$$\
-> >where $$C_2$$ is another constant of integration.\
+> >To solve the integral $$\int \frac{x}{x-1} \, dx$$, we can use a simple substitution.\
+> >Let's substitute $$u = x - 1$$, which implies $$x = u + 1$$ and $$dx = du$$.\
+> >Substituting these values, the integral becomes:\
+> >$$\int \frac{u + 1}{u} \, du$$\
+> >We can expand the integrand:\
+> >$$\int \left(1 + \frac{1}{u}\right) \, du$$\
+> >Now, we can integrate each term separately:\
+> >$$\int 1 \, du + \int \frac{1}{u} \, du$$\
+> >The integral of the constant term $$1$$ with respect to $$u$$ is simply $$u$$:\
+> >$$u + \ln|u| + C$$\
+> >Since we initially substituted $$u = x - 1$$, we can substitute back to obtain the final result:\
+> >$$x - 1 + \ln|x - 1| + C$$\
 > >Therefore, the solution to the integral is:\
-> >$$\int \frac{x^2}{x - x^2} \, dx = -\ln|x| - \ln|1 - x| + C$$\
-> >where $$C = C_1 + C_2$$ is the combined constant of integration.
+> >$$\int \frac{x}{x-1} \, dx = x - 1 + \ln|x - 1| + C$$\
+> >where $$C$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
 > #### d) $$\int \frac{x}{x^3-1} dx$$
