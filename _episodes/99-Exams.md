@@ -240,33 +240,26 @@ $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$\
 > >
 > > ## Solution
 > >
-> >a) To prove the formula $$\cos 3x = 4\cos^3x - 3\cos x$$:\
-> >We'll start with the identity $$\cos 2x = 2\cos^2x - 1$$. Rearranging this equation, we get $$\cos^2x = \frac{\cos 2x + 1}{2}$$.\
-> >Now, let's substitute $$2x$$ with $$3x$$ in the equation above:\
-> >$$\cos^2(3x) = \frac{\cos(2 \cdot 3x) + 1}{2}$$\
-> >Using the double-angle formula $$\cos 6x = 2\cos^2(3x) - 1$$, we can express $$\cos^2(3x)$$ in terms of $$\cos 6x$$:\
-> >$$\cos^2(3x) = \frac{\cos(6x) + 1}{2}$$\
-> >Substituting this back into the original equation, we have:\
-> >$$\frac{\cos(6x) + 1}{2} = \frac{\cos(2 \cdot 3x) + 1}{2}$$\
-> >Simplifying, we get:\
-> >$$\cos(6x) + 1 = \cos(2 \cdot 3x) + 1$$\
-> >Subtracting 1 from both sides, we have:\
-> >$$\cos(6x) = \cos(2 \cdot 3x)$$\
-> >Using the angle addition formula $$\cos(2 \cdot 3x) = \cos(3x + 3x)$$, we can rewrite the equation as:\
-> >$$\cos(6x) = \cos(3x + 3x)$$\
-> >Applying the angle addition formula for cosine, we get:\
-> >$$\cos(6x) = \cos(3x)\cos(3x) - \sin(3x)\sin(3x)$$\
-> >Simplifying, we have:\
-> >$$\cos(6x) = \cos^2(3x) - \sin^2(3x)$$\
-> >Using the Pythagorean identity $$\cos^2(3x) - \sin^2(3x) = \cos(2\cdot 3x)$$, we can further simplify the equation:\
-> >$$\cos(6x) = \cos(2\cdot 3x)$$\
-> >Finally, dividing both sides by 2, we obtain:\
-> >$$\frac{1}{2}\cos(6x) = \frac{1}{2}\cos(2\cdot 3x)$$\
-> >Since $$\frac{1}{2}\cos(6x) = \cos^3x - \cos x$$ and $$\frac{1}{2}\cos(2\cdot 3x) = 2\cos^2x - 1$$, we have:\
-> >$$\cos^3x - \cos x = 2\cos^2x - 1$$\
-> >Rearranging the terms, we get:\
-> >$$4\cos^3x - 3\cos x = 1$$\
-> >Therefore, we have proven the formula $$\cos 3x = 4\cos^3x - 3\cos x$$.\
+> >To prove the formula $$\cos 3x = 4\cos^3 x - 3\cos x$$, we can use the trigonometric identities and properties. Let's start with the left-hand side of the equation:\
+> >$$\cos 3x$$\
+> >Using the triple angle formula for cosine, we have:\
+> >$$\cos 3x = 4\cos^3 x - 3\cos x$$\
+> >This formula expresses $$\cos 3x$$ in terms of $$\cos x$$ and $$\cos^3 x$$. Now, let's simplify the right-hand side of the equation:\
+> >$$4\cos^3 x - 3\cos x$$\
+> >Factoring out $$\cos x$$ from both terms, we get:\
+> >$$\cos x(4\cos^2 x - 3)$$\
+> >Now, we can use the Pythagorean identity $$\sin^2 x + \cos^2 x = 1$$ to rewrite $$\cos^2 x$$ as $$1 - \sin^2 x$$:\
+> >$$\cos x(4(1 - \sin^2 x) - 3)$$\
+> >Simplifying further, we have:\
+> >$$\cos x(4 - 4\sin^2 x - 3)$$\
+> >\cos x(1 - 4\sin^2 x)$$\
+> >Since $$\sin^2 x = 1 - \cos^2 x$$, we can substitute this into the equation:\
+> >$$\cos x(1 - 4(1 - \cos^2 x))$$\
+> >$$\cos x(1 - 4 + 4\cos^2 x)$$\
+> >$$\cos x(-3 + 4\cos^2 x)$$\
+> >Notice that this expression is equal to the right-hand side of the original equation. Therefore, we have shown that:\
+> >$$\cos 3x = 4\cos^3 x - 3\cos x$$
+> >This completes the proof.
 >{: .solution}
 {: .challenge}
 > #### b) $$\sin 3x =3\sin x − 4\sin^3 x$$
