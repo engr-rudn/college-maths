@@ -58,7 +58,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 >{: .solution}
 {: .challenge}
 ## Final Semester Exam
-> Let $$f$$ be defined on all of $$R$$. For each real number $$c$$, we define the translated function $$f_c$$ by: $$f_c(x) = f (x − c)$$. Suppose that $$f$$ is integrable on all bounded intervals. Show that: $$\int_{a}^{b} f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$.\
+> Let $$f$$ be defined on all of $$R$$. For each real number $$c$$, we define the translated function $$f_c$$ by: $$f_c(x) = f (x − c)$$. Suppose that $$f$$ is integrable on all bounded intervals. Show that: $$\int_{a}^{b} f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$.
 > >
 > >## Solution
 > >
@@ -252,7 +252,7 @@ $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$\
 > >$$\cos x(4(1 - \sin^2 x) - 3)$$\
 > >Simplifying further, we have:\
 > >$$\cos x(4 - 4\sin^2 x - 3)$$\
-> >\cos x(1 - 4\sin^2 x)$$\
+> >$$\cos x(1 - 4\sin^2 x)$$\
 > >Since $$\sin^2 x = 1 - \cos^2 x$$, we can substitute this into the equation:\
 > >$$\cos x(1 - 4(1 - \cos^2 x))$$\
 > >$$\cos x(1 - 4 + 4\cos^2 x)$$\
