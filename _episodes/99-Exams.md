@@ -398,7 +398,7 @@ $$\
 > >$$\frac{1}{3} \int \cot(\theta) \, d\theta$$\
 > >Now we can integrate $$\left(\cot(\theta)\right)$$ with respect to $$\left(\theta\right)$$:\
 > >$$\frac{1}{3} \ln|\sin(\theta)| + C$$\
-> >Finally, we need to substitute back for $$\left(\theta\right)$$ in terms of \left(x\right)$$.\
+> >Finally, we need to substitute back for $$\left(\theta\right)$$ in terms of $$\left(x\right)$$.\
 > > Recall that we initially set $$\left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$.\
 > > Rearranging, we have $$\left(\sec(\theta) = \sqrt{3}x\right)$$.
 > >Taking the reciprocal of both sides, we get $$\left(\cos(\theta) = \frac{1}{\sqrt{3}x}\right)$$.\
