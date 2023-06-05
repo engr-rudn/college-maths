@@ -8,7 +8,96 @@ objectives:
 ---
 
 ## Mid-Semester Exam Ac.Year 2022/23
-> ### 1. Show that if $$f$$ and $$g$$ are bounded functions, both integrable on the interval $$[a,b]$$, then so is $$f+g$$.
+> #### Solve the following integrals. Show your detailed answers by writing the step-by-step analysis:
+> #### a)  $$\int (x^2 \sin x)dx$$
+> >
+> > ## Solution
+> > 
+> >To solve the integral $$\left(\int (x^2 \sin x) \, dx\right)$$, we can use integration by parts. Let's apply the formula $$\left(\int u \, dv = uv - \int v \, du\right)$$ with $$\left(u = x^2\right)$$ and $$\left(dv = \sin x \, dx\right)$$.\
+> >We have:\
+> >$$\du = 2x \, dx$$\
+> >$$v = -\cos x$$\
+> >Applying the integration by parts formula, we get:\
+> >$$\int (x^2 \sin x) \, dx = -x^2 \cos x - \int (-\cos x) \cdot (2x \, dx)$$\
+> >Simplifying the integral on the right-hand side, we have:\
+> >$$\int (x^2 \sin x) \, dx = -x^2 \cos x + 2 \int (x \cos x) \, dx$$\
+> >Now, let's apply integration by parts again, this time with $$\left(u = x\right)$$ and $$\left(dv = \cos x \, dx\right)$$.\
+> >We have:\
+> >$$du = dx$$\
+> >$$v = \sin x$$\
+> >Applying the integration by parts formula, we get:\
+> >$$\int (x^2 \sin x) \, dx = -x^2 \cos x + 2 \left(x \sin x - \int \sin x \, dx\right)$$\
+> >Simplifying the integral on the right-hand side, we have:\
+> >$$\int (x^2 \sin x) \, dx = -x^2 \cos x + 2 \left(x \sin x + \cos x\right) + C$$\
+> >Therefore, the solution to the integral $$\left(\int (x^2 \sin x) \, dx\right) is:\
+> >$$\int (x^2 \sin x) \, dx = -x^2 \cos x + 2 \left(x \sin x + \cos x\right) + C$$
+>{: .solution}
+{: .challenge}
+> #### b) $$\int(xe^{2x})dx$$
+> >
+> > ## Solution
+> > 
+> >To solve the integral $$\left(\int (xe^{2x}) \, dx\right)$$, we can use integration by parts. Let's apply the formula $$\left(\int u \, dv = uv - \int v \, du\right)$$ with $$\left(u = x\right)$$ and $$\left(dv = e^{2x} \, dx\right)$$.\
+> >We have:\
+> >$$du = dx$$\
+> >$$v = \frac{1}{2}e^{2x}$$\
+> >Applying the integration by parts formula, we get:\
+> >$$\int (xe^{2x}) \, dx = \frac{1}{2}xe^{2x} - \int \frac{1}{2}e^{2x} \, dx$$\
+> >Simplifying the integral on the right-hand side, we have:\
+> >$$\int (xe^{2x}) \, dx = \frac{1}{2}xe^{2x} - \frac{1}{4}e^{2x} + C$$\
+> >Therefore, the solution to the integral $$\left(\int (xe^{2x}) \, dx\right)$$ is:\
+> >$$\int (xe^{2x}) \, dx = \frac{1}{2}xe^{2x} - \frac{1}{4}e^{2x} + C$$
+>{: .solution}
+{: .challenge}
+> #### c) $$\int (x^2/(1-x^2)dx$$
+> >
+> > ## Solution
+> > 
+> >To solve the integral $$\int \frac{x^2}{1-x^2} \, dx$$, we can use partial fraction decomposition. First, we factor the denominator $$1-x^2\) as \((1-x)(1+x)$$.\
+> >We can write $$\frac{x^2}{1-x^2}$$ as $$\frac{A}{1-x} + \frac{B}{1+x}$$, where $$A$$ and $$B$$ are constants.\
+> >To find $$A$$ and $$B$$, we can equate the numerators:\
+> >$$x^2 = A(1+x) + B(1-x)$$\
+> >Expanding and simplifying the right-hand side:\
+> >$$x^2 = (A + B) + (A - B)x$$\
+> >Equating the coefficients of the terms on both sides, we have the following system of equations:\
+$$A + B = 0 \quad \text{(coefficient of the constant term)}$$
+$$A - B = 1 \quad \text{(coefficient of the term with \(x\))}$$
+> >Solving this system of equations, we find $$A = \frac{1}{2}\) and \(B = -\frac{1}{2}$$.\
+> >Now, we can rewrite the integral as:\
+$$\int \frac{x^2}{1-x^2} \, dx = \int \left(\frac{\frac{1}{2}}{1-x} - \frac{\frac{1}{2}}{1+x}\right) \, dx$$\
+> >Simplifying the integrals on the right-hand side, we have:\
+$$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}\int \frac{1}{1-x} \, dx - \frac{1}{2}\int \frac{1}{1+x} \, dx$$\
+> >Applying the integral formulas, we get:\
+$$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}(-\ln|1-x|) - \frac{1}{2}(\ln|1+x|) + C$$\
+> >Therefore, the solution to the integral $$\int \frac{x^2}{1-x^2} \, dx\) is:
+\[\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}(-\ln|1-x|) - \frac{1}{2}(\ln|1+x|) + C$$
+>{: .solution}
+{: .challenge}
+> #### d) $$\int \frac{1}{x^2-1} dx$$
+> >
+> > ## Solution
+> > 
+> >To solve the integral $$\int \frac{1}{x^2-1} \, dx$$, we can use partial fraction decomposition. First, we factor the denominator $$x^2-1\) as \((x-1)(x+1)$$.\
+> >We can write $$\frac{1}{x^2-1}$$ as $$\frac{A}{x-1} + \frac{B}{x+1}$$, where $$A$$ and $$B$$ are constants.\
+> >To find $$A$$ and $$B$$, we can equate the numerators:\
+$$1 = A(x+1) + B(x-1)$$\
+> >Expanding and simplifying the right-hand side:\
+$$1 = (A + B)x + (A - B)$$\
+> >Equating the coefficients of the terms on both sides, we have the following system of equations:\
+$$A + B = 0 \quad \text{(coefficient of the term with \(x\))}$$\
+$$A - B = 1 \quad \text{(coefficient of the constant term)}$$\
+> >Solving this system of equations, we find $$A = \frac{1}{2}\) and \(B = -\frac{1}{2}$$.\
+> >Now, we can rewrite the integral as:\
+> >$$\int \frac{1}{x^2-1} \, dx = \int \left(\frac{\frac{1}{2}}{x-1} - \frac{\frac{1}{2}}{x+1}\right) \, dx$$\
+> >Simplifying the integrals on the right-hand side, we have:\
+$$\int \frac{1}{x^2-1} \, dx = \frac{1}{2}\int \frac{1}{x-1} \, dx - \frac{1}{2}\int \frac{1}{x+1} \, dx$$\
+> >Applying the integral formulas, we get:\
+$$\int \frac{1}{x^2-1} \, dx = \frac{1}{2}\ln|x-1| - \frac{1}{2}\ln|x+1| + C$$\
+> >Therefore, the solution to the integral $$\int \frac{1}{x^2-1} \, dx$$ is:\
+$$\int \frac{1}{x^2-1} \, dx = \frac{1}{2}\ln|x-1| - \frac{1}{2}\ln|x+1| + C$$
+>{: .solution}
+{: .challenge}
+> ### Show that if $$f$$ and $$g$$ are bounded functions, both integrable on the interval $$[a,b]$$, then so is $$f+g$$.
 > >
 > > ## Solution
 > >
@@ -30,7 +119,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Hence, we have demonstrated that if $$f$$ and $$g$$ are bounded functions, both integrable on the interval $$[a, b]$$, then their sum $$f + g$$ is also bounded and integrable on the same interval.
 >{: .solution}
 {: .challenge}
-> ### 2.  $$\frac{d \cot x}{dx}=−\csc ^2 x$$
+> ### $$\frac{d \cot x}{dx}=−\csc ^2 x$$
 > >
 > > ## Solution
 > >
@@ -66,7 +155,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >$$\sin^2 x + \cos^2 x = 1$$\
 > >Rearranging this equation gives:\
 > >$$\sin^2 x = 1 - \cos^2 x$$
-> >Substituting this into our previous expression for $$\(\tan^2 x\)$$, we have:\
+> >Substituting this into our previous expression for $$\left(\tan^2 x\right)$$, we have:\
 > >$$\tan^2 x = \frac{1 - \cos^2 x}{\cos^2 x}$$\
 > >Now, we can simplify the expression on the right-hand side by combining the terms:\
 > >$$\tan^2 x = \frac{1}{\cos^2 x} - \frac{\cos^2 x}{\cos^2 }$$\
@@ -74,14 +163,14 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >$$\tan^2 x = \sec^2 x - 1$$\
 > >Finally, adding 1 to both sides of the equation, we obtain:\
 > >$$1 + \tan^2 x = \sec^2 x$$\
-> >Thus, we have proven the equation $$\(1 + \tan^2 x = \sec^2 x\)$$ using the definitions and properties of trigonometric functions.
+> >Thus, we have proven the equation $$\left(1 + \tan^2 x = \sec^2 x\right)$$ using the definitions and properties of trigonometric functions.
 >{: .solution}
 {: .challenge}
 > #### b) $$\cos 2x = \cos^2 x − \sin^2 x$$
 > >
 > > ## Solution
 > >
-> >To prove the equation $$\cos 2x = \cos^2 x - \sin^2 x\$$, we can use the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.\
+> >To prove the equation $$\cos 2x = \cos^2 x - \sin^2 x$$, we can use the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.\
 > >Starting with the double-angle formula for cosine:\
 > >$$\cos 2x = \cos^2 x - \sin^2 x$$\
 > >We can rewrite the left-hand side using the cosine double-angle identity:\
