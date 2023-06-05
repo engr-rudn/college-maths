@@ -255,8 +255,8 @@ $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$\
 > >$$\cos x(1 - 4\sin^2 x)$$\
 > >Since $$\sin^2 x = 1 - \cos^2 x$$, we can substitute this into the equation:\
 > >$$\cos x(1 - 4(1 - \cos^2 x))$$\
-> >$$\cos x(1 - 4 + 4\cos^2 x)$$\
-> >$$\cos x(-3 + 4\cos^2 x)$$\
+> >= $$\cos x(1 - 4 + 4\cos^2 x)$$\
+> >= $$\cos x(-3 + 4\cos^2 x)$$\
 > >Notice that this expression is equal to the right-hand side of the original equation. Therefore, we have shown that:\
 > >$$\cos 3x = 4\cos^3 x - 3\cos x$$
 > >This completes the proof.
