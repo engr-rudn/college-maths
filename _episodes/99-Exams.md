@@ -182,7 +182,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Finally, we have proven the equation $$\left(\cos 2x = \cos^2 x - \sin^2 x\right)$$ using the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.
 >{: .solution}
 {: .challenge}
-> ### 8.2.7 $$\int \frac{1}{x^2-1} dx$$
+<!-- > ### 8.2.7 $$\int \frac{1}{x^2-1} dx$$
 > >
 > > ## Solution
 > > 
@@ -208,7 +208,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Therefore, the final result of the integral is:\
 > >$$\int \frac{1}{x^2 - 1} \, dx = \frac{1}{2} \ln|x - 1| - \frac{1}{2} \ln|x + 1| + C$$
 >{: .solution}
-{: .challenge}
+{: .challenge} -->
 ## Final Semester Exam
 > Let $$f$$ be defined on all of $$R$$. For each real number $$c$$, we define the translated function $$f_c$$ by: $$f_c(x) = f (x − c)$$. Suppose that $$f$$ is integrable on all bounded intervals. Show that: $$\int_{a}^{b} f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$.
 > >
