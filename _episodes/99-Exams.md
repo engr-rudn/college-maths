@@ -15,7 +15,7 @@ objectives:
 > > 
 > >To solve the integral $$\left(\int (x^2 \sin x) \, dx\right)$$, we can use integration by parts. Let's apply the formula $$\left(\int u \, dv = uv - \int v \, du\right)$$ with $$\left(u = x^2\right)$$ and $$\left(dv = \sin x \, dx\right)$$.\
 > >We have:\
-> >$$\du = 2x \, dx$$\
+> >$$du = 2x \, dx$$\
 > >$$v = -\cos x$$\
 > >Applying the integration by parts formula, we get:\
 > >$$\int (x^2 \sin x) \, dx = -x^2 \cos x - \int (-\cos x) \cdot (2x \, dx)$$\
@@ -29,7 +29,7 @@ objectives:
 > >$$\int (x^2 \sin x) \, dx = -x^2 \cos x + 2 \left(x \sin x - \int \sin x \, dx\right)$$\
 > >Simplifying the integral on the right-hand side, we have:\
 > >$$\int (x^2 \sin x) \, dx = -x^2 \cos x + 2 \left(x \sin x + \cos x\right) + C$$\
-> >Therefore, the solution to the integral $$\left(\int (x^2 \sin x) \, dx\right) is:\
+> >Therefore, the solution to the integral $$\left(\int (x^2 \sin x) \, dx\right) is:$$\
 > >$$\int (x^2 \sin x) \, dx = -x^2 \cos x + 2 \left(x \sin x + \cos x\right) + C$$
 >{: .solution}
 {: .challenge}
@@ -69,8 +69,8 @@ $$\int \frac{x^2}{1-x^2} \, dx = \int \left(\frac{\frac{1}{2}}{1-x} - \frac{\fra
 $$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}\int \frac{1}{1-x} \, dx - \frac{1}{2}\int \frac{1}{1+x} \, dx$$\
 > >Applying the integral formulas, we get:\
 $$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}(-\ln|1-x|) - \frac{1}{2}(\ln|1+x|) + C$$\
-> >Therefore, the solution to the integral $$\int \frac{x^2}{1-x^2} \, dx\) is:
-\[\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}(-\ln|1-x|) - \frac{1}{2}(\ln|1+x|) + C$$
+> >Therefore, the solution to the integral $$\int \frac{x^2}{1-x^2} \, dx$$ is:
+$$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}(-\ln|1-x|) - \frac{1}{2}(\ln|1+x|) + C$$
 >{: .solution}
 {: .challenge}
 > #### d) $$\int \frac{1}{x^2-1} dx$$
