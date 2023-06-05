@@ -360,8 +360,8 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >Expanding and collecting like terms, we get:\
 > >$$x^2 = (A - A \cdot x) + (B \cdot x)$$\
 > >Matching coefficients:\
-> >1. Coefficient of $$x^2: 1 = -A, so A = -1$$.\
-> >2. Coefficient of $$x: 0 = A + B$$, substituting $$A = -1$$ gives $$B = 1$$.\
+> >- Coefficient of $$x^2: 1 = -A, so A = -1$$.\
+> >- Coefficient of $$x: 0 = A + B$$, substituting $$A = -1$$ gives $$B = 1$$.\
 > >The integral can now be rewritten as:\
 > >$$\int \frac{x^2}{x - x^2} \, dx = \int \left( \frac{-1}{x} + \frac{1}{1 - x} \right) \, dx$$\
 > >Integrating each term separately, we have:\
