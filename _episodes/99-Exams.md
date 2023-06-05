@@ -210,7 +210,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 >{: .solution}
 {: .challenge} -->
 ## Final Semester Exam
-> Let $$f$$ be defined on all of $$R$$. For each real number $$c$$, we define the translated function $$f_c$$ by: $$f_c(x) = f (x − c)$$. Suppose that $$f$$ is integrable on all bounded intervals. Show that: $$\int_{a}^{b} f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$.
+> a) Let $$f$$ be defined on all of $$R$$. For each real number $$c$$, we define the translated function $$f_c$$ by: $$f_c(x) = f (x − c)$$. Suppose that $$f$$ is integrable on all bounded intervals. Show that: $$\int_{a}^{b} f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$.
 > >
 > >## Solution
 > >
@@ -224,26 +224,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Thus, we have established the desired result.
 >{: .solution}
 {: .challenge}
-> ### $$\int \frac{1}{x^4 + 4} \, dx$$
-> >
-> > ## Solution
-> >
-> >The real factorization of $$x^4 + 4$$ into irreducible quadratic factors is needed to calculate the integral $$\int \frac{1}{x^4 + 4} \, dx$$. We can obtain the factorization using complex numbers by noting that the roots of $$x^4 + 4 = 0$$ are the four complex numbers $$w_1 = e^{i\pi/4}$$, $$w_2 = e^{3i\pi/4}$$, $$w_3 = e^{5i\pi/4}$$, and $$w_4 = e^{7i\pi/4}$$.\
-> >To compute the integral, we use partial fraction decomposition. The integrand can be expressed as:\
-> >$$\frac{1}{x^4 + 4} = \frac{\frac{1}{4}}{x^2 + 2x\sqrt{2} + 2} - \frac{\frac{1}{4}}{x^2 - 2x\sqrt{2} + 2}$$\
-> >Next, we complete the square in the denominators:\
-> >$$x^2 + 2x\sqrt{2} + 2 = (x + \sqrt{2})^2 + 2$$\
-> >$$x^2 - 2x\sqrt{2} + 2 = (x - \sqrt{2})^2 + 2$$\
-> >Using the substitutions $$u = x + \sqrt{2}$$ and $$v = x - \sqrt{2}$$, the integral becomes:\
-> >$$\int \frac{1}{x^4 + 4} \, dx = \frac{1}{4} \int \frac{1}{(x + \sqrt{2})^2 + 2} \, dx - \frac{1}{4} \int \frac{1}{(x - \sqrt{2})^2 + 2} \, dx$$\
-> >Applying the integral formulas for $$\frac{1}{u^2 + a^2}$$, the integrals can be evaluated as:\
-> >$$\frac{1}{4\sqrt{2}} \left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right)\right) - \frac{1}{4\sqrt{2}} \left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$\
-> >Simplifying further, we have:\
-> >$$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$\
-> >Therefore, the integral $$\int \frac{1}{x^4 + 4} \, dx$$ can be expressed as $$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$, where $$C$$ is the constant of integration.
->{: .solution}
-{: .challenge}
-> ### a) Suppose that  f  is bounded on $$[a,b]$$  and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that  $$f$$  is integrable on $$[a,b]$$ and $$\lim_{ε→0+}\int_{a+ε}^{b} f =   \int_{a}^{b} f$$. 
+> ### b) Suppose that  f  is bounded on $$[a,b]$$  and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that  $$f$$  is integrable on $$[a,b]$$ and $$\lim_{ε→0+}\int_{a+ε}^{b} f =   \int_{a}^{b} f$$. 
 > >
 > > ## Solution
 > >
@@ -272,7 +253,7 @@ $$\
 > >Hence, $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^b f = \int_a^b f$$, which shows that $$f$$ is integrable on $$[a, b]$$ and satisfies the desired limit property.
 >{: .solution}
 {: .challenge}
-> ### b) Suppose that $$f$$  is bounded on $$[a,b]$$ and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that $$f$$ is integrable on $$[a,b]$$ and $$\lim_{ε→0+} \int_{a+ε}^{b} f = \int_{a}^{b} f$$.
+<!-- > ### b) Suppose that $$f$$  is bounded on $$[a,b]$$ and for each $$ε > 0$$, it is integrable on $$[a + ε,b]$$. Show that $$f$$ is integrable on $$[a,b]$$ and $$\lim_{ε→0+} \int_{a+ε}^{b} f = \int_{a}^{b} f$$.
 > >
 > >## Solution
 > >
@@ -291,6 +272,25 @@ $$\
 > >Substituting this result back into the expression, we get:\
 > >$$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f - 0 = \int_{a}^{b} f$$\
 > >Thus, we have shown that $$f$$ is integrable on $$[a, b]$$ and $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f$$.
+>{: .solution}
+{: .challenge} -->
+> ### $$\int \frac{1}{x^4 + 4} \, dx$$
+> >
+> > ## Solution
+> >
+> >The real factorization of $$x^4 + 4$$ into irreducible quadratic factors is needed to calculate the integral $$\int \frac{1}{x^4 + 4} \, dx$$. We can obtain the factorization using complex numbers by noting that the roots of $$x^4 + 4 = 0$$ are the four complex numbers $$w_1 = e^{i\pi/4}$$, $$w_2 = e^{3i\pi/4}$$, $$w_3 = e^{5i\pi/4}$$, and $$w_4 = e^{7i\pi/4}$$.\
+> >To compute the integral, we use partial fraction decomposition. The integrand can be expressed as:\
+> >$$\frac{1}{x^4 + 4} = \frac{\frac{1}{4}}{x^2 + 2x\sqrt{2} + 2} - \frac{\frac{1}{4}}{x^2 - 2x\sqrt{2} + 2}$$\
+> >Next, we complete the square in the denominators:\
+> >$$x^2 + 2x\sqrt{2} + 2 = (x + \sqrt{2})^2 + 2$$\
+> >$$x^2 - 2x\sqrt{2} + 2 = (x - \sqrt{2})^2 + 2$$\
+> >Using the substitutions $$u = x + \sqrt{2}$$ and $$v = x - \sqrt{2}$$, the integral becomes:\
+> >$$\int \frac{1}{x^4 + 4} \, dx = \frac{1}{4} \int \frac{1}{(x + \sqrt{2})^2 + 2} \, dx - \frac{1}{4} \int \frac{1}{(x - \sqrt{2})^2 + 2} \, dx$$\
+> >Applying the integral formulas for $$\frac{1}{u^2 + a^2}$$, the integrals can be evaluated as:\
+> >$$\frac{1}{4\sqrt{2}} \left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right)\right) - \frac{1}{4\sqrt{2}} \left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$\
+> >Simplifying further, we have:\
+> >$$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$\
+> >Therefore, the integral $$\int \frac{1}{x^4 + 4} \, dx$$ can be expressed as $$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$, where $$C$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
 >### Solve the following integrals. Show your detailed answers by writing the step-by-step analysis:
@@ -351,23 +351,27 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >
 > > ## Solution
 > >
-> >To solve the integral $$\int \frac{x^2}{x-x^2}dx$$:\
-> >We can start by factoring the denominator:\
-> >$$\int \frac{x^2}{x(1-x)}dx$$\
-> >Now, we can express the fraction as a sum of partial fractions. We need to find constants $$A$$ and $$B$$ such that:\
-> >$$\frac{x^2}{x(1-x)} = \frac{A}{x} + \frac{B}{1-x}$$\
-> >Multiplying through by $$x(1-x)$$, we have:\
-> >$$x^2 = A(1-x) + Bx$$\
+> >$$\int \frac{x^2}{x - x^2} \, dx$$\
+> >To decompose the rational function into partial fractions, we write:\
+> >$$\frac{x^2}{x - x^2} = \frac{A}{x} + \frac{B}{1 - x}$$\
+> >where A and B are constants to be determined.\
+> >Multiplying through by the denominator and equating the numerators, we have:\
+> >$$x^2 = A(1 - x) + Bx$$\
 > >Expanding and collecting like terms, we get:\
-> >$$x^2 = (A - B)x + A$$\
-> >To equate the coefficients of like powers of $$x$$, we have:\
-> >$$A - B = 0$$\
-> >$$A = 0$$\
-> >From the first equation, we obtain $$B = A = 0$$. Therefore, the integral simplifies to:\
-> >$$\int \frac{x^2}{x-x^2}dx = \int (0 + 0)dx$$\
-> >Since both terms in the integral are zero, the result is simply:
-$$\int \frac{x^2}{x-x^2}dx = 0 + C$$\
-> >Therefore, $$\int \frac{x^2}{x-x^2}dx = C$$, where $$C$$ is the constant of integration.
+> >$$x^2 = (A - A \cdot x) + (B \cdot x)$$\
+> >Matching coefficients:\
+> >1. Coefficient of $$x^2: 1 = -A, so A = -1$$.\
+> >2. Coefficient of $$x: 0 = A + B$$, substituting $$A = -1$$ gives $$B = 1$$.\
+> >The integral can now be rewritten as:\
+> >$$\int \frac{x^2}{x - x^2} \, dx = \int \left( \frac{-1}{x} + \frac{1}{1 - x} \right) \, dx$$\
+> >Integrating each term separately, we have:\
+> >$$\int \frac{-1}{x} \, dx = -\ln|x| + C_1$$\
+> >where $$C_1$$ is the constant of integration.\
+> >$$\int \frac{1}{1 - x} \, dx = -\ln|1 - x| + C_2$$\
+> >where $$C_2$$ is another constant of integration.\
+> >Therefore, the solution to the integral is:\
+> >$$\int \frac{x^2}{x - x^2} \, dx = -\ln|x| - \ln|1 - x| + C$$\
+> >where $$C = C_1 + C_2$$ is the combined constant of integration.
 >{: .solution}
 {: .challenge}
 > #### d) $$\int \frac{x}{x^3-1} dx$$
