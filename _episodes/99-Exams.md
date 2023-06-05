@@ -382,7 +382,7 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 we can use a trigonometric substitution. Let's substitute $$\left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$.\
 > >Using this substitution, we have $$\left(dx = \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta\right)$$.\
 > >Now we need to express the integral in terms of $$\left(\theta\right)$$.\
-> >Substituting $$\left(x\right) and \left(dx\right) in the integral, we get:\
+> >Substituting $$\left(x\right)$$ and $$\left(dx\right)$$ in the integral, we get:\
 > >$$\int \frac{\frac{1}{\sqrt{3}}\sec(\theta)}{\left(\frac{1}{\sqrt{3}}\sec(\theta)\right)^3-1} \cdot \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta$$\
 > >Simplifying, we obtain:\
 > >$$\frac{1}{3} \int \frac{\sec^2(\theta)\tan(\theta)}{\sec^3(\theta)-1} \, d\theta$$\
