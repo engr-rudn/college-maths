@@ -13,7 +13,7 @@ objectives:
 > >
 > > ## Solution
 > > 
-> >To solve the integral $$left\(\int (x^2 \sin x) \, dx\right)$$, we can use integration by parts. Let's apply the formula $$\left(\int u \, dv = uv - \int v \, du\right)$$ with $$\left(u = x^2\right)$$ and $$\left(dv = \sin x \, dx\right)$$.\
+> >To solve the integral $$\left(\int (x^2 \sin x) \, dx\right)$$, we can use integration by parts. Let's apply the formula $$\left(\int u \, dv = uv - \int v \, du\right)$$ with $$\left(u = x^2\right)$$ and $$\left(dv = \sin x \, dx\right)$$.\
 > >We have:\
 > >$$du = 2x \, dx$$\
 > >$$v = -\cos x$$\
@@ -379,7 +379,7 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > > ## Solution
 > >
 > >$$\int \frac{x}{x^3 - 1} \, dx$$\
-> >To solve this integral, we can decompose the rational function using partial fractions. The denominator, $$\left(x^3 - 1\right)$$, can be factored as $$left\((x - 1)(x^2 + x + 1)right\)$$.\
+> >To solve this integral, we can decompose the rational function using partial fractions. The denominator, $$\left(x^3 - 1\right)$$, can be factored as $$\left((x - 1)(x^2 + x + 1)right\)$$.\
 > > Hence, we can write:\
 > >$$\frac{x}{x^3 - 1} = \frac{A}{x - 1} + \frac{Bx + C}{x^2 + x + 1}$$,\
 > >where $$\left(A\right)$$, $$\left(B\right)$$, and $$\left(C\right)$$ are constants to be determined.\
@@ -407,15 +407,15 @@ $$x = (A + B)x^2 + (A + B - C)x + (A - C)$$.\
 > >$$\frac{u - \frac{3}{2}}{u^2 + \frac{3}{4}} = \frac{A}{u - \frac{i\sqrt{3}}{2}} + \frac{B}{u + \frac{i\sqrt{3}}{2}}$$,\
 > >where $$\left(i\right)$$ is the imaginary unit and $$\left(\sqrt{3}\right)$$ is the square root of 3.\
 > >Multiplying through by the denominator, we have:\
-> >$$u - \frac{3}{2} = A left\(u + \frac{i\sqrt{3}}{2}\right) + B left\(u - \frac{i\sqrt{3}}{2}\right)$$.\
+> >$$u - \frac{3}{2} = A \left(u + \frac{i\sqrt{3}}{2}\right) + B \left(u - \frac{i\sqrt{3}}{2}\right)$$.\
 > >Matching coefficients, we find:\
-> >- Coefficient of $$left\(u\right)$$: $$left\(1 = A + B\right)$$.\
-> >- Constant term: $$left\(-\frac{3}{2} = \frac{i\sqrt{3}}{2}A - \frac{i\sqrt{3}}{2}B\right)$$.\
-> >Solving these equations, we find $$left\(A = -\frac{1}{2i\sqrt{3}}\right)$$ and $$left\(B = \frac{1}{2i\sqrt{3}}\right)$$.\
+> >- Coefficient of $$\left(u\right)$$: $$\left(1 = A + B\right)$$.\
+> >- Constant term: $$\left(-\frac{3}{2} = \frac{i\sqrt{3}}{2}A - \frac{i\sqrt{3}}{2}B\right)$$.\
+> >Solving these equations, we find $$\left(A = -\frac{1}{2i\sqrt{3}}\right)$$ and $$\left(B = \frac{1}{2i\sqrt{3}}\right)$$.\
 > >Therefore, the decomposition of the integral becomes:\
 > >$$\int \frac{x}{x^3 - 1} \, dx = -\ln|x - 1| + \frac{1}{2i\sqrt{3}} \int \frac{u + \frac{i\sqrt{3}}{2}}{u^2 + \frac{3}{4}} \, du + C$$,\
-> >where $$left\(C\right)$$ is the constant of integration.\
-> >Please note that the integral $$left\(\int \frac{u + \frac{i\sqrt{3}}{2}}{u^2 + \frac{3}{4}} \, du\right)$$ can be further simplified by applying trigonometric substitution or using inverse hyperbolic functions.
+> >where $$\left(C\right)$$ is the constant of integration.\
+> >Please note that the integral $$\left(\int \frac{u + \frac{i\sqrt{3}}{2}}{u^2 + \frac{3}{4}} \, du\right)$$ can be further simplified by applying trigonometric substitution or using inverse hyperbolic functions.
 >{: .solution}
 {: .challenge}
 > #### Prove the following formulas.
