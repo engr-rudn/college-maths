@@ -224,7 +224,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Thus, we have established the desired result.
 >{: .solution}
 {: .challenge}
-> ### $$x^4 + 4$$
+> ### $$\int \frac{1}{x^4 + 4} \, dx$$
 > >
 > > ## Solution
 > >
