@@ -53,7 +53,7 @@ objectives:
 > >
 > > ## Solution
 > > 
-> >To solve the integral $$\int \frac{x^2}{1-x^2} \, dx$$, we can use partial fraction decomposition. First, we factor the denominator $$1-x^2\) as \((1-x)(1+x)$$.\
+> >To solve the integral $$\int \frac{x^2}{1-x^2} \, dx$$, we can use partial fraction decomposition. First, we factor the denominator $$1-x^2\) as \left((1-x)(1+x)$$.\
 > >We can write $$\frac{x^2}{1-x^2}$$ as $$\frac{A}{1-x} + \frac{B}{1+x}$$, where $$A$$ and $$B$$ are constants.\
 > >To find $$A$$ and $$B$$, we can equate the numerators:\
 > >$$x^2 = A(1+x) + B(1-x)$$\
@@ -360,8 +360,8 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >Expanding and collecting like terms, we get:\
 > >$$x^2 = (A - A \cdot x) + (B \cdot x)$$\
 > >Matching coefficients:\
-> >- Coefficient of $$x^2: 1 = -A, so A = -1$$.\
-> >- Coefficient of $$x: 0 = A + B$$, substituting $$A = -1$$ gives $$B = 1$$.\
+> >- Coefficient of $$x^2: 1 = -A, so A = -1$$.
+> >- Coefficient of $$x: 0 = A + B$$, substituting $$A = -1$$ gives $$B = 1$$.
 > >The integral can now be rewritten as:\
 > >$$\int \frac{x^2}{x - x^2} \, dx = \int \left( \frac{-1}{x} + \frac{1}{1 - x} \right) \, dx$$\
 > >Integrating each term separately, we have:\
@@ -378,44 +378,33 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >
 > > ## Solution
 > >
-> >$$\int \frac{x}{x^3 - 1} \, dx$$\
-> >To solve this integral, we can decompose the rational function using partial fractions. The denominator, $$\left(x^3 - 1\right)$$, can be factored as $$\left((x - 1)(x^2 + x + 1)right\)$$.\
-> > Hence, we can write:\
-> >$$\frac{x}{x^3 - 1} = \frac{A}{x - 1} + \frac{Bx + C}{x^2 + x + 1}$$,\
-> >where $$\left(A\right)$$, $$\left(B\right)$$, and $$\left(C\right)$$ are constants to be determined.\
-> >To find $$\left(A\right)$$, $$\left(B\right)$$, and $$\left(C\right)$$, we can multiply through by the denominator and equate the numerators. This gives us:\
-> >$$x = A(x^2 + x + 1) + (Bx + C)(x - 1)$$.\
-> >Expding and collecting like terms, we have:
-$$x = (A + B)x^2 + (A + B - C)x + (A - C)$$.\
-> >Matching coefficients, we find:\
-> >- Coefficient of $$\left(x^2\right)$$: \(0 = A + B\right)$$, so \(A = -B\right)$$.\
-> >- Coefficient of $$\left(x\right)$$: $$\left(1 = A + B - C\right)$$.\
-> >- Constant term: $$\left(0 = A - C\right)$$.\
-> > From equation 1, $$\left(A = -B\right)$$, we have $$\left(A = -1\right)$$ and $$\left(B = 1\right)$$.\
-> >Substituting $$\left(A = -1\right)$$ into equation 2, we have $$\left(1 = -1 + B - C\right)$$. Simplifying, we get $$\left(B - C = 2\right)$$.\
-> >Using equation 3, $$\left(A - C = 0\right)$$, we have $$\left(C = -1\right)$$.\
-> >Therefore, the decomposition of the integral becomes:\
-> >$$\int \frac{x}{x^3 - 1} \, dx = \int \left( \frac{-1}{x - 1} + \frac{x - 1}{x^2 + x + 1} \right) \, dx$$.\
-> >Now we can integrate each term separately:\
-> >$$\int \frac{-1}{x - 1} \, dx = -\ln|x - 1| + C_1$$,\
-> >where $$\left(C_1\right)$$ is the constant of integration.\
-> >For the second term, we can complete the square in the denominator. The quadratic $$\left(x^2 + x + 1\right)$$ can be rewritten as $$\left((x + \frac{1}{2})^2 + \frac{3}{4}\right)$$.\
-> >$$\int \frac{x - 1}{x^2 + x + 1} \, dx = \int \frac{x - 1}{(x + \frac{1}{2})^2 + \frac{3}{4}} \, dx$$.\
-> >Using the substitution $$\left(u = x + \frac{1}{2}\right)$$, $$\left(du = dx\right)$$, the integral becomes:\
-> >$$\int \frac{u - \frac{3}{2}}{u^2 + \frac{3}{4}} \, du = \int \frac{u - \frac{3}{2}}{u^2 + \frac{3}{4}} \, du$$.\
-> >This can be further simplified by using partial fractions or trigonometric substitution. Let's use the method of partial fractions:\
-> >$$\frac{u - \frac{3}{2}}{u^2 + \frac{3}{4}} = \frac{A}{u - \frac{i\sqrt{3}}{2}} + \frac{B}{u + \frac{i\sqrt{3}}{2}}$$,\
-> >where $$\left(i\right)$$ is the imaginary unit and $$\left(\sqrt{3}\right)$$ is the square root of 3.\
-> >Multiplying through by the denominator, we have:\
-> >$$u - \frac{3}{2} = A \left(u + \frac{i\sqrt{3}}{2}\right) + B \left(u - \frac{i\sqrt{3}}{2}\right)$$.\
-> >Matching coefficients, we find:\
-> >- Coefficient of $$\left(u\right)$$: $$\left(1 = A + B\right)$$.\
-> >- Constant term: $$\left(-\frac{3}{2} = \frac{i\sqrt{3}}{2}A - \frac{i\sqrt{3}}{2}B\right)$$.\
-> >Solving these equations, we find $$\left(A = -\frac{1}{2i\sqrt{3}}\right)$$ and $$\left(B = \frac{1}{2i\sqrt{3}}\right)$$.\
-> >Therefore, the decomposition of the integral becomes:\
-> >$$\int \frac{x}{x^3 - 1} \, dx = -\ln|x - 1| + \frac{1}{2i\sqrt{3}} \int \frac{u + \frac{i\sqrt{3}}{2}}{u^2 + \frac{3}{4}} \, du + C$$,\
-> >where $$\left(C\right)$$ is the constant of integration.\
-> >Please note that the integral $$\left(\int \frac{u + \frac{i\sqrt{3}}{2}}{u^2 + \frac{3}{4}} \, du\right)$$ can be further simplified by applying trigonometric substitution or using inverse hyperbolic functions.
+> >To solve the integral $$\int \frac{x}{x^3-1} \, dx$$,\
+we can use a trigonometric substitution. Let's substitute $$\left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$.\
+> >Using this substitution, we have $$\left(dx = \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta\)$$.\
+> >Now we need to express the integral in terms of $$\left(\theta\)$$.\
+> >Substituting $$\left(x\right) and \left(dx\right) in the integral, we get:\
+> >$$\int \frac{\frac{1}{\sqrt{3}}\sec(\theta)}{\left(\frac{1}{\sqrt{3}}\sec(\theta)\right)^3-1} \cdot \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta$$\
+> >Simplifying, we obtain:\
+> >$$\frac{1}{3} \int \frac{\sec^2(\theta)\tan(\theta)}{\sec^3(\theta)-1} \, d\theta$$\
+> >Next, we can simplify the expression in the denominator using the identity $$\left(\sec^2(\theta) - 1 = \tan^2(\theta)\right)$$:\
+> >$$\frac{1}{3} \int \frac{\sec^2(\theta)\tan(\theta)}{(\sec^2(\theta)-1)\sec(\theta)} \, d\theta
+$$\
+> >Further simplifying, we have:\
+> >$$\frac{1}{3} \int \frac{\sec^2(\theta)\tan(\theta)}{\tan^2(\theta)\sec(\theta)} \, d\theta
+$$\
+> >Cancelling out $$\left(\tan(\theta)\right)$$ and $$\left(\sec(\theta)\right)$$, we get:\
+> >$$\frac{1}{3} \int \frac{1}{\tan(\theta)} \, d\theta$$\
+> >This integral can be simplified further by using the identity $$\left(\frac{1}{\tan(\theta)} = \cot(\theta)\right)$$:\
+> >$$\frac{1}{3} \int \cot(\theta) \, d\theta$$\
+> >Now we can integrate $$\left(\cot(\theta)\right)$$ with respect to $$\left(\theta\right)$$:\
+> >$$\frac{1}{3} \ln|\sin(\theta)| + C$$\
+> >Finally, we need to substitute back for $$\left(\theta\right)$$ in terms of \left(x\right)$$. Recall that we initially set \left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$. Rearranging, we have \left(\sec(\theta) = \sqrt{3}x\right)$$. Taking the reciprocal of both sides, we get \left(\cos(\theta) = \frac{1}{\sqrt{3}x}\right)$$. Using the Pythagorean identity \left(\sin^2(\theta) + \cos^2(\theta) = 1\right)$$, we can solve for \left(\sin(\theta)\right)$$:\
+> >$$\sin(\theta) = \sqrt{1 - \cos^2(\theta)} = \sqrt{1 - \frac{1}{3x^2}} = \frac{\sqrt{3x^2 - 1}}{x}$$\
+> >Substituting this back into the integral, we have:\
+> >$$\frac{1}{3} \ln\left|\frac{\sqrt{3x^2 - 1}}{x}\right| + C$$\
+> >Therefore, the solution to the integral is:\
+> >$$\int \frac{x}{x^3-1} \, dx = \frac{1}{3} \ln\left|\frac{\sqrt{3x^2 - 1}}{x}\right| + C$$\
+> > where $$\left(C\right)$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
 > #### Prove the following formulas.
