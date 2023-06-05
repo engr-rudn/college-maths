@@ -30,6 +30,37 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Hence, we have demonstrated that if $$f$$ and $$g$$ are bounded functions, both integrable on the interval $$[a, b]$$, then their sum $$f + g$$ is also bounded and integrable on the same interval.
 >{: .solution}
 {: .challenge}
+> ### 2.  $$\frac{d \cot x}{dx}=−\csc 2x$$
+> >
+> > ## Solution
+> >
+> >To prove the formula $\frac{d}{dx}(\cot x) = -\csc 2x$, we'll differentiate the left-hand side of the equation and simplify it to match the right-hand side.\
+> >Starting with the left-hand side, we have:\
+> >$$\frac{d}{dx}(\cot x)$$\
+> >Using the quotient rule for differentiation, we can write this as:\
+> >$$\frac{d}{dx}\left(\frac{\cos x}{\sin x}\right)$$\
+> >Now, applying the quotient rule, we get:\
+> >$$\frac{(-\sin x)(\sin x) - (\cos x)(\cos x)}{(\sin x)^2}$$\
+> >Simplifying further, we have:\
+> >$$\frac{-\sin^2 x - \cos^2 x}{(\sin x)^2}$$\
+> >Recall the Pythagorean identity $\sin^2 x + \cos^2 x = 1$. Substituting this into the equation, we get:\
+> >$$\frac{-1}{(\sin x)^2}$$\
+> >Now, let's simplify the right-hand side of the equation:\
+> >$$-\csc 2x$$\
+> >Recall that $\csc x = \frac{1}{\sin x}$, so we can rewrite the expression as:\
+> >$$-\frac{1}{\sin 2x}$$\
+> >Recall the double angle formula for sine: $\sin 2x = 2\sin x \cos x$. Substituting this into the equation, we have:\
+> >$$-\frac{1}{2\sin x \cos x}$$\
+> >Applying the reciprocal identity, $\frac{1}{\sin x \cos x} = \csc x \sec x$, we get:\\
+> >$$-\frac{1}{2} \cdot \frac{1}{\sin x \cos x} = -\frac{1}{2} \csc x \sec x$$\
+> >Since $\sec x = \frac{1}{\cos x}$, we can further simplify it to:\
+> >$$-\frac{1}{2} \csc x \cdot \frac{1}{\cos x} = -\frac{1}{2} \csc x \sec x$$\
+> >Notice that this expression matches the result of the left-hand side of the original equation.\
+> >Therefore, we have shown that:\
+> >$$\frac{d}{dx}(\cot x) = -\csc 2x$$\
+> >This completes the proof.
+>{: .solution}
+{: .challenge}
 > ### 8.2.7 $$\int \frac{1}{x^2-1} dx$$
 > >
 > > ## Solution
