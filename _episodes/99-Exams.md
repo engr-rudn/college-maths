@@ -288,8 +288,8 @@ $$\int \frac{x}{x^3-1} dx = \frac{1}{3} \ln|x^3-1| + C$$\
 > >$$\sin x(-1 + 4\cos^2 x)$$\
 > >Since $$\cos^2 x = 1 - \sin^2 x$$, we can substitute this into the equation:\
 > >$$\sin x(-1 + 4(1 - \sin^2 x))$$\
-> >$$\sin x(-1 + 4 - 4\sin^2 x)$$
-> >$$\sin x(3 - 4\sin^2 x)$$\
+> >=$$\sin x(-1 + 4 - 4\sin^2 x)$$\
+> >=$$\sin x(3 - 4\sin^2 x)$$\
 > >Notice that this expression is equal to the right-hand side of the original equation. Therefore, we have shown that:\
 > >$$\sin 3x = 3\sin x - 4\sin^3 x$$\
 > >This completes the proof.
