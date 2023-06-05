@@ -34,7 +34,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >
 > > ## Solution
 > >
-> >To prove the formula $\frac{d}{dx}(\cot x) = -\csc 2x$, we'll differentiate the left-hand side of the equation and simplify it to match the right-hand side.\
+> >To prove the formula $$\frac{d}{dx}(\cot x) = -\csc 2x$$, we'll differentiate the left-hand side of the equation and simplify it to match the right-hand side.\
 > >Starting with the left-hand side, we have:\
 > >$$\frac{d}{dx}(\cot x)$$\
 > >Using the quotient rule for differentiation, we can write this as:\
@@ -49,6 +49,48 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Therefore, we have shown that:\
 > >$$\frac{d}{dx}(\cot x) = -\csc 2x$$\
 > >This completes the proof.
+>{: .solution}
+{: .challenge}
+> ### Prove the following formulas.
+> #### a) $$1 + \tan^2 x = \sec^2 x$$
+> >
+> > ## Solution
+> >
+> >We start with the definition of the tangent function:\
+> >$$\tan x = \frac{{\sin x}}{{\cos x}}$$\
+> >Squaring both sides of this equation yields:\
+> >$$\tan^2 x = \left(\frac{{\sin x}}{{\cos x}}\right)^2$$\
+> >Using the property that the square of a fraction is equal to the square of the numerator divided by the square of the denominator, we can rewrite this as:\
+> >$$\tan^2 x = \frac{{\sin^2 x}}{{\cos^2 x}}$$\
+> >Next, we recall the Pythagorean identity for trigonometric functions:\
+> >$$\sin^2 x + \cos^2 x = 1$$\
+> >Rearranging this equation gives:\
+> >$$\sin^2 x = 1 - \cos^2 x$$
+> >Substituting this into our previous expression for $$\(\tan^2 x\)$$, we have:\
+> >$$\tan^2 x = \frac{{1 - \cos^2 x}}{{\cos^2 x}}$$\
+> >Now, we can simplify the expression on the right-hand side by combining the terms:\
+> >$$\tan^2 x = \frac{{1}}{{\cos^2 x}} - \frac{{\cos^2 x}}{{\cos^2 x}}$$\
+> >Simplifying further:\
+> >$$\tan^2 x = \sec^2 x - 1$$\
+> >Finally, adding 1 to both sides of the equation, we obtain:\
+> >$$1 + \tan^2 x = \sec^2 x$$\
+> >Thus, we have proven the equation $$\(1 + \tan^2 x = \sec^2 x\)$$ using the definitions and properties of trigonometric functions.
+>{: .solution}
+{: .challenge}
+> #### b) $$\cos 2x = \cos^2 x − \sin^2 x$$
+> >
+> > ## Solution
+> >
+> >To prove the equation $$\(\cos 2x = \cos^2 x - \sin^2 x\)$$, we can use the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.\
+> >Starting with the double-angle formula for cosine:\
+> >$$\cos 2x = \cos^2 x - \sin^2 x$$\
+> >We can rewrite the left-hand side using the cosine double-angle identity:\
+> >$$\cos 2x = \cos^2 x - (1 - \cos^2 x)$$\
+> >Simplifying the expression on the right-hand side:\
+> >$$\cos 2x = \cos^2 x - 1 + \cos^2 x$$\
+> >Combining like terms:\
+> >$$\cos 2x = 2\cos^2 x - 1$$\
+> >Finally, we have proven the equation $$\(\cos 2x = \cos^2 x - \sin^2 x\)$$ using the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.
 >{: .solution}
 {: .challenge}
 > ### 8.2.7 $$\int \frac{1}{x^2-1} dx$$
