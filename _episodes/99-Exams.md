@@ -380,8 +380,8 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >
 > >To solve the integral $$\int \frac{x}{x^3-1} \, dx$$,\
 we can use a trigonometric substitution. Let's substitute $$\left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$.\
-> >Using this substitution, we have $$\left(dx = \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta\)$$.\
-> >Now we need to express the integral in terms of $$\left(\theta\)$$.\
+> >Using this substitution, we have $$\left(dx = \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta\right)$$.\
+> >Now we need to express the integral in terms of $$\left(\theta\right)$$.\
 > >Substituting $$\left(x\right) and \left(dx\right) in the integral, we get:\
 > >$$\int \frac{\frac{1}{\sqrt{3}}\sec(\theta)}{\left(\frac{1}{\sqrt{3}}\sec(\theta)\right)^3-1} \cdot \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta$$\
 > >Simplifying, we obtain:\
@@ -398,7 +398,12 @@ $$\
 > >$$\frac{1}{3} \int \cot(\theta) \, d\theta$$\
 > >Now we can integrate $$\left(\cot(\theta)\right)$$ with respect to $$\left(\theta\right)$$:\
 > >$$\frac{1}{3} \ln|\sin(\theta)| + C$$\
-> >Finally, we need to substitute back for $$\left(\theta\right)$$ in terms of \left(x\right)$$. Recall that we initially set \left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$. Rearranging, we have \left(\sec(\theta) = \sqrt{3}x\right)$$. Taking the reciprocal of both sides, we get \left(\cos(\theta) = \frac{1}{\sqrt{3}x}\right)$$. Using the Pythagorean identity \left(\sin^2(\theta) + \cos^2(\theta) = 1\right)$$, we can solve for \left(\sin(\theta)\right)$$:\
+> >Finally, we need to substitute back for $$\left(\theta\right)$$ in terms of \left(x\right)$$.\
+> > Recall that we initially set $$\left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$.\
+> > Rearranging, we have $$\left(\sec(\theta) = \sqrt{3}x\right)$$.
+> >Taking the reciprocal of both sides, we get $$\left(\cos(\theta) = \frac{1}{\sqrt{3}x}\right)$$.\
+> >Using the Pythagorean identity $$\left(\sin^2(\theta) + \cos^2(\theta) = 1\right)$$,\
+> >we can solve for $$\left(\sin(\theta)\right)$$:\
 > >$$\sin(\theta) = \sqrt{1 - \cos^2(\theta)} = \sqrt{1 - \frac{1}{3x^2}} = \frac{\sqrt{3x^2 - 1}}{x}$$\
 > >Substituting this back into the integral, we have:\
 > >$$\frac{1}{3} \ln\left|\frac{\sqrt{3x^2 - 1}}{x}\right| + C$$\
