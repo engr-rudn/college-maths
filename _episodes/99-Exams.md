@@ -500,5 +500,26 @@ Using the properties of Riemann sums, we have\
 > >Therefore, the correct analysis for part c) is that the limit is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.
 >{: .solution}
 {: .challenge}
+> > ## Solution 2
+> >
+> >To compute the limit\
+$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}}$$,\
+we observe that the sum can be interpreted as a Riemann sum for the function $$\left(f(x) = \frac{x}{\sqrt{n^2 + x^2}}\right)$$ over the interval $$\left([1, n]\right)$$.\
+Using the properties of Riemann sums, we have\
+$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}} = \int_{1}^{n} \frac{x}{\sqrt{n^2 + x^2}} \, dx$$.\
+evaluate this integral, we can make the substitution $$\left(u = \frac{x}{n}\right)$$, which leads to \left(dx = n \, du\right)$$.\
+The integral becomes\
+$$\int_{1}^{n} \frac{x}{\sqrt{n^2 + x^2}} \, dx = \int_{\frac{1}{n}}^{1} \frac{n u}{\sqrt{n^2 + (nu)^2}} \, n \, du = \int_{\frac{1}{n}}^{1} \frac{nu}{\sqrt{1 + u^2}} \, du$$.\
+As $$\left(n\right)$$ approaches infinity, the limits of integration become $$\left(\frac{1}{\infty} = 0\right)$$ and $$\left(1\right)$$.\
+Therefore, we have\
+$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}} = \lim_{n\to\infty} \int_{\frac{1}{n}}^{1} \frac{nu}{\sqrt{1 + u^2}} \, du$$.\
+Now we can evaluate the integral using standard techniques.\
+$$\int_{\frac{1}{n}}^{1} \frac{nu}{\sqrt{1 + u^2}} \, du = \left[-\sqrt{1 + u^2}\right]_{\frac{1}{n}}^{1} = -\sqrt{2} + \sqrt{1 + \frac{1}{n^2}}$$.\
+Taking the limit as $$\left(n\right)$$ approaches infinity, we find\
+$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}} = \lim_{n\to\infty} \left(-\sqrt{2} + \sqrt{1 + \frac{1}{n^2}}\right) = -\sqrt{2} + 1$$.\
+Therefore, the limit $$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}}$$ is $$\left(-\sqrt{2} + 1\right)$$.
+>{: .solution}
+{: .challenge}
+
 
 
