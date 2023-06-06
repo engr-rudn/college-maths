@@ -472,7 +472,7 @@ Hence, the limit is $$\left(\frac{1}{p+1}\right)$$.
 > >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{2(n+2)}{n(n+1)^2} \cdot k$$,\
 > > we observe that the sum can be rewritten as\
 > >$$\sum_{k=1}^n \frac{2}{n(n+1)^2} \cdot (n+2) \cdot k = \frac{2}{n(n+1)^2} \sum_{k=1}^n (n+2) \cdot k$$.\
-> >The term \(\frac{2}{n(n+1)^2}\) can be taken out of the sum, resulting in\
+> >The term $$\left(\frac{2}{n(n+1)^2}\right)$$ can be taken out of the sum, resulting in\
 > >$$\frac{2}{n(n+1)^2} \cdot (n+2) \cdot \sum_{k=1}^n k = \frac{2(n+2)}{n(n+1)^2} \cdot \frac{n(n+1)}{2}$$.\
 > >Simplifying further, we obtain\
 > >$$\frac{2(n+2)}{n(n+1)^2} \cdot \frac{n(n+1)}{2} = \frac{n+2}{n+1}$$.\
