@@ -453,15 +453,15 @@ To compute this limit as a Riemann sum, we interpret it as the limit of a Rieman
 > >The Riemann sum for $$\left(f(x)\right)$$ on $$\left([1, n]\right)$$ with $$\left(n\right)$$ subintervals can be written as:\
 > >$$\frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p$$\
 > >Notice that the term $$\left(\frac{1}{n^p}\right)$$ can be factored out from the sum. Now we have:\
-> >$$\frac{1}{n^p} \sum_{{k=1}}^n \left(\frac{k}{n}\right)^p$$\
+> >$$\frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p$$\
 > >As $$\left(n\right)$$ approaches infinity, the sum $$\left(\sum_{k=1}^n \left(\frac{k}{n}\right)^p\right)$$ can be approximated by the integral of the function $$\left(f(x) = x^p\right)$$ over the interval $$\left([0, 1]\right)$$.\
 > >Therefore, the limit can be computed as:\
 > >$$\lim_{{n\to\infty}} \frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \lim_{n\to\infty} \frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p = \int_{0}^{1} x^p dx$$\
 > >To evaluate the integral $$\left(\int_{0}^{1} x^p dx\right)$$, we can use the power rule for integration:\
-> >$$\int_{0}^{1} x^p dx = \left[\frac{x^{p+1}}}{p+1}}\right]_{0}^{1} = \frac{{1^{p+1}}}{{p+1}} - \frac{{0^{p+1}}}{{p+1}} = \frac{1}{{p+1}}$$\
+> >$$\int_{0}^{1} x^p dx = \left[\frac{x^{p+1}}{p+1}\right]_{0}^{1} = \frac{1^{p+1}}{p+1} - \frac{0^{p+1}}{p+1} = \frac{1}{p+1}$$\
 > >Therefore, the limit is:\
-> >$$\lim_{n\to\infty}} \frac{n}{n^{p+1}} \sum_{k=1}}^n k^p = \int_{0}^{1} x^p dx = \frac{1}{{p+1}}$$\
-Hence, the limit is $$\left(\frac{1}{p+1}}\right)$$.
+> >$$\lim_{n\to\infty} \frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \int_{0}^{1} x^p dx = \frac{1}{p+1}$$\
+Hence, the limit is $$\left(\frac{1}{p+1}\right)$$.
 >{: .solution}
 {: .challenge}
 
