@@ -478,7 +478,7 @@ Hence, the limit is $$\left(\frac{1}{p+1}\right)$$.
 > >$$\frac{2(n+2)}{n(n+1)^2} \cdot \frac{n(n+1)}{2} = \frac{n+2}{n+1}$$.\
 > >Taking the limit as \(n\) approaches infinity, we find\
 > >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{2(n+2)}{n(n+1)^2} \cdot k = \lim_{n\to\infty} \frac{n+2}{n+1} = 1$$.\
-> >Therefore, the correct analysis for part b) is that the limit is 1.
+> >Therefore, the limit $$lim_{n->\infty} \sum_{k=1}^n \frac{2*(n+2)}{n*(n+1)^2}*k$$ is 1.
 >{: .solution}
 {: .challenge}
 > #### c) $$lim_{n->\infty} \sum_{k=1}^n k/\sqrt(n^2 + k^2)$$
