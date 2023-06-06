@@ -64,7 +64,7 @@ $$A + B = 0 \quad \text{(coefficient of the constant term)}$$
 $$A - B = 1 \quad \text{(coefficient of the term with \(x\))}$$
 > >Solving this system of equations, we find $$A = \frac{1}{2}\) and \(B = -\frac{1}{2}$$.\
 > >Now, we can rewrite the integral as:\
-$$\int \frac{x^2}{1-x^2} \, dx = \int \left(\frac{\frac{1}{2}}{1-x} - \frac{\frac{1}{2}}{1+x}\right) \, dx$$\
+$$\int \frac{x^2}{1-x^2} \, dx = \int \left(\frac{\frac{1}{2}{1-x} - \frac{\frac{1}{2}{1+x}\right) \, dx$$\
 > >Simplifying the integrals on the right-hand side, we have:\
 $$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}\int \frac{1}{1-x} \, dx - \frac{1}{2}\int \frac{1}{1+x} \, dx$$\
 > >Applying the integral formulas, we get:\
@@ -88,7 +88,7 @@ $$A + B = 0 \quad \text{(coefficient of the term with \(x\))}$$\
 $$A - B = 1 \quad \text{(coefficient of the constant term)}$$\
 > >Solving this system of equations, we find $$A = \frac{1}{2}\) and \(B = -\frac{1}{2}$$.\
 > >Now, we can rewrite the integral as:\
-> >$$\int \frac{1}{x^2-1} \, dx = \int \left(\frac{\frac{1}{2}}{x-1} - \frac{\frac{1}{2}}{x+1}\right) \, dx$$\
+> >$$\int \frac{1}{x^2-1} \, dx = \int \left(\frac{\frac{1}{2}{x-1} - \frac{\frac{1}{2}{x+1}\right) \, dx$$\
 > >Simplifying the integrals on the right-hand side, we have:\
 $$\int \frac{1}{x^2-1} \, dx = \frac{1}{2}\int \frac{1}{x-1} \, dx - \frac{1}{2}\int \frac{1}{x+1} \, dx$$\
 > >Applying the integral formulas, we get:\
@@ -386,7 +386,7 @@ $$= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
 > >$$-\frac{1}{3}\int \frac{x-1}{x^2+x+1} dx = -\frac{1}{6}\ln\left|u^2+\frac{3}{4}\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2u}{\sqrt{3}}\right) + E_3$$,\
 > > where $$\left(E_3 = E_1 + E_2\right)$$ is the combined constant of integration.\
 > >Putting it all together, the integral of $$\left(\frac{x}{x^3-1}\right)$$ is:\
-> >$$\int \frac{x}{x^3-1} dx = \frac{1}{3}\ln|x-1| - \frac{1}{6}\ln\left|x^2+x+1\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2(x+\frac{1}{2})}{\sqrt{3}}\right) + D$$,\
+> >$$\int \frac{x}{x^3-1} dx = \frac{1}{3}\ln|x-1| - \frac{1}{6}\ln\left|x^2+x+1\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2(x+\frac{1}{2})}{\sqrt{3}\right) + D$$,\
 > >where $$\left(D = E + E_3\right)$$ is the combined constant of integration.
 >{: .solution}
 {: .challenge}
@@ -456,7 +456,7 @@ To compute this limit as a Riemann sum, we interpret it as the limit of a Rieman
 > >$$\frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p$$\
 > >As $$\left(n\right)$$ approaches infinity, the sum $$\left(\sum_{k=1}^n \left(\frac{k}{n}\right)^p\right)$$ can be approximated by the integral of the function $$\left(f(x) = x^p\right)$$ over the interval $$\left([0, 1]\right)$$.\
 > >Therefore, the limit can be computed as:\
-> >$$\lim_{{n\to\infty}} \frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \lim_{n\to\infty} \frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p = \int_{0}^{1} x^p dx$$\
+> >$$\lim_{n\to\infty} \frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \lim_{n\to\infty} \frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p = \int_{0}^{1} x^p dx$$\
 > >To evaluate the integral $$\left(\int_{0}^{1} x^p dx\right)$$, we can use the power rule for integration:\
 > >$$\int_{0}^{1} x^p dx = \left[\frac{x^{p+1}}{p+1}\right]_{0}^{1} = \frac{1^{p+1}}{p+1} - \frac{0^{p+1}}{p+1} = \frac{1}{p+1}$$\
 > >Therefore, the limit is:\
@@ -468,21 +468,37 @@ Hence, the limit is $$\left(\frac{1}{p+1}\right)$$.
 > >
 > > ## Solution
 > >
-> >
+> >To compute the limit\
+> >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{2(n+2)}{n(n+1)^2} \cdot k$$,\
+> > we observe that the sum can be rewritten as\
+> >$$\sum_{k=1}^n \frac{2}{n(n+1)^2} \cdot (n+2) \cdot k = \frac{2}{n(n+1)^2} \sum_{k=1}^n (n+2) \cdot k$$.\
+> >The term \(\frac{2}{n(n+1)^2}\) can be taken out of the sum, resulting in\
+> >$$\frac{2}{n(n+1)^2} \cdot (n+2) \cdot \sum_{k=1}^n k = \frac{2(n+2)}{n(n+1)^2} \cdot \frac{n(n+1)}{2}$$.\
+> >Simplifying further, we obtain\
+> >$$\frac{2(n+2)}{n(n+1)^2} \cdot \frac{n(n+1)}{2} = \frac{n+2}{n+1}$$.\
+> >Taking the limit as \(n\) approaches infinity, we find\
+> >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{2(n+2)}{n(n+1)^2} \cdot k = \lim_{n\to\infty} \frac{n+2}{n+1} = 1$$.\
+> >Therefore, the correct analysis for part b) is that the limit is 1.
 >{: .solution}
 {: .challenge}
 > #### c) $$lim_{n->\infty} \sum_{k=1}^n k/\sqrt(n^2 + k^2)$$
 > >
 > > ## Solution
 > >
-> >
+> >To compute the limit\
+> >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}$$,\
+> >we observe that the sum can be interpreted as a Riemann sum for the function $$\left(f(x) = \frac{x}{\sqrt{n^2 + x^2}\right)$$ over the interval $$\left([1, n]\right)$$.\
+Using the properties of Riemann sums, we have\
+> >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2} = \int_{1}^{n} \frac{x}{\sqrt{n^2 + x^2} \, dx$$.\
+> >To evaluate this integral, we can make the substitution $$\left(u = \frac{x}{n}\right)$$, which leads to $$\left(dx = n \, du\right)$$.\
+> >The integral becomes\
+> >$$\int_{1}^{n} \frac{x}{\sqrt{n^2 + x^2}} \, dx = \int_{\frac{1}{n}}^{1} \frac{n u}{\sqrt{n^2 + (nu)^2}} \, n \, du = \int_{\frac{1}{n}}^{1} \frac{u}{\sqrt{1 + u^2}} \, du$$.\
+> >As $$\left(n\right)$$ approaches infinity, the limits of integration become $$\left(\frac{1}{\infty} = 0\right)$$ and $$\left(1\right)$$.\
+> >Therefore, we have\
+> >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}} = \int_{0}^{1} \frac{u}{\sqrt{1 + u^2}} \, du$$.\
+> >This integral can be evaluated using standard techniques, and its value is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.\
+> >Therefore, the correct analysis for part c) is that the limit is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.
 >{: .solution}
 {: .challenge}
-> #### d) $$lim_{n->\infty} \sum_{k=1}^n \frac{2*(n+2)}{n*(n+1)^2}*k$$
-> >
-> > ## Solution
-> >
-> >
->{: .solution}
-{: .challenge}
+
 
