@@ -372,38 +372,23 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >
 > > ## Solution
 > >
-> >To solve the integral $$\int \frac{x}{x^3-1} \, dx$$,\
-we can use a trigonometric substitution. Let's substitute $$\left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$.\
-> >Using this substitution, we have $$\left(dx = \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta\right)$$.\
-> >Now we need to express the integral in terms of $$\left(\theta\right)$$.\
-> >Substituting $$\left(x\right)$$ and $$\left(dx\right)$$ in the integral, we get:\
-> >$$\int \frac{\frac{1}{\sqrt{3}}\sec(\theta)}{\left(\frac{1}{\sqrt{3}}\sec(\theta)\right)^3-1} \cdot \frac{1}{\sqrt{3}}\sec(\theta)\tan(\theta) \, d\theta$$\
-> >Simplifying, we obtain:\
-> >$$\frac{1}{3} \int \frac{\sec^2(\theta)\tan(\theta)}{\sec^3(\theta)-1} \, d\theta$$\
-> >Next, we can simplify the expression in the denominator using the identity $$\left(\sec^2(\theta) - 1 = \tan^2(\theta)\right)$$:\
-> >$$\frac{1}{3} \int \frac{\sec^2(\theta)\tan(\theta)}{(\sec^2(\theta)-1)\sec(\theta)} \, d\theta
-$$\
-> >Further simplifying, we have:\
-> >$$\frac{1}{3} \int \frac{\sec^2(\theta)\tan(\theta)}{\tan^2(\theta)\sec(\theta)} \, d\theta
-$$\
-> >Cancelling out $$\left(\tan(\theta)\right)$$ and $$\left(\sec(\theta)\right)$$, we get:\
-> >$$\frac{1}{3} \int \frac{1}{\tan(\theta)} \, d\theta$$\
-> >This integral can be simplified further by using the identity $$\left(\frac{1}{\tan(\theta)} = \cot(\theta)\right)$$:\
-> >$$\frac{1}{3} \int \cot(\theta) \, d\theta$$\
-> >Now we can integrate $$\left(\cot(\theta)\right)$$ with respect to $$\left(\theta\right)$$:\
-> >$$\frac{1}{3} \ln|\sin(\theta)| + C$$\
-> >Finally, we need to substitute back for $$\left(\theta\right)$$ in terms of $$\left(x\right)$$.\
-> > Recall that we initially set $$\left(x = \frac{1}{\sqrt{3}}\sec(\theta)\right)$$.\
-> > Rearranging, we have $$\left(\sec(\theta) = \sqrt{3}x\right)$$.
-> >Taking the reciprocal of both sides, we get $$\left(\cos(\theta) = \frac{1}{\sqrt{3}x}\right)$$.\
-> >Using the Pythagorean identity $$\left(\sin^2(\theta) + \cos^2(\theta) = 1\right)$$,\
-> >we can solve for $$\left(\sin(\theta)\right)$$:\
-> >$$\sin(\theta) = \sqrt{1 - \cos^2(\theta)} = \sqrt{1 - \frac{1}{3x^2}} = \frac{\sqrt{3x^2 - 1}}{x}$$\
-> >Substituting this back into the integral, we have:\
-> >$$\frac{1}{3} \ln\left|\frac{\sqrt{3x^2 - 1}}{x}\right| + C$$\
-> >Therefore, the solution to the integral is:\
-> >$$\int \frac{x}{x^3-1} \, dx = \frac{1}{3} \ln\left|\frac{\sqrt{3x^2 - 1}}{x}\right| + C$$\
-> > where $$\left(C\right)$$ is the constant of integration.
+> >$$\int \frac{x}{x^3-1} dx = \int \frac{x}{(x-1)(x^2+x+1)} dx = \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
+> >To evaluate the second term, we complete the square in the denominator:\
+> >$$x^2 + x + 1 = \left(x+\frac{1}{2}\right)^2 + \frac{3}{4}$$.\
+> >Making the substitution $$\left(u = x+\frac{1}{2}\right)$$, we have $$\left(du = dx\right)$$ and the integral becomes:\
+> >$$-\frac{1}{3}\int \frac{u-\frac{1}{2}}{u^2+\frac{3}{4}} du$$.\
+Expanding the numerator, we get:\
+> >$$-\frac{1}{3}\int \frac{u}{u^2+\frac{3}{4}} du + \frac{1}{6}\int \frac{1}{u^2+\frac{3}{4}} du$$.\
+> >The first integral can be evaluated using a substitution $$\left(v = u^2 + \frac{3}{4}\right)$$, resulting in $$\left(-\frac{1}{6}\ln|v| + E_1\right)$$, where $$\left(E_1\right)$$ is the constant of integration.\
+> >The second integral is the integral of the standard form $$\left(\frac{1}{u^2+a^2}\right)$$, which has the antiderivative $$\left(\frac{1}{a}\arctan\left(\frac{u}{a}\right)\right)$$.\
+> >In this case, we have $$\left(a = \frac{\sqrt{3}}{2}\right)$$.\
+> >Therefore, the second integral evaluates to $$\left(\frac{2}{\sqrt{3}}\arctan\left(\frac{2u}{\sqrt{3}}\right) + E_2\right)$$, where $$\left(E_2\right) is the constant of integration.\
+> >Substituting back \left(u = x+\frac{1}{2}\right)$$, we obtain:\
+> >$$-\frac{1}{3}\int \frac{x-1}{x^2+x+1} dx = -\frac{1}{6}\ln\left|u^2+\frac{3}{4}\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2u}{\sqrt{3}}\right) + E_3$$,\
+> > where $$\left(E_3 = E_1 + E_2\right)$$ is the combined constant of integration.\
+> >Putting it all together, the integral of $$\left(\frac{x}{x^3-1}\right)$$ is:\
+> >$$\int \frac{x}{x^3-1} dx = \frac{1}{3}\ln|x-1| - \frac{1}{6}\ln\left|x^2+x+1\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2(x+\frac{1}{2})}{\sqrt{3}}\right) + D$$,\
+> >where $$\left(D = E + E_3\right)$$ is the combined constant of integration.
 >{: .solution}
 {: .challenge}
 > #### Prove the following formulas.
