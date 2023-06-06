@@ -370,7 +370,7 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 {: .challenge}
 > #### d) $$\int \frac{x}{x^3-1} dx$$
 > >
-> > ## Solution
+<!-- > > ## Solution
 > >
 > >$$\int \frac{x}{x^3-1} dx = \int \frac{x}{(x-1)(x^2+x+1)} dx = \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
 > >To evaluate the second term, we complete the square in the denominator:\
@@ -390,8 +390,8 @@ Expanding the numerator, we get:\
 > >$$\int \frac{x}{x^3-1} dx = \frac{1}{3}\ln|x-1| - \frac{1}{6}\ln\left|x^2+x+1\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2(x+\frac{1}{2})}{\sqrt{3}}\right) + D$$,\
 > >where $$\left(D = E + E_3\right)$$ is the combined constant of integration.
 >{: .solution}
-{: .challenge}
-> > ## Solution 2
+{: .challenge} -->
+> > ## Solution
 > >
 > > $$\int \frac{x}{x^3-1} dx = \int \frac{x}{(x-1)(x^2+x+1)} dx$$\
 $$= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
@@ -409,6 +409,8 @@ $$= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
 > >Putting it all together, the integral of $$\left(\frac{x}{x^3-1}\right)$$ is:\
 > >$$\int \frac{x}{x^3-1} dx = \frac{1}{3}\ln|x-1| - \frac{1}{6}\ln\left|x^2+x+1\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2(x+\frac{1}{2})}{\sqrt{3}}\right) + D$$,\
 > >where $$\left(D = E + E_3\right)$$ is the combined constant of integration.
+>{: .solution}
+{: .challenge}
 > #### Prove the following formulas.
 >#### a) $$\cos 3x = 4\cos^3x - 3\cos x$$
 > >
