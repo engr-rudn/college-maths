@@ -394,7 +394,7 @@ Expanding the numerator, we get:\
 > > ## Solution 2
 > >
 > > $$\int \frac{x}{x^3-1} dx = \int \frac{x}{(x-1)(x^2+x+1)} dx$$\
-= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
+$$= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
 > >To evaluate the second term, we complete the square in the denominator:\
 > >$$x^2 + x + 1 = \left(x+\frac{1}{2}\right)^2 + \frac{3}{4}$$.\
 > >Making the substitution $$\left(u = x+\frac{1}{2}\right)$$, we have $$\left(du = dx\right)$$ and the integral becomes:\
