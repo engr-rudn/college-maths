@@ -464,5 +464,25 @@ To compute this limit as a Riemann sum, we interpret it as the limit of a Rieman
 Hence, the limit is $$\left(\frac{1}{p+1}\right)$$.
 >{: .solution}
 {: .challenge}
-
+> #### b) $$lim_{n->\infty} \sum_{k=1}^n \frac{2*(n+2)}{n*(n+1)^2}*k$$
+> >
+> > ## Solution
+> >
+> >
+>{: .solution}
+{: .challenge}
+> #### c) $$lim_{n->\infty} \sum_{k=1}^n k/\sqrt(n^2 + k^2)$$
+> >
+> > ## Solution
+> >
+> >
+>{: .solution}
+{: .challenge}
+> #### d) $$lim_{n->\infty} \sum_{k=1}^n \frac{2*(n+2)}{n*(n+1)^2}*k$$
+> >
+> > ## Solution
+> >
+> >
+>{: .solution}
+{: .challenge}
 
