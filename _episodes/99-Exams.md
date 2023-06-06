@@ -401,8 +401,8 @@ $$= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
 > >$$-\frac{1}{3}\int \frac{u-\frac{3}{2}}{u^2+\frac{3}{4}} du$$.\
 > > Expanding the numerator, we get:\
 > >$$-\frac{1}{3}\int \frac{u-\frac{3}{2}}{u^2+\frac{3}{4}} du = -\frac{1}{3}\int \frac{u}{u^2+\frac{3}{4}} du + \frac{1}{2}\int \frac{1}{u^2+\frac{3}{4}} du$$.\
-> >The first integral can be evaluated using a substitution $$\left(v = u^2 + \frac{3}{4}\right)$$, resulting in $$\left(-\frac{1}{6}\ln|v| + E_1\), where \(E_1\right)$$ is the constant of integration.\
-> >The second integral is the integral of the standard form \left(\frac{1}{u^2+a^2}\right)$$, which has the antiderivative \left(\frac{1}{a}\arctan\left(\frac{u}{a}\right)\right)$$. In this case, we have $$\left(a = \frac{\sqrt{3}}{2}\right)$$. Therefore, the second integral evaluates to $$\left(\frac{2}{\sqrt{3}}\arctan\left(\frac{2u}{\sqrt{3}}\right) + E_2\right)$$, where $$\left(E_2\right)$$ is the constant of integration.\
+> >The first integral can be evaluated using a substitution $$\left(v = u^2 + \frac{3}{4}\right)$$, resulting in $$\left(-\frac{1}{6}\ln|v| + E_1\right)$$, where $$\left(E_1\right)$$ is the constant of integration.\
+> >The second integral is the integral of the standard form $$\left(\frac{1}{u^2+a^2}\right)$$, which has the antiderivative $$\left(\frac{1}{a}\arctan\left(\frac{u}{a}\right)\right)$$. In this case, we have $$\left(a = \frac{\sqrt{3}}{2}\right)$$. Therefore, the second integral evaluates to $$\left(\frac{2}{\sqrt{3}}\arctan\left(\frac{2u}{\sqrt{3}}\right) + E_2\right)$$, where $$\left(E_2\right)$$ is the constant of integration.\
 > >Substituting back $$\left(u = x+\frac{1}{2}\right)$$, we obtain:\
 > >$$-\frac{1}{3}\int \frac{x-1}{x^2+x+1} dx = -\frac{1}{6}\ln\left|u^2+\frac{3}{4}\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2u}{\sqrt{3}}\right) + E_3$$,\
 > > where $$\left(E_3 = E_1 + E_2\right)$$ is the combined constant of integration.\
