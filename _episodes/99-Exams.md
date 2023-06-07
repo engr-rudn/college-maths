@@ -451,9 +451,9 @@ $$= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
 > >$$\lim_{n\to\infty} \frac{n}{n^{p+1}}\sum_{k=1}^n k^p$$
 To compute this limit as a Riemann sum, we interpret it as the limit of a Riemann sum for the function $$\left(f(x) = x^p\right)$$ on the interval $$\left([1, n]\right)$$.\
 > >The Riemann sum for $$\left(f(x)\right)$$ on $$\left([1, n]\right)$$ with $$\left(n\right)$$ subintervals can be written as:\
-> >$$\frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p$$\
-> >Notice that the term $$\left(\frac{1}{n^p}\right)$$ can be factored out from the sum. Now we have:\
-> >$$\frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p$$\
+> >$$\frac{n}{n^{p+1}} \sum_{k=1}^n k^p =  \sum_{k=1}^n \left(\frac{k}{n}\right)^p$$\
+> ><!-- Notice that the term $$\left(\frac{1}{n^p}\right)$$ can be factored out from the sum. Now we have:\
+> >$$\frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p$$\ -->
 > >As $$\left(n\right)$$ approaches infinity, the sum $$\left(\sum_{k=1}^n \left(\frac{k}{n}\right)^p\right)$$ can be approximated by the integral of the function $$\left(f(x) = x^p\right)$$ over the interval $$\left([0, 1]\right)$$.\
 > >Therefore, the limit can be computed as:\
 > >$$\lim_{n\to\infty} \frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \lim_{n\to\infty} \frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p = \int_{0}^{1} x^p dx$$\
