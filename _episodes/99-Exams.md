@@ -382,9 +382,7 @@ $$= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
 > >$$-\frac{1}{3}\int \frac{x-1}{x^2+x+1} dx = -\frac{1}{6}\ln\left|u^2+\frac{3}{4}\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2u}{\sqrt{3}}\right) + E_3$$,\
 > > where $$\left(E_3 = E_1 + E_2\right)$$ is the combined constant of integration.\
 > >Putting it all together, the integral of $$\left(\frac{x}{x^3-1}\right)$$ is:\
-> >$$\int \frac{x}{x^3-1} dx = $$
-> >$$\frac{1}{3}\ln|x-1| - \frac{1}{6}\ln\left|x^2+x+1\right|$$\
-> > $$ + \frac{2}{\sqrt{3}}\arctan\left(\frac{2(x+\frac{1}{2})}{\sqrt{3}}\right) + D$$,\
+> >$$\int \frac{x}{x^3-1} dx = \frac{1}{3}\ln|x-1| - \frac{1}{6}\ln\left|x^2+x+1\right| + \frac{2}{\sqrt{3}}\arctan\left(\frac{2(x+\frac{1}{2})}{\sqrt{3}}\right) + D$$,\
 > >where $$\left(D = E + E_3\right)$$ is the combined constant of integration.
 >{: .solution}
 {: .challenge}
