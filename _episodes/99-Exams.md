@@ -274,25 +274,6 @@ $$\
 > >Thus, we have shown that $$f$$ is integrable on $$[a, b]$$ and $$\lim_{\varepsilon \to 0^+} \int_{a + \varepsilon}^{b} f = \int_{a}^{b} f$$.
 >{: .solution}
 {: .challenge} -->
-> ### $$\int \frac{1}{x^4 + 4} \, dx$$
-> >
-> > ## Solution
-> >
-> >The real factorization of $$x^4 + 4$$ into irreducible quadratic factors is needed to calculate the integral $$\int \frac{1}{x^4 + 4} \, dx$$. We can obtain the factorization using complex numbers by noting that the roots of $$x^4 + 4 = 0$$ are the four complex numbers $$w_1 = e^{i\pi/4}$$, $$w_2 = e^{3i\pi/4}$$, $$w_3 = e^{5i\pi/4}$$, and $$w_4 = e^{7i\pi/4}$$.\
-> >To compute the integral, we use partial fraction decomposition. The integrand can be expressed as:\
-> >$$\frac{1}{x^4 + 4} = \frac{\frac{1}{4}}{x^2 + 2x\sqrt{2} + 2} - \frac{\frac{1}{4}}{x^2 - 2x\sqrt{2} + 2}$$\
-> >Next, we complete the square in the denominators:\
-> >$$x^2 + 2x\sqrt{2} + 2 = (x + \sqrt{2})^2 + 2$$\
-> >$$x^2 - 2x\sqrt{2} + 2 = (x - \sqrt{2})^2 + 2$$\
-> >Using the substitutions $$u = x + \sqrt{2}$$ and $$v = x - \sqrt{2}$$, the integral becomes:\
-> >$$\int \frac{1}{x^4 + 4} \, dx = \frac{1}{4} \int \frac{1}{(x + \sqrt{2})^2 + 2} \, dx - \frac{1}{4} \int \frac{1}{(x - \sqrt{2})^2 + 2} \, dx$$\
-> >Applying the integral formulas for $$\frac{1}{u^2 + a^2}$$, the integrals can be evaluated as:\
-> >$$\frac{1}{4\sqrt{2}} \left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right)\right) - \frac{1}{4\sqrt{2}} \left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$\
-> >Simplifying further, we have:\
-> >$$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$\
-> >Therefore, the integral $$\int \frac{1}{x^4 + 4} \, dx$$ can be expressed as $$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$, where $$C$$ is the constant of integration.
->{: .solution}
-{: .challenge}
 >### Solve the following integrals. Show your detailed answers by writing the step-by-step analysis:
 > #### a)  $$\int (x^2 \tan x)dx$$
 > >
@@ -518,6 +499,26 @@ $$\int_{\frac{1}{n}}^{1} \frac{nu}{\sqrt{1 + u^2}} \, du = \left[-\sqrt{1 + u^2}
 Taking the limit as $$\left(n\right)$$ approaches infinity, we find\
 $$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}} = \lim_{n\to\infty} \left(-\sqrt{2} + \sqrt{1 + \frac{1}{n^2}}\right) = -\sqrt{2} + 1$$.\
 Therefore, the limit $$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}}$$ is $$\left(-\sqrt{2} + 1\right)$$.
+>{: .solution}
+{: .challenge}
+> ### The real factorisation of $$x^4 + 4$$ into irreducible quadratic factors is needed to calculate the integral $$1/(x^4 + 4) dx$$. Obtain the factorisation using complex numbers by noting that the roots of  $$w_1 = e^{i\pi/4}$$, $$w_2 = e^{3i\pi/4}$$, $$w_3 = e^{5i\pi/4}$$, and $$w_4 = e^{7i\pi/4}$$.
+> #### Find the integral $$\int \frac{1}{x^4 + 4} \, dx$$
+> >
+> > ## Solution
+> >
+> >The real factorization of $$x^4 + 4$$ into irreducible quadratic factors is needed to calculate the integral $$\int \frac{1}{x^4 + 4} \, dx$$. We can obtain the factorization using complex numbers by noting that the roots of $$x^4 + 4 = 0$$ are the four complex numbers $$w_1 = e^{i\pi/4}$$, $$w_2 = e^{3i\pi/4}$$, $$w_3 = e^{5i\pi/4}$$, and $$w_4 = e^{7i\pi/4}$$.\
+> >To compute the integral, we use partial fraction decomposition. The integrand can be expressed as:\
+> >$$\frac{1}{x^4 + 4} = \frac{\frac{1}{4}}{x^2 + 2x\sqrt{2} + 2} - \frac{\frac{1}{4}}{x^2 - 2x\sqrt{2} + 2}$$\
+> >Next, we complete the square in the denominators:\
+> >$$x^2 + 2x\sqrt{2} + 2 = (x + \sqrt{2})^2 + 2$$\
+> >$$x^2 - 2x\sqrt{2} + 2 = (x - \sqrt{2})^2 + 2$$\
+> >Using the substitutions $$u = x + \sqrt{2}$$ and $$v = x - \sqrt{2}$$, the integral becomes:\
+> >$$\int \frac{1}{x^4 + 4} \, dx = \frac{1}{4} \int \frac{1}{(x + \sqrt{2})^2 + 2} \, dx - \frac{1}{4} \int \frac{1}{(x - \sqrt{2})^2 + 2} \, dx$$\
+> >Applying the integral formulas for $$\frac{1}{u^2 + a^2}$$, the integrals can be evaluated as:\
+> >$$\frac{1}{4\sqrt{2}} \left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right)\right) - \frac{1}{4\sqrt{2}} \left(\frac{1}{\sqrt{2}}\arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$\
+> >Simplifying further, we have:\
+> >$$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$\
+> >Therefore, the integral $$\int \frac{1}{x^4 + 4} \, dx$$ can be expressed as $$\frac{1}{8} \left(\arctan\left(\frac{x + \sqrt{2}}{\sqrt{2}}\right) - \arctan\left(\frac{x - \sqrt{2}}{\sqrt{2}}\right)\right) + C$$, where $$C$$ is the constant of integration.
 >{: .solution}
 {: .challenge}
 
