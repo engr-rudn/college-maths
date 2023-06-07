@@ -495,7 +495,7 @@ Using the properties of Riemann sums, we have\
 > >This integral can be evaluated using standard techniques, and its value is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.\
 > >Therefore, the correct analysis for part c) is that the limit is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.
 >{: .solution}
-{: .challenge} -->
+<!-- {: .challenge} --> -->
 > > ## Solution
 > >
 > >To compute the limit\
