@@ -479,23 +479,6 @@ Hence, the limit is $$\left(\frac{1}{p+1}\right)$$.
 {: .challenge}
 > #### c) $$lim_{n->\infty} \sum_{k=1}^n k/\sqrt(n^2 + k^2)$$
 > >
-<!-- > > ## Solution
-> >
-> >To compute the limit\
-> >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}}$$,\
-> >Observe that the sum can be interpreted as a Riemann sum for the function $$\left(f(x) = \frac{x}{\sqrt{n^2 + x^2}}\right)$$ over the interval $$\left([1, n]\right)$$.\
-Using the properties of Riemann sums, we have\
-> >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}} = \int_{1}^{n} \frac{x}{\sqrt{n^2 + x^2}} \, dx$$.\
-> >To evaluate this integral, we can make the substitution $$\left(u = \frac{x}{n}\right)$$, which leads to $$\left(dx = n \, du\right)$$.\
-> >The integral becomes\
-> >$$\int_{1}^{n} \frac{x}{\sqrt{n^2 + x^2}} \, dx = \int_{\frac{1}{n}}^{1} \frac{n u}{\sqrt{n^2 + (nu)^2}} \, n \, du = \int_{\frac{1}{n}}^{1} \frac{u}{\sqrt{1 + u^2}} \, du$$.\
-> >As $$\left(n\right)$$ approaches infinity, the limits of integration become $$\left(\frac{1}{\infty} = 0\right)$$ and $$\left(1\right)$$.\
-> >Therefore, we have\
-> >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}} = \int_{0}^{1} \frac{u}{\sqrt{1 + u^2}} \, du$$.\
-> >This integral can be evaluated using standard techniques, and its value is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.\
-> >Therefore, the correct analysis for part c) is that the limit is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.
->{: .solution}
-<!-- {: .challenge} --> -->
 > > ## Solution
 > >
 > >To compute the limit\
