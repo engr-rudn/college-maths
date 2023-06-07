@@ -70,8 +70,8 @@ objectives:
 $$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}\int \frac{1}{1-x} \, dx - \frac{1}{2}\int \frac{1}{1+x} \, dx$$\
 > >Applying the integral formulas, we get:\
 $$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}(-\ln|1-x|) - \frac{1}{2}(\ln|1+x|) + C$$\
-> >Therefore, the solution to the integral $$\int \frac{x^2}{1-x^2} \, dx$$ is:
-$$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}(-\ln|1-x|) - \frac{1}{2}(\ln|1+x|) + C$$
+> >Therefore, we have:\
+> >$$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}(-\ln|1-x|) - \frac{1}{2}(\ln|1+x|) + C$$
 >{: .solution}
 {: .challenge}
 > #### d) $$\int \frac{1}{x^2-1} dx$$
@@ -196,7 +196,7 @@ $$\lim_{n\to\infty} \frac{n+2}{n^2(n+1)} \cdot \sum_{k=1}^n k$$\
 Now, let's focus on the remaining summation term, $$\left(\sum_{k=1}^n k\right)$$. This is a sum of consecutive positive integers, which can be expressed as the closed-form formula:\
 $$\sum_{k=1}^n k = \frac{n(n+1)}{2}$$\
 Substituting this back into our expression, we get:\
-$$\lim_{n\to\infty} \frac{n+2}{n^2(n+1)} \cdot \frac{n(n+1)}{2}\
+$$\lim_{n\to\infty} \frac{n+2}{n^2(n+1)} \cdot \frac{n(n+1)}{2}$$\
 Simplifying further:\
 $$\lim_{n\to\infty} \frac{n+2}{2n}$$\
 Now, we can compute the limit directly by dividing the leading terms of the numerator and denominator:\
