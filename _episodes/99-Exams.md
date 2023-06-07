@@ -65,7 +65,8 @@ objectives:
 > >Solving this system of equations, we find $$\left(A = \frac{1}{2}\right)$$ and $$\left(B = -\frac{1}{2}\right)$$.\
 > >Now, we can rewrite the integral as:\
 > >$$\int \frac{x^2}{1-x^2} \, dx = $$
-> >$$\int \left(\frac{\frac{1}{2}}{1-x} - \frac{\frac{1}{2}{1+x} \, dx \right)$$\
+> >$$\int \frac{\frac{1}{2}}{1-x}$$
+> > -$$\frac{\frac{1}{2}}{1+x} \, dx \right)$$\
 > >Simplifying the integrals on the right-hand side, we have:\
 $$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}\int \frac{1}{1-x} \, dx - \frac{1}{2}\int \frac{1}{1+x} \, dx$$\
 > >Applying the integral formulas, we get:\
