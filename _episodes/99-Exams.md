@@ -89,7 +89,7 @@ $$A + B = 0 \quad \text{(coefficient of the term with \(x\))}$$\
 $$A - B = 1 \quad \text{(coefficient of the constant term)}$$\
 > >Solving this system of equations, we find $$A = \frac{1}{2}\) and \(B = -\frac{1}{2}$$.\
 > >Now, we can rewrite the integral as:\
-> >$$\int \frac{1}{x^2-1} \, dx = \int \left(\frac{\frac{1}{2}{x-1} - \frac{\frac{1}{2}{x+1}\right) \, dx$$\
+> >$$\int \frac{1}{x^2-1} \, dx = \int \left(\frac{\frac{1}{2}}{x-1} - \frac{\frac{1}{2}}{x+1}\right) \, dx$$\
 > >Simplifying the integrals on the right-hand side, we have:\
 $$\int \frac{1}{x^2-1} \, dx = \frac{1}{2}\int \frac{1}{x-1} \, dx - \frac{1}{2}\int \frac{1}{x+1} \, dx$$\
 > >Applying the integral formulas, we get:\
