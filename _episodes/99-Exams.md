@@ -182,33 +182,47 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Finally, we have proven the equation $$\left(\cos 2x = \cos^2 x - \sin^2 x\right)$$ using the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.
 >{: .solution}
 {: .challenge}
-<!-- > ### 8.2.7 $$\int \frac{1}{x^2-1} dx$$
+> ### Compute the following limits by interpreting them as Riemann sums:
+> #### a)  $$lim_{n->\infty} \sum_{k=1}^n (n+2)/(n^2*(n+1))*k$$ 
 > >
 > > ## Solution
-> > 
- > >To solve the integral $$\int \frac{1}{x^2 - 1} \, dx$$, we can decompose the denominator $$x^2 - 1$$ into its factors using partial fraction decomposition. Let's start by factoring the denominator:\
-> >$$x^2 - 1 = (x - 1)(x + 1)$$\
-> >The factors $$(x - 1)$$ and $$(x + 1)$$ are linear factors, so we can write the given fraction as:\
-> >$$\frac{1}{x^2 - 1} = \frac{A}{x - 1} + \frac{B}{x + 1}$$\
-> >To determine the values of $$A$$ and $$B$$, we can use algebraic manipulation or the method of coefficients. I will use the method of coefficients here.\
-> >Multiplying both sides of the equation by $$x^2 - 1$$, we have:\
-> >$$1 = A(x + 1) + B(x - 1)$$\
-> >Expanding and collecting like terms, we get:\
-> >$$1 = (A + B)x + (A - B)$$\
-> >Equating the coefficients of like powers of $$x$$, we have the following system of equations:\
-> >$$A + B = 0$$    (1)\
-> >$$A - B = 1$$    (2)\
-> >Solving the system of equations, we find $$A = \frac{1}{2}$$ and $$B = -\frac{1}{2}$$.\
-> >Now, we can rewrite the integral using the partial fraction decomposition:\
-> >$$\int \frac{1}{x^2 - 1} \, dx = \int \left(\frac{\frac{1}{2}}{x - 1} - \frac{\frac{1}{2}}{x + 1}\right) \, dx$$\
-> >Integrating each term separately, we have:\
-> >$$\frac{1}{2} \int \frac{1}{x - 1} \, dx - \frac{1}{2} \int \frac{1}{x + 1} \, dx$$\
-> >Using the natural logarithm function, we can write:\
-> >$$\frac{1}{2} \ln|x - 1| - \frac{1}{2} \ln|x + 1| + C$$\
-> >Therefore, the final result of the integral is:\
-> >$$\int \frac{1}{x^2 - 1} \, dx = \frac{1}{2} \ln|x - 1| - \frac{1}{2} \ln|x + 1| + C$$
+> >
+> >a) To compute the given limit by interpreting it as a Riemann sum, we can start by rewriting the summation using the limit definition of a Riemann sum. The Riemann sum is an approximation of the definite integral of a function over a given interval.\
+Let's break down the given expression step by step:\
+$$\lim_{n\to\infty} \sum_{k=1}^n \frac{n+2}{n^2(n+1)} \cdot k$$\
+Notice that the term inside the summation, $$\left(\frac{n+2}{n^2(n+1)}\right)$$, does not depend on the index variable $$\left(k\right)$$. Therefore, we can factor it out of the summation:\
+$$\lim_{n\to\infty} \frac{n+2}{n^2(n+1)} \cdot \sum_{k=1}^n k$$\
+Now, let's focus on the remaining summation term, $$\left(\sum_{k=1}^n k\right)$$. This is a sum of consecutive positive integers, which can be expressed as the closed-form formula:\
+$$\sum_{k=1}^n k = \frac{n(n+1)}{2}$$\
+Substituting this back into our expression, we get:\
+$$\lim_{n\to\infty} \frac{n+2}{n^2(n+1)} \cdot \frac{n(n+1)}{2}\
+Simplifying further:\
+$$\lim_{n\to\infty} \frac{n+2}{2n}$$\
+Now, we can compute the limit directly by dividing the leading terms of the numerator and denominator:\
+$$\lim_{n\to\infty} \frac{1 + \frac{2}{n}}}{2} = \frac{1}{2}$$\
+Therefore, the limit of the given expression, interpreted as a Riemann sum, is equal to $$\left( \frac{1}{2} \right)$$.
 >{: .solution}
-{: .challenge} -->
+{: .challenge}
+> ### 
+> >
+> > ## Solution
+> >
+> > $$\lim_{n\to\infty} \sum_{k=1}^n \frac{2}{(n+1)^2} \cdot k$$
+Notice that the term inside the summation, $$\frac{2}{(n+1)^2}$$, does not depend on the index variable $$k$$. Therefore, we can factor it out of the summation:\
+$$\lim_{n\to\infty} \frac{2}{(n+1)^2} \cdot \sum_{k=1}^n k$$\
+The summation term $$\sum_{k=1}^n k$$ can be expressed as the closed-form formula:\
+$$\sum_{k=1}^n k = \frac{n(n+1)}{2}$$\
+Substituting this back into our expression:\
+$$\lim_{n\to\infty} \frac{2}{(n+1)^2} \cdot \frac{n(n+1)}{2}$$\
+Simplifying further:\
+$$\lim_{n\to\infty} \frac{n}{n+1}$$\
+Now, we can compute the limit directly by dividing the leading terms of the numerator and denominator:\
+$$\lim_{n\to\infty} \frac{1}{1+\frac{1}{n}}$$\
+As $$n$$ approaches infinity, $$\frac{1}{n}$$ approaches zero. Therefore:\
+$$\lim_{n\to\infty} \frac{1}{1+\frac{1}{n}} = \frac{1}{1+0} = 1$$\
+Therefore, the limit of the given expression, interpreted as a Riemann sum, is equal to 1.
+>{: .solution}
+{: .challenge}
 ## Final Semester Exam
 > a) Let $$f$$ be defined on all of $$R$$. For each real number $$c$$, we define the translated function $$f_c$$ by: $$f_c(x) = f (x − c)$$. Suppose that $$f$$ is integrable on all bounded intervals. Show that: $$\int_{a}^{b} f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$.
 > >
