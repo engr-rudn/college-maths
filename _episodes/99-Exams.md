@@ -200,7 +200,7 @@ $$\lim_{n\to\infty} \frac{n+2}{n^2(n+1)} \cdot \frac{n(n+1)}{2}$$\
 Simplifying further:\
 $$\lim_{n\to\infty} \frac{n+2}{2n}$$\
 Now, we can compute the limit directly by dividing the leading terms of the numerator and denominator:\
-$$\lim_{n\to\infty} \frac{1 + \frac{2}{n}}}{2} = \frac{1}{2}$$\
+$$\lim_{n\to\infty} \frac{1 + \frac{2}{n}}{2} = \frac{1}{2}$$\
 Therefore, the limit of the given expression, interpreted as a Riemann sum, is equal to $$\left( \frac{1}{2} \right)$$.
 >{: .solution}
 {: .challenge}
