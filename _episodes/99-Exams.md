@@ -64,7 +64,8 @@ objectives:
 > >$$A - B = 1 \quad \text{(coefficient of the term with x)}$$\
 > >Solving this system of equations, we find $$\left(A = \frac{1}{2}\right)$$ and $$\left(B = -\frac{1}{2}\right)$$.\
 > >Now, we can rewrite the integral as:\
-> >$$\int \frac{x^2}{1-x^2} \, dx = \int \left(\frac{\frac{1}{2}}{1-x} - \frac{\frac{1}{2}{1+x}\right) \, dx$$\
+> >$$\int \frac{x^2}{1-x^2} \, dx = $$
+> >$$\int \left(\frac{\frac{1}{2}}{1-x} - \frac{\frac{1}{2}{1+x}\right) \, dx$$\
 > >Simplifying the integrals on the right-hand side, we have:\
 $$\int \frac{x^2}{1-x^2} \, dx = \frac{1}{2}\int \frac{1}{1-x} \, dx - \frac{1}{2}\int \frac{1}{1+x} \, dx$$\
 > >Applying the integral formulas, we get:\
