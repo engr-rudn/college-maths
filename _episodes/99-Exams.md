@@ -456,7 +456,7 @@ To compute this limit as a Riemann sum, we interpret it as the limit of a Rieman
 > >$$\frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p$$\ -->
 > >As $$\left(n\right)$$ approaches infinity, the sum $$\left(\sum_{k=1}^n \left(\frac{k}{n}\right)^p\right)$$ can be approximated by the integral of the function $$\left(f(x) = x^p\right)$$ over the interval $$\left([0, 1]\right)$$.\
 > >Therefore, the limit can be computed as:\
-> >$$\lim_{n\to\infty} \frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \lim_{n\to\infty} \frac{1}{n^p} \sum_{k=1}^n \left(\frac{k}{n}\right)^p = \int_{0}^{1} x^p dx$$\
+> >$$\lim_{n\to\infty} \frac{n}{n^{p+1}} \sum_{k=1}^n k^p = \lim_{n\to\infty} \sum_{k=1}^n \left(\frac{k}{n}\right)^p = \int_{0}^{1} x^p dx$$\
 > >To evaluate the integral $$\left(\int_{0}^{1} x^p dx\right)$$, we can use the power rule for integration:\
 > >$$\int_{0}^{1} x^p dx = \left[\frac{x^{p+1}}{p+1}\right]_{0}^{1} = \frac{1^{p+1}}{p+1} - \frac{0^{p+1}}{p+1} = \frac{1}{p+1}$$\
 > >Therefore, the limit is:\
