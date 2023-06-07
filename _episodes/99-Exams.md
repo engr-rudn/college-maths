@@ -479,7 +479,7 @@ Hence, the limit is $$\left(\frac{1}{p+1}\right)$$.
 {: .challenge}
 > #### c) $$lim_{n->\infty} \sum_{k=1}^n k/\sqrt(n^2 + k^2)$$
 > >
-> > ## Solution
+<!-- > > ## Solution
 > >
 > >To compute the limit\
 > >$$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}}$$,\
@@ -495,8 +495,8 @@ Using the properties of Riemann sums, we have\
 > >This integral can be evaluated using standard techniques, and its value is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.\
 > >Therefore, the correct analysis for part c) is that the limit is $$\left(\frac{1}{2}(1 - \ln(\sqrt{2} + 1))\right)$$.
 >{: .solution}
-{: .challenge}
-> > ## Solution 2
+{: .challenge} -->
+> > ## Solution
 > >
 > >To compute the limit\
 $$\lim_{n\to\infty} \sum_{k=1}^n \frac{k}{\sqrt{n^2 + k^2}}$$,\
