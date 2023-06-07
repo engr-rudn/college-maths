@@ -60,8 +60,8 @@ objectives:
 > >Expanding and simplifying the right-hand side:\
 > >$$x^2 = (A + B) + (A - B)x$$\
 > >Equating the coefficients of the terms on both sides, we have the following system of equations:\
-$$A + B = 0 \quad \text{(coefficient of the constant term)}$$
-$$A - B = 1 \quad \text{(coefficient of the term with x)}$$
+- $$A + B = 0 \quad \text{(coefficient of the constant term)}$$
+- $$A - B = 1 \quad \text{(coefficient of the term with x)}$$
 > >Solving this system of equations, we find $$\left($$A = \frac{1}{2}\right)$$ and $$\left(B = -\frac{1}{2}\right)$$.\
 > >Now, we can rewrite the integral as:\
 $$\int \frac{x^2}{1-x^2} \, dx = \int \left(\frac{\frac{1}{2}{1-x} - \frac{\frac{1}{2}{1+x}\right) \, dx$$\
