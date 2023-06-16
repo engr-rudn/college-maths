@@ -415,7 +415,7 @@ Now, let's simplify the right-hand side of the equation $$4\cos^3 x - 3\cos x$$:
 > >$$\cos x(1 - 4(1 - \cos^2 x))$$ = $$\cos x(1 - 4 + 4\cos^2 x)$$\
 > >= $$\cos x(-3 + 4\cos^2 x)$$\
 > >Notice that this expression is equal to the right-hand side of the original equation. Therefore, we have shown that:\
-> >$$\cos 3x = 4\cos^3 x - 3\cos x$$
+> >$$\cos 3x = 4\cos^3 x - 3\cos x$$\
 > >This completes the proof.
 >{: .solution}
 {: .challenge}
@@ -423,8 +423,7 @@ Now, let's simplify the right-hand side of the equation $$4\cos^3 x - 3\cos x$$:
 > >
 > >## Solution
 > >
-> >To prove the formula $$\sin 3x = 3\sin x - 4\sin^3 x$$, we can use the trigonometric identities and properties. Let's start with the left-hand side of the equation:\
-> >$$\sin 3x$$\
+> >To prove the formula $$\sin 3x = 3\sin x - 4\sin^3 x$$, we can use the trigonometric identities and properties. Let's start with the left-hand side of the equation $$\sin 3x$$:\
 > >Using the triple angle formula for sine, we have:\
 > >$$\sin 3x = 3\sin x - 4\sin^3 x$$\
 > >This formula expresses $$\sin 3x$$ in terms of $$\sin x$$ and $$\sin^3 x$$. Now, let's simplify the right-hand side of the equation:\
@@ -434,11 +433,9 @@ Now, let's simplify the right-hand side of the equation $$4\cos^3 x - 3\cos x$$:
 > >Now, we can use the Pythagorean identity $$\sin^2 x + \cos^2 x = 1$$ to rewrite $$\sin^2 x$$ as $$1 - \cos^2 x$$:\
 > >$$\sin x(3 - 4(1 - \cos^2 x))$$\
 > >Simplifying further, we have:\
-> >$$\sin x(3 - 4 + 4\cos^2 x)$$\
-> >$$\sin x(-1 + 4\cos^2 x)$$\
+> >$$\sin x(3 - 4 + 4\cos^2 x)$$ = $$\sin x(-1 + 4\cos^2 x)$$\
 > >Since $$\cos^2 x = 1 - \sin^2 x$$, we can substitute this into the equation:\
-> >$$\sin x(-1 + 4(1 - \sin^2 x))$$\
-> >=$$\sin x(-1 + 4 - 4\sin^2 x)$$\
+> >$$\sin x(-1 + 4(1 - \sin^2 x))$$ = $$\sin x(-1 + 4 - 4\sin^2 x)$$\
 > >=$$\sin x(3 - 4\sin^2 x)$$\
 > >Notice that this expression is equal to the right-hand side of the original equation. Therefore, we have shown that:\
 > >$$\sin 3x = 3\sin x - 4\sin^3 x$$\
