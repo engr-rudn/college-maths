@@ -168,11 +168,11 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > > using the definitions and properties of trigonometric functions.
 >{: .solution}
 {: .challenge}
-> #### b) $$\cos 2x = \cos^2 x − \sin^2 x$$
+> #### b) $$\cos 2x = 2\cos^2 x - 1$$
 > >
 > > ## Solution
 > >
-> >To prove the equation $$\cos 2x = \cos^2 x - \sin^2 x$$, we can use the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.\
+> >To prove the equation $$\cos 2x = 2\cos^2 x - 1$$, we can use the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.\
 > >Starting with the double-angle formula for cosine:\
 > >$$\cos 2x = \cos^2 x - \sin^2 x$$\
 > >We can rewrite the left-hand side using the cosine double-angle identity:\
@@ -181,9 +181,6 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >$$\cos 2x = \cos^2 x - 1 + \cos^2 x$$\
 > >Combining like terms:\
 > >$$\cos 2x = 2\cos^2 x - 1$$\
-> >Finally, we have proven the equation\
- $$\left(\cos 2x = \cos^2 x - \sin^2 x\right)$$\
-> > using the double-angle formula for cosine and the Pythagorean identity for trigonometric functions.
 >{: .solution}
 {: .challenge}
 > ### Compute the following limits by interpreting them as Riemann sums:
