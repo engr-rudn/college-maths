@@ -137,7 +137,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >$$\frac{-1}{(\sin x)^2}$$\
 > >Which is equalt to $$-\csc^2 x$$.\
 > >Therefore, we have shown that:\
-> >$$\frac{d}{dx}(\cot x) = -\csc^2 x$$\
+> >$$\frac{d}{dx}(\cot x) = -\csc^2 x$$
 >{: .solution}
 {: .challenge}
 > ### Prove the following formulas.
@@ -158,12 +158,14 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Substituting this into our previous expression for $$\left(\tan^2 x\right)$$, we have:\
 > >$$\tan^2 x = \frac{1 - \cos^2 x}{\cos^2 x}$$\
 > >Now, we can simplify the expression on the right-hand side by combining the terms:\
-> >$$\tan^2 x = \frac{1}{\cos^2 x} - \frac{\cos^2 x}{\cos^2 }$$\
+> >$$\tan^2 x = \frac{1}{\cos^2 x} - \frac{\cos^2 x}{\cos^2 x}$$\
 > >Simplifying further:\
 > >$$\tan^2 x = \sec^2 x - 1$$\
 > >Finally, adding 1 to both sides of the equation, we obtain:\
 > >$$1 + \tan^2 x = \sec^2 x$$\
-> >Thus, we have proven the equation $$\left(1 + \tan^2 x = \sec^2 x\right)$$ using the definitions and properties of trigonometric functions.
+> >Thus, we have proven the equation\
+ $$\left(1 + \tan^2 x = \sec^2 x\right)$$\
+> > using the definitions and properties of trigonometric functions.
 >{: .solution}
 {: .challenge}
 > #### b) $$\cos 2x = \cos^2 x − \sin^2 x$$
