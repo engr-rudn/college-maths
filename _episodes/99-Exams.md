@@ -124,7 +124,7 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >
 > > ## Solution
 > >
-> >To prove the formula $$\frac{d}{dx}(\cot x) = -\csc 2x$$, we'll differentiate the left-hand side of the equation and simplify it to match the right-hand side.\
+> >To prove the formula $$\frac{d}{dx}(\cot x) = -\csc^2 x$$, we'll differentiate the left-hand side of the equation and simplify it to match the right-hand side.\
 > >Starting with the left-hand side, we have:\
 > >$$\frac{d}{dx}(\cot x)$$\
 > >Using the quotient rule for differentiation, we can write this as:\
@@ -138,7 +138,6 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Which is equalt to $$-\csc^2 x$$.\
 > >Therefore, we have shown that:\
 > >$$\frac{d}{dx}(\cot x) = -\csc^2 x$$\
-> >This completes the proof.
 >{: .solution}
 {: .challenge}
 > ### Prove the following formulas.
