@@ -135,9 +135,9 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >$$\frac{-\sin^2 x - \cos^2 x}{(\sin x)^2}$$\
 > >Recall the Pythagorean identity $$\sin^2 x + \cos^2 x = 1$$. Substituting this into the equation, we get:\
 > >$$\frac{-1}{(\sin x)^2}$$\
-> >Which is equalt to $$-\csc 2x$$.\
+> >Which is equalt to $$-\csc^2 x$$.\
 > >Therefore, we have shown that:\
-> >$$\frac{d}{dx}(\cot x) = -\csc 2x$$\
+> >$$\frac{d}{dx}(\cot x) = -\csc^2 x$$\
 > >This completes the proof.
 >{: .solution}
 {: .challenge}
