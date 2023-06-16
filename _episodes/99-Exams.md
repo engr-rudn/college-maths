@@ -230,12 +230,19 @@ Therefore, the limit of the given expression, interpreted as a Riemann sum, is e
 > >## Solution
 > >
 > >To show that $$\int_a^b f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$, we need to demonstrate that the integrals of the two functions are equal.\
-> >First, let's consider the integral of $$f$$ over the interval $$[a, b]$$. We can define a new variable $$u$$ such that $$u = x - c$$. Rearranging the equation, we have $$x = u + c$$.\
-> >When $$x = a$$, $$u + c = a$$, and when $$x = b$$, $$u + c = b$$. This means that the new interval of integration for the function $$f_c$$ will be $$[u + c]_a^b$$.\
-> >Now, let's substitute $$u + c$$ for $$x$$ in the expression for $$f_c$$. We get $$f_c(u + c) = f(u)$$. The integrand for $$f_c$$ is essentially the same as $$f$$, but the variable has been changed to $$u$$.\
-> >Therefore, we can rewrite the integral of $$f_c$$ over the interval $$[a + c, b + c]$$ as $$\int_{a + c}^{b + c} f_c = \int_a^b f(u) du$$.\
+> >First, let's consider the integral of $$f$$ over the interval $$[a, b]$$.\
+We can define a new variable $$u$$ such that $$u = x - c$$.\
+Rearranging the equation, we have $$x = u + c$$.\
+> >When $$x = a$$, $$u + c = a$$, and when $$x = b$$, $$u + c = b$$.\
+ This means that the new interval of integration for the function $$f_c$$ will be $$[u + c]_a^b$$.\
+> >Now, let's substitute $$u + c$$ for $$x$$ in the expression for $$f_c$$.\
+We get $$f_c(u + c) = f(u)$$.\
+The integrand for $$f_c$$ is essentially the same as $$f$$, but the variable has been changed to $$u$$.\
+> >Therefore, we can rewrite the integral of $$f_c$$ over the interval $$[a + c, b + c]$$ as\
+$$\int_{a + c}^{b + c} f_c = \int_a^b f(u) du$$.\
 > >Now, we have shown that the integral of $$f_c$$ over the interval $$[a + c, b + c]$$ is equivalent to the integral of $$f$$ over the interval $$[a, b]$$, but with a change of variable from $$x$$ to $$u$$.\
-> >Since the choice of variable does not affect the value of the integral, we can conclude that $$\int_a^b f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$.\
+> >Since the choice of variable does not affect the value of the integral, we can conclude that\
+$$\int_a^b f = \int_{a+c}^{b+c} f_c$$ for all $$a$$ and $$b$$.\
 > >Thus, we have established the desired result.
 >{: .solution}
 {: .challenge}
