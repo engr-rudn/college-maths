@@ -354,7 +354,9 @@ $$\int (x^2 \tan x)dx = -\frac{1}{2}x^2 \ln|\cos x| + C$$\
 > >
 > > ## Solution
 > >
-> >To solve the integral $$\int \frac{x}{x-1} \, dx$$, we can use a simple substitution.\
+> >First, we will simplify it to $$\int \frac{x}{x-1} \, dx$$ just by canceling $$x$$ from the denominator and numerator.\
+> >To solve the simplified integral $$\int \frac{x}{x-1} \, dx$$,\
+we can use a simple substitution.\
 > >Let's substitute $$u = x - 1$$, which implies $$x = u + 1$$ and $$dx = du$$.\
 > >Substituting these values, the integral becomes:\
 > >$$\int \frac{u + 1}{u} \, du$$\
