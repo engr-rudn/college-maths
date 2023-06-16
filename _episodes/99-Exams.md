@@ -204,7 +204,7 @@ $$\lim_{n\to\infty} \frac{1 + \frac{2}{n}}{2} = \frac{1}{2}$$\
 Therefore, the limit of the given expression, interpreted as a Riemann sum, is equal to $$\left( \frac{1}{2} \right)$$.
 >{: .solution}
 {: .challenge}
-> ### b) $$lim_{n->\infty} \sum_{k=1}^n 2/(n+1)^2)*k$$ 
+> ### b) $$lim_{n->\infty} \sum_{k=1}^n \frac{2}{(n+1)^2)}*k$$ 
 > >
 > > ## Solution
 > >
