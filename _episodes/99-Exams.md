@@ -400,22 +400,19 @@ $$= \frac{1}{3}\ln|x-1| - \frac{1}{3}\int \frac{x-1}{x^2+x+1} dx$$.\
 > >
 > > ## Solution
 > >
-> >To prove the formula $$\cos 3x = 4\cos^3 x - 3\cos x$$, we can use the trigonometric identities and properties. Let's start with the left-hand side of the equation:\
-> >$$\cos 3x$$\
+> >To prove the formula $$\cos 3x = 4\cos^3 x - 3\cos x$$, we can use the trigonometric identities and properties. Let's start with the left-hand side of the equation $$\cos 3x$$\:\
 > >Using the triple angle formula for cosine, we have:\
 > >$$\cos 3x = 4\cos^3 x - 3\cos x$$\
-> >This formula expresses $$\cos 3x$$ in terms of $$\cos x$$ and $$\cos^3 x$$. Now, let's simplify the right-hand side of the equation:\
-> >$$4\cos^3 x - 3\cos x$$\
+> >This formula expresses $$\cos 3x$$ in terms of $$\cos x$$ and $$\cos^3 x$$.\
+Now, let's simplify the right-hand side of the equation $$4\cos^3 x - 3\cos x$$:\
 > >Factoring out $$\cos x$$ from both terms, we get:\
 > >$$\cos x(4\cos^2 x - 3)$$\
 > >Now, we can use the Pythagorean identity $$\sin^2 x + \cos^2 x = 1$$ to rewrite $$\cos^2 x$$ as $$1 - \sin^2 x$$:\
 > >$$\cos x(4(1 - \sin^2 x) - 3)$$\
 > >Simplifying further, we have:\
-> >$$\cos x(4 - 4\sin^2 x - 3)$$\
-> >$$\cos x(1 - 4\sin^2 x)$$\
+> >$$\cos x(4 - 4\sin^2 x - 3)$$ = $$\cos x(1 - 4\sin^2 x)$$\
 > >Since $$\sin^2 x = 1 - \cos^2 x$$, we can substitute this into the equation:\
-> >$$\cos x(1 - 4(1 - \cos^2 x))$$\
-> >= $$\cos x(1 - 4 + 4\cos^2 x)$$\
+> >$$\cos x(1 - 4(1 - \cos^2 x))$$\ = $$\cos x(1 - 4 + 4\cos^2 x)$$\
 > >= $$\cos x(-3 + 4\cos^2 x)$$\
 > >Notice that this expression is equal to the right-hand side of the original equation. Therefore, we have shown that:\
 > >$$\cos 3x = 4\cos^3 x - 3\cos x$$
