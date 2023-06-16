@@ -180,11 +180,11 @@ $$U(g, P_2) - L(g, P_2) < \frac{\epsilon}{2}$$\
 > >Simplifying the expression on the right-hand side:\
 > >$$\cos 2x = \cos^2 x - 1 + \cos^2 x$$\
 > >Combining like terms:\
-> >$$\cos 2x = 2\cos^2 x - 1$$\
+> >$$\cos 2x = 2\cos^2 x - 1$$
 >{: .solution}
 {: .challenge}
 > ### Compute the following limits by interpreting them as Riemann sums:
-> #### a)  $$lim_{n->\infty} \sum_{k=1}^n (n+2)/(n^2*(n+1))*k$$ 
+> #### a)  $$lim_{n->\infty} \sum_{k=1}^n \frac{(n+2)}{(n^2*(n+1))}*k$$ 
 > >
 > > ## Solution
 > >
